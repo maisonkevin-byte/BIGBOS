@@ -1,0 +1,59 @@
+name: Import ATLAS-EDN
+on:
+  push:
+    paths:
+      - .github/workflows/import-atlas.yml
+permissions:
+  contents: write
+concurrency:
+  group: import-atlas-edn
+  cancel-in-progress: false
+jobs:
+  import:
+    if: github.repository == 'maisonkevin-byte/BIGBOS' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Download and verify the complete archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          ARCHIVE_SHA256: c3b76149b0f726cd758695dfca475e6d1a72763917dcd0de463890848403b7b4
+        run: |
+          set -euo pipefail
+          test ! -e dist
+          release_id=$(gh api "repos/$GH_REPO/releases" --jq '.[] | select(.name == "ATLAS-EDN — archive complète du 11 octobre 2026") | .id' | head -n 1)
+          test -n "$release_id"
+          asset_id=$(gh api "repos/$GH_REPO/releases/$release_id/assets" --jq '.[] | select(.name == "ATLAS-EDN-publication-complete.zip" and .state == "uploaded") | .id')
+          test -n "$asset_id"
+          gh api -H 'Accept: application/octet-stream' "repos/$GH_REPO/releases/assets/$asset_id" > "$RUNNER_TEMP/atlas.zip"
+          printf '%s  %s\n' "$ARCHIVE_SHA256" "$RUNNER_TEMP/atlas.zip" | sha256sum --check
+      - name: Extract the site
+        run: |
+          python3 - <<'PY'
+          import os, pathlib, zipfile
+          archive = pathlib.Path(os.environ["RUNNER_TEMP"]) / "atlas.zip"
+          with zipfile.ZipFile(archive) as z:
+              entries = [i for i in z.infolist() if not i.is_dir() and i.filename.startswith("dist/")]
+              assert len(entries) == 2052, f"Unexpected file count: {len(entries)}"
+              assert sum(i.file_size for i in entries) == 269435329
+              for i in entries:
+                  p = pathlib.PurePosixPath(i.filename)
+                  assert ".." not in p.parts and not p.is_absolute()
+                  dest = pathlib.Path(*p.parts)
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  dest.write_bytes(z.read(i))
+          assert pathlib.Path("dist/index.html").is_file()
+          print("Verified and extracted 2052 site files.")
+          PY
+      - name: Commit the complete site
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist
+          git commit -m "Transférer le projet complet ATLAS-EDN dans BIGBOS"
+          git push origin HEAD:main
