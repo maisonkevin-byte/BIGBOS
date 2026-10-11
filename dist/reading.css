@@ -1,0 +1,47 @@
+/* Medical reading palette and persistent font sizing. */
+:root{--reading-scale:1;--course-def:#215d99;--course-clinical:#7351a1;--course-cause:#5755a0;--course-exam:#146e80;--course-treatment:#247250;--course-caution:#926013;--course-alert:#b23540;--course-caution-bg:#fff6e5;--course-alert-bg:#fff0f1;--course-info-bg:#ecf4fc}
+.dark{--course-def:#9ecbff;--course-clinical:#cfb4f6;--course-cause:#b8b4ff;--course-exam:#8ed9e8;--course-treatment:#91dab8;--course-caution:#f3ca85;--course-alert:#ffadb6;--course-caution-bg:#3d3527;--course-alert-bg:#422e36;--course-info-bg:#243c52}
+.reading-controls{display:flex;align-items:center;gap:1px;flex-shrink:0;border:1px solid var(--line);border-radius:9px;padding:3px;background:var(--bg)}
+.reading-controls button{min-width:32px;height:30px;padding:3px 6px;border-radius:6px;color:var(--ink);font-size:13px;font-weight:650;white-space:nowrap}
+.reading-controls [data-action="reading-reset"]{font-size:10px;min-width:44px;color:var(--muted);font-weight:500}
+.reading-controls button:hover:not(:disabled){background:var(--paper)}
+.reading-controls button:disabled{opacity:.35;cursor:default}
+.reading-controls button:focus-visible{outline:3px solid var(--coral);outline-offset:2px}
+.reading-controls-label{display:none;font-size:10px;color:var(--muted);margin:0 9px}
+.course-legend{display:flex;align-items:center;flex-wrap:wrap;gap:8px 15px;margin:19px 0 8px;padding:12px 15px;border:1px solid var(--line);border-radius:9px;background:var(--paper);font-size:10px;line-height:1.6}
+.course-legend>span:not(.course-legend-title){display:inline-flex;gap:6px;align-items:center}
+.course-legend>span:not(.course-legend-title):before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:currentColor;flex-shrink:0}
+.course-legend-title{color:var(--muted);font-weight:650;text-transform:uppercase;letter-spacing:1px;font-size:9px}
+.legend-definition,.medical .kw-def,.dark .medical .kw-def{color:var(--course-def)}
+.legend-clinical,.medical .kw-clinique,.medical .kw-diagnostic,.dark .medical .kw-clinique{color:var(--course-clinical)}
+.legend-cause,.medical .kw-etio,.dark .medical .kw-etio{color:var(--course-cause)}
+.legend-exam,.medical .kw-bio,.medical .kw-imagerie,.medical .kw-radio,.dark .medical .kw-bio{color:var(--course-exam)}
+.legend-treatment,.medical .kw-ttt,.medical .kw-medic,.dark .medical .kw-ttt{color:var(--course-treatment)}
+.legend-caution{color:var(--course-caution)}
+.legend-alert,.medical .kw-alerte,.medical .kw-ci,.medical .kw-alert,.dark .medical .kw-alerte,.dark .medical .kw-ci{color:var(--course-alert)}
+.medical [class*="kw-"]{font-weight:600}
+.medical .kw-chiffre{font-weight:750;color:inherit}
+.medical .callout-danger,.dark .medical .callout-danger{background:var(--course-alert-bg);border-color:var(--course-alert)}
+.medical .callout-warn,.dark .medical .callout-warn{background:var(--course-caution-bg);border-color:var(--course-caution)}
+.medical .callout-info,.dark .medical .callout-info{background:var(--course-info-bg);border-color:var(--course-def)}
+.medical,.ic-course .medical{font-size:calc(15px * var(--reading-scale));line-height:1.85}
+.medical table,.ic-course .medical table{font-size:.86em;line-height:1.65}
+.medical p,.medical li,.medical th,.medical td,.ic-answer .medical p,.ic-answer .medical li{font-size:inherit}
+.medical h2{font-size:1.35em}.medical h3{font-size:1.2em}.medical h4,.medical h5{font-size:1.08em}
+.medical .source-note{font-size:calc(11px * var(--reading-scale))!important}
+.objective summary{font-size:calc(13px * var(--reading-scale));line-height:1.6}
+.ic-answer>section>p,.ic-answer>section>ul>li,.ic-objective p{font-size:calc(16px * var(--reading-scale))!important;line-height:1.8}
+.ic-answer section h3,.ic-course h3{font-size:calc(15px * var(--reading-scale))}
+.ic-prompt h2{font-size:calc(20px * var(--reading-scale));line-height:1.5}
+.flash-title{font-size:calc(22px * var(--reading-scale));line-height:1.55}
+.notes-area,.error-entry p{font-size:calc(15px * var(--reading-scale));line-height:1.8}
+@media(min-width:761px) and (max-width:1150px){.topbar{gap:12px}.topbar-search{min-width:36px;width:36px;padding:7px;flex-shrink:0}.topbar-search span,.topbar-search kbd{display:none}.crumb{white-space:normal;min-width:0}}
+@media(max-width:760px){.topbar{height:auto;min-height:66px;flex-wrap:wrap;padding-top:12px;padding-bottom:10px;gap:10px}.crumb{flex:1;min-width:0;white-space:normal}.top-actions>.avatar{display:none}.reading-controls{order:5;flex-basis:100%;justify-content:center;padding:2px;border-radius:7px}.reading-controls-label{display:inline}.reading-controls button{height:28px}.course-legend{padding:11px 12px;font-size:9px;gap:7px 12px}.ic-prompt h2{font-size:calc(18px * var(--reading-scale))}}
+
+/* Color is limited to short semantic terms; paragraphs keep the normal ink. */
+.medical .callout,.medical .obj-callout,.dark .medical .callout,.dark .medical .obj-callout{background:var(--paper);color:var(--ink)}
+.medical mark{background:none;color:inherit}
+.medical .kw-chiffre{background:none}
+
+/* The revealed image-card answer uses the full reading width. */
+.ic-answer .medical{font-size:calc(16px * var(--reading-scale));line-height:1.85}
