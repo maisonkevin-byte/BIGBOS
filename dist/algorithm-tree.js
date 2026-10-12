@@ -33,7 +33,7 @@ function layout(algorithm){
  place(tree,0,0);
  const left=Math.min(...flat.map(b=>b.x-W/2));
  flat.forEach(b=>{b.x+=PAD-left;b.y=PAD+b.depth*STEP;});
- return {flat,edges,width:Math.max(...flat.map(b=>b.x+W/2))+PAD,height:Math.max(...flat.map(b=>b.y+H+(b.returns.length?62:0)))+PAD,rootX:tree.x,lookup};
+ return {flat,edges,width:Math.max(...flat.map(b=>b.x+W/2))+PAD,height:Math.max(...flat.map(b=>b.y+H+(b.returns.length?30:0)))+PAD,rootX:tree.x,lookup};
 }
 function render(algorithm){
  const graph=layout(algorithm),marker='arrow-'+algorithm.id;
@@ -53,7 +53,7 @@ function scale(shell,value,center=true){
 }
 function fit(shell,readable=false){
  const viewport=shell.querySelector('.algo-tree-viewport'),canvas=shell.querySelector('.algo-tree-canvas');
- const zoom=Math.min(1,(viewport.clientWidth-12)/Number(canvas.dataset.width));
+ const zoom=Math.min(1,(viewport.clientWidth-12)/Number(canvas.dataset.width),readable?1:(viewport.clientHeight-12)/Number(canvas.dataset.height));
  scale(shell,readable?Math.max(.72,zoom):zoom,false);
  viewport.scrollLeft=Number(canvas.dataset.rootX)*Number(shell.dataset.zoom)-viewport.clientWidth/2;viewport.scrollTop=0;
 }
@@ -71,7 +71,7 @@ document.addEventListener('click',e=>{
  if(action==='fit')fit(shell);
  if(action==='expand'){
   if(shell.classList.contains('expanded'))closeExpanded();
-  else{shell.classList.add('expanded');document.documentElement.classList.add('algo-expanded-page');b.textContent='↙ Réduire';b.setAttribute('aria-expanded','true');fit(shell,true);}
+  else{shell.classList.add('expanded');document.documentElement.classList.add('algo-expanded-page');b.textContent='↙ Réduire';b.setAttribute('aria-expanded','true');fit(shell);}
  }
  if(action==='return'){
   const card=[...shell.querySelectorAll('.algo-tree-card')].find(c=>c.dataset.node===b.dataset.node);
