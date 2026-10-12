@@ -63,3 +63,19 @@
 .algo-course-objective>.medical table{width:100%;min-width:0}
 .algo-course-link{display:block;padding:0 22px 18px;font-size:.85em}
 @media(max-width:700px){.algo-below,.algo-detail{padding:18px}.algo-detail-top{top:-18px;gap:9px;align-items:flex-start}.algo-detail-tools{gap:6px}.algo-detail-tools .algo-button{padding:8px 10px;font-size:12px}.algo-course-objective>summary{padding:14px}.algo-course-objective>.medical{padding:4px 14px 16px}.algo-course-link{padding:0 14px 16px}}
+
+/* Reading is the default; a reduced overview is an explicit secondary mode. */
+.algo-tree-card{padding:18px 20px;gap:12px}
+.algo-tree-card strong{font-size:18px;line-height:1.4}
+.algo-tree-actions{font-size:16px;line-height:1.5;gap:9px}
+.algo-tree-meta{font-size:12px;line-height:1.2}
+.algo-card-course{font-size:13px;opacity:1}
+.algo-branch-label{font-size:16px;line-height:1.45}
+.algo-tree-return{font-size:13px}
+.algo-tree-toolbar{flex-wrap:wrap}
+.algo-tree-tools{flex-wrap:wrap}
+.algo-tree-tools button{font-size:13px;min-height:44px}
+.algo-tree-tools [data-tree-action="read"][aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
+.algo-overview-notice{display:none;margin:0;padding:10px 16px;background:var(--paper);border-bottom:1px solid var(--line);font-size:14px;color:var(--ink)}
+.algo-tree-shell[data-overview="true"] .algo-overview-notice{display:block}
+@media(max-width:700px){.algo-tree-tools{gap:6px}.algo-tree-tools button{flex:0 0 auto}.algo-tree-tools [data-tree-action="read"],.algo-tree-tools [data-tree-action="fit"],.algo-tree-tools [data-tree-action="expand"]{flex:1 0 auto}.algo-tree-caption{font-size:14px}}
