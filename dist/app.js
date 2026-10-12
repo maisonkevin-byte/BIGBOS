@@ -57,7 +57,7 @@ function sanitize(html,hasIllustrations=false){
   if(el.tagName==='A'){const href=el.getAttribute('href')||'';if(!/^(https?:|#)/i.test(href))el.removeAttribute('href');else{el.target='_blank';el.rel='noopener noreferrer'}}
   if(el.tagName==='IMG'){const src=el.getAttribute('src')||'';if(!/^https:\/\//i.test(src)){const msg=document.createElement('p');msg.className='source-note';msg.textContent='Illustration du projet source à reconnecter : '+(el.alt||'image');el.replaceWith(msg)}else{el.loading='lazy';el.addEventListener('error',()=>{el.alt='Illustration indisponible dans le projet source'})}}
  }
- return t.innerHTML;
+ return window.ATLAS_COURSE_READING.format(t.innerHTML);
 }
 function loadScript(src,key){if(window[key])return Promise.resolve(window[key]);return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=()=>resolve(window[key]);s.onerror=()=>{s.remove();reject(Error('Chargement impossible'))};document.head.append(s)})}
 const itemPromises={};
@@ -573,4 +573,5 @@ account=window.ATLAS_ACCOUNT.create({
 });
 void account.start();
 })();
+
 

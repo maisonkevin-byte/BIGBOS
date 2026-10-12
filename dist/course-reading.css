@@ -1,0 +1,26 @@
+/* Shared reading rhythm in item objectives, tips, course pop-ups and answers. */
+.medical,.ic-course .medical,.algo-course-objective>.medical{
+ font-size:calc(17px * var(--reading-scale,1));line-height:1.75;text-align:left;
+}
+.medical>p,.medical>ul,.medical>ol,.medical>blockquote,.medical>.callout,.medical>.obj-callout{max-width:70ch}
+.medical p{line-height:inherit;margin:0 0 1.1em}
+.medical ul,.medical ol{margin:.65em 0 1.25em;padding-left:1.4em}
+.medical li{padding:5px 0;line-height:1.65}
+.medical li>p{margin-bottom:.65em}
+.medical li:last-child>p:last-child{margin-bottom:0}
+.medical li::marker{color:var(--teal);font-weight:650}
+.medical .callout,.medical .obj-callout{padding:18px 20px;margin:20px 0 26px;border-radius:4px}
+.medical .callout>:last-child,.medical .obj-callout>:last-child{margin-bottom:0}
+.medical .algo-course-subheading,.medical .course-subheading{font-family:inherit;font-size:1.05em;font-weight:700;line-height:1.5;color:var(--ink);margin:1.4em 0 .65em}
+.medical h5.algo-course-subheading{margin:0 0 .8em}
+.medical .course-inline-heading{display:block;margin:0 0 .35em;font-weight:700}
+.medical .algo-course-warning{padding:12px 14px;margin:18px 0;border-left:3px solid var(--course-alert,#b35445);background:var(--course-alert-bg,#fff3ef);color:var(--course-alert,#71362c);font-weight:600}
+.medical table,.ic-course .medical table{font-size:.94em;line-height:1.65;margin:22px 0}
+.medical th,.medical td{padding:13px 14px}
+.algo-course-objective>.medical{max-width:70ch;padding:12px 24px 22px;margin-inline:auto}
+.dark .medical .algo-course-warning{background:var(--course-alert-bg,#432e2c);color:var(--course-alert,#f4c8be);border-color:var(--course-alert,#eca99d)}
+@media(max-width:700px){
+ .algo-course-objective>.medical{padding:10px 16px 20px}
+ .medical .callout,.medical .obj-callout{padding:15px 14px}
+ .medical th,.medical td{padding:10px}
+}
