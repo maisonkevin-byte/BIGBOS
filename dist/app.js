@@ -194,13 +194,14 @@ function toggleObjectiveFavorite(button){
 }
 async function objectiveFavoritesPage(){
  const epoch=++routeEpoch;
- shell(intro('Mes objectifs favoris','Retrouve les notions que tu as mises de côté, toutes spécialités confondues.')+'<p role="status">Chargement de tes objectifs…</p>');
+ shell(intro('Mes objectifs favoris','Ton ordre de révision, toutes spécialités confondues.')+'<p role="status">Chargement de tes objectifs…</p>');
  const results=await Promise.allSettled([...new Set(state.objectiveFavorites.map(id=>Number(id.split('-')[0])))].map(loadItem));
  if(epoch!==routeEpoch||view!=='objective-favorites')return;
  favoriteLoadFailed=results.some(r=>r.status==='rejected');
- const ids=new Set(state.objectiveFavorites);
- favoriteRows=results.filter(r=>r.status==='fulfilled').flatMap(({value:item})=>item.objectifs.filter(o=>ids.has(o.id)).map(o=>({o,item:catalog.find(c=>c.numero===item.numero)}))).sort((a,b)=>a.item.numero-b.item.numero||a.o.id.localeCompare(b.o.id,'fr',{numeric:true}));
- shell(intro('Mes objectifs favoris','Retrouve les notions que tu as mises de côté, toutes spécialités confondues.')+
+ // Keep the personal order saved in the profile, including imported revision priorities.
+ const ids=new Set(state.objectiveFavorites),favoriteOrder=new Map(state.objectiveFavorites.map((id,index)=>[id,index]));
+ favoriteRows=results.filter(r=>r.status==='fulfilled').flatMap(({value:item})=>item.objectifs.filter(o=>ids.has(o.id)).map(o=>({o,item:catalog.find(c=>c.numero===item.numero)}))).sort((a,b)=>favoriteOrder.get(a.o.id)-favoriteOrder.get(b.o.id));
+ shell(intro('Mes objectifs favoris','Ton ordre de révision, toutes spécialités confondues.')+
  '<div class="toolbar"><label class="search-field">'+icon('search')+'<input id="objective-favorites-query" placeholder="Objectif, item, mot-clé…" value="'+esc(objectiveFavoriteFilter.query)+'" aria-label="Rechercher dans mes objectifs favoris"></label><select id="objective-favorites-subject" class="control" aria-label="Filtrer les objectifs favoris par spécialité">'+options(objectiveFavoriteFilter.subject)+'</select></div><div class="objective-favorites-actions"><p id="objective-favorites-result-count" aria-live="polite"></p>'+btn(icon('cards')+'Réviser mes objectifs favoris','review-objective-favorites','secondary small','id="review-objective-favorites"')+'</div>'+
  (favoriteLoadFailed?'<div class="notice">Certaines fiches n’ont pas pu être chargées. Tes favoris sont conservés. '+btn('Réessayer','objective-favorites-retry','secondary small')+'</div>':'')+'<div id="objective-favorites-results"></div>'+footer());
  renderObjectiveFavoriteResults();
