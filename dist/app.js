@@ -61,7 +61,8 @@ function sanitize(html,hasIllustrations=false){
 }
 function loadScript(src,key){if(window[key])return Promise.resolve(window[key]);return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=src;s.onload=()=>resolve(window[key]);s.onerror=()=>{s.remove();reject(Error('Chargement impossible'))};document.head.append(s)})}
 const itemPromises={};
-async function loadItem(n){if(window.ATLAS_ITEMS?.[n])return window.ATLAS_ITEMS[n];if(!itemPromises[n])itemPromises[n]=new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='data/items/'+Number(n)+'.js';s.onload=()=>resolve(window.ATLAS_ITEMS[n]);s.onerror=()=>{delete itemPromises[n];s.remove();reject(Error('Cette fiche ne peut pas être chargée. Réessaie.'))};document.head.append(s)});return itemPromises[n]}
+async function loadItem(n){if(window.ATLAS_ITEMS?.[n])return window.ATLAS_ITEMS[n];if(!itemPromises[n])itemPromises[n]=new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='data/items/'+Number(n)+'.js'+(Number(n)===240?'?v=20261012-cours1':'');s.onload=()=>resolve(window.ATLAS_ITEMS[n]);s.onerror=()=>{delete itemPromises[n];s.remove();reject(Error('Cette fiche ne peut pas être chargée. Réessaie.'))};document.head.append(s)});return itemPromises[n]}
+window.ATLAS_COURSE={loadItem,sanitize};
 function shell(content){
  const names={home:'Vue d’ensemble',catalog:'Mes fiches','objective-favorites':'Objectifs favoris',review:'Rappel actif',images:'Flashcards images',errors:'Carnet d’erreurs',planning:'Mon planning',stats:'Ma progression',focus:'Mode focus',item:'Mes fiches',login:'Connexion',profile:'Mon profil'};
  const nav=[['home','home','Vue d’ensemble'],['catalog','book','Mes fiches'],['objective-favorites','star','Objectifs favoris'],['review','cards','Rappel actif'],['images','search','Flashcards images'],['errors','error','Carnet d’erreurs'],['planning','calendar','Mon planning'],['stats','chart','Ma progression'],[account?.info().user?'profile':'login','lock',account?.info().user?'Mon profil':'Connexion']];
@@ -572,3 +573,4 @@ account=window.ATLAS_ACCOUNT.create({
 });
 void account.start();
 })();
+

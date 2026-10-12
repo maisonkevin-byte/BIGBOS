@@ -41,3 +41,25 @@
 .dark .algo-status.urgent{background:#60342f;color:#ffbfb3}.dark .algo-status.uncertain,.dark .algo-missing{background:#4c3d27;color:#f0d7a2}.dark .algo-number,.dark .algo-status.finish{background:#29443e;color:#bed3c8}.dark .algo-eyebrow,.dark .algo-why summary,.dark .algo-sources a,.dark .algo-provenance a,.dark .algo-teaser>span,.dark .algo-trail .current{color:#91c8c9}
 @media(max-width:1050px){.algo-heading{flex-direction:column}.algo-modes{flex-wrap:wrap}.algo-stage{padding:20px}}
 @media(max-width:600px){.algo-intro{gap:12px}.algo-stage{padding:15px;border-radius:14px}.algo-node{padding:18px 15px}.algo-node h3{font-size:1.18em}.algo-heading h2{font-size:1.2em}.algo-overview-node{padding:16px}.algo-teaser{flex-direction:column}.algo-teaser>span{align-self:flex-start}.algo-node-top{flex-wrap:wrap}.algo-trail .algo-button{max-width:100%}.algo-navigation{gap:8px}.algo-navigation .algo-button{flex:1}.algo-button{overflow-wrap:anywhere}}
+
+.algo-tree-card{gap:9px}
+.algo-tree-actions{display:flex;flex-direction:column;gap:7px;font-size:14px;line-height:1.4;font-weight:450}
+.algo-tree-actions>span{display:block}
+.algo-card-course{display:block;margin-top:auto;font-size:11px;line-height:1.3;font-weight:650;opacity:.85}
+.algo-tree-card[aria-pressed="true"]{outline:3px solid #359daa;outline-offset:3px}
+.algo-detail{width:min(960px,calc(100% - 28px));font-size:calc(16px * var(--reading-scale,1));padding:24px 32px}
+.algo-detail-top{position:sticky;top:-24px;z-index:3;background:var(--paper);padding:14px 0;border-bottom:1px solid var(--line)}
+.algo-detail-tools{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.algo-detail-tools .algo-button{min-height:44px}
+.algo-below{box-sizing:border-box;width:100%;margin-top:24px;padding:24px 32px;border:1px solid var(--line);border-radius:14px;background:var(--paper);scroll-margin-top:24px}
+.algo-below[hidden]{display:none}
+.algo-below .algo-detail-top{position:static}
+.algo-course{margin-top:28px;border-top:1px solid var(--line);padding-top:20px}
+.algo-course h4{margin:0 0 15px;font-size:1.1em}
+.algo-course-objective{border:1px solid var(--line);border-radius:10px;margin:12px 0;overflow:hidden}
+.algo-course-objective>summary{display:flex;flex-direction:column;gap:6px;padding:16px 20px;background:var(--bg);cursor:pointer;list-style:revert}
+.algo-course-id{font-size:.78em;color:var(--muted);font-weight:600}
+.algo-course-objective>.medical{padding:6px 22px 18px;overflow-wrap:anywhere;overflow-x:auto;font-size:1em;line-height:1.75}
+.algo-course-objective>.medical table{width:100%;min-width:0}
+.algo-course-link{display:block;padding:0 22px 18px;font-size:.85em}
+@media(max-width:700px){.algo-below,.algo-detail{padding:18px}.algo-detail-top{top:-18px;gap:9px;align-items:flex-start}.algo-detail-tools{gap:6px}.algo-detail-tools .algo-button{padding:8px 10px;font-size:12px}.algo-course-objective>summary{padding:14px}.algo-course-objective>.medical{padding:4px 14px 16px}.algo-course-link{padding:0 14px 16px}}
