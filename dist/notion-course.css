@@ -41,7 +41,7 @@
 }
 .notion-course .nc-bold{font-weight:650}
 .medical .notion-course>p,.medical .notion-course>ul,.medical .notion-course>ol,
-.medical .notion-course>blockquote,.medical .notion-course>.callout{max-width:70ch}
+.medical .notion-course>blockquote,.medical .notion-course>.callout{max-width:none}
 .medical .notion-course h4{font-size:1.06em;line-height:1.5;margin:1.5em 0 .7em}
 .medical .notion-course h4:first-child{margin-top:0}
 .medical .notion-course th{font-weight:650}
@@ -61,3 +61,4 @@
 .notion-swatches i:nth-child(4){background:var(--nc-blue-bg)}
 .notion-swatches i:nth-child(5){background:var(--nc-pink-bg)}
 @media(max-width:700px){.notion-legend{padding:12px;gap:9px}.notion-legend p{flex-basis:100%}}
+

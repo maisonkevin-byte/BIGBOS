@@ -2,7 +2,8 @@
 .medical,.ic-course .medical,.algo-course-objective>.medical{
  font-size:calc(17px * var(--reading-scale,1));line-height:1.75;text-align:left;
 }
-.medical>p,.medical>ul,.medical>ol,.medical>blockquote,.medical>.callout,.medical>.obj-callout{max-width:70ch}
+/* Course blocks follow their container, including the wide panel below a tree. */
+.medical>p,.medical>ul,.medical>ol,.medical>blockquote,.medical>.callout,.medical>.obj-callout{max-width:none}
 .medical p{line-height:inherit;margin:0 0 1.1em}
 .medical ul,.medical ol{margin:.65em 0 1.25em;padding-left:1.4em}
 .medical li{padding:5px 0;line-height:1.65}
@@ -17,10 +18,15 @@
 .medical .algo-course-warning{padding:12px 14px;margin:18px 0;border-left:3px solid var(--course-alert,#b35445);background:var(--course-alert-bg,#fff3ef);color:var(--course-alert,#71362c);font-weight:600}
 .medical table,.ic-course .medical table{font-size:.94em;line-height:1.65;margin:22px 0}
 .medical th,.medical td{padding:13px 14px}
-.algo-course-objective>.medical{max-width:70ch;padding:12px 24px 22px;margin-inline:auto}
+.algo-course-objective>.medical{box-sizing:border-box;width:100%;max-width:none;padding:12px 24px 22px;margin-inline:0}
+.algo-detail h3,.algo-below h3,.algo-body,.algo-why{max-width:none}
+/* Keep the table grid full width; only wide tables scroll on small screens. */
+.medical .course-table-scroll{width:100%;max-width:100%;overflow-x:auto;margin:22px 0}
+.medical .course-table-scroll>table{display:table;width:100%;margin:0}
 .dark .medical .algo-course-warning{background:var(--course-alert-bg,#432e2c);color:var(--course-alert,#f4c8be);border-color:var(--course-alert,#eca99d)}
 @media(max-width:700px){
  .algo-course-objective>.medical{padding:10px 16px 20px}
  .medical .callout,.medical .obj-callout{padding:15px 14px}
  .medical th,.medical td{padding:10px}
 }
+

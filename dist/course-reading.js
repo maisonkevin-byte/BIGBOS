@@ -81,6 +81,14 @@ function readableCourse(html){
   if(tail&&!/^[:—–-][^.!?]{0,45}$/.test(tail))continue;
   const heading=document.createElement('h4');heading.className='course-subheading';heading.append(...paragraph.childNodes);paragraph.replaceWith(heading);
  }
+ // Let table columns use the course width while retaining horizontal scrolling
+ // inside the table alone when its columns cannot fit a narrow screen.
+ for(const table of template.content.querySelectorAll('table')){
+  if(table.parentElement?.classList.contains('course-table-scroll'))continue;
+  const wrapper=document.createElement('div');wrapper.className='course-table-scroll';
+  wrapper.tabIndex=0;wrapper.setAttribute('role','region');wrapper.setAttribute('aria-label','Tableau du cours — défilement horizontal si nécessaire');
+  table.replaceWith(wrapper);wrapper.append(table);
+ }
  return template.innerHTML;
 }
 window.ATLAS_COURSE_READING={format:readableCourse};
