@@ -1,0 +1,166 @@
+/* Tablet layout: keep the course readable and its controls within reach. */
+html { -webkit-text-size-adjust: 100%; }
+.workspace, .main, .dashboard-grid > *, .reading-layout > *, .right-rail > * { min-width: 0; }
+.sidebar-backdrop { display: none; }
+.reading-actions, .modal-actions { flex-wrap: wrap; }
+.reading-section, .objective { scroll-margin-top: 110px; }
+
+/* Comfortable touch targets, also on iPads with a trackpad attached. */
+@media (max-width: 1366px), (any-pointer: coarse) {
+  .btn, .btn.small, .chip, .text-btn, .back-link, .tab,
+  .add-plan, .plan-entry button, .search-result { min-height: 44px; }
+  .icon-btn, .topbar .icon-btn, .fav, .profile button,
+  .reading-controls button { min-width: 44px; min-height: 44px; }
+  .objective-favorite { flex-basis: 44px; width: 44px; min-height: 44px; }
+  .nav a { min-height: 48px; }
+  .control, .search-field input, .field input, .field select, .field textarea,
+  .ic-field .control { font-size: 16px; min-height: 44px; }
+  .search-field { padding-top: 4px; padding-bottom: 4px; }
+  .btn, .text-btn, .chip, .tab, .nav a, .icon-btn { touch-action: manipulation; }
+  .medical, .ic-course .medical { font-size: calc(16px * var(--reading-scale)); }
+  .objective summary { font-size: calc(14px * var(--reading-scale)); }
+  .medical table, .tabs, .filter-chips, .plans { overscroll-behavior-x: contain; }
+  .modal { max-height: calc(100dvh - 32px); }
+  .footer-note { flex-wrap: wrap; }
+  .illustration-source summary, .ic-sources summary, .ic-course-details summary {
+    min-height: 44px; align-content: center;
+  }
+  #ic-reader { height: 92dvh; max-height: 92dvh; }
+  #atlas-illustration-reader { max-height: 94dvh; }
+  .ic-reader-canvas img { max-height: calc(92dvh - 100px); }
+}
+
+@media (max-width: 1366px) {
+  :root { --tablet-header: 76px; }
+  .topbar {
+    position: sticky; top: 0; z-index: 20;
+    height: auto; min-height: var(--tablet-header);
+    padding: 10px max(24px, env(safe-area-inset-right)) 10px max(24px, env(safe-area-inset-left));
+    gap: 14px;
+  }
+  .crumb { flex: 1; min-width: 0; gap: 8px; white-space: normal; }
+  .crumb > span, .top-actions .date { display: none; }
+  .topbar-search {
+    flex: 0 0 44px; min-width: 44px; width: 44px; height: 44px;
+    padding: 10px; margin-left: 0;
+  }
+  .topbar-search span, .topbar-search kbd { display: none; }
+  .reading-controls { flex-basis: auto; order: 0; padding: 2px; }
+  .reading-controls button { height: 44px; }
+  .reading-controls-label { display: none; }
+  .top-actions { gap: 8px; }
+  .main { padding: 28px 28px max(48px, env(safe-area-inset-bottom)); }
+  .sidebar {
+    padding-top: max(28px, env(safe-area-inset-top));
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+    overscroll-behavior-y: contain;
+  }
+  .reading-aside { top: calc(var(--tablet-header) + 20px); }
+  .objective-body { padding: 0 22px 22px; }
+  .ic-photo { height: 420px; max-height: 52dvh; }
+  .ic-ratings .ic-rate, .rate { min-height: 64px; }
+  .illustration-reader-top, .illustration-reader-bottom, .ic-reader-bar { flex-wrap: wrap; }
+}
+
+/* A single course column and a wide dashboard on smaller landscape tablets. */
+@media (min-width: 761px) and (max-width: 1280px) {
+  .dashboard-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .right-rail { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .right-rail .panel { padding: 18px; }
+  .week { gap: 3px; }
+  .week-day span { width: 22px; }
+  .hero { min-height: 310px; }
+  .hero-content { width: 68%; max-width: 540px; padding: 32px; }
+  .hero h2 { font-size: 32px; }
+  .stat { padding: 18px 14px; }
+  .reading-layout { grid-template-columns: minmax(0, 1fr); }
+  .reading-aside { display: none; }
+  .catalog-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ic-workbench { grid-template-columns: minmax(0, 1.5fr) minmax(230px, 1fr); gap: 20px; }
+  .ic-filter-grid { grid-template-columns: minmax(0, 1fr); }
+  .illustration-reader-body { grid-template-columns: minmax(0, 1fr) 260px; }
+}
+
+/* Portrait, smaller landscape iPads, and Split View use a modal navigation drawer.
+   Keep this 1100px boundary in sync with compactNavigation in app.js. */
+@media (max-width: 1100px) {
+  :root { --nav: 0px; }
+  .workspace, .sidebar-collapsed .workspace { margin-left: 0; }
+  .sidebar, .sidebar-collapsed .sidebar {
+    width: min(310px, calc(100vw - 52px)); z-index: 70;
+    padding: max(28px, env(safe-area-inset-top)) 18px max(20px, env(safe-area-inset-bottom));
+    transform: translateX(-100%); visibility: hidden; pointer-events: none;
+    transition: transform .2s ease, visibility .2s ease;
+    box-shadow: 15px 0 50px #10344320;
+  }
+  .sidebar.open, .sidebar-collapsed .sidebar.open {
+    transform: translateX(0); visibility: visible; pointer-events: auto;
+  }
+  .sidebar .brand { margin-top: 20px; }
+  .sidebar-close { display: inline-grid; position: absolute; top: 8px; right: 8px; }
+  .sidebar-backdrop:not([hidden]) {
+    display: block; position: fixed; inset: 0; z-index: 60;
+    padding: 0; background: #102d4266; cursor: pointer;
+  }
+  .navigation-open, .navigation-open body { overflow: hidden; }
+  #toast, .sidebar-collapsed #toast { left: 50%; }
+  .plans {
+    grid-template-columns: repeat(7, minmax(190px, 1fr));
+    scroll-snap-type: x proximity; padding-bottom: 12px;
+  }
+  .plan-day { scroll-snap-align: start; min-height: 230px; padding: 16px; }
+  .plan-entry { font-size: 13px; }
+  .plan-entry button { font-size: 12px; }
+}
+
+@media (max-width: 900px) {
+  .right-rail { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .right-rail .quote-panel { grid-column: 1 / -1; }
+  .ic-workbench { grid-template-columns: minmax(0, 1fr); }
+  .ic-filter-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ic-guide h2 { max-width: none; }
+  .ic-guide ol { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+  .ic-start, .ic-session-head, .ic-resume { flex-wrap: wrap; }
+  .illustration-reader-body { display: block; max-height: 74dvh; overflow: auto; }
+  .illustration-reader-canvas { min-height: 240px; max-height: 52dvh; }
+  .illustration-reader-canvas img { max-height: 48dvh; }
+  .illustration-reader-body aside { max-height: none; }
+}
+
+@media (max-width: 760px) {
+  :root { --tablet-header: 126px; }
+  .topbar { gap: 8px; padding: 10px max(16px, env(safe-area-inset-right)) 8px max(16px, env(safe-area-inset-left)); }
+  .top-actions > .avatar { display: none; }
+  .reading-controls { order: 5; flex-basis: 100%; justify-content: center; }
+  .reading-controls-label { display: inline; }
+  .main { padding: 22px 18px max(36px, env(safe-area-inset-bottom)); }
+  .page-intro { flex-wrap: wrap; }
+  .page-intro .pill { display: none; }
+  .section-heading { flex-wrap: wrap; }
+  .hero-content { width: 82%; padding: 25px; }
+  .hero h2 { font-size: 28px; }
+  .hero-badge { position: static; align-self: flex-end; margin: 0 16px 16px auto; }
+  .hero { flex-wrap: wrap; }
+  .reading-section, .objective { scroll-margin-top: 150px; }
+  .objective-body { padding: 0 16px 18px; }
+  .objective-tools .btn { flex: 1 1 150px; }
+  .medical th, .medical td { padding: 10px; }
+  .ic-guide ol { grid-template-columns: minmax(0, 1fr); }
+  .ic-photo { height: 340px; max-height: 48dvh; }
+  .ic-prompt small { display: none; }
+}
+
+@media (max-width: 520px) {
+  .ic-filter-grid { grid-template-columns: minmax(0, 1fr); }
+  .ic-ratings, .ratings { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .modal .row { flex-wrap: wrap; }
+  .modal .field { min-width: 0; }
+  .toolbar > .control, .search-field { width: 100%; min-width: 0; }
+}
+
+@media (hover: none) {
+  .btn:hover, .specialty:hover, .ic-rate:hover { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sidebar, .sidebar-collapsed .sidebar { transition: none; }
+}

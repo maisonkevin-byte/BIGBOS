@@ -66,17 +66,27 @@ function shell(content){
  const names={home:'Vue d’ensemble',catalog:'Mes fiches','objective-favorites':'Objectifs favoris',review:'Rappel actif',images:'Flashcards images',errors:'Carnet d’erreurs',planning:'Mon planning',stats:'Ma progression',focus:'Mode focus',item:'Mes fiches'};
  const nav=[['home','home','Vue d’ensemble'],['catalog','book','Mes fiches'],['objective-favorites','star','Objectifs favoris'],['review','cards','Rappel actif'],['images','search','Flashcards images'],['errors','error','Carnet d’erreurs'],['planning','calendar','Mon planning'],['stats','chart','Ma progression']];
  document.documentElement.classList.toggle('dark',state.theme==='dark');
- $('#app').innerHTML='<aside class="sidebar" id="atlas-sidebar" aria-label="Navigation principale"><button class="icon-btn sidebar-close" data-action="menu" aria-controls="atlas-sidebar" aria-label="Replier le menu">'+icon('close')+'</button><a class="brand" href="#home"><span class="brandmark">✳</span><span>ATLAS<small>MÉDECINE · EDN</small></span></a><div class="nav-label">Mon espace</div><nav class="nav">'+nav.map(([k,i,l])=>'<a href="#'+k+'" class="'+(view===k||(view==='item'&&k==='catalog')?'active':'')+'" '+(view===k?'aria-current="page"':'')+'>'+icon(i)+l+(k==='objective-favorites'?'<span class="nav-count" data-objective-favorite-count '+(!state.objectiveFavorites.length?'hidden':'')+'>'+state.objectiveFavorites.length+'</span>':'')+(k==='review'&&dueCount()?'<span class="nav-count">'+dueCount()+'</span>':'')+'</a>').join('')+'</nav><div class="nav-label">À mon rythme</div><nav class="nav"><a href="#focus" class="'+(view==='focus'?'active':'')+'">'+icon('clock')+'Mode focus</a><button data-action="settings" class="text-btn" style="padding:14px 15px">'+icon('settings')+' Préférences</button></nav><div class="sidebar-bottom"><div class="sidebar-note">'+icon('leaf')+'<strong>Un peu, chaque jour.</strong>La régularité fait la différence. Garde aussi du temps pour souffler.</div><div class="profile"><span class="avatar">'+esc(state.name.slice(0,1).toUpperCase())+'</span><div><strong>'+esc(state.name)+'</strong><small>Objectif EDN</small></div><button data-action="settings" aria-label="Préférences">'+icon('settings')+'</button></div></div></aside><div class="workspace"><header class="topbar"><button class="icon-btn sidebar-toggle" data-action="menu" aria-controls="atlas-sidebar" aria-expanded="true" aria-label="Replier le menu" title="Replier le menu">'+icon('menu')+'</button><div class="crumb"><span>Mon espace /</span><strong>'+names[view]+'</strong></div><div class="reading-controls" role="group" aria-label="Taille du texte de lecture"><span class="reading-controls-label">Lecture</span><button type="button" data-action="reading-smaller" aria-label="Réduire la taille du texte" title="Réduire le texte">A−</button><button type="button" data-action="reading-reset" aria-label="Revenir à la taille normale" title="Revenir à 100 %"><span id="reading-size-value" aria-live="polite">100 %</span></button><button type="button" data-action="reading-larger" aria-label="Agrandir la taille du texte" title="Agrandir le texte">A+</button></div><button class="topbar-search" data-action="search">'+icon('search')+'<span>Rechercher un item...</span><kbd class="key">⌘ K</kbd></button><div class="top-actions"><span class="date">'+new Date().toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'})+'</span><button class="icon-btn" data-action="theme" aria-label="'+(state.theme==='dark'?'Activer le thème clair':'Activer le thème sombre')+'">'+icon(state.theme==='dark'?'sun':'moon')+'</button><span class="avatar">'+esc(state.name.slice(0,1).toUpperCase())+'</span></div></header><main id="main" class="main">'+content+'</main></div>';
+ $('#app').innerHTML='<aside class="sidebar" id="atlas-sidebar" aria-label="Navigation principale"><button class="icon-btn sidebar-close" data-action="menu" aria-controls="atlas-sidebar" aria-label="Replier le menu">'+icon('close')+'</button><a class="brand" href="#home"><span class="brandmark">✳</span><span>ATLAS<small>MÉDECINE · EDN</small></span></a><div class="nav-label">Mon espace</div><nav class="nav">'+nav.map(([k,i,l])=>'<a href="#'+k+'" class="'+(view===k||(view==='item'&&k==='catalog')?'active':'')+'" '+(view===k?'aria-current="page"':'')+'>'+icon(i)+l+(k==='objective-favorites'?'<span class="nav-count" data-objective-favorite-count '+(!state.objectiveFavorites.length?'hidden':'')+'>'+state.objectiveFavorites.length+'</span>':'')+(k==='review'&&dueCount()?'<span class="nav-count">'+dueCount()+'</span>':'')+'</a>').join('')+'</nav><div class="nav-label">À mon rythme</div><nav class="nav"><a href="#focus" class="'+(view==='focus'?'active':'')+'">'+icon('clock')+'Mode focus</a><button data-action="settings" class="text-btn" style="padding:14px 15px">'+icon('settings')+' Préférences</button></nav><div class="sidebar-bottom"><div class="sidebar-note">'+icon('leaf')+'<strong>Un peu, chaque jour.</strong>La régularité fait la différence. Garde aussi du temps pour souffler.</div><div class="profile"><span class="avatar">'+esc(state.name.slice(0,1).toUpperCase())+'</span><div><strong>'+esc(state.name)+'</strong><small>Objectif EDN</small></div><button data-action="settings" aria-label="Préférences">'+icon('settings')+'</button></div></div></aside><button class="sidebar-backdrop" data-action="close-navigation" aria-label="Fermer le menu" tabindex="-1" hidden></button><div class="workspace"><header class="topbar"><button class="icon-btn sidebar-toggle" data-action="menu" aria-controls="atlas-sidebar" aria-expanded="true" aria-label="Replier le menu" title="Replier le menu">'+icon('menu')+'</button><div class="crumb"><span>Mon espace /</span><strong>'+names[view]+'</strong></div><div class="reading-controls" role="group" aria-label="Taille du texte de lecture"><span class="reading-controls-label">Lecture</span><button type="button" data-action="reading-smaller" aria-label="Réduire la taille du texte" title="Réduire le texte">A−</button><button type="button" data-action="reading-reset" aria-label="Revenir à la taille normale" title="Revenir à 100 %"><span id="reading-size-value" aria-live="polite">100 %</span></button><button type="button" data-action="reading-larger" aria-label="Agrandir la taille du texte" title="Agrandir le texte">A+</button></div><button class="topbar-search" data-action="search" aria-label="Rechercher un item">'+icon('search')+'<span>Rechercher un item...</span><kbd class="key">⌘ K</kbd></button><div class="top-actions"><span class="date">'+new Date().toLocaleDateString('fr-FR',{weekday:'short',day:'numeric',month:'short'})+'</span><button class="icon-btn" data-action="theme" aria-label="'+(state.theme==='dark'?'Activer le thème clair':'Activer le thème sombre')+'">'+icon(state.theme==='dark'?'sun':'moon')+'</button><span class="avatar">'+esc(state.name.slice(0,1).toUpperCase())+'</span></div></header><main id="main" class="main">'+content+'</main></div>';
  syncSidebar();syncReading();
 }
+const compactNavigation=matchMedia('(max-width: 1100px)');
+function closeNavigation(){ $('.sidebar')?.classList.remove('open');syncSidebar(); }
 function syncSidebar(){
  const sidebar=$('.sidebar');if(!sidebar)return;
- const mobile=matchMedia('(max-width: 760px)').matches;
+ const mobile=compactNavigation.matches;
  const collapsed=state.sidebarCollapsed===true,expanded=mobile?sidebar.classList.contains('open'):!collapsed;
  document.documentElement.classList.toggle('sidebar-collapsed',collapsed);
  const toggle=$('.sidebar-toggle'),close=$('.sidebar-close');
+ const drawerOpen=mobile&&expanded,wasOpen=sidebar.dataset.drawerOpen==='true';
+ document.documentElement.classList.toggle('navigation-open',drawerOpen);
+ $('.workspace').inert=drawerOpen;
+ const backdrop=$('.sidebar-backdrop');if(backdrop)backdrop.hidden=!drawerOpen;
+ if(mobile)sidebar.setAttribute('role','dialog');else sidebar.removeAttribute('role');
+ if(drawerOpen)sidebar.setAttribute('aria-modal','true');else sidebar.removeAttribute('aria-modal');
+ sidebar.dataset.drawerOpen=String(drawerOpen);
  if(!expanded&&sidebar.contains(document.activeElement))toggle?.focus({preventScroll:true});
  sidebar.inert=!expanded;sidebar.setAttribute('aria-hidden',String(!expanded));
+ if(drawerOpen&&!wasOpen)close?.focus({preventScroll:true});
  for(const control of [toggle,close])if(control){
   control.setAttribute('aria-expanded',String(expanded));
   control.setAttribute('aria-label',expanded?'Replier le menu':'Ouvrir le menu');
@@ -261,6 +271,7 @@ function errorList(item=null){
 function errorsPage(){shell(intro('Tes erreurs ont quelque chose à t’apprendre.','Un endroit pour comprendre ce qui t’a échappé et mieux le retrouver.')+errorList()+footer())}
 let previousFocus=null;
 function modal(title,content){
+ closeNavigation();
  previousFocus=document.activeElement;
  $('#overlay').innerHTML='<div class="overlay"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal-header"><h2 id="modal-title">'+title+'</h2><button class="icon-btn" data-action="close-modal" aria-label="Fermer">'+icon('close')+'</button></div>'+content+'</section></div>';
  setTimeout(()=>$('.modal input,.modal select,.modal textarea,.modal button')?.focus(),30);
@@ -355,10 +366,13 @@ function route(){
  view=['home','catalog','objective-favorites','review','images','errors','planning','stats','focus'].includes(hash)?hash:'home';closeModal();render();window.scrollTo(0,0);
 }
 document.addEventListener('click',async e=>{
+ if(compactNavigation.matches&&e.target.closest('.sidebar a[href]'))closeNavigation();
  const b=e.target.closest('[data-action]');if(!b)return;
  const action=b.dataset.action,n=Number(b.dataset.item);
+ if(action!=='menu'&&compactNavigation.matches&&b.closest('.sidebar'))closeNavigation();
  if(action!=='open-search-item')e.preventDefault();
- if(action==='menu'){if(matchMedia('(max-width: 760px)').matches){$('.sidebar').classList.toggle('open')}else{state.sidebarCollapsed=!state.sidebarCollapsed;save()}syncSidebar();}
+ if(action==='menu'){if(compactNavigation.matches){$('.sidebar').classList.toggle('open')}else{state.sidebarCollapsed=!state.sidebarCollapsed;save()}syncSidebar();}
+ else if(action==='close-navigation')closeNavigation();
  else if(['reading-smaller','reading-larger','reading-reset'].includes(action)){state.readingScale=action==='reading-reset'?1:readingScale(readingScale(state.readingScale)+(action==='reading-larger'?.1:-.1));save();syncReading()}
  else if(action==='theme'){state.theme=state.theme==='dark'?'light':'dark';save();render()}
  else if(action==='settings')settings();
@@ -425,9 +439,18 @@ document.addEventListener('submit',e=>{
 });
 document.addEventListener('keydown',e=>{
  if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();searchModal();return}
- if(e.key==='Escape'){closeModal();$('.sidebar')?.classList.remove('open');syncSidebar();return}
+ if(e.key==='Escape'){closeModal();closeNavigation();return}
  if($('.modal')){
   if(e.key==='Tab'){const els=[...$('.modal').querySelectorAll('button,a[href],input:not([hidden]),select,textarea')].filter(x=>!x.disabled),first=els[0],last=els[els.length-1];if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}}
+  return;
+ }
+ if(compactNavigation.matches&&$('.sidebar.open')){
+  if(e.key==='Tab'){
+   const controls=[...$('.sidebar').querySelectorAll('a[href],button:not(:disabled)')];
+   const first=controls[0],last=controls[controls.length-1];
+   if(e.shiftKey&&document.activeElement===first){e.preventDefault();last?.focus()}
+   else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}
+  }
   return;
  }
  if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
@@ -436,7 +459,7 @@ document.addEventListener('keydown',e=>{
   else if(session.revealed&&['1','2','3','4'].includes(e.key)){e.preventDefault();grade(Number(e.key)-1)}
  }
 });
-window.addEventListener('resize',()=>{if(!matchMedia('(max-width: 760px)').matches)$('.sidebar')?.classList.remove('open');syncSidebar()});
+compactNavigation.addEventListener('change',closeNavigation);
 window.addEventListener('hashchange',route);
 window.addEventListener('storage',e=>{if(e.key===STORAGE){try{const v=JSON.parse(e.newValue);if(v?.version===1){state={...defaults(),...v};state.objectiveFavorites=cleanObjectiveFavoriteIds(state.objectiveFavorites);if(!$('.modal')&&!session)render()}}catch{}}});
 route();
