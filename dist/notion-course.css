@@ -1,0 +1,63 @@
+/* Item 247: passage-level colours from Kevin's Notion pages.
+   Notion background palette; foreground shades adjusted for reading contrast. */
+.notion-course,.notion-legend {
+ --nc-gray:#66635f;--nc-brown:#8b6246;--nc-orange:#a75a16;
+ --nc-yellow:#8a681b;--nc-green:#38764f;--nc-blue:#296db5;
+ --nc-purple:#85559f;--nc-pink:#aa3976;--nc-red:#bc3d35;
+ --nc-gray-bg:#f0efed;--nc-brown-bg:#f5ede9;--nc-orange-bg:#fbebde;
+ --nc-yellow-bg:#f9f3dc;--nc-green-bg:#e8f1ec;--nc-blue-bg:#e5f2fc;
+ --nc-purple-bg:#f3ebf9;--nc-pink-bg:#fae9f1;--nc-red-bg:#fce9e7;
+ color:var(--ink);font-weight:400;text-align:left;
+}
+.dark .notion-course,.dark .notion-legend {
+ --nc-gray:#b5b2ac;--nc-brown:#d5ad92;--nc-orange:#f2b274;
+ --nc-yellow:#e7ca7f;--nc-green:#9acaac;--nc-blue:#91bff0;
+ --nc-purple:#c7a1dd;--nc-pink:#eaa0c7;--nc-red:#f0a19a;
+ --nc-gray-bg:#383836;--nc-brown-bg:#45362d;--nc-orange-bg:#53361f;
+ --nc-yellow-bg:#504425;--nc-green-bg:#263d30;--nc-blue-bg:#233850;
+ --nc-purple-bg:#3c2d47;--nc-pink-bg:#4e2b3c;--nc-red-bg:#502c29;
+}
+.notion-course .nc-gray{color:var(--nc-gray)}
+.notion-course .nc-brown{color:var(--nc-brown)}
+.notion-course .nc-orange{color:var(--nc-orange)}
+.notion-course .nc-yellow{color:var(--nc-yellow)}
+.notion-course .nc-green{color:var(--nc-green)}
+.notion-course .nc-blue{color:var(--nc-blue)}
+.notion-course .nc-purple{color:var(--nc-purple)}
+.notion-course .nc-pink{color:var(--nc-pink)}
+.notion-course .nc-red{color:var(--nc-red)}
+.notion-course .nc-gray_bg{background:var(--nc-gray-bg)}
+.notion-course .nc-brown_bg{background:var(--nc-brown-bg)}
+.notion-course .nc-orange_bg{background:var(--nc-orange-bg)}
+.notion-course .nc-yellow_bg{background:var(--nc-yellow-bg)}
+.notion-course .nc-green_bg{background:var(--nc-green-bg)}
+.notion-course .nc-blue_bg{background:var(--nc-blue-bg)}
+.notion-course .nc-purple_bg{background:var(--nc-purple-bg)}
+.notion-course .nc-pink_bg{background:var(--nc-pink-bg)}
+.notion-course .nc-red_bg{background:var(--nc-red-bg)}
+.notion-course span[class*='_bg'] {
+ color:inherit;padding:.07em .15em;border-radius:3px;
+ -webkit-box-decoration-break:clone;box-decoration-break:clone;
+}
+.notion-course .nc-bold{font-weight:650}
+.medical .notion-course>p,.medical .notion-course>ul,.medical .notion-course>ol,
+.medical .notion-course>blockquote,.medical .notion-course>.callout{max-width:70ch}
+.medical .notion-course h4{font-size:1.06em;line-height:1.5;margin:1.5em 0 .7em}
+.medical .notion-course h4:first-child{margin-top:0}
+.medical .notion-course th{font-weight:650}
+.medical .course-references{font-size:.85em;line-height:1.65;margin:1.4em 0 0;border-top:1px solid var(--line);padding-top:14px;color:var(--muted)}
+.medical .course-references>summary{cursor:pointer;font-weight:600;padding:4px 0}
+.medical .course-references ul{margin:.6em 0}
+.medical .course-references a{color:var(--teal);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.notion-legend{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0 20px;padding:14px 18px;background:var(--paper,#fff);border:1px solid var(--line);border-radius:10px;font-size:13px;line-height:1.5}
+.notion-legend strong{font-weight:650}
+.notion-legend p{margin:0;flex:1 1 250px;color:var(--muted)}
+.notion-legend a{color:var(--teal);text-underline-offset:3px}
+.notion-swatches{display:inline-flex;gap:4px}
+.notion-swatches i{width:17px;height:17px;border-radius:4px;border:1px solid #00000009}
+.notion-swatches i:nth-child(1){background:var(--nc-red-bg)}
+.notion-swatches i:nth-child(2){background:var(--nc-orange-bg)}
+.notion-swatches i:nth-child(3){background:var(--nc-green-bg)}
+.notion-swatches i:nth-child(4){background:var(--nc-blue-bg)}
+.notion-swatches i:nth-child(5){background:var(--nc-pink-bg)}
+@media(max-width:700px){.notion-legend{padding:12px;gap:9px}.notion-legend p{flex-basis:100%}}
