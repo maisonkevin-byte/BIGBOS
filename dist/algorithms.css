@@ -79,3 +79,39 @@
 .algo-overview-notice{display:none;margin:0;padding:10px 16px;background:var(--paper);border-bottom:1px solid var(--line);font-size:14px;color:var(--ink)}
 .algo-tree-shell[data-overview="true"] .algo-overview-notice{display:block}
 @media(max-width:700px){.algo-tree-tools{gap:6px}.algo-tree-tools button{flex:0 0 auto}.algo-tree-tools [data-tree-action="read"],.algo-tree-tools [data-tree-action="fit"],.algo-tree-tools [data-tree-action="expand"]{flex:1 0 auto}.algo-tree-caption{font-size:14px}}
+
+/* One short decision, then distinct action lines. The course opens separately. */
+.algo-tree-card{height:auto;min-height:0;padding:15px 17px 12px;gap:10px;border:1px solid var(--tree-border);border-top:3px solid var(--teal);border-radius:5px;background:var(--paper);box-shadow:0 2px 5px #193c4608}
+.algo-tree-card.start{background:var(--paper);color:var(--ink);border-color:var(--tree-border);border-top-color:var(--teal)}
+.algo-tree-card.start .algo-tree-meta{color:var(--teal)}
+.algo-tree-card.urgent{background:var(--paper);border-color:var(--tree-border);border-top-color:var(--tree-urgent)}
+.algo-tree-card.uncertain{background:var(--paper);border-color:var(--tree-border);border-top-color:var(--tree-uncertain)}
+.algo-tree-card.finish{background:var(--paper);border-color:var(--tree-border);border-top-color:var(--tree-finish)}
+.algo-tree-meta{display:block;font-size:12px;line-height:1.3;font-weight:650}
+.algo-tree-card strong{font-size:18px;line-height:1.35;font-weight:700}
+.algo-tree-actions{gap:7px;font-size:16px;line-height:1.45;font-weight:400}
+.algo-tree-actions>span{position:relative;padding-left:13px}
+.algo-tree-actions>span:before{content:"";position:absolute;left:1px;top:.6em;width:4px;height:4px;border-radius:50%;background:var(--teal)}
+.algo-card-course{display:flex;align-items:center;justify-content:space-between;margin-top:2px;padding-top:9px;border-top:1px solid var(--line);font-size:12px;line-height:1.3;color:var(--teal);font-weight:500}
+.algo-branch-label{min-height:44px;max-height:none;padding:4px 12px;font-size:16px;line-height:1.4;background:transparent}
+.algo-branch-label>span{background:var(--tree-bg);padding:3px 6px}
+.algo-tree-return{height:auto;min-height:32px;white-space:normal;overflow:visible;line-height:1.4;padding:5px 10px}
+.algo-tree-viewport{background-image:none}
+.algo-detail{width:min(800px,calc(100% - 28px))}
+.algo-detail h3,.algo-below h3,.algo-body,.algo-why{max-width:70ch}
+.algo-body h4{font-size:.9em;color:var(--teal);margin-bottom:12px}
+.algo-detail-actions,.algo-detail-points{padding:0;margin:0;list-style:none;display:grid;gap:12px}
+.algo-detail-actions li{padding:5px 0 5px 16px;border-left:3px solid var(--teal);line-height:1.55}
+.algo-detail-points{margin:12px 0}
+.algo-detail-points li{padding-left:16px;position:relative;line-height:1.65}
+.algo-detail-points li:before{content:"•";position:absolute;left:0;color:var(--teal)}
+.algo-course-objective{border-radius:5px}
+.algo-course-objective>summary{background:var(--paper);padding:16px 18px;gap:7px}
+.algo-course-objective[open]>summary{background:var(--bg);border-bottom:1px solid var(--line)}
+.algo-course-toggle{font-size:.85em;font-weight:600;color:var(--teal);display:flex;justify-content:space-between;align-items:center}
+.algo-course-toggle>span{font-size:1.3em;transition:transform .15s}
+.algo-course-objective[open] .algo-course-toggle>span{transform:rotate(45deg)}
+.algo-course-objective>.medical{max-width:74ch;margin-inline:auto}
+.dark .algo-tree-card.start,.dark .algo-tree-card.urgent,.dark .algo-tree-card.uncertain,.dark .algo-tree-card.finish{background:var(--paper)}
+.dark .algo-tree-card.start .algo-tree-meta,.dark .algo-card-course,.dark .algo-course-toggle,.dark .algo-body h4{color:#b9d5d4}
+@media(max-width:700px){.algo-detail{padding:18px}.algo-detail-top{flex-wrap:wrap}.algo-detail-tools{margin-left:auto}.algo-detail h3{font-size:1.2em}.algo-course-objective>summary{padding:14px}}

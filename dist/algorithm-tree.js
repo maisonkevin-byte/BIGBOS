@@ -2,7 +2,7 @@
 (() => {
 'use strict';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const W=336,GAP=38,PAD=38;
+const W=320,GAP=28,PAD=28;
 const captions={urgent:'Urgence',uncertain:'À préciser',finish:'Orientation'};
 function layout(algorithm){
  const lookup=new Map(algorithm.nodes.map((n,i)=>[n.id,{...n,number:i+1}]));
@@ -31,17 +31,26 @@ function layout(algorithm){
  const tree=build('entry'),flat=[],edges=[];
  function place(b,x,depth){b.x=x;b.depth=depth;flat.push(b);for(const c of b.children){place(c,x+c.offset,depth+1);edges.push({from:b,to:c,label:c.label});}}
  place(tree,0,0);
- const left=Math.min(...flat.map(b=>b.x-W/2)),heights=[],levels=[PAD];
- flat.forEach(b=>{b.height=b.node.actions?.length?284:176;heights[b.depth]=Math.max(heights[b.depth]||0,b.height);});
- heights.forEach((h,d)=>levels[d+1]=levels[d]+h+138);
- flat.forEach(b=>{b.x+=PAD-left;b.y=levels[b.depth];});
- return {flat,edges,width:Math.max(...flat.map(b=>b.x+W/2))+PAD,height:Math.max(...flat.map(b=>b.y+b.height+(b.returns.length?30:0)))+PAD,rootX:tree.x,lookup};
+ const rows=[],heights=[],levels=[PAD];
+ flat.forEach(b=>(rows[b.depth]||(rows[b.depth]=[])).push(b));
+ const width=Math.max(...rows.map(row=>row.length*W+(row.length-1)*GAP))+2*PAD;
+ flat.forEach(b=>{b.height=b.node.actions?.length?200:130;heights[b.depth]=Math.max(heights[b.depth]||0,b.height);});
+ heights.forEach((h,d)=>levels[d+1]=levels[d]+h+112);
+ // Keep sibling order, but avoid reserving all descendant columns at the top.
+ // Curved, separate edges retain an unambiguous parent-child connection.
+ rows.forEach(row=>{row.sort((a,b)=>a.x-b.x);row.forEach((b,i)=>{b.x=width/2+(i-(row.length-1)/2)*(W+GAP);b.y=levels[b.depth];});});
+ return {flat,edges,width,height:Math.max(...flat.map(b=>b.y+b.height+(b.returns.length?30:0)))+PAD,rootX:tree.x,lookup};
 }
+function wirePath(from,to){const start=from.y+from.h,end=to.y-8,mid=(start+end)/2;return 'M '+from.x+' '+start+' C '+from.x+' '+mid+', '+to.x+' '+mid+', '+to.x+' '+end;}
 function render(algorithm){
  const graph=layout(algorithm),marker='arrow-'+algorithm.id;
- const paths=graph.edges.map(e=>{const color=e.to.node.kind||'decision';return '<path class="algo-wire '+color+'" d="M '+e.from.x+' '+(e.from.y+e.from.height)+' V '+(e.from.y+e.from.height+28)+' H '+e.to.x+' V '+(e.to.y-8)+'" marker-end="url(#'+marker+')"/>';}).join('');
- const labels=graph.edges.map(e=>'<span class="algo-branch-label '+esc(e.to.node.kind||'')+'" style="left:'+(e.to.x-W/2)+'px;top:'+(e.from.y+e.from.height+42)+'px;width:'+W+'px">'+esc(e.label)+'</span>').join('');
- const cards=graph.flat.map(b=>'<div class="algo-tree-position" style="left:'+(b.x-W/2)+'px;top:'+b.y+'px;width:'+W+'px"><button type="button" style="height:'+b.height+'px" class="algo-tree-card '+esc(b.node.kind||'decision')+(b.depth===0?' start':'')+'" data-algo-action="inspect" data-node="'+esc(b.node.id)+'" aria-label="'+esc(b.node.title)+' — ouvrir les explications et le cours"><span class="algo-tree-meta"><span>'+String(b.node.number).padStart(2,'0')+'</span><span>'+(b.depth===0?'Point de départ':captions[b.node.kind]||'Décision')+'</span><span aria-hidden="true">↗</span></span><strong>'+esc(b.node.title)+'</strong>'+(b.node.actions?'<span class="algo-tree-actions">'+b.node.actions.map(t=>'<span>'+esc(t)+'</span>').join('')+'</span>':'')+'<span class="algo-card-course">'+(b.node.course?.length?'Ouvrir le cours associé':'Voir les explications')+' →</span></button>'+b.returns.map(c=>'<button type="button" class="algo-tree-return" data-tree-action="return" data-node="'+esc(c.to)+'" title="'+esc(c.label)+'">↶ '+esc(c.label)+' <span>étape '+graph.lookup.get(c.to).number+'</span></button>').join('')+'</div>').join('');
+ const paths=graph.edges.map(e=>{const color=e.to.node.kind||'decision';return '<path class="algo-wire '+color+'" data-from="'+e.from.key+'" data-to="'+e.to.key+'" d="M '+e.from.x+' '+(e.from.y+e.from.height)+' V '+(e.from.y+e.from.height+28)+' H '+e.to.x+' V '+(e.to.y-8)+'" marker-end="url(#'+marker+')"/>';}).join('');
+ const labels=graph.edges.map(e=>'<span class="algo-branch-label '+esc(e.to.node.kind||'')+'" data-from="'+e.from.key+'" data-to="'+e.to.key+'" style="left:'+(e.to.x-W/2)+'px;top:'+(e.from.y+e.from.height+42)+'px;width:'+W+'px"><span>'+esc(e.label)+'</span></span>').join('');
+ const cards=graph.flat.map(b=>{
+  const n=b.node,copy=n.tree||n;
+  const label=b.depth===0?'Point de départ':captions[n.kind];
+  return '<div class="algo-tree-position" data-key="'+b.key+'" data-depth="'+b.depth+'" style="left:'+(b.x-W/2)+'px;top:'+b.y+'px;width:'+W+'px"><button type="button" class="algo-tree-card '+esc(n.kind||'decision')+(b.depth===0?' start':'')+'" data-algo-action="inspect" data-node="'+esc(n.id)+'" aria-label="'+esc(n.title)+' — ouvrir les explications et le cours">'+(label?'<span class="algo-tree-meta">'+esc(label)+'</span>':'')+'<strong>'+esc(copy.title)+'</strong>'+(copy.actions?.length?'<span class="algo-tree-actions">'+copy.actions.map(t=>'<span>'+esc(t)+'</span>').join('')+'</span>':'')+'<span class="algo-card-course">'+(n.course?.length?'Cours + explications':'Explications')+' <span aria-hidden="true">↗</span></span></button>'+b.returns.map(c=>'<button type="button" class="algo-tree-return" data-tree-action="return" data-node="'+esc(c.to)+'" title="'+esc(c.label)+'">↶ '+esc(c.label)+'</button>').join('')+'</div>';
+ }).join('');
  return '<div class="algo-tree-shell"><div class="algo-tree-toolbar"><span class="algo-tree-caption">'+esc(algorithm.title)+'</span><div class="algo-tree-tools"><button type="button" data-tree-action="out" aria-label="Réduire le zoom">−</button><output class="algo-zoom-label" aria-label="Niveau de zoom">100 %</output><button type="button" data-tree-action="in" aria-label="Augmenter le zoom">+</button><button type="button" data-tree-action="read" aria-pressed="true" title="Revenir à une taille de texte lisible">Lecture</button><button type="button" data-tree-action="fit" title="Voir la forme de l’arbre entier">Vue d’ensemble</button><button type="button" data-tree-action="expand" aria-expanded="false">⤢ Agrandir</button></div></div><p class="algo-overview-notice">Vue d’ensemble : appuie sur « Lecture » pour lire le texte.</p><div class="algo-tree-viewport" tabindex="0" role="region" aria-label="Arbre de décision. Faites défiler pour explorer les branches."><div class="algo-tree-space"><div class="algo-tree-canvas" data-width="'+graph.width+'" data-height="'+graph.height+'" data-root-x="'+graph.rootX+'" style="width:'+graph.width+'px;height:'+graph.height+'px"><svg class="algo-tree-wires" width="'+graph.width+'" height="'+graph.height+'" aria-hidden="true"><defs><marker id="'+marker+'" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>'+paths+'</svg>'+labels+cards+'</div></div></div><div class="algo-tree-footer"><span><i class="decision"></i> Décision</span><span><i class="urgent"></i> Urgence</span><span><i class="uncertain"></i> À préciser</span><span><i class="finish"></i> Orientation</span><span class="algo-tree-tip">Clique sur une case pour les détails · Fais défiler pour explorer</span></div></div>';
 }
 function scale(shell,value,center=true){
@@ -63,9 +72,28 @@ function fit(shell,readable=false){
  scale(shell,readable?readingZoom():zoom,false);
  viewport.scrollLeft=Number(canvas.dataset.rootX)*Number(shell.dataset.zoom)-viewport.clientWidth/2;viewport.scrollTop=0;
 }
+// Use the rendered text height: no fixed blocks, clipping or tiny fitted type.
+function arrange(shell){
+ const positions=[...shell.querySelectorAll('.algo-tree-position')],heights=[],levels=[PAD],lookup=new Map();
+ for(const p of positions){const depth=Number(p.dataset.depth);heights[depth]=Math.max(heights[depth]||0,p.offsetHeight);}
+ heights.forEach((height,depth)=>{levels[depth+1]=levels[depth]+height+112;});
+ let bottom=0;
+ for(const p of positions){
+  const y=levels[Number(p.dataset.depth)],h=p.querySelector('.algo-tree-card').offsetHeight;
+  p.style.top=y+'px';lookup.set(p.dataset.key,{x:parseFloat(p.style.left)+W/2,y,h});bottom=Math.max(bottom,y+p.offsetHeight);
+ }
+ for(const wire of shell.querySelectorAll('.algo-wire')){
+  const from=lookup.get(wire.dataset.from),to=lookup.get(wire.dataset.to);
+  wire.setAttribute('d',wirePath(from,to));
+ }
+ for(const label of shell.querySelectorAll('.algo-branch-label')){const to=lookup.get(label.dataset.to);label.style.top=(to.y-79)+'px';}
+ const canvas=shell.querySelector('.algo-tree-canvas'),height=bottom+PAD;
+ canvas.dataset.height=height;canvas.style.height=height+'px';shell.querySelector('.algo-tree-wires').setAttribute('height',height);
+}
 function hydrate(scope=document){
  scope.querySelectorAll('.algo-tree-shell:not([data-ready])').forEach(shell=>{
-  shell.dataset.ready='true';requestAnimationFrame(()=>{if(shell.isConnected)fit(shell,true);});
+  shell.dataset.ready='true';requestAnimationFrame(()=>{if(shell.isConnected){arrange(shell);fit(shell,true);}});
+  document.fonts?.ready.then(()=>{if(shell.isConnected){arrange(shell);scale(shell,Number(shell.dataset.zoom)||readingZoom());}});
  });
 }
 function closeExpanded(){const shell=document.querySelector('.algo-tree-shell.expanded');if(shell){shell.classList.remove('expanded');const b=shell.querySelector('[data-tree-action="expand"]');b.textContent='⤢ Agrandir';b.setAttribute('aria-expanded','false');document.documentElement.classList.remove('algo-expanded-page');fit(shell,true);b.focus({preventScroll:true});}}

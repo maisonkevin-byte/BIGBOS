@@ -61,5 +61,54 @@ data.algorithms.push({id:'hypoglycemie',sdd:209,title:'Devant une hypoglycémie'
  make('enquete','Organiser le bilan étiologique',['Documenter la glycémie veineuse pendant les symptômes.','Rechercher médicaments et défaillance d’organe avant les causes rares.'],['Hors diabète, confronter symptômes, glycémie veineuse basse et réponse au resucrage. Explorer les causes médicamenteuses, viscérales ou hormonales selon le contexte.','Une hypoglycémie inexpliquée ou récidivante justifie un avis spécialisé. Les épreuves de jeûne ne se réalisent pas en autonomie.'],['240-1','240-6'],['sfe'],[],{kind:'finish'}),
  make('documenter','Confirmer sans méconnaître une autre urgence',['Recueillir une glycémie lors des symptômes.','Si trouble de conscience, poursuivre l’évaluation urgente.'],['Hors diabète, un malaise isolé ou une glycémie capillaire isolée ne suffisent pas à conclure à une hypoglycémie organique. Documenter la triade de Whipple et le contexte.'],['240-1','240-4'],['sfe'],[],{kind:'uncertain'})
 ]});
-data.version=2;
+// Short labels for the diagram only. Full actions, explanations and course
+// objectives remain available when opening a node.
+const treeCopy={
+ hypoglycemie:{
+  entry:['Évaluation immédiate','Glycémie capillaire immédiate','Conscience et capacité à avaler'],
+  iv:['Resucrage IV urgent','Alerter · rien par la bouche','Adulte : G30 % · 20–30 mL au total'],
+  oral:['Resucrage oral','Conscient et capable d’avaler','15 g de sucre rapide'],
+  controle:['Contrôler la réponse','Recontrôler glycémie et conscience','Adapter le relais à la réponse'],
+  echec:['Reprendre le resucrage','Choisir la voie selon la déglutition','Prise en charge surveillée'],
+  autre:['Chercher une autre cause','Maintenir la surveillance','Évaluation neurologique urgente'],
+  relais:['Prévenir la récidive','Apports glucidiques de relais','Revoir repas, effort et médicaments'],
+  medicament:['Réévaluer le traitement','Insuline, sulfamide ou glinide ?','Surveillance selon la durée d’action'],
+  enquete:['Rechercher la cause','Glycémie veineuse percritique','Médicaments et défaillance d’organe'],
+  documenter:['Documenter l’épisode','Glycémie pendant les symptômes','Trouble de conscience : urgence']
+ },
+ anemie:{
+  entry:['Une urgence ?','Mesurer les constantes','Saignement ? Mauvaise tolérance ?'],
+  urgent:['Stabiliser en urgence','Alerter · surveiller · voie veineuse','Chercher hémorragie ou hémolyse'],
+  eval:['Compléter l’évaluation','Constantes et symptômes','Comparer aux antériorités'],
+  confirm:['Confirmer l’anémie','Hb < 13 g/dL homme ; < 12 femme','Comparer aux antériorités'],
+  contexte:['Revoir le contexte','Terrain et hémodilution','Évolution de l’Hb'],
+  vgm:['Lire le VGM','Sur la NFS','Repères du cours : 80 et 100 fL'],
+  micro:['Ferritine + CRP','Croiser fer et inflammation','Ferritine élevée ≠ carence exclue'],
+  'retic-normo':['Réticulocytes','Nombre absolu en G/L','Réponse parfois retardée'],
+  'retic-macro':['Réticulocytes','Régénération ou défaut de production ?'],
+  regeneratif:['Saignement ou hémolyse ?','LDH, bilirubine, haptoglobine','Orienter frottis et TDA'],
+  normo:['Bilan normocytaire','Rein, inflammation, thyroïde','Avis si cytopénies ou inexpliquée'],
+  macro:['Bilan macrocytaire','B12/B9, alcool, médicaments, thyroïde','Si inexpliquée : discuter la moelle'],
+  carence:['Origine de la carence','Pertes digestives ou gynécologiques','Apports ou malabsorption'],
+  inflammation:['Préciser l’inflammation','Rechercher la maladie en cause','Carence martiale associée ?'],
+  hemoglobine:['Compléter le bilan','Bilan martial, terrain, antécédents','Discuter l’étude de l’hémoglobine']
+ },
+ prurit:{
+  entry:['Examiner la peau','Peau entière et muqueuses','Lésions primitives ? Expositions ?'],
+  local:['Explorer la zone','Lésions et contacts locaux','Cuir chevelu : pédiculose ?'],
+  lesions:['Lésion primitive ?','Morphologie et chronologie','Distinguer les traces de grattage'],
+  exam:['Compléter l’examen','Reprendre la chronologie','Iconographie et avis si besoin'],
+  dermatose:['Orienter la dermatose','Gale, eczéma, urticaire ?','Confronter aux signes et au contexte'],
+  systemique:['Prurit sine materia','Médicaments et signes généraux','Bilan initial puis explorations ciblées'],
+  traiter:['Traiter et soulager','Traiter la cause retenue','Émollients · éviter les irritants'],
+  suivi:['Contrôler l’évolution','Sommeil, intensité et lésions','Tolérance et traitement de la cause'],
+  revoir:['Reprendre l’enquête','Peau, médicaments, signes généraux','Avis si persistant ou atypique']
+ }
+};
+for(const algorithm of data.algorithms)for(const node of algorithm.nodes){
+ const copy=treeCopy[algorithm.id]?.[node.id];
+ if(copy)node.tree={title:copy[0],actions:copy.slice(1)};
+}
+data.version=3;
 })();
+

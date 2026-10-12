@@ -19,7 +19,9 @@ function related(node){
  return node.related?.length?'<div class="algo-related"><strong>Poursuivre dans les fiches</strong>'+node.related.map(n=>'<a href="#item/'+n+'">Item '+n+' · '+esc(itemLabel(n))+' →</a>').join('')+'</div>':'';
 }
 function information(node){
- return '<div class="algo-body">'+node.body.map(p=>'<p>'+esc(p)+'</p>').join('')+'</div><details class="algo-why"><summary>Pourquoi cette étape ?</summary><p>'+esc(node.why)+'</p></details>'+related(node)+references(node);
+ const body='<ul class="algo-detail-points">'+node.body.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>';
+ const actions=node.actions?.length?'<div class="algo-body"><h4>À faire</h4><ul class="algo-detail-actions">'+node.actions.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul></div><details class="algo-why"><summary>Précisions de cette étape</summary>'+body+'</details>':'<div class="algo-body">'+body+'</div>';
+ return actions+'<details class="algo-why"><summary>Pourquoi cette étape ?</summary><p>'+esc(node.why)+'</p></details>'+related(node)+references(node);
 }
 function courseSlot(node){
  return node.course?.length?'<section class="algo-course" aria-label="Cours associé"><h4>Ton cours associé</h4><div class="algo-course-content" aria-live="polite" data-course-node="'+esc(node.id)+'"><p>Chargement du cours…</p></div></section>':'';
@@ -41,7 +43,7 @@ async function hydrateCourse(scope,algorithm){
    const id=node.course[i],item=Number(id.split('-')[0]);
    if(result.status!=='fulfilled')return '<p>Le cours '+esc(id)+' n’a pas pu être chargé. <a href="#item/'+item+'/'+esc(id)+'">Ouvrir la fiche →</a> '+button('Réessayer','retry-course')+'</p>';
    const {objective:o}=result.value;
-   return '<details class="algo-course-objective" '+(i===0?'open':'')+'><summary><span class="algo-course-id">'+esc(o.id)+' · Rang '+esc(o.rang)+'</span><strong>'+esc(o.titre)+'</strong></summary><div class="medical">'+window.ATLAS_COURSE.sanitize(o.contenu,!!window.ATLAS_ILLUSTRATIONS?.countObjective(o.id))+'</div>'+(window.ATLAS_ILLUSTRATIONS?.objectiveImages(o)||'')+'<a class="algo-course-link" href="#item/'+item+'/'+esc(o.id)+'">Retrouver cet objectif dans la fiche →</a></details>';
+   return '<details class="algo-course-objective"><summary><span class="algo-course-id">'+esc(o.id)+' · Rang '+esc(o.rang)+'</span><strong>'+esc(o.titre)+'</strong><span class="algo-course-toggle">Lire le cours <span aria-hidden="true">+</span></span></summary><div class="medical">'+window.ATLAS_COURSE.sanitize(o.contenu,!!window.ATLAS_ILLUSTRATIONS?.countObjective(o.id))+'</div>'+(window.ATLAS_ILLUSTRATIONS?.objectiveImages(o)||'')+'<a class="algo-course-link" href="#item/'+item+'/'+esc(o.id)+'">Retrouver cet objectif dans la fiche →</a></details>';
   }).join('');
   window.ATLAS_ILLUSTRATIONS?.hydrate(host);
  }
@@ -122,4 +124,5 @@ document.addEventListener('click',e=>{
 });
 window.ATLAS_ALGORITHMS={forItem,render,teaser};
 })();
+
 
