@@ -1,0 +1,2498 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71
+  ],
+  "baseCommit": "e2a6c3a34b927998406b807e4b77527d332c82e1",
+  "summary": {
+    "objectives": 185,
+    "cards": 412,
+    "existingCardsRetained": 275,
+    "newCards": 137,
+    "decisionTrees": 22,
+    "decisionNodes": 162
+  },
+  "validation": {
+    "passed": true,
+    "errors": [],
+    "objectives": 185,
+    "cards": 412,
+    "trees": 22,
+    "runtime": {
+      "errors": [],
+      "passed": true,
+      "idempotent": true,
+      "totalCards": 10430,
+      "totalAlgorithms": 80
+    },
+    "htmlBalanced": true,
+    "colourTextPreserved": true,
+    "visualReview": "Not performed: local runtime and Chrome connection unavailable after source review. No visual layout code changed.",
+    "deployment": "Pending"
+  },
+  "sources": {
+    "college": [
+      "CNUP–AESP–CUNEA · Référentiel, 4e édition, 2024",
+      "https://www.cunea.fr/sites/default/files/ref_psy_add_4ed.pdf"
+    ],
+    "clozapine": [
+      "ANSM · Surveillance de la clozapine, actualisation 2025",
+      "https://ansm.sante.fr/informations-de-securite/clozapine-leponex-et-ses-generiques-mise-a-jour-des-recommandations-de-surveillance-de-la-numeration-formule-leucocytaire-nfl-pour-le-risque-dagranulocytose"
+    ],
+    "valproate": [
+      "ANSM · Valproate et risques reproductifs, 2025",
+      "https://ansm.sante.fr/actualites/valproate-et-risques-pour-lenfant-a-naitre-les-conditions-de-prescription-et-de-delivrance-evoluent-pour-les-adolescents-et-les-hommes-susceptibles-davoir-des-enfants"
+    ],
+    "depression": [
+      "HAS · Épisode dépressif de l’adulte, 2017",
+      "https://www.has-sante.fr/jcms/c_1739917/fr/episode-depressif-caracterise-de-l-adulte-prise-en-charge-en-premier-recours"
+    ],
+    "tsa2026": [
+      "HAS · TSA : interventions et parcours de vie, 2026",
+      "https://www.has-sante.fr/jcms/p_3448980/fr/trouble-du-spectre-de-l-autisme-interventions-et-parcours-de-vie-du-nourrisson-de-l-enfant-et-de-l-adolescent"
+    ],
+    "tdah": [
+      "HAS · TDAH, diagnostic et interventions, 2024",
+      "https://www.has-sante.fr/jcms/p_3302482/fr/trouble-du-neurodeveloppement/tdah-diagnostic-et-interventions-therapeutiques-aupres-des-enfants-et-adolescents"
+    ],
+    "ameli": [
+      "Assurance maladie · Consultations et parcours de soins",
+      "https://www.ameli.fr/assure/remboursements/rembourse/consultations-telemedecine/metropole"
+    ],
+    "anorexie": [
+      "HAS · Anorexie mentale, 2010",
+      "https://www.has-sante.fr/jcms/c_985715/fr/anorexie-mentale-prise-en-charge"
+    ],
+    "boulimie": [
+      "HAS · Boulimie et hyperphagie boulimique, 2019",
+      "https://www.has-sante.fr/jcms/c_2581436/fr/boulimie-et-hyperphagie-boulimique-reperage-et-elements-generaux-de-prise-en-charge"
+    ],
+    "confusion": [
+      "HAS · Confusion aiguë chez la personne âgée, 2009",
+      "https://www.has-sante.fr/jcms/c_819557/fr/confusion-aigue-chez-la-personne-agee-prise-en-charge-initiale-de-l-agitation"
+    ],
+    "bzd": [
+      "HAS · Benzodiazépines dans l’anxiété",
+      "https://www.has-sante.fr/jcms/c_2863043/fr/quelle-place-pour-les-benzodiazepines-dans-l-anxiete"
+    ],
+    "trauma": [
+      "OMS · Soins après traumatisme, 2013",
+      "https://www.who.int/fr/news/item/06-08-2013-who-releases-guidance-on-mental-health-care-after-trauma"
+    ],
+    "law": [
+      "Code de la santé publique · Soins psychiatriques, 13 octobre 2026",
+      "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006155032/2026-10-13"
+    ],
+    "dsm": [
+      "SAMHSA · Comparaisons diagnostiques DSM-5, 2016",
+      "https://www.ncbi.nlm.nih.gov/books/NBK519704/table/ch3.t20/"
+    ],
+    "bipolaire": [
+      "NICE · Bipolar disorder, CG185",
+      "https://www.nice.org.uk/guidance/cg185/chapter/recommendations"
+    ],
+    "perinatal": [
+      "RCPsych · Psychose du post-partum",
+      "https://www.rcpsych.ac.uk/mental-health/mental-illnesses-and-mental-health-problems/postpartum-psychosis"
+    ],
+    "sertraline": [
+      "Base publique du médicament · Sertraline, RCP",
+      "https://base-donnees-publique.medicaments.gouv.fr/medicament/69185423/extrait"
+    ],
+    "fluoxetine": [
+      "Base publique du médicament · Fluoxétine, RCP",
+      "https://base-donnees-publique.medicaments.gouv.fr/medicament/65613353/extrait"
+    ],
+    "fluvoxamine": [
+      "ANSM · Fluvoxamine, notice",
+      "https://agence-prd.ansm.sante.fr/php/ecodex/frames.php?ref=N0399630.htm&specid=65470567&typedoc=N"
+    ],
+    "lisa62": [
+      "LiSA 2026 · Item 62",
+      "https://livret.uness.fr/lisa/2026/D%C3%A9crire_l'organisation_de_l'offre_de_soins_en_psychiatrie%2C_de_l'enfant_%C3%A0_la_personne_%C3%A2g%C3%A9e"
+    ],
+    "lisa63": [
+      "LiSA 2026 · Item 63",
+      "https://livret.uness.fr/lisa/2026/Troubles_schizophr%C3%A9niques_de_l'adolescent_et_de_l'adulte"
+    ],
+    "lisa64": [
+      "LiSA 2026 · Item 64",
+      "https://livret.uness.fr/lisa/2026/Troubles_bipolaires_de_l'adolescent_et_de_l'adulte"
+    ],
+    "lisa65": [
+      "LiSA 2026 · Item 65",
+      "https://livret.uness.fr/lisa/2026/Trouble_d%C3%A9lirant_persistant"
+    ],
+    "lisa66": [
+      "LiSA 2026 · Item 66",
+      "https://livret.uness.fr/lisa/2026/Diagnostiquer_%3A_un_trouble_d%C3%A9pressif%2C_un_trouble_anxieux%2C_un_trouble_obsessionnel_compulsif%2C_un_trouble_de_stress_post-traumatique%2C_un_trouble_de_l'adaptation%2C_un_trouble_de_la_personnalit%C3%A9"
+    ],
+    "lisa67": [
+      "LiSA 2026 · Item 67",
+      "https://livret.uness.fr/lisa/2026/Troubles_du_neurod%C3%A9veloppement_(voir_items_55%2C_118%2C_121%2C_122%2C_138)"
+    ],
+    "lisa68": [
+      "LiSA 2026 · Item 68",
+      "https://livret.uness.fr/lisa/2026/Troubles_du_comportement_de_l'enfant_et_de_l'adolescent"
+    ],
+    "lisa69": [
+      "LiSA 2026 · Item 69",
+      "https://livret.uness.fr/lisa/2026/Troubles_psychiques_de_la_grossesse_et_du_post-partum"
+    ],
+    "lisa70": [
+      "LiSA 2026 · Item 70",
+      "https://livret.uness.fr/lisa/2026/Troubles_psychiques_du_sujet_%C3%A2g%C3%A9"
+    ],
+    "lisa71": [
+      "LiSA 2026 · Item 71",
+      "https://livret.uness.fr/lisa/2026/Troubles_des_conduites_alimentaires_chez_l'adolescent_et_l'adulte_(voir_item_253)"
+    ]
+  },
+  "notes": [
+    "Les objectifs et identifiants des 275 cartes existantes sont conservés.",
+    "Les données d’apprentissage et de synchronisation utilisateur ne sont pas modifiées.",
+    "Les couleurs concernent les fragments concordants avec les sources Notion ; les fragments ambigus ne reçoivent pas de couleur inventée.",
+    "Les anciens arbres embarqués ont été remplacés par des projections des 22 parcours revus.",
+    "Les critères de psychose, bipolarité, TOC, stress aigu/TSPT, adaptation, TOP/TC et TCA ont été revus.",
+    "Surveillance clozapine actualisée ; risques valproate ; interventions TSA HAS 2026 ; retrait des prescriptions automatiques inappropriées.",
+    "Les arbres sont des synthèses pédagogiques, pas la reproduction d’algorithmes officiels."
+  ],
+  "details": [
+    {
+      "n": 62,
+      "objectives": [
+        {
+          "id": "62-1",
+          "rank": "A",
+          "title": "Connaître le contexte épidémiologique"
+        },
+        {
+          "id": "62-2",
+          "rank": "A",
+          "title": "Connaître l’organisation générale du système de soins en psychiatrie"
+        },
+        {
+          "id": "62-3",
+          "rank": "B",
+          "title": "Connaître les modalités de prise en charge en psychiatrie de l’adulte et en psychiatrie de l’enfant et de l’adolescent"
+        },
+        {
+          "id": "62-4",
+          "rank": "B",
+          "title": "Connaître les lieux de prise en charge hors secteur (structures médico-sociales)"
+        },
+        {
+          "id": "62-5",
+          "rank": "A",
+          "title": "Connaître l’offre de soins spécifique : urgences psychiatriques, psychiatrie de liaison, addictologie"
+        },
+        {
+          "id": "62-6",
+          "rank": "B",
+          "title": "Connaître l’offre de soins spécifique : psychiatre de la personne âgée (voir item 70), psychiatrie pénitentiaire"
+        }
+      ],
+      "reviewedExistingCards": [
+        "393a43e144d1",
+        "754dc84bdf32",
+        "dda516205469",
+        "8aaa1dd849e8",
+        "c7cdbc426420",
+        "d00bd78dc8ae",
+        "fab6f661bb53",
+        "fd1d54b64702",
+        "b0c1a3334b93",
+        "f0d828a450a5",
+        "fe208b56f3dc"
+      ],
+      "changedExistingCards": [
+        "754dc84bdf32",
+        "dda516205469",
+        "c7cdbc426420",
+        "d00bd78dc8ae",
+        "fd1d54b64702",
+        "fe208b56f3dc"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-62-3-0",
+          "objective": "62-3",
+          "q": "CMP, CATTP et hôpital de jour : quelles fonctions ?"
+        },
+        {
+          "id": "psy2-62-3-1",
+          "objective": "62-3",
+          "q": "Quelles structures pour un jeune enfant présentant des difficultés ?"
+        },
+        {
+          "id": "psy2-62-4-2",
+          "objective": "62-4",
+          "q": "MDPH et CDAPH : quels rôles ?"
+        },
+        {
+          "id": "psy2-62-4-3",
+          "objective": "62-4",
+          "q": "PASS et LHSS : quelle différence ?"
+        },
+        {
+          "id": "psy2-62-6-4",
+          "objective": "62-6",
+          "q": "UHSA et UHSI : quelle différence ?"
+        },
+        {
+          "id": "psy2-62-6-5",
+          "objective": "62-6",
+          "q": "Premier réflexe devant un changement brutal de comportement en EHPAD ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d94181c2883bc98a0fb85478",
+          "title": "Organisation de l'offre de soin en psychiatrique (62)",
+          "url": "https://app.notion.com/p/2ad37f85d94181c2883bc98a0fb85478?pvs=204",
+          "lastEdited": "2026-04-23T18:23:43.731Z"
+        }
+      ],
+      "colourMatches": 13,
+      "trees": [
+        "psy2-organisation"
+      ]
+    },
+    {
+      "n": 63,
+      "objectives": [
+        {
+          "id": "63-1",
+          "rank": "A",
+          "title": "Connaître la définition des idées délirantes et des hallucinations"
+        },
+        {
+          "id": "63-2",
+          "rank": "A",
+          "title": "Connaître la définition des schizophrénies"
+        },
+        {
+          "id": "63-3",
+          "rank": "A",
+          "title": "Connaître les dimensions cliniques des schizophrénies"
+        },
+        {
+          "id": "63-4",
+          "rank": "B",
+          "title": "Connaître la définition du trouble schizo-affectif"
+        },
+        {
+          "id": "63-5",
+          "rank": "B",
+          "title": "Connaître la prévalence, la morbi-mortalité"
+        },
+        {
+          "id": "63-6",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque, le pronostic et l’évolution"
+        },
+        {
+          "id": "63-7",
+          "rank": "B",
+          "title": "Savoir que l’étiologie est multifactorielle"
+        },
+        {
+          "id": "63-8",
+          "rank": "A",
+          "title": "Connaître l’analyse sémiologique d’un syndrome délirant"
+        },
+        {
+          "id": "63-9",
+          "rank": "A",
+          "title": "Connaître le mode d’apparition des troubles schizophréniques"
+        },
+        {
+          "id": "63-10",
+          "rank": "A",
+          "title": "Connaître le syndrome positif"
+        },
+        {
+          "id": "63-11",
+          "rank": "A",
+          "title": "Connaître le syndrome négatif"
+        },
+        {
+          "id": "63-12",
+          "rank": "A",
+          "title": "Connaître le syndrome de désorganisation"
+        },
+        {
+          "id": "63-13",
+          "rank": "A",
+          "title": "Connaître les principaux diagnostics différentiels non psychiatriques"
+        },
+        {
+          "id": "63-14",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques"
+        },
+        {
+          "id": "63-15",
+          "rank": "B",
+          "title": "Connaître les principes généraux de la prise en charge"
+        },
+        {
+          "id": "63-16",
+          "rank": "A",
+          "title": "Connaître les indications du traitement pharmacologique de la phase aiguë"
+        },
+        {
+          "id": "63-17",
+          "rank": "B",
+          "title": "Connaître les indications du traitement pharmacologique au long cours"
+        },
+        {
+          "id": "63-18",
+          "rank": "B",
+          "title": "Connaître les indications du traitement non pharmacologique au long cours"
+        },
+        {
+          "id": "63-19",
+          "rank": "B",
+          "title": "Connaître la prise en charge des comorbidités non psychiatriques, le rôle du médecin généraliste"
+        }
+      ],
+      "reviewedExistingCards": [
+        "266058b2310e",
+        "9725cfef9e5d",
+        "a4fe9c25c1a5",
+        "f1c4a0ca93af",
+        "3ca7b22f29fb",
+        "82f6e5d812db",
+        "8fb2813bb3d4",
+        "9c4d76087c28",
+        "a58890e67f94",
+        "2a35b82fd741",
+        "3649d6480294",
+        "5c4eadc9c5f3",
+        "52a2faa06d95",
+        "5f372a0f5a1d",
+        "778a87ea1cfd",
+        "9cee5b7152d4",
+        "da543df4602a",
+        "1547d18d238f",
+        "3951c2bcda45",
+        "513bcb31775a",
+        "99a784dbc9da",
+        "bc73b514aee8",
+        "c3c67c5fa439",
+        "1b3ecf4ad84a",
+        "2698a5c4cf2b",
+        "9d9bde4f9293",
+        "b2151a792847",
+        "cd9a89616c77",
+        "dae4eee43337",
+        "345e3d4abba6",
+        "70c6f4b5676b",
+        "b1ec9e65807c",
+        "ba2bd1f9da52",
+        "f3981cb96fac"
+      ],
+      "changedExistingCards": [
+        "3ca7b22f29fb",
+        "9c4d76087c28",
+        "2a35b82fd741",
+        "3649d6480294",
+        "5f372a0f5a1d",
+        "513bcb31775a",
+        "2698a5c4cf2b",
+        "9d9bde4f9293",
+        "b2151a792847",
+        "cd9a89616c77",
+        "dae4eee43337"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-63-3-0",
+          "objective": "63-3",
+          "q": "Quelles dimensions explorer dans une schizophrénie ?"
+        },
+        {
+          "id": "psy2-63-4-1",
+          "objective": "63-4",
+          "q": "Quel repère temporel distingue un trouble schizo-affectif ?"
+        },
+        {
+          "id": "psy2-63-5-2",
+          "objective": "63-5",
+          "q": "Pourquoi assurer un suivi somatique régulier ?"
+        },
+        {
+          "id": "psy2-63-6-3",
+          "objective": "63-6",
+          "q": "Le déficit fonctionnel est-il inéluctable ?"
+        },
+        {
+          "id": "psy2-63-7-4",
+          "objective": "63-7",
+          "q": "Une cause unique explique-t-elle la schizophrénie ?"
+        },
+        {
+          "id": "psy2-63-9-5",
+          "objective": "63-9",
+          "q": "Faut-il attendre six mois avant de traiter un premier épisode psychotique ?"
+        },
+        {
+          "id": "psy2-63-14-6",
+          "objective": "63-14",
+          "q": "Un délire bizarre exclut-il un trouble délirant persistant ?"
+        },
+        {
+          "id": "psy2-63-15-7",
+          "objective": "63-15",
+          "q": "La schizophrénie suffit-elle à imposer des soins sans consentement ?"
+        },
+        {
+          "id": "psy2-63-17-8",
+          "objective": "63-17",
+          "q": "Quand discuter une clozapine pour résistance ?"
+        },
+        {
+          "id": "psy2-63-17-9",
+          "objective": "63-17",
+          "q": "Quel suivi hématologique de la clozapine a évolué en 2025 ?"
+        },
+        {
+          "id": "psy2-63-18-10",
+          "objective": "63-18",
+          "q": "Quels soins de réhabilitation proposer ?"
+        },
+        {
+          "id": "psy2-63-19-11",
+          "objective": "63-19",
+          "q": "Quels éléments métaboliques surveiller sous antipsychotique ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d941813aa959d27897257a75",
+          "title": "Trouble schizophrénique (63)",
+          "url": "https://app.notion.com/p/2ad37f85d941813aa959d27897257a75?pvs=204",
+          "lastEdited": "2026-09-24T08:21:32.609Z"
+        }
+      ],
+      "colourMatches": 284,
+      "trees": [
+        "psy2-psychose",
+        "psy2-schizo-suivi"
+      ]
+    },
+    {
+      "n": 64,
+      "objectives": [
+        {
+          "id": "64-1",
+          "rank": "A",
+          "title": "Connaître la définition d’un épisode maniaque"
+        },
+        {
+          "id": "64-2",
+          "rank": "A",
+          "title": "Connaître la définition d’un épisode hypomaniaque"
+        },
+        {
+          "id": "64-3",
+          "rank": "A",
+          "title": "Connaître la définition d’un épisode dépressif bipolaire"
+        },
+        {
+          "id": "64-4",
+          "rank": "B",
+          "title": "Connaître la définition des troubles bipolaires I et II"
+        },
+        {
+          "id": "64-5",
+          "rank": "A",
+          "title": "Connaître la prévalence"
+        },
+        {
+          "id": "64-6",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque, le pronostic et l’évolution, la morbi-mortalité psychiatrique et non psychiatrique"
+        },
+        {
+          "id": "64-7",
+          "rank": "B",
+          "title": "Savoir que l’étiologie des troubles bipolaires est multifactorielle"
+        },
+        {
+          "id": "64-8",
+          "rank": "A",
+          "title": "Connaître la sémiologie des syndromes maniaque et hypomaniaque"
+        },
+        {
+          "id": "64-9",
+          "rank": "A",
+          "title": "Connaître la sémiologie du syndrome dépressif"
+        },
+        {
+          "id": "64-10",
+          "rank": "A",
+          "title": "Connaître les caractéristiques évocatrices d’une dépression bipolaire"
+        },
+        {
+          "id": "64-11",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques"
+        },
+        {
+          "id": "64-12",
+          "rank": "A",
+          "title": "Connaître les principes généraux de la prise en charge"
+        },
+        {
+          "id": "64-13",
+          "rank": "A",
+          "title": "Connaître les indications du traitement pharmacologique des épisodes aigus"
+        },
+        {
+          "id": "64-14",
+          "rank": "B",
+          "title": "Connaître les indications du traitement pharmacologique au long cours"
+        },
+        {
+          "id": "64-15",
+          "rank": "B",
+          "title": "Connaître les indications du traitement non pharmacologique au long cours"
+        },
+        {
+          "id": "64-16",
+          "rank": "B",
+          "title": "Connaître la prise en charge des comorbidités non psychiatriques des patients souffrant de troubles bipolaires, le rôle du médecin généraliste"
+        }
+      ],
+      "reviewedExistingCards": [
+        "0b584e323c62",
+        "0ea3992b9ffa",
+        "2c094d9bfec1",
+        "7a37a34ffd10",
+        "9b812b23dc12",
+        "d905d5958ede",
+        "0a5a19577078",
+        "5783f63ab6c5",
+        "750891bdc945",
+        "a585ab5211cb",
+        "544dba3326fc",
+        "58944d4cb475",
+        "733a819e7322",
+        "891bfc34ba8e",
+        "0fb020a8c439",
+        "24cb14cecd87",
+        "4560d9fee163",
+        "7653620e2e9b",
+        "7ca214100fb7",
+        "b7affeb5362f",
+        "dfeaecc9e0f7",
+        "6b33db6c69e4",
+        "a92e152d4ea9",
+        "f715ab6ee2fb",
+        "16f851bfe5e5",
+        "30333119c217",
+        "4fb026a5d7eb",
+        "f09aaf013c12",
+        "8aae7a2a0e43",
+        "bfb49f77267f",
+        "25d9b5eb35fc",
+        "526d45fbcf04",
+        "566a505d6762",
+        "65d82795824b",
+        "d92642d9edcf",
+        "0518508786c4",
+        "3830c2043b6c",
+        "af2a8c3f4c71",
+        "b2f46d6b5c5d",
+        "ed287ee313f4",
+        "f6b4a486b130"
+      ],
+      "changedExistingCards": [
+        "750891bdc945",
+        "544dba3326fc",
+        "58944d4cb475",
+        "0fb020a8c439",
+        "24cb14cecd87",
+        "4560d9fee163",
+        "b7affeb5362f",
+        "dfeaecc9e0f7",
+        "6b33db6c69e4",
+        "4fb026a5d7eb",
+        "8aae7a2a0e43",
+        "bfb49f77267f",
+        "566a505d6762",
+        "b2f46d6b5c5d",
+        "f6b4a486b130"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-64-4-0",
+          "objective": "64-4",
+          "q": "Bipolaire I versus II ?"
+        },
+        {
+          "id": "psy2-64-6-1",
+          "objective": "64-6",
+          "q": "Définition des cycles rapides ?"
+        },
+        {
+          "id": "psy2-64-7-2",
+          "objective": "64-7",
+          "q": "Que signifie l’héritabilité du trouble bipolaire ?"
+        },
+        {
+          "id": "psy2-64-11-3",
+          "objective": "64-11",
+          "q": "IRM et EEG sont-ils systématiques devant une manie ?"
+        },
+        {
+          "id": "psy2-64-13-4",
+          "objective": "64-13",
+          "q": "La lamotrigine traite-t-elle une manie aiguë ?"
+        },
+        {
+          "id": "psy2-64-14-5",
+          "objective": "64-14",
+          "q": "Quel danger en cas de déshydratation sous lithium ?"
+        },
+        {
+          "id": "psy2-64-15-6",
+          "objective": "64-15",
+          "q": "Quand discuter une ECT ?"
+        },
+        {
+          "id": "psy2-64-16-7",
+          "objective": "64-16",
+          "q": "Quel rôle pour le généraliste dans le suivi bipolaire ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d94181faa649ce1294c36051",
+          "title": "Trouble bipolaire de l'adolescent et l'adulte (64)",
+          "url": "https://app.notion.com/p/2ad37f85d94181faa649ce1294c36051?pvs=204",
+          "lastEdited": "2026-09-12T08:42:22.621Z"
+        }
+      ],
+      "colourMatches": 292,
+      "trees": [
+        "psy2-bipolaire-diagnostic",
+        "psy2-bipolaire-soins"
+      ]
+    },
+    {
+      "n": 65,
+      "objectives": [
+        {
+          "id": "65-1",
+          "rank": "A",
+          "title": "Connaître la définition des idées délirantes"
+        },
+        {
+          "id": "65-2",
+          "rank": "A",
+          "title": "Connaître la définition du trouble délirant persistant"
+        },
+        {
+          "id": "65-3",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque, le pronostic et l’évolution"
+        },
+        {
+          "id": "65-4",
+          "rank": "A",
+          "title": "Savoir faire l’analyse sémiologique d’un syndrome délirant"
+        },
+        {
+          "id": "65-5",
+          "rank": "B",
+          "title": "Connaître les critères diagnostiques DSM-5"
+        },
+        {
+          "id": "65-6",
+          "rank": "A",
+          "title": "Connaître les formes cliniques"
+        },
+        {
+          "id": "65-7",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques"
+        },
+        {
+          "id": "65-8",
+          "rank": "B",
+          "title": "Connaître les principes généraux de la prise en charge"
+        }
+      ],
+      "reviewedExistingCards": [],
+      "changedExistingCards": [],
+      "addedCards": [
+        {
+          "id": "psy2-65-1-0",
+          "objective": "65-1",
+          "q": "Comment distinguer une conviction délirante d’une croyance culturelle ?"
+        },
+        {
+          "id": "psy2-65-2-1",
+          "objective": "65-2",
+          "q": "Définition centrale du trouble délirant persistant ?"
+        },
+        {
+          "id": "psy2-65-3-2",
+          "objective": "65-3",
+          "q": "Le thème délirant prédit-il à lui seul une violence ?"
+        },
+        {
+          "id": "psy2-65-4-3",
+          "objective": "65-4",
+          "q": "Quels axes décrire dans un délire ?"
+        },
+        {
+          "id": "psy2-65-5-4",
+          "objective": "65-5",
+          "q": "Un délire bizarre exclut-il le trouble délirant persistant DSM-5 ?"
+        },
+        {
+          "id": "psy2-65-5-5",
+          "objective": "65-5",
+          "q": "Quelle place pour des hallucinations dans ce diagnostic ?"
+        },
+        {
+          "id": "psy2-65-6-6",
+          "objective": "65-6",
+          "q": "Qu’est-ce que l’érotomanie ?"
+        },
+        {
+          "id": "psy2-65-7-7",
+          "objective": "65-7",
+          "q": "Que rechercher devant un délire d’apparition tardive ?"
+        },
+        {
+          "id": "psy2-65-8-8",
+          "objective": "65-8",
+          "q": "Quelle attitude relationnelle adopter ?"
+        },
+        {
+          "id": "psy2-65-8-9",
+          "objective": "65-8",
+          "q": "Le diagnostic suffit-il à imposer une hospitalisation ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d941810a8eaaee91140cd6be",
+          "title": "Trouble délirant persistant (65)",
+          "url": "https://app.notion.com/p/2ad37f85d941810a8eaaee91140cd6be?pvs=204",
+          "lastEdited": "2026-04-23T17:51:53.806Z"
+        }
+      ],
+      "colourMatches": 29,
+      "trees": [
+        "psy2-delirant"
+      ]
+    },
+    {
+      "n": 66,
+      "objectives": [
+        {
+          "id": "66-1",
+          "rank": "A",
+          "title": "Connaître la définition d’un épisode dépressif caractérisé, d’un trouble dépressif récurrent"
+        },
+        {
+          "id": "66-2",
+          "rank": "B",
+          "title": "Connaître la prévalence"
+        },
+        {
+          "id": "66-3",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque, le pronostic et l’évolution"
+        },
+        {
+          "id": "66-4",
+          "rank": "B",
+          "title": "Savoir que l’étiologie est multifactorielle"
+        },
+        {
+          "id": "66-5",
+          "rank": "A",
+          "title": "Connaître la sémiologie du syndrome dépressif"
+        },
+        {
+          "id": "66-6",
+          "rank": "B",
+          "title": "Connaître les spécificités sémiologiques chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-7",
+          "rank": "B",
+          "title": "Connaître les spécificités sémiologiques chez la personne âgée"
+        },
+        {
+          "id": "66-8",
+          "rank": "A",
+          "title": "Connaître les critères DSM-5 de l’épisode dépressif caractérisé, les critères DSM-5 du trouble dépressif récurrent"
+        },
+        {
+          "id": "66-9",
+          "rank": "B",
+          "title": "Savoir rechercher un antécédent d’épisode maniaque ou hypomaniaque"
+        },
+        {
+          "id": "66-10",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques"
+        },
+        {
+          "id": "66-11",
+          "rank": "A",
+          "title": "Identifier le risque suicidaire"
+        },
+        {
+          "id": "66-12",
+          "rank": "B",
+          "title": "Connaître les indications d’un bilan complémentaire devant un syndrome dépressif"
+        },
+        {
+          "id": "66-13",
+          "rank": "B",
+          "title": "Connaître les principaux examens complémentaires devant un syndrome dépressif"
+        },
+        {
+          "id": "66-14",
+          "rank": "A",
+          "title": "Connaître les indications du recours au psychiatre"
+        },
+        {
+          "id": "66-15",
+          "rank": "B",
+          "title": "Connaître les indications d’hospitalisation en psychiatrie"
+        },
+        {
+          "id": "66-16",
+          "rank": "B",
+          "title": "Connaître les indications des traitements non pharmacologiques"
+        },
+        {
+          "id": "66-17",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques"
+        },
+        {
+          "id": "66-18",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-19",
+          "rank": "A",
+          "title": "Connaître la définition d’un trouble anxiété généralisée, d’un trouble panique, d’une agoraphobie, d’un trouble anxiété sociale, des phobies spécifiques, d’une anxiété de séparation, d’un refus scolaire anxieux"
+        },
+        {
+          "id": "66-20",
+          "rank": "B",
+          "title": "Connaître la prévalence des principaux troubles, l’âge de début des troubles"
+        },
+        {
+          "id": "66-21",
+          "rank": "B",
+          "title": "Savoir que l’étiologie est multifactorielle"
+        },
+        {
+          "id": "66-22",
+          "rank": "A",
+          "title": "Connaître la sémiologie des principaux troubles (voir item 64)"
+        },
+        {
+          "id": "66-23",
+          "rank": "B",
+          "title": "Connaître les spécificités chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-24",
+          "rank": "B",
+          "title": "Connaître les spécificités chez la personne âgée"
+        },
+        {
+          "id": "66-25",
+          "rank": "B",
+          "title": "Connaître les critères diagnostiques DSM-5"
+        },
+        {
+          "id": "66-26",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques"
+        },
+        {
+          "id": "66-27",
+          "rank": "B",
+          "title": "Connaître les principaux examens complémentaires et leurs indications"
+        },
+        {
+          "id": "66-28",
+          "rank": "A",
+          "title": "Connaître les indications du recours au psychiatre"
+        },
+        {
+          "id": "66-29",
+          "rank": "B",
+          "title": "Connaître les principaux généraux de la prise en charge"
+        },
+        {
+          "id": "66-30",
+          "rank": "A",
+          "title": "Connaître la prise en charge de l’attaque de panique"
+        },
+        {
+          "id": "66-31",
+          "rank": "B",
+          "title": "Connaître les indications des traitements non pharmacologiques"
+        },
+        {
+          "id": "66-32",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques au long cours chez l’adulte"
+        },
+        {
+          "id": "66-33",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-34",
+          "rank": "A",
+          "title": "Connaître la définition des obsessions, des compulsions, des troubles obsessionnels compulsifs"
+        },
+        {
+          "id": "66-35",
+          "rank": "B",
+          "title": "Connaître la prévalence, l’âge de début des troubles"
+        },
+        {
+          "id": "66-36",
+          "rank": "A",
+          "title": "Savoir que l’étiologie est multifactorielle"
+        },
+        {
+          "id": "66-37",
+          "rank": "A",
+          "title": "Connaître la sémiologie"
+        },
+        {
+          "id": "66-38",
+          "rank": "B",
+          "title": "Connaître les spécificités chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-39",
+          "rank": "B",
+          "title": "Connaître les spécificités chez la personne âgée"
+        },
+        {
+          "id": "66-40",
+          "rank": "B",
+          "title": "Connaître les critères diagnostiques DSM-5"
+        },
+        {
+          "id": "66-41",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques"
+        },
+        {
+          "id": "66-42",
+          "rank": "B",
+          "title": "Connaître les principaux généraux de la prise en charge"
+        },
+        {
+          "id": "66-43",
+          "rank": "B",
+          "title": "Connaître les principaux examens complémentaires et leurs indications"
+        },
+        {
+          "id": "66-44",
+          "rank": "B",
+          "title": "Connaître les indications des traitements non pharmacologiques"
+        },
+        {
+          "id": "66-45",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques au long cours chez l’adulte"
+        },
+        {
+          "id": "66-46",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-47",
+          "rank": "A",
+          "title": "Connaître la définition d’un événement potentiellement traumatique, d’un trouble stress aigu, d’un trouble stress post-traumatique, des symptômes dissociatifs"
+        },
+        {
+          "id": "66-48",
+          "rank": "B",
+          "title": "Connaître la prévalence"
+        },
+        {
+          "id": "66-49",
+          "rank": "B",
+          "title": "Savoir que l’étiologie est multifactorielle"
+        },
+        {
+          "id": "66-50",
+          "rank": "A",
+          "title": "Connaître la sémiologie"
+        },
+        {
+          "id": "66-51",
+          "rank": "B",
+          "title": "Connaître les spécificités chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-52",
+          "rank": "B",
+          "title": "Connaître les critères diagnostiques DSM-5 des troubles stress aigu et stress post-traumatique"
+        },
+        {
+          "id": "66-53",
+          "rank": "A",
+          "title": "Connaître les principaux généraux de la prise en charge immédiate au décours d’un événement potentiellement traumatique"
+        },
+        {
+          "id": "66-54",
+          "rank": "B",
+          "title": "Connaître les principaux généraux de la prise en charge des troubles stress aigu et post-traumatique"
+        },
+        {
+          "id": "66-55",
+          "rank": "B",
+          "title": "Connaître les indications des traitements non pharmacologiques"
+        },
+        {
+          "id": "66-56",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques au long cours chez l’adulte"
+        },
+        {
+          "id": "66-57",
+          "rank": "A",
+          "title": "Connaître la définition du stress et de l’adaptation au stress, des troubles de l’adaptation"
+        },
+        {
+          "id": "66-58",
+          "rank": "A",
+          "title": "Connaître la prévalence"
+        },
+        {
+          "id": "66-59",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque, le pronostic et l’évolution"
+        },
+        {
+          "id": "66-60",
+          "rank": "A",
+          "title": "Connaître la sémiologie"
+        },
+        {
+          "id": "66-61",
+          "rank": "B",
+          "title": "Connaître les spécificités sémiologiques chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-62",
+          "rank": "B",
+          "title": "Connaître les spécificités sémiologiques chez la personne âgée"
+        },
+        {
+          "id": "66-63",
+          "rank": "B",
+          "title": "Connaître les critères DSM-5 du trouble de l’adaptation"
+        },
+        {
+          "id": "66-64",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques"
+        },
+        {
+          "id": "66-65",
+          "rank": "A",
+          "title": "Connaître les indications du recours au psychiatre"
+        },
+        {
+          "id": "66-66",
+          "rank": "B",
+          "title": "Connaître les indications d’hospitalisation en psychiatrie"
+        },
+        {
+          "id": "66-67",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques"
+        },
+        {
+          "id": "66-68",
+          "rank": "B",
+          "title": "Connaître les indications des traitements pharmacologiques chez l’enfant et l’adolescent"
+        },
+        {
+          "id": "66-69",
+          "rank": "B",
+          "title": "Connaître les indications des traitements non pharmacologiques"
+        },
+        {
+          "id": "66-70",
+          "rank": "A",
+          "title": "Connaître la définition de la personnalité, des troubles de la personnalité (critères diagnostiques généraux DSM-5)"
+        },
+        {
+          "id": "66-71",
+          "rank": "B",
+          "title": "Connaître la prévalence"
+        },
+        {
+          "id": "66-72",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque, le pronostic et l’évolution"
+        },
+        {
+          "id": "66-73",
+          "rank": "A",
+          "title": "Connaître la sémiologie"
+        },
+        {
+          "id": "66-74",
+          "rank": "B",
+          "title": "Connaître les principes généraux de la prise en charge"
+        }
+      ],
+      "reviewedExistingCards": [
+        "0735dc9f65f5",
+        "22b792b98630",
+        "933a45694e20",
+        "56d3ee00d440",
+        "a550530c31c1",
+        "cd7cb46670fd",
+        "e4f33648f9b2",
+        "05763190686b",
+        "0f187a1c8791",
+        "3d34b6d77036",
+        "a04e4dc634dc",
+        "67e2a8531cfb",
+        "87bf83310a13",
+        "c53b5d9dd6c4",
+        "0a06a5bfdef2",
+        "a9032904c713",
+        "de257b378679",
+        "368541e43a2b",
+        "69aff0c76787",
+        "dde1f67e574c",
+        "effe6cc2c406",
+        "fc74f2c785bf",
+        "1eee8c4c050b",
+        "25a85a12615f",
+        "2c53ede580f3",
+        "4f308cb60663",
+        "22ddf7d2053a",
+        "44e2f5dba8d4",
+        "63444ceac961",
+        "a17543958038",
+        "ad5d926bd37d",
+        "e789868f0d2a",
+        "35eedb8a4252",
+        "c378423b8468",
+        "d7ad8ba12295",
+        "deaaf4dbb222",
+        "346ad988e48b",
+        "5a4639d6da18",
+        "8fda6cc0e4dd",
+        "4a6d89195e55",
+        "87d290696b50",
+        "e1e718a61a71",
+        "035a7f9f1aaf",
+        "2c2cf5f1aef5",
+        "98d0a7b5d551",
+        "a07823adab6b",
+        "7309a3e38eeb",
+        "120c9e937ae8",
+        "2ed5f9b3ed83",
+        "31767a293a1d",
+        "94f1b53e8555",
+        "de225c67001f",
+        "e2c9fe763af2"
+      ],
+      "changedExistingCards": [
+        "0735dc9f65f5",
+        "933a45694e20",
+        "cd7cb46670fd",
+        "e4f33648f9b2",
+        "05763190686b",
+        "3d34b6d77036",
+        "a04e4dc634dc",
+        "87bf83310a13",
+        "c53b5d9dd6c4",
+        "a9032904c713",
+        "de257b378679",
+        "368541e43a2b",
+        "effe6cc2c406",
+        "25a85a12615f",
+        "4f308cb60663",
+        "a17543958038",
+        "35eedb8a4252",
+        "d7ad8ba12295",
+        "346ad988e48b",
+        "4a6d89195e55",
+        "87d290696b50",
+        "e1e718a61a71",
+        "035a7f9f1aaf",
+        "2c2cf5f1aef5",
+        "a07823adab6b",
+        "7309a3e38eeb",
+        "120c9e937ae8",
+        "2ed5f9b3ed83",
+        "94f1b53e8555",
+        "de225c67001f",
+        "e2c9fe763af2"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-66-1-0",
+          "objective": "66-1",
+          "q": "Quand parler de trouble dépressif récurrent ?"
+        },
+        {
+          "id": "psy2-66-2-1",
+          "objective": "66-2",
+          "q": "Pourquoi préciser la période d’une prévalence de dépression ?"
+        },
+        {
+          "id": "psy2-66-3-2",
+          "objective": "66-3",
+          "q": "Que vérifier avant de conclure à une dépression résistante ?"
+        },
+        {
+          "id": "psy2-66-4-3",
+          "objective": "66-4",
+          "q": "La dépression est-elle un simple déficit de sérotonine ?"
+        },
+        {
+          "id": "psy2-66-5-4",
+          "objective": "66-5",
+          "q": "Quels domaines explorer dans un syndrome dépressif ?"
+        },
+        {
+          "id": "psy2-66-6-5",
+          "objective": "66-6",
+          "q": "Comment une dépression peut-elle se présenter chez l’enfant ?"
+        },
+        {
+          "id": "psy2-66-7-6",
+          "objective": "66-7",
+          "q": "Une plainte mnésique exclut-elle une dépression ?"
+        },
+        {
+          "id": "psy2-66-8-7",
+          "objective": "66-8",
+          "q": "Quel seuil DSM-5 pour un épisode dépressif ?"
+        },
+        {
+          "id": "psy2-66-9-8",
+          "objective": "66-9",
+          "q": "Que demander pour rechercher une hypomanie passée ?"
+        },
+        {
+          "id": "psy2-66-10-9",
+          "objective": "66-10",
+          "q": "Un événement stressant exclut-il un épisode dépressif ?"
+        },
+        {
+          "id": "psy2-66-11-10",
+          "objective": "66-11",
+          "q": "Quelles questions pour évaluer une crise suicidaire ?"
+        },
+        {
+          "id": "psy2-66-12-11",
+          "objective": "66-12",
+          "q": "Pourquoi réaliser un bilan complémentaire dans une dépression ?"
+        },
+        {
+          "id": "psy2-66-13-12",
+          "objective": "66-13",
+          "q": "Une imagerie cérébrale est-elle systématique dans la dépression ?"
+        },
+        {
+          "id": "psy2-66-15-13",
+          "objective": "66-15",
+          "q": "Quand hospitaliser un patient dépressif ?"
+        },
+        {
+          "id": "psy2-66-16-14",
+          "objective": "66-16",
+          "q": "Quelle place pour l’ECT ?"
+        },
+        {
+          "id": "psy2-66-17-15",
+          "objective": "66-17",
+          "q": "Combien de temps poursuivre un antidépresseur après rémission ?"
+        },
+        {
+          "id": "psy2-66-18-16",
+          "objective": "66-18",
+          "q": "Quelle place de la fluoxétine chez le jeune dépressif ?"
+        },
+        {
+          "id": "psy2-66-19-17",
+          "objective": "66-19",
+          "q": "Une attaque de panique suffit-elle au trouble panique ?"
+        },
+        {
+          "id": "psy2-66-20-18",
+          "objective": "66-20",
+          "q": "À quels âges débutent souvent les troubles anxieux ?"
+        },
+        {
+          "id": "psy2-66-21-19",
+          "objective": "66-21",
+          "q": "Existe-t-il un test biologique diagnostique d’anxiété ?"
+        },
+        {
+          "id": "psy2-66-22-20",
+          "objective": "66-22",
+          "q": "Qu’est-ce qui entretient souvent l’anxiété ?"
+        },
+        {
+          "id": "psy2-66-23-21",
+          "objective": "66-23",
+          "q": "Le refus scolaire anxieux est-il un diagnostic DSM autonome ?"
+        },
+        {
+          "id": "psy2-66-24-22",
+          "objective": "66-24",
+          "q": "Que rechercher devant une anxiété nouvelle chez la personne âgée ?"
+        },
+        {
+          "id": "psy2-66-25-23",
+          "objective": "66-25",
+          "q": "Combien de signes associés pour un TAG ?"
+        },
+        {
+          "id": "psy2-66-26-24",
+          "objective": "66-26",
+          "q": "Un antécédent de panique dispense-t-il d’explorer une nouvelle douleur thoracique ?"
+        },
+        {
+          "id": "psy2-66-27-25",
+          "objective": "66-27",
+          "q": "Quel bilan biologique systématique confirme un trouble anxieux ?"
+        },
+        {
+          "id": "psy2-66-29-26",
+          "objective": "66-29",
+          "q": "Quel socle pour traiter un trouble anxieux ?"
+        },
+        {
+          "id": "psy2-66-31-27",
+          "objective": "66-31",
+          "q": "Quelle place pour l’exposition dans les phobies ?"
+        },
+        {
+          "id": "psy2-66-32-28",
+          "objective": "66-32",
+          "q": "Les benzodiazépines sont-elles un traitement de fond de l’anxiété ?"
+        },
+        {
+          "id": "psy2-66-33-29",
+          "objective": "66-33",
+          "q": "Un ISRS a-t-il la même AMM chez tous les enfants anxieux ?"
+        },
+        {
+          "id": "psy2-66-35-30",
+          "objective": "66-35",
+          "q": "Le TOC appartient-il au chapitre DSM-5 des troubles anxieux ?"
+        },
+        {
+          "id": "psy2-66-38-31",
+          "objective": "66-38",
+          "q": "Pourquoi évaluer l’accommodation familiale dans un TOC ?"
+        },
+        {
+          "id": "psy2-66-39-32",
+          "objective": "66-39",
+          "q": "Que faire devant un TOC d’apparition tardive ?"
+        },
+        {
+          "id": "psy2-66-40-33",
+          "objective": "66-40",
+          "q": "Faut-il toujours plus d’une heure de rituels pour diagnostiquer un TOC ?"
+        },
+        {
+          "id": "psy2-66-41-34",
+          "objective": "66-41",
+          "q": "TOC et personnalité obsessionnelle-compulsive peuvent-ils coexister ?"
+        },
+        {
+          "id": "psy2-66-42-35",
+          "objective": "66-42",
+          "q": "Quels sont les deux principaux traitements du TOC ?"
+        },
+        {
+          "id": "psy2-66-43-36",
+          "objective": "66-43",
+          "q": "Un tic associé au TOC impose-t-il une IRM ?"
+        },
+        {
+          "id": "psy2-66-44-37",
+          "objective": "66-44",
+          "q": "Comment réaliser la prévention de la réponse ?"
+        },
+        {
+          "id": "psy2-66-45-38",
+          "objective": "66-45",
+          "q": "Pourquoi ne pas conclure trop vite à l’échec d’un ISRS dans le TOC ?"
+        },
+        {
+          "id": "psy2-66-46-39",
+          "objective": "66-46",
+          "q": "Quels ISRS disposent de repères d’âge pédiatriques dans le TOC ?"
+        },
+        {
+          "id": "psy2-66-48-40",
+          "objective": "66-48",
+          "q": "Toute exposition traumatique conduit-elle à un TSPT ?"
+        },
+        {
+          "id": "psy2-66-49-41",
+          "objective": "66-49",
+          "q": "Quels facteurs influencent le risque de TSPT ?"
+        },
+        {
+          "id": "psy2-66-51-42",
+          "objective": "66-51",
+          "q": "Comment un TSPT peut-il s’exprimer chez le jeune enfant ?"
+        },
+        {
+          "id": "psy2-66-52-43",
+          "objective": "66-52",
+          "q": "Quels seuils DSM-5 pour le TSPT de l’adulte ?"
+        },
+        {
+          "id": "psy2-66-54-44",
+          "objective": "66-54",
+          "q": "Faut-il attendre un mois pour soigner un stress aigu invalidant ?"
+        },
+        {
+          "id": "psy2-66-55-45",
+          "objective": "66-55",
+          "q": "Quelles psychothérapies pour un TSPT ?"
+        },
+        {
+          "id": "psy2-66-56-46",
+          "objective": "66-56",
+          "q": "Les benzodiazépines préviennent-elles le TSPT ?"
+        },
+        {
+          "id": "psy2-66-59-47",
+          "objective": "66-59",
+          "q": "Le trouble de l’adaptation est-il toujours bénin ?"
+        },
+        {
+          "id": "psy2-66-61-48",
+          "objective": "66-61",
+          "q": "Que rechercher chez un adolescent présentant des difficultés après un stress ?"
+        },
+        {
+          "id": "psy2-66-62-49",
+          "objective": "66-62",
+          "q": "Quel piège chez une personne âgée après une perte ?"
+        },
+        {
+          "id": "psy2-66-63-50",
+          "objective": "66-63",
+          "q": "Quel délai d’apparition pour le trouble de l’adaptation ?"
+        },
+        {
+          "id": "psy2-66-64-51",
+          "objective": "66-64",
+          "q": "Le lien avec un stress suffit-il au diagnostic d’adaptation ?"
+        },
+        {
+          "id": "psy2-66-66-52",
+          "objective": "66-66",
+          "q": "Quelle place pour l’hospitalisation dans le trouble de l’adaptation ?"
+        },
+        {
+          "id": "psy2-66-67-53",
+          "objective": "66-67",
+          "q": "Faut-il systématiquement un antidépresseur dans le trouble de l’adaptation ?"
+        },
+        {
+          "id": "psy2-66-68-54",
+          "objective": "66-68",
+          "q": "Quel médicament de routine pour l’adaptation chez l’enfant ?"
+        },
+        {
+          "id": "psy2-66-69-55",
+          "objective": "66-69",
+          "q": "Quels objectifs non médicamenteux dans l’adaptation ?"
+        },
+        {
+          "id": "psy2-66-70-56",
+          "objective": "66-70",
+          "q": "Peut-on diagnostiquer une personnalité sur une crise isolée ?"
+        },
+        {
+          "id": "psy2-66-71-57",
+          "objective": "66-71",
+          "q": "Pourquoi ne pas appliquer un même taux à toutes les personnalités ?"
+        },
+        {
+          "id": "psy2-66-72-58",
+          "objective": "66-72",
+          "q": "À quel âge peut-on diagnostiquer une personnalité antisociale ?"
+        },
+        {
+          "id": "psy2-66-74-59",
+          "objective": "66-74",
+          "q": "Quel socle thérapeutique pour les troubles de personnalité ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d941812f8b7ddd3576a95a85",
+          "title": "Troubles anxieux (66)",
+          "url": "https://app.notion.com/p/2ad37f85d941812f8b7ddd3576a95a85?pvs=204",
+          "lastEdited": "2026-04-23T18:27:51.143Z"
+        },
+        {
+          "id": "2ad37f85d9418171a527c4b10deeffd7",
+          "title": "TAG (trouble anxieux généralisé)",
+          "url": "https://app.notion.com/p/2ad37f85d9418171a527c4b10deeffd7?pvs=204",
+          "lastEdited": "2025-12-26T16:34:06.176Z"
+        },
+        {
+          "id": "2ad37f85d9418189b021f847ee6e1ee4",
+          "title": "Trouble panique",
+          "url": "https://app.notion.com/p/2ad37f85d9418189b021f847ee6e1ee4?pvs=204",
+          "lastEdited": "2025-11-16T17:59:44.666Z"
+        },
+        {
+          "id": "2ad37f85d941816c89ccdff82eb9ef71",
+          "title": "Trouble phobique",
+          "url": "https://app.notion.com/p/2ad37f85d941816c89ccdff82eb9ef71?pvs=204",
+          "lastEdited": "2025-12-26T18:34:34.154Z"
+        },
+        {
+          "id": "2ad37f85d941813a860be97c240ceb3c",
+          "title": "TOC (trouble obsessionnel compulsif)",
+          "url": "https://app.notion.com/p/2ad37f85d941813a860be97c240ceb3c?pvs=204",
+          "lastEdited": "2026-09-24T08:21:39.328Z"
+        },
+        {
+          "id": "2ad37f85d94181249ef9f5c347d27c66",
+          "title": "Trouble de stress post-traumatique",
+          "url": "https://app.notion.com/p/2ad37f85d94181249ef9f5c347d27c66?pvs=204",
+          "lastEdited": "2026-09-29T10:03:51.376Z"
+        },
+        {
+          "id": "2ad37f85d9418189bac4ff60ffd6e8ea",
+          "title": "Trouble de l’adaptation",
+          "url": "https://app.notion.com/p/2ad37f85d9418189bac4ff60ffd6e8ea?pvs=204",
+          "lastEdited": "2026-09-24T08:21:33.885Z"
+        },
+        {
+          "id": "2ad37f85d94181f980cde77a11ce5542",
+          "title": "Trouble de personnalité (66)",
+          "url": "https://app.notion.com/p/2ad37f85d94181f980cde77a11ce5542?pvs=204",
+          "lastEdited": "2026-04-23T17:48:16.501Z"
+        },
+        {
+          "id": "2ad37f85d941813daa6bd8eacf591851",
+          "title": "Trouble dépressif (66)",
+          "url": "https://app.notion.com/p/2ad37f85d941813daa6bd8eacf591851?pvs=204",
+          "lastEdited": "2026-04-23T18:27:51.143Z"
+        }
+      ],
+      "colourMatches": 449,
+      "trees": [
+        "psy2-depression",
+        "psy2-anxiete",
+        "psy2-toc",
+        "psy2-trauma",
+        "psy2-adaptation",
+        "psy2-personnalite"
+      ]
+    },
+    {
+      "n": 67,
+      "objectives": [
+        {
+          "id": "67-1",
+          "rank": "A",
+          "title": "Connaître la définition et la sémiologie des troubles du spectre de l’autisme"
+        },
+        {
+          "id": "67-2",
+          "rank": "B",
+          "title": "Connaître les critères diagnostiques DSM-5"
+        },
+        {
+          "id": "67-3",
+          "rank": "B",
+          "title": "Connaître les principes généraux de la prise en charge"
+        },
+        {
+          "id": "67-4",
+          "rank": "A",
+          "title": "Connaître la définition et la sémiologie d’un trouble déficit de l’attention hyperactivité (TDAH)"
+        },
+        {
+          "id": "67-5",
+          "rank": "B",
+          "title": "Connaître les critères diagnostiques selon l’âge"
+        },
+        {
+          "id": "67-6",
+          "rank": "B",
+          "title": "Connaître les principes des traitements psychosociaux et médicamenteux"
+        }
+      ],
+      "reviewedExistingCards": [
+        "0ba556c8f3c8",
+        "bec7fac96d93",
+        "c2ce26003ca9",
+        "c5e45d0789ee",
+        "10ea41525518",
+        "41c20e98d86e",
+        "8d0159543506",
+        "8ee66b32b233",
+        "97dd9f59328c"
+      ],
+      "changedExistingCards": [
+        "0ba556c8f3c8",
+        "bec7fac96d93",
+        "c5e45d0789ee",
+        "10ea41525518",
+        "41c20e98d86e",
+        "97dd9f59328c"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-67-2-0",
+          "objective": "67-2",
+          "q": "Le CRA est-il indispensable à tout diagnostic de TSA ?"
+        },
+        {
+          "id": "psy2-67-2-1",
+          "objective": "67-2",
+          "q": "Quels outils confirment seuls un TSA ?"
+        },
+        {
+          "id": "psy2-67-3-2",
+          "objective": "67-3",
+          "q": "Faut-il attendre tous les bilans avant de soutenir la communication ?"
+        },
+        {
+          "id": "psy2-67-3-3",
+          "objective": "67-3",
+          "q": "Existe-t-il un médicament des caractéristiques centrales du TSA ?"
+        },
+        {
+          "id": "psy2-67-5-4",
+          "objective": "67-5",
+          "q": "Quels seuils de symptômes pour le TDAH ?"
+        },
+        {
+          "id": "psy2-67-5-5",
+          "objective": "67-5",
+          "q": "Le bilan neuropsychologique est-il obligatoire pour diagnostiquer un TDAH ?"
+        },
+        {
+          "id": "psy2-67-6-6",
+          "objective": "67-6",
+          "q": "Le méthylphénidate est-il une amphétamine ?"
+        },
+        {
+          "id": "psy2-67-6-7",
+          "objective": "67-6",
+          "q": "Que surveiller sous méthylphénidate ?"
+        },
+        {
+          "id": "psy2-67-6-8",
+          "objective": "67-6",
+          "q": "PAP, PPS et AESH sont-ils équivalents ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d94181dba6f6c064f18a6b33",
+          "title": "Troubles du neurodéveloppement (55)",
+          "url": "https://app.notion.com/p/2ad37f85d94181dba6f6c064f18a6b33?pvs=204",
+          "lastEdited": "2026-04-23T18:18:30.440Z"
+        },
+        {
+          "id": "2ad37f85d94181a98b13f6429b62b15c",
+          "title": "TSA (troubles du spectre de l’autisme)",
+          "url": "https://app.notion.com/p/2ad37f85d94181a98b13f6429b62b15c?pvs=204",
+          "lastEdited": "2026-09-12T08:41:53.575Z"
+        },
+        {
+          "id": "2ad37f85d94181c8a1dacdbd652dd4f9",
+          "title": "TDAH",
+          "url": "https://app.notion.com/p/2ad37f85d94181c8a1dacdbd652dd4f9?pvs=204",
+          "lastEdited": "2026-09-24T08:21:34.881Z"
+        }
+      ],
+      "colourMatches": 43,
+      "trees": [
+        "psy2-tsa",
+        "psy2-tdah"
+      ]
+    },
+    {
+      "n": 68,
+      "objectives": [
+        {
+          "id": "68-1",
+          "rank": "A",
+          "title": "Connaître les caractéristiques de l’adolescence normale"
+        },
+        {
+          "id": "68-2",
+          "rank": "A",
+          "title": "Connaître la définition des troubles du comportement de l’enfant et de l’adolescent"
+        },
+        {
+          "id": "68-3",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque"
+        },
+        {
+          "id": "68-4",
+          "rank": "A",
+          "title": "Connaître le diagnostic positif des troubles du comportement de l’enfant et de l’adolescent"
+        }
+      ],
+      "reviewedExistingCards": [
+        "0fd0764704dc",
+        "30be76e232c2",
+        "b67c05bcb37b",
+        "5e9103b0db7c",
+        "617925904dc3",
+        "65e6839f05ac",
+        "04f4fdd2d239",
+        "0e6922e90301",
+        "1c84feeec81a",
+        "39bbe070bf19",
+        "512c0b455ed7",
+        "724f29eaf8e3",
+        "a4a578dc9875",
+        "f34f216967bd"
+      ],
+      "changedExistingCards": [
+        "30be76e232c2",
+        "b67c05bcb37b",
+        "5e9103b0db7c",
+        "0e6922e90301",
+        "1c84feeec81a",
+        "39bbe070bf19",
+        "512c0b455ed7",
+        "a4a578dc9875"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-68-3-0",
+          "objective": "68-3",
+          "q": "Les difficultés familiales expliquent-elles seules un trouble des conduites ?"
+        },
+        {
+          "id": "psy2-68-4-1",
+          "objective": "68-4",
+          "q": "Quel seuil DSM-5 pour le trouble des conduites ?"
+        },
+        {
+          "id": "psy2-68-4-2",
+          "objective": "68-4",
+          "q": "Un TOP doit-il être présent dans deux lieux ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d94181d48caade1bf83d8a38",
+          "title": "Troubles du comportement de l'adolescent (68)",
+          "url": "https://app.notion.com/p/2ad37f85d94181d48caade1bf83d8a38?pvs=204",
+          "lastEdited": "2026-04-23T18:20:11.267Z"
+        }
+      ],
+      "colourMatches": 37,
+      "trees": [
+        "psy2-comportement"
+      ]
+    },
+    {
+      "n": 69,
+      "objectives": [
+        {
+          "id": "69-1",
+          "rank": "A",
+          "title": "Connaître la définition des principaux troubles concernés, y compris le post-partum blues et le trouble de stress post-traumatique en lien avec la grossesse"
+        },
+        {
+          "id": "69-2",
+          "rank": "B",
+          "title": "Connaître la prévalence"
+        },
+        {
+          "id": "69-3",
+          "rank": "B",
+          "title": "Connaître les facteurs de risque prédisposant à un trouble psychique de la grossesse et du post partum"
+        },
+        {
+          "id": "69-4",
+          "rank": "B",
+          "title": "Connaître les spécificités sémiologiques d’un trouble psychique en période anténatale"
+        },
+        {
+          "id": "69-5",
+          "rank": "B",
+          "title": "Connaître les spécificités sémiologiques d’un trouble psychique en période post-natale"
+        },
+        {
+          "id": "69-6",
+          "rank": "B",
+          "title": "Connaître les principaux diagnostics différentiels psychiatriques et non psychiatriques spécifiques à la périnatalité"
+        },
+        {
+          "id": "69-7",
+          "rank": "B",
+          "title": "Connaître les indications spécifiques à la périnatalité d’un bilan complémentaire en urgence"
+        },
+        {
+          "id": "69-8",
+          "rank": "B",
+          "title": "Connaître les principes généraux spécifiques à la périnatalité"
+        }
+      ],
+      "reviewedExistingCards": [
+        "060d42f69dbf",
+        "21cad823077f",
+        "8886dc6b4808",
+        "cb7de8383245",
+        "eb51584c9e75"
+      ],
+      "changedExistingCards": [
+        "060d42f69dbf",
+        "21cad823077f",
+        "8886dc6b4808"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-69-2-0",
+          "objective": "69-2",
+          "q": "Quel ordre de grandeur pour la psychose du post-partum ?"
+        },
+        {
+          "id": "psy2-69-3-1",
+          "objective": "69-3",
+          "q": "Quel antécédent impose une anticipation particulière du post-partum ?"
+        },
+        {
+          "id": "psy2-69-4-2",
+          "objective": "69-4",
+          "q": "L’absence de signes physiques est-elle obligatoire dans le déni de grossesse ?"
+        },
+        {
+          "id": "psy2-69-5-3",
+          "objective": "69-5",
+          "q": "Blues ou dépression : quand réévaluer ?"
+        },
+        {
+          "id": "psy2-69-5-4",
+          "objective": "69-5",
+          "q": "Pensée intrusive envers le bébé signifie-t-elle intention de violence ?"
+        },
+        {
+          "id": "psy2-69-6-5",
+          "objective": "69-6",
+          "q": "Quelles urgences somatiques devant une confusion du post-partum ?"
+        },
+        {
+          "id": "psy2-69-7-6",
+          "objective": "69-7",
+          "q": "Que faire devant psychose et céphalée sévère en post-partum ?"
+        },
+        {
+          "id": "psy2-69-8-7",
+          "objective": "69-8",
+          "q": "Faut-il arrêter brutalement les psychotropes à la découverte d’une grossesse ?"
+        },
+        {
+          "id": "psy2-69-8-8",
+          "objective": "69-8",
+          "q": "Une psychose du post-partum permet-elle d’attendre le prochain rendez-vous ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d941817a9eefe0b5c718d849",
+          "title": "Troubles psychiques : grossesse et post-partum (69)",
+          "url": "https://app.notion.com/p/2ad37f85d941817a9eefe0b5c718d849?pvs=204",
+          "lastEdited": "2026-04-23T18:14:42.477Z"
+        }
+      ],
+      "colourMatches": 65,
+      "trees": [
+        "psy2-postpartum",
+        "psy2-grossesse"
+      ]
+    },
+    {
+      "n": 70,
+      "objectives": [
+        {
+          "id": "70-1",
+          "rank": "A",
+          "title": "Connaître la définition des troubles psychiatriques du sujet âgé"
+        },
+        {
+          "id": "70-2",
+          "rank": "B",
+          "title": "Connaître la prévalence des troubles psychiatriques du sujet âgé"
+        },
+        {
+          "id": "70-3",
+          "rank": "B",
+          "title": "Connaître la prévalence des symptômes psycho-comportementaux chez le sujet âgé dément"
+        },
+        {
+          "id": "70-4",
+          "rank": "B",
+          "title": "Connaître les spécificités en matière de facteurs de risque, de pronostic et d’évolution des troubles psychiatriques du sujet âgé"
+        },
+        {
+          "id": "70-5",
+          "rank": "A",
+          "title": "Connaître les spécificités sémiologiques des troubles psychiatriques du sujet âgé"
+        },
+        {
+          "id": "70-6",
+          "rank": "A",
+          "title": "Connaître la sémiologie des symptômes psycho-comportementaux chez le sujet âgé dément"
+        },
+        {
+          "id": "70-7",
+          "rank": "B",
+          "title": "Connaître les spécificités du diagnostic différentiel et comorbide chez le sujet âgé"
+        },
+        {
+          "id": "70-8",
+          "rank": "B",
+          "title": "Connaître le bilan clinique et paraclinique spécifique au sujet âgé"
+        },
+        {
+          "id": "70-9",
+          "rank": "A",
+          "title": "Connaître les spécificités du maniement des anxiolytiques et hypnotiques chez le sujet âgé"
+        },
+        {
+          "id": "70-10",
+          "rank": "B",
+          "title": "Connaître les spécificités du maniement des psychotropes chez le sujet âgé"
+        }
+      ],
+      "reviewedExistingCards": [
+        "104a54bf3f44",
+        "7795e8cf4719",
+        "7d0aa4f6c0e6",
+        "854f02e28285",
+        "17c01e70a893",
+        "1948ea819b64",
+        "b04c62b71615",
+        "c4b0cacb38e5",
+        "e4d23bbe199e",
+        "166de8446e84",
+        "9457d6e422f2",
+        "9a6b778481a0",
+        "a29cf409aea6",
+        "cd5012b9f650",
+        "e44e242a1763",
+        "075c6694a245",
+        "4b9a4282f40c",
+        "77ce141baa37",
+        "e57fed2eece5",
+        "f1794436a1a0"
+      ],
+      "changedExistingCards": [
+        "7795e8cf4719",
+        "17c01e70a893",
+        "1948ea819b64",
+        "c4b0cacb38e5",
+        "166de8446e84",
+        "9457d6e422f2",
+        "9a6b778481a0",
+        "a29cf409aea6",
+        "075c6694a245",
+        "e57fed2eece5",
+        "f1794436a1a0"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-70-2-0",
+          "objective": "70-2",
+          "q": "Pourquoi distinguer symptômes dépressifs et EDC en EHPAD ?"
+        },
+        {
+          "id": "psy2-70-3-1",
+          "objective": "70-3",
+          "q": "Les SPCD sont-ils présents de façon constante ?"
+        },
+        {
+          "id": "psy2-70-4-2",
+          "objective": "70-4",
+          "q": "La dépression est-elle normale avec le vieillissement ?"
+        },
+        {
+          "id": "psy2-70-7-3",
+          "objective": "70-7",
+          "q": "Quels signes font évoquer une confusion ?"
+        },
+        {
+          "id": "psy2-70-8-4",
+          "objective": "70-8",
+          "q": "La GDS pose-t-elle le diagnostic de dépression ?"
+        },
+        {
+          "id": "psy2-70-10-5",
+          "objective": "70-10",
+          "q": "Quel danger particulier des antipsychotiques dans la maladie à corps de Lewy ?"
+        },
+        {
+          "id": "psy2-70-10-6",
+          "objective": "70-10",
+          "q": "Quel premier traitement d’une agitation aiguë chez une personne âgée ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d94181a9a5bae247c7d1ce8e",
+          "title": "Troubles psychiques du sujet âgé (70)",
+          "url": "https://app.notion.com/p/2ad37f85d94181a9a5bae247c7d1ce8e?pvs=204",
+          "lastEdited": "2026-09-13T12:50:07.338Z"
+        }
+      ],
+      "colourMatches": 89,
+      "trees": [
+        "psy2-age-diagnostic",
+        "psy2-age-traitement"
+      ]
+    },
+    {
+      "n": 71,
+      "objectives": [
+        {
+          "id": "71-1",
+          "rank": "A",
+          "title": "Connaître la définition et l’étiopathogénie des troubles des conduites alimentaires (TCA)"
+        },
+        {
+          "id": "71-2",
+          "rank": "B",
+          "title": "Connaître la physiopathologie des TCA"
+        },
+        {
+          "id": "71-3",
+          "rank": "B",
+          "title": "Anorexie mentale : connaître les données épidémiologiques"
+        },
+        {
+          "id": "71-4",
+          "rank": "A",
+          "title": "Anorexie mentale : connaître la démarche diagnostique"
+        },
+        {
+          "id": "71-5",
+          "rank": "A",
+          "title": "Anorexie mentale : connaître les éléments cliniques associés"
+        },
+        {
+          "id": "71-6",
+          "rank": "A",
+          "title": "Anorexie mentale : connaître les diagnostics différentiels"
+        },
+        {
+          "id": "71-7",
+          "rank": "A",
+          "title": "Anorexie mentale : connaître les diagnostics associés"
+        },
+        {
+          "id": "71-8",
+          "rank": "A",
+          "title": "Anorexie mentale : connaître l’évolution spontanée et sous traitement"
+        },
+        {
+          "id": "71-9",
+          "rank": "B",
+          "title": "Anorexie mentale : connaître le bilan clinique et paraclinique"
+        },
+        {
+          "id": "71-10",
+          "rank": "A",
+          "title": "Anorexie mentale : connaître les grands principes de la prise en charge"
+        },
+        {
+          "id": "71-11",
+          "rank": "B",
+          "title": "Anorexie mentale : connaître les indications de l’hospitalisation"
+        },
+        {
+          "id": "71-12",
+          "rank": "B",
+          "title": "Anorexie mentale : connaître les principes de la psychothérapie"
+        },
+        {
+          "id": "71-13",
+          "rank": "B",
+          "title": "Anorexie mentale : connaître les principes de la pharmacothérapie"
+        },
+        {
+          "id": "71-14",
+          "rank": "B",
+          "title": "Anorexie mentale : connaître les principes de la nutrition"
+        },
+        {
+          "id": "71-15",
+          "rank": "B",
+          "title": "Boulimie : connaître les données épidémiologiques"
+        },
+        {
+          "id": "71-16",
+          "rank": "A",
+          "title": "Boulimie : connaître la démarche diagnostique"
+        },
+        {
+          "id": "71-17",
+          "rank": "A",
+          "title": "Boulimie : connaître les éléments cliniques associés"
+        },
+        {
+          "id": "71-18",
+          "rank": "A",
+          "title": "Boulimie : connaître les diagnostics différentiels"
+        },
+        {
+          "id": "71-19",
+          "rank": "A",
+          "title": "Boulimie : connaître les diagnostics associés"
+        },
+        {
+          "id": "71-20",
+          "rank": "A",
+          "title": "Boulimie : connaître l’évolution spontanée et sous traitement"
+        },
+        {
+          "id": "71-21",
+          "rank": "A",
+          "title": "Boulimie : connaître le bilan clinique et paraclinique"
+        },
+        {
+          "id": "71-22",
+          "rank": "A",
+          "title": "Boulimie : connaître les grands principes de la prise en charge"
+        },
+        {
+          "id": "71-23",
+          "rank": "B",
+          "title": "Boulimie : connaître les indications de l’hospitalisation"
+        },
+        {
+          "id": "71-24",
+          "rank": "B",
+          "title": "Boulimie : connaître les principes de la psychothérapie"
+        },
+        {
+          "id": "71-25",
+          "rank": "B",
+          "title": "Boulimie : connaître les principes de la pharmacothérapie"
+        },
+        {
+          "id": "71-26",
+          "rank": "B",
+          "title": "Boulimie : connaître les principes de la nutrition"
+        },
+        {
+          "id": "71-27",
+          "rank": "B",
+          "title": "Hyperphagie boulimique : connaître les données épidémiologiques"
+        },
+        {
+          "id": "71-28",
+          "rank": "A",
+          "title": "Hyperphagie boulimique : connaître la démarche diagnostique"
+        },
+        {
+          "id": "71-29",
+          "rank": "A",
+          "title": "Hyperphagie boulimique : connaître les éléments cliniques associés"
+        },
+        {
+          "id": "71-30",
+          "rank": "A",
+          "title": "Hyperphagie boulimique : connaître les diagnostics différentiels"
+        },
+        {
+          "id": "71-31",
+          "rank": "A",
+          "title": "Hyperphagie boulimique : connaître les diagnostics associés"
+        },
+        {
+          "id": "71-32",
+          "rank": "A",
+          "title": "Hyperphagie boulimique : connaître les grands principes de la prise en charge"
+        },
+        {
+          "id": "71-33",
+          "rank": "A",
+          "title": "Connaître la définition de la pica"
+        },
+        {
+          "id": "71-34",
+          "rank": "A",
+          "title": "Connaître la définition du mérycisme"
+        }
+      ],
+      "reviewedExistingCards": [
+        "6e442624f10c",
+        "a3e797061cb3",
+        "d504a11edf78",
+        "e27922302cf0",
+        "41fbb27ea50a",
+        "4a1e105d8c5c",
+        "4bb083896f70",
+        "639336976214",
+        "2561acb7d84d",
+        "53de5043aa8f",
+        "603e70e5f5cb",
+        "6ef142581ed5",
+        "9eec872c8ca4",
+        "078d4d74a8f9",
+        "2bb7f64ff31e",
+        "35f3d5ca03f5",
+        "7b13ab0f02e0",
+        "81200888fda8",
+        "c6975134f48c",
+        "46656ce8f41a",
+        "e726d91a305f",
+        "edd5e076fe85",
+        "71301a2698b2",
+        "838d6cfda92e",
+        "daa336fcd8ad",
+        "20b6074bf39a",
+        "327d84f79f63",
+        "606619c9eb5b",
+        "942e7cfefb4c",
+        "20b6343e9675",
+        "8539f990d3d1",
+        "994e07729924",
+        "b348d9362d76",
+        "ce4475188862",
+        "1cf2f7427695",
+        "88d5d24a8283",
+        "be39624cee38",
+        "d6441b08279d",
+        "050f6cf98830",
+        "4b05247bb118",
+        "8e7632ad3621",
+        "bcf203d52fa3",
+        "bf168774fa99",
+        "fa25cdca126a",
+        "01764a6fac23",
+        "5a51c0d82520",
+        "962f111cd49c",
+        "d31be260a349",
+        "417744769cbc",
+        "851be0b72d2e",
+        "886ebcd3b8c3",
+        "2afcb976eea6",
+        "343f8622f440",
+        "da477860c35b",
+        "6d3049778244",
+        "c1c9fbb6438d",
+        "f7955114b338",
+        "52a14446cc04",
+        "bc9fbc0b732c",
+        "e3604d870ae2",
+        "0004662fa8fc",
+        "38d0176359c2",
+        "87ee7efc1755",
+        "5c027623e7c8",
+        "656797eccf58",
+        "951c66e9942f",
+        "9bc27e991ffb",
+        "e080cbea9a11",
+        "18f6bcf0278d",
+        "24fe62d0bf35",
+        "5472cb877c20",
+        "acec65bea05c",
+        "f54f7a17ffd7",
+        "053ffed089aa",
+        "58d80efb198a",
+        "9855063d4bd7",
+        "d38bde5dfbc3",
+        "e1e0e7b3ad5c",
+        "e37756d4e36b",
+        "416e407a760c",
+        "b72f025041fc",
+        "d7321458fc0d",
+        "4dd4aa854ccc",
+        "52b3d807c611",
+        "555a80b2d305",
+        "6e19bba09b84",
+        "6f35846932ac",
+        "7cbb7285c20d"
+      ],
+      "changedExistingCards": [
+        "d504a11edf78",
+        "e27922302cf0",
+        "46656ce8f41a",
+        "edd5e076fe85",
+        "327d84f79f63",
+        "606619c9eb5b",
+        "942e7cfefb4c",
+        "994e07729924",
+        "b348d9362d76",
+        "bcf203d52fa3",
+        "962f111cd49c",
+        "d31be260a349",
+        "343f8622f440",
+        "da477860c35b",
+        "f7955114b338",
+        "e3604d870ae2",
+        "0004662fa8fc",
+        "38d0176359c2",
+        "87ee7efc1755",
+        "656797eccf58",
+        "9bc27e991ffb",
+        "18f6bcf0278d",
+        "5472cb877c20",
+        "58d80efb198a",
+        "d38bde5dfbc3",
+        "e1e0e7b3ad5c",
+        "e37756d4e36b",
+        "b72f025041fc",
+        "d7321458fc0d",
+        "4dd4aa854ccc",
+        "52b3d807c611",
+        "555a80b2d305",
+        "6e19bba09b84"
+      ],
+      "addedCards": [
+        {
+          "id": "psy2-71-2-0",
+          "objective": "71-2",
+          "q": "Les TCA résultent-ils toujours d’une adaptation initiale au stress ?"
+        },
+        {
+          "id": "psy2-71-3-1",
+          "objective": "71-3",
+          "q": "Un type restrictif d’anorexie exclut-il l’exercice excessif ?"
+        },
+        {
+          "id": "psy2-71-9-2",
+          "objective": "71-9",
+          "q": "Quels électrolytes surveiller autour de la renutrition ?"
+        },
+        {
+          "id": "psy2-71-11-3",
+          "objective": "71-11",
+          "q": "Un IMC normal exclut-il une urgence liée à un TCA ?"
+        },
+        {
+          "id": "psy2-71-12-4",
+          "objective": "71-12",
+          "q": "Quelle place pour la famille dans l’anorexie de l’adolescent ?"
+        },
+        {
+          "id": "psy2-71-13-5",
+          "objective": "71-13",
+          "q": "Un médicament remplace-t-il la renutrition dans l’anorexie ?"
+        },
+        {
+          "id": "psy2-71-14-6",
+          "objective": "71-14",
+          "q": "Qu’est-ce qui prévient le syndrome de renutrition ?"
+        },
+        {
+          "id": "psy2-71-15-7",
+          "objective": "71-15",
+          "q": "La boulimie peut-elle concerner les hommes ?"
+        },
+        {
+          "id": "psy2-71-23-8",
+          "objective": "71-23",
+          "q": "Le nombre de crises seul décide-t-il de l’hospitalisation ?"
+        },
+        {
+          "id": "psy2-71-24-9",
+          "objective": "71-24",
+          "q": "Quelle psychothérapie cible le cycle restriction–crise–compensation ?"
+        },
+        {
+          "id": "psy2-71-25-10",
+          "objective": "71-25",
+          "q": "Quelle place pour la fluoxétine dans la boulimie ?"
+        },
+        {
+          "id": "psy2-71-26-11",
+          "objective": "71-26",
+          "q": "Pourquoi éviter un régime restrictif en cas de boulimie ?"
+        },
+        {
+          "id": "psy2-71-27-12",
+          "objective": "71-27",
+          "q": "L’obésité est-elle nécessaire à l’hyperphagie boulimique ?"
+        }
+      ],
+      "notion": [
+        {
+          "id": "2ad37f85d94181d4ae7ec94482de6131",
+          "title": "TCA (troubles conduites alimentaires) (71)",
+          "url": "https://app.notion.com/p/2ad37f85d94181d4ae7ec94482de6131?pvs=204",
+          "lastEdited": "2026-09-22T16:41:13.382Z"
+        },
+        {
+          "id": "2ad37f85d94181719e62eb0d9116073b",
+          "title": "Anorexie mentale (anorexia nervosa)",
+          "url": "https://app.notion.com/p/2ad37f85d94181719e62eb0d9116073b?pvs=204",
+          "lastEdited": "2026-09-12T08:52:12.501Z"
+        },
+        {
+          "id": "2ad37f85d941810f924df9db2dfa0bf4",
+          "title": "Boulimie (bulimia nervosa)",
+          "url": "https://app.notion.com/p/2ad37f85d941810f924df9db2dfa0bf4?pvs=204",
+          "lastEdited": "2026-09-11T07:07:36.363Z"
+        },
+        {
+          "id": "2ad37f85d94181a4986cca0c9dab70f3",
+          "title": "Hyperphagie boulimique",
+          "url": "https://app.notion.com/p/2ad37f85d94181a4986cca0c9dab70f3?pvs=204",
+          "lastEdited": "2026-04-23T18:04:03.000Z"
+        }
+      ],
+      "colourMatches": 496,
+      "trees": [
+        "psy2-anorexie",
+        "psy2-crises-alimentaires",
+        "psy2-ingestion"
+      ]
+    }
+  ]
+}
