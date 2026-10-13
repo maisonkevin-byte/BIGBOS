@@ -1,0 +1,330 @@
+{
+  "reviewedAt": "2026-10-13",
+  "items": [
+    {
+      "item": 100,
+      "objectives": 9,
+      "cards": 18,
+      "colors": 129,
+      "words": 2799
+    },
+    {
+      "item": 101,
+      "objectives": 14,
+      "cards": 18,
+      "colors": 182,
+      "words": 2676
+    },
+    {
+      "item": 102,
+      "objectives": 14,
+      "cards": 20,
+      "colors": 85,
+      "words": 2262
+    },
+    {
+      "item": 103,
+      "objectives": 15,
+      "cards": 20,
+      "colors": 209,
+      "words": 2605
+    },
+    {
+      "item": 104,
+      "objectives": 20,
+      "cards": 43,
+      "colors": 136,
+      "words": 3662
+    }
+  ],
+  "sdd": {
+    "reviewedAt": "2026-10-13",
+    "method": "Direct reading of authenticated LiSA 2026 pages in Chrome",
+    "situations": [
+      {
+        "number": 118,
+        "title": "Céphalée",
+        "url": "https://livret.uness.fr/lisa/2026/C%C3%A9phal%C3%A9e_SDD-118",
+        "skillsParaphrased": [
+          "Caractériser douleur, chronologie et déclencheurs ; agenda et retentissement.",
+          "Reconnaître urgence ; justifier imagerie et PL ; expliquer traitement et prévention."
+        ]
+      },
+      {
+        "number": 127,
+        "title": "Paralysie faciale",
+        "url": "https://livret.uness.fr/lisa/2026/Paralysie_faciale_SDD-127",
+        "skillsParaphrased": [
+          "Différencier centrale/périphérique, éliminer urgence neurologique/ORL, localiser le VII.",
+          "Rechercher la cause ; traiter Bell et mettre en place la protection oculaire."
+        ]
+      },
+      {
+        "number": 143,
+        "title": "Diplopie",
+        "url": "https://livret.uness.fr/lisa/2026/Diplopie_SDD-143",
+        "skillsParaphrased": [
+          "Distinguer monoculaire/binoculaire ; examiner œil et oculomotricité, localiser.",
+          "Initier l’urgence du III ; cover-test, verre rouge et lecture de Lancaster."
+        ]
+      },
+      {
+        "number": 64,
+        "title": "Vertige et sensation vertigineuse",
+        "url": "https://livret.uness.fr/lisa/2026/Vertige_et_sensation_vertigineuse_SDD-064",
+        "skillsParaphrased": [
+          "Distinguer vertige et autres sensations ; préciser durée, déclencheur et signes associés.",
+          "Différencier vestibulaire/cérébelleux et central/périphérique ; reconnaître nystagmus et manœuvres."
+        ]
+      },
+      {
+        "number": 121,
+        "title": "Déficit neurologique sensitif et/ou moteur",
+        "url": "https://livret.uness.fr/lisa/2026/D%C3%A9ficit_neurologique_sensitif_et/ou_moteur_SDD-121",
+        "skillsParaphrased": [
+          "Caractériser et grader le déficit, rechercher gravité, justifier examens et délais.",
+          "Orienter vers AVC si nécessaire ; traiter la cause et prévenir les complications."
+        ]
+      },
+      {
+        "number": 138,
+        "title": "Anomalie de la vision",
+        "url": "https://livret.uness.fr/lisa/2026/Anomalie_de_la_vision_SDD-138",
+        "skillsParaphrased": [
+          "Caractériser trouble visuel et installation ; examiner acuité, champ, pupilles et motricité.",
+          "Reconnaître les urgences ophtalmologiques, neurologiques et neurochirurgicales."
+        ]
+      }
+    ]
+  },
+  "algorithms": [
+    {
+      "id": "neuro100-aigue",
+      "title": "Céphalée inhabituelle : repérer et explorer l’urgence",
+      "sdd": 118,
+      "nodes": 9,
+      "provenance": "Mise en branches du raisonnement CEN (figure 11.3 et texte), complétée par les attendus LiSA. Les branches ATLAS sont une adaptation pédagogique, pas une reproduction à l’identique. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro100-chronique",
+      "title": "Céphalées répétées : diagnostic, abus et suivi",
+      "sdd": 118,
+      "nodes": 6,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro100-enfant",
+      "title": "Céphalée de l’enfant : quel délai d’imagerie ?",
+      "sdd": 118,
+      "nodes": 9,
+      "provenance": "Adaptation de l’arbre décisionnel HAS des céphalées de l’enfant (décembre 2023, publié en janvier 2024), hors traumatisme crânien aigu et suspicion de méningite qui suivent leur filière spécifique. Les délais restent conditionnés au tableau ; document original lié aux étapes. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro101-diagnostic",
+      "title": "Paralysie faciale : localiser et rechercher la cause",
+      "sdd": 127,
+      "nodes": 6,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro101-traitement",
+      "title": "PFP : protéger l’œil, traiter et suivre",
+      "sdd": 127,
+      "nodes": 8,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro102-orientation",
+      "title": "Diplopie : monoculaire ou binoculaire, puis quelle urgence ?",
+      "sdd": 143,
+      "nodes": 8,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro102-iii",
+      "title": "Paralysie du III : ne pas manquer l’anévrisme",
+      "sdd": 143,
+      "nodes": 5,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro103-orientation",
+      "title": "Vertige : temps, déclencheur et risque central",
+      "sdd": 64,
+      "nodes": 7,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro103-vppb",
+      "title": "VPPB : identifier le canal et traiter",
+      "sdd": 64,
+      "nodes": 6,
+      "provenance": "Synthèse des recommandations HAS VPPB (2017) et du CEN, reliée à LiSA SDD 064. Le parcours en cases est une construction pédagogique ATLAS. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro104-diagnostic",
+      "title": "Suspicion de SEP : raisonner et dater les critères",
+      "sdd": 121,
+      "nodes": 8,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro104-poussee",
+      "title": "SEP : poussée, pseudo-poussée ou progression ?",
+      "sdd": 121,
+      "nodes": 7,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    },
+    {
+      "id": "neuro104-norb",
+      "title": "Baisse visuelle : reconnaître et explorer une névrite optique",
+      "sdd": 138,
+      "nodes": 6,
+      "provenance": "Synthèse ATLAS des textes du CEN et des attendus LiSA ; ce parcours n’est pas un arbre officiel du Collège. Sources et SDD lues directement le 13/10/2026."
+    }
+  ],
+  "sources": {
+    "neuro100104_cen100": {
+      "code": "CEN",
+      "title": "CEN · Item 100, chapitre 11",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-11-item-100-cephalee-inhabituelle-aigue-et-chronique-chez-ladulte-et-lenfant"
+    },
+    "neuro100104_cen101": {
+      "code": "CEN",
+      "title": "CEN · Item 101, chapitre 12",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-12-item-101-paralysie-faciale"
+    },
+    "neuro100104_cen102": {
+      "code": "CEN",
+      "title": "CEN · Item 102, chapitre 13",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-13-item-102-diplopie"
+    },
+    "neuro100104_cen103": {
+      "code": "CEN",
+      "title": "CEN · Item 103, chapitre 14",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-14-item-103-vertige"
+    },
+    "neuro100104_cen104": {
+      "code": "CEN",
+      "title": "CEN · Item 104, chapitre 15",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-15-item-104-sclerose-en-plaques"
+    },
+    "neuro100104_haschild": {
+      "code": "HAS",
+      "title": "HAS · Céphalées de l’enfant : arbre pour les médecins, décembre 2023",
+      "url": "https://www.has-sante.fr/upload/docs/application/pdf/2024-01/app480_arbre_decisionnel_mg_cephalee_cd_2023_12_14.pdf"
+    },
+    "neuro100104_haschildradio": {
+      "code": "HAS",
+      "title": "HAS · Céphalées de l’enfant : modalités de l’imagerie",
+      "url": "https://www.has-sante.fr/upload/docs/application/pdf/2024-01/app480_arbre_decisionnel_radiologues_cephalee_cd_2023_12_14.pdf"
+    },
+    "neuro100104_hasvppb": {
+      "code": "HAS",
+      "title": "HAS · VPPB, manœuvres diagnostiques et thérapeutiques, 2017",
+      "url": "https://www.has-sante.fr/jcms/c_2819896/fr/vertiges-positionnels-paroxystiques-benins-manoeuvres-diagnostiques-et-therapeutiques"
+    },
+    "neuro100104_grace": {
+      "code": "GRACE",
+      "title": "SAEM · GRACE-3, vertiges aigus, 2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37166022/"
+    },
+    "neuro100104_mc2024": {
+      "code": "MC2024",
+      "title": "Montalban et al. · Révision 2024 des critères de McDonald, publiée en 2025",
+      "url": "https://doi.org/10.1016/S1474-4422(25)00270-4"
+    },
+    "neuro100104_ectrims": {
+      "code": "ECTRIMS",
+      "title": "ECTRIMS · Principales évolutions des critères diagnostiques, septembre 2025",
+      "url": "https://ectrims.eu/press/revisions-to-mcdonald-diagnostic-criteria-for-multiple-sclerosis-published/"
+    },
+    "neuro100104_ontt": {
+      "code": "ONTT",
+      "title": "Optic Neuritis Study Group · Essai ONTT, 1992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1734247/"
+    },
+    "neuro100104_oraloptic": {
+      "code": "ORALOPTIC",
+      "title": "Morrow et al. · Corticoïdes oraux à dose équivalente dans la névrite optique, essai 2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29507942/"
+    },
+    "neuro100104_lisa118": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 118 — Céphalée, consultée le 13/10/2026",
+      "url": "https://livret.uness.fr/lisa/2026/C%C3%A9phal%C3%A9e_SDD-118"
+    },
+    "neuro100104_lisa127": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 127 — Paralysie faciale, consultée le 13/10/2026",
+      "url": "https://livret.uness.fr/lisa/2026/Paralysie_faciale_SDD-127"
+    },
+    "neuro100104_lisa143": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 143 — Diplopie, consultée le 13/10/2026",
+      "url": "https://livret.uness.fr/lisa/2026/Diplopie_SDD-143"
+    },
+    "neuro100104_lisa64": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 064 — Vertige et sensation vertigineuse, consultée le 13/10/2026",
+      "url": "https://livret.uness.fr/lisa/2026/Vertige_et_sensation_vertigineuse_SDD-064"
+    },
+    "neuro100104_lisa121": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 121 — Déficit neurologique sensitif et/ou moteur, consultée le 13/10/2026",
+      "url": "https://livret.uness.fr/lisa/2026/D%C3%A9ficit_neurologique_sensitif_et/ou_moteur_SDD-121"
+    },
+    "neuro100104_lisa138": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 138 — Anomalie de la vision, consultée le 13/10/2026",
+      "url": "https://livret.uness.fr/lisa/2026/Anomalie_de_la_vision_SDD-138"
+    },
+    "neuro100104_cen100fig": {
+      "code": "CEN",
+      "title": "CEN · Figure 11.3, raisonnement devant une céphalée aiguë",
+      "url": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500200_f11-03-9782294786075.jpg"
+    }
+  },
+  "validation": {
+    "rows": [
+      {
+        "item": 100,
+        "objectives": 9,
+        "cards": 18,
+        "trees": 3,
+        "title": "Céphalée aiguë et chronique"
+      },
+      {
+        "item": 101,
+        "objectives": 14,
+        "cards": 18,
+        "trees": 2,
+        "title": "Paralysie faciale"
+      },
+      {
+        "item": 102,
+        "objectives": 14,
+        "cards": 20,
+        "trees": 2,
+        "title": "Diplopie"
+      },
+      {
+        "item": 103,
+        "objectives": 15,
+        "cards": 20,
+        "trees": 2,
+        "title": "Vertiges"
+      },
+      {
+        "item": 104,
+        "objectives": 20,
+        "cards": 43,
+        "trees": 3,
+        "title": "Sclérose en plaques"
+      }
+    ],
+    "addedCards": 79,
+    "addedTrees": 12,
+    "idempotent": true
+  }
+}
