@@ -1,0 +1,314 @@
+{
+  "reviewedAt": "2026-10-13",
+  "batch": 1,
+  "items": [
+    {
+      "item": 15,
+      "objectives": 6,
+      "cards": 14,
+      "addedCards": 11,
+      "words": 1837,
+      "notionHighlights": 35
+    },
+    {
+      "item": 55,
+      "objectives": 13,
+      "cards": 43,
+      "addedCards": 8,
+      "words": 3683,
+      "notionHighlights": 96
+    },
+    {
+      "item": 58,
+      "objectives": 8,
+      "cards": 33,
+      "addedCards": 5,
+      "words": 2590,
+      "notionHighlights": 44
+    },
+    {
+      "item": 60,
+      "objectives": 8,
+      "cards": 25,
+      "addedCards": 4,
+      "words": 1906,
+      "notionHighlights": 8
+    },
+    {
+      "item": 61,
+      "objectives": 5,
+      "cards": 20,
+      "addedCards": 7,
+      "words": 1900,
+      "notionHighlights": 53
+    }
+  ],
+  "objectives": 40,
+  "cards": 135,
+  "addedCards": 35,
+  "sdd": {
+    "reviewedAt": "2026-10-13",
+    "method": "Direct reading of LiSA 2026 in Chrome",
+    "situations": [
+      {
+        "number": 240,
+        "title": "Hospitalisation sans consentement",
+        "url": "https://livret.uness.fr/lisa/2026/Hospitalisation_sans_consentement_SDD-240",
+        "skills": [
+          "Justifier l’indication, choisir la procédure et expliquer demande de tiers, déroulement, droits et levée.",
+          "Évaluer l’urgence et maintenir une relation empathique ; coordonner les intervenants."
+        ]
+      },
+      {
+        "number": 115,
+        "title": "Anomalie du développement psychomoteur",
+        "url": "https://livret.uness.fr/lisa/2026/Anomalie_du_d%C3%A9veloppement_psychomoteur_SDD-115",
+        "skills": [
+          "Retracer antécédents et développement ; examiner tonus, morphologie, croissance et périmètre crânien.",
+          "Repérer régression et signes précoces, orienter les bilans, soins et aides scolaires/médicosociales."
+        ]
+      },
+      {
+        "number": 349,
+        "title": "Troubles des interactions sociales/difficultés de socialisation",
+        "url": "https://livret.uness.fr/lisa/2026/Troubles_des_interactions_sociales/difficult%C3%A9s_de_socialisation_SDD-349",
+        "skills": [
+          "Caractériser les interactions, la chronologie, le développement global et le retentissement.",
+          "Rechercher signes associés et comorbidités ; orienter l’évaluation pluridisciplinaire et soutenir les proches."
+        ]
+      },
+      {
+        "number": 63,
+        "title": "Troubles sexuels et troubles de l’érection",
+        "url": "https://livret.uness.fr/lisa/2026/Troubles_sexuels_et_troubles_de_l%27%C3%A9rection_SDD-063",
+        "skills": [
+          "Caractériser la plainte et rechercher causes organiques, iatrogènes et psychologiques.",
+          "Orienter douleurs et dysfonctions vers des soins adaptés, éventuellement pluridisciplinaires."
+        ]
+      },
+      {
+        "number": 269,
+        "title": "Suivi d’un trouble psychiatrique chronique",
+        "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_souffrant_d%27un_trouble_psychiatrique_chronique_(hors_d%C3%A9pression)_SDD-269",
+        "skills": [
+          "Évaluer symptômes, risque suicidaire, autonomie, qualité de vie, comorbidités et effets des traitements.",
+          "Coordonner les soins somatiques, psychiatriques et sociaux, soutenir les aidants."
+        ]
+      },
+      {
+        "number": 116,
+        "title": "Anxiété",
+        "url": "https://livret.uness.fr/lisa/2026/Anxi%C3%A9t%C3%A9_SDD-116",
+        "skills": [
+          "Caractériser l’anxiété, sa chronologie et son retentissement ; chercher dépression, suicide et addictions.",
+          "Discuter suivi, traitements et recours au psychiatre ; prévenir le mésusage des benzodiazépines."
+        ]
+      }
+    ]
+  },
+  "algorithms": [
+    {
+      "id": "psy15-admission",
+      "title": "Soins sans consentement : choisir la procédure",
+      "sdd": 240,
+      "nodes": 11,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy15-suivi",
+      "title": "Admission : observation, droits et contrôle judiciaire",
+      "sdd": 240,
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy15-mineur",
+      "title": "Mineur : protection et placement psychiatrique",
+      "sdd": 240,
+      "nodes": 4,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy55-developpement",
+      "title": "Développement de l’enfant : repérer et orienter",
+      "sdd": 115,
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy55-relation",
+      "title": "Interactions sociales : caractériser avant d’étiqueter",
+      "sdd": 349,
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy58-plainte",
+      "title": "Plainte sexuelle : de la sémiologie au projet de soins",
+      "sdd": 63,
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy60-prevention",
+      "title": "Prévention : risque, repérage ou trouble établi ?",
+      "sdd": 269,
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    },
+    {
+      "id": "psy61-semiologie",
+      "title": "Examen psychiatrique : du signe au diagnostic",
+      "sdd": 116,
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion et des références indiquées, reliée aux attendus LiSA 2026 consultés le 13 octobre 2026. Ce n’est pas un algorithme officiel reproduit à l’identique."
+    }
+  ],
+  "sources": {
+    "psy1_sleep": {
+      "code": "AASM",
+      "title": "AASM · Durée du sommeil chez l’enfant, consensus 2016",
+      "url": "https://aasm.org/resources/pdf/pediatricsleepdurationconsensus.pdf"
+    },
+    "psy1_dsm": {
+      "code": "APA",
+      "title": "APA · DSM-5-TR et mises à jour",
+      "url": "https://www.psychiatry.org/psychiatrists/practice/dsm"
+    },
+    "psy1_oppUrgence": {
+      "code": "Droit",
+      "title": "Code civil · Assistance éducative et mesures provisoires",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGIARTI000006426470/"
+    },
+    "psy1_college": {
+      "code": "CNUP",
+      "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e édition (2024)",
+      "url": "https://www.cunea.fr/sites/default/files/ref_psy_add_4ed.pdf"
+    },
+    "psy1_law": {
+      "code": "Droit",
+      "title": "Code de la santé publique · Soins psychiatriques, version du 13 octobre 2026",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006072665/LEGISCTA000006155032/2026-10-13"
+    },
+    "psy1_opp": {
+      "code": "Droit",
+      "title": "Code civil · Article 375-9, placement en établissement psychiatrique",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006426871"
+    },
+    "psy1_tnd": {
+      "code": "HAS",
+      "title": "HAS · Repérage et orientation des enfants à risque de TND (2020)",
+      "url": "https://www.has-sante.fr/jcms/p_3161334/fr/troubles-du-neurodeveloppement-reperage-et-orientation-des-enfants-a-risque"
+    },
+    "psy1_tdah": {
+      "code": "HAS",
+      "title": "HAS · TDAH : diagnostic et interventions chez l’enfant et l’adolescent (2024)",
+      "url": "https://www.has-sante.fr/jcms/p_3302482"
+    },
+    "psy1_uro58": {
+      "code": "CFEU",
+      "title": "CFEU · Sexualité normale et ses troubles, 6e édition",
+      "url": "https://www.urofrance.org/lafu-academie/formation-du-college/referentiel-du-college-durologie-6eme-edition/chapitre-6-item-58-sexualite-normale-et-ses-troubles/"
+    },
+    "psy1_uro126": {
+      "code": "CFEU",
+      "title": "CFEU · Troubles de l’érection, 6e édition",
+      "url": "https://www.urofrance.org/lafu-academie/formation-du-college/referentiel-du-college-durologie-6eme-edition/chapitre-9-item-126-troubles-de-lerection/"
+    },
+    "psy1_icd": {
+      "code": "OMS",
+      "title": "OMS · CIM-11 et descriptions diagnostiques (2024)",
+      "url": "https://www.who.int/publications/i/item/9789240077263"
+    },
+    "psy1_lisaItem15": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · Item 15",
+      "url": "https://livret.uness.fr/lisa/2026/Soins_psychiatriques_sans_consentement"
+    },
+    "psy1_lisaItem55": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · Item 55",
+      "url": "https://livret.uness.fr/lisa/2026/D%C3%A9veloppement_psychomoteur_du_nourrisson_et_de_l%27enfant_:_aspects_normaux_et_pathologiques_(sommeil,_alimentation,_contr%C3%B4les_sphinct%C3%A9riens,_psychomotricit%C3%A9,_langage,_intelligence)._L%27installation_pr%C3%A9coce_de_la_relation_parents-enfant_et_..."
+    },
+    "psy1_lisaItem58": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · Item 58",
+      "url": "https://livret.uness.fr/lisa/2026/Sexualit%C3%A9_normale_et_ses_troubles"
+    },
+    "psy1_lisaItem60": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · Item 60",
+      "url": "https://livret.uness.fr/lisa/2026/Conna%C3%AEtre_les_facteurs_de_risque,_pr%C3%A9vention,_d%C3%A9pistage_des_troubles_psychiques_de_l%27enfant_%C3%A0_la_personne_%C3%A2g%C3%A9e"
+    },
+    "psy1_lisaItem61": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · Item 61",
+      "url": "https://livret.uness.fr/lisa/2026/Conna%C3%AEtre_les_bases_des_classifications_des_troubles_mentaux_de_l%27enfant_%C3%A0_la_personne_%C3%A2g%C3%A9e"
+    },
+    "psy1_sdd240": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 240 — Hospitalisation sans consentement",
+      "url": "https://livret.uness.fr/lisa/2026/Hospitalisation_sans_consentement_SDD-240"
+    },
+    "psy1_sdd115": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 115 — Anomalie du développement psychomoteur",
+      "url": "https://livret.uness.fr/lisa/2026/Anomalie_du_d%C3%A9veloppement_psychomoteur_SDD-115"
+    },
+    "psy1_sdd349": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 349 — Troubles des interactions sociales/difficultés de socialisation",
+      "url": "https://livret.uness.fr/lisa/2026/Troubles_des_interactions_sociales/difficult%C3%A9s_de_socialisation_SDD-349"
+    },
+    "psy1_sdd63": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 063 — Troubles sexuels et troubles de l’érection",
+      "url": "https://livret.uness.fr/lisa/2026/Troubles_sexuels_et_troubles_de_l%27%C3%A9rection_SDD-063"
+    },
+    "psy1_sdd269": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 269 — Suivi d’un trouble psychiatrique chronique",
+      "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_souffrant_d%27un_trouble_psychiatrique_chronique_(hors_d%C3%A9pression)_SDD-269"
+    },
+    "psy1_sdd116": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 116 — Anxiété",
+      "url": "https://livret.uness.fr/lisa/2026/Anxi%C3%A9t%C3%A9_SDD-116"
+    }
+  },
+  "changes": [
+    "All 40 objectives reviewed; all 100 original cards reviewed and identifiers retained; 35 cards added to cover all objectives.",
+    "Legal review of consent, certificates, initial observation, judicial control and psychiatric placement of minors.",
+    "Developmental review: regression, care pathways, intellectual/adaptive functioning, learning disorders and sleep.",
+    "Sexual health: consent, mixed causes, four phases, pain and individualized treatment.",
+    "Prevention: qualified epidemiology, somatic mortality, suicide and prevention levels.",
+    "Semiology and classification: hallucinosis, temporal criteria, dimensional assessment, diagnostic systems and somatic symptom disorders.",
+    "Only matching Notion source phrases supply personal colours.",
+    "Eight original teaching trees link to complete reviewed objective content; not official verbatim algorithms."
+  ],
+  "remainingPsychiatryItems": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    121,
+    144,
+    351,
+    352,
+    353
+  ]
+}
