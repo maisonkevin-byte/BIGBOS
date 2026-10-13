@@ -1,0 +1,414 @@
+{
+  "reviewedAt": "2026-10-13",
+  "items": [
+    {
+      "item": 105,
+      "objectives": 15,
+      "cards": 64,
+      "addedCards": 6,
+      "words": 4666,
+      "notionHighlights": 173
+    },
+    {
+      "item": 106,
+      "objectives": 12,
+      "cards": 27,
+      "addedCards": 8,
+      "words": 2823,
+      "notionHighlights": 197
+    },
+    {
+      "item": 107,
+      "objectives": 7,
+      "cards": 29,
+      "addedCards": 4,
+      "words": 2194,
+      "notionHighlights": 165
+    },
+    {
+      "item": 108,
+      "objectives": 17,
+      "cards": 43,
+      "addedCards": 10,
+      "words": 4602,
+      "notionHighlights": 240
+    },
+    {
+      "item": 109,
+      "objectives": 13,
+      "cards": 34,
+      "addedCards": 6,
+      "words": 2837,
+      "notionHighlights": 72
+    }
+  ],
+  "objectives": 64,
+  "cards": 197,
+  "addedCards": 34,
+  "sdd": {
+    "reviewedAt": "2026-10-13",
+    "method": "Direct reading of LiSA 2026 in Chrome",
+    "situations": [
+      {
+        "number": 27,
+        "title": "Chute de la personne âgée",
+        "url": "https://livret.uness.fr/lisa/2026/Chute_de_la_personne_%C3%A2g%C3%A9e_SDD-027",
+        "skills": [
+          "Reconstituer la chute, rechercher lésions, causes et facteurs intrinsèques, médicamenteux ou environnementaux.",
+          "Évaluer marche/autonomie, proposer prévention multidomaine, rééducation et prise en charge osseuse."
+        ]
+      },
+      {
+        "number": 66,
+        "title": "Apparition d’une difficulté à la marche",
+        "url": "https://livret.uness.fr/lisa/2026/Apparition_d%27une_difficult%C3%A9_%C3%A0_la_marche_SDD-066",
+        "skills": [
+          "Caractériser la marche, établir syndrome et topographie, quantifier le retentissement.",
+          "Justifier les examens, adapter les aides, prescrire la rééducation et repérer les indications chirurgicales urgentes."
+        ]
+      },
+      {
+        "number": 119,
+        "title": "Confusion mentale/désorientation",
+        "url": "https://livret.uness.fr/lisa/2026/Confusion_mentale/d%C3%A9sorientation_SDD-119",
+        "skills": [
+          "Distinguer confusion et déclin chronique avec l’entourage ; chercher médicaments et facteurs précipitants.",
+          "Évaluer l’urgence, glycémie capillaire, examens justifiés et traitement causal/non médicamenteux."
+        ]
+      },
+      {
+        "number": 120,
+        "title": "Convulsions",
+        "url": "https://livret.uness.fr/lisa/2026/Convulsions_SDD-120",
+        "skills": [
+          "Décrire les crises, reconnaître l’état de mal et sécuriser l’environnement.",
+          "Traiter selon urgence, justifier EEG/imagerie, expliquer les convulsions fébriles aux parents."
+        ]
+      },
+      {
+        "number": 126,
+        "title": "Mouvements anormaux",
+        "url": "https://livret.uness.fr/lisa/2026/Mouvements_anormaux_SDD-126",
+        "skills": [
+          "Décrire le mouvement et son impact, rechercher iatrogénie et syndromes associés.",
+          "Orienter bilan, traitement et rééducation."
+        ]
+      },
+      {
+        "number": 128,
+        "title": "Tremblements",
+        "url": "https://livret.uness.fr/lisa/2026/Tremblements_SDD-128",
+        "skills": [
+          "Distinguer types de tremblement et signes de parkinsonisme typique/atypique.",
+          "Rechercher iatrogénie, proposer traitement et suivi des complications."
+        ]
+      },
+      {
+        "number": 131,
+        "title": "Troubles de mémoire/déclin cognitif",
+        "url": "https://livret.uness.fr/lisa/2026/Troubles_de_m%C3%A9moire/d%C3%A9clin_cognitif_SDD-131",
+        "skills": [
+          "Interroger patient/proches, tester cognition et autonomie, rechercher dépression et causes.",
+          "Justifier IRM et examens spécialisés, organiser les aides et prévenir l’épuisement des proches."
+        ]
+      },
+      {
+        "number": 289,
+        "title": "Consultation et suivi d’un patient épileptique",
+        "url": "https://livret.uness.fr/lisa/2026/Consultation_et_suivi_d%27un_patient_%C3%A9pileptique_SDD-289",
+        "skills": [
+          "Explorer vécu, observance, nouvelles crises et effets indésirables.",
+          "Plan de secours, sécurité, projet parental et aménagements scolaires/professionnels."
+        ]
+      },
+      {
+        "number": 298,
+        "title": "Consultation et suivi d’un patient ayant des troubles cognitifs",
+        "url": "https://livret.uness.fr/lisa/2026/Consultation_et_suivi_d%27un_patient_ayant_des_troubles_cognitifs_SDD-298",
+        "skills": [
+          "Suivre évolution, autonomie, nutrition, chutes et comportement.",
+          "Adapter soins ambulatoires et aides, soutenir les proches et anticiper les décompensations."
+        ]
+      }
+    ]
+  },
+  "algorithms": [
+    {
+      "id": "neuro105-crise",
+      "title": "Première crise : confirmer, explorer, suivre",
+      "sdd": 120,
+      "nodes": 10,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro105-eme",
+      "title": "État de mal : agir à cinq minutes",
+      "sdd": 120,
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro105-fievre",
+      "title": "Enfant fébrile : convulsion simple ou situation à explorer ?",
+      "sdd": 120,
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro106-diagnostic",
+      "title": "Syndrome parkinsonien : Parkinson ou autre cause ?",
+      "sdd": 128,
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro106-suivi",
+      "title": "Parkinson : complication, effet indésirable ou décompensation ?",
+      "sdd": 128,
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro107-tremblement",
+      "title": "Tremblement : repos, action et signes associés",
+      "sdd": 128,
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro107-mouvement",
+      "title": "Chorée, dystonie, myoclonies, tics ou dyskinésies ?",
+      "sdd": 126,
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro108-confusion",
+      "title": "Confusion : stabiliser et chercher les facteurs précipitants",
+      "sdd": 119,
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro108-cognition",
+      "title": "Déclin cognitif : profil, cause et plan d’aide",
+      "sdd": 131,
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro109-marche",
+      "title": "Difficulté à marcher : urgence, syndrome et examens",
+      "sdd": 66,
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    },
+    {
+      "id": "neuro109-chute",
+      "title": "Chute du sujet âgé : conséquences, cause et prévention",
+      "sdd": 27,
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique ATLAS des cours Notion, du CEN et des références complémentaires indiquées ; il ne s’agit pas d’un arbre officiel reproduit à l’identique. Sources et attendus LiSA consultés le 13 octobre 2026."
+    }
+  ],
+  "sources": {
+    "neuro105109_cen105": {
+      "code": "CEN",
+      "title": "CEN · Item 105, chapitre actuel",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-16-item-105-epilepsies-de-lenfant-et-de-ladulte"
+    },
+    "neuro105109_cen106": {
+      "code": "CEN",
+      "title": "CEN · Item 106, chapitre actuel",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-17-item-106-maladie-de-parkinson"
+    },
+    "neuro105109_cen107": {
+      "code": "CEN",
+      "title": "CEN · Item 107, chapitre actuel",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-18-item-107-mouvements-anormaux"
+    },
+    "neuro105109_cen108": {
+      "code": "CEN",
+      "title": "CEN · Item 108, chapitre actuel",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-22-item-108-confusion-demences-item-132-troubles-cognitifs-du-sujet-age-item-343-etat-confusionnel-et-trouble-de-conscience-chez-ladulte-et-chez-lenfant"
+    },
+    "neuro105109_cen109": {
+      "code": "CEN",
+      "title": "CEN · Item 109, chapitre actuel",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-19-item-109-troubles-de-la-marche-et-de-lequilibre-item-131-troubles-de-la-marche-et-de-lequilibre-chez-le-sujet-age"
+    },
+    "neuro105109_domperidone": {
+      "code": "ANSM",
+      "title": "ANSM · Bon usage de la dompéridone",
+      "url": "https://ansm.sante.fr/actualites/la-domperidone-motilium-et-generiques-ne-doit-plus-etre-utilisee-chez-lenfant-de-moins-de-12-ans"
+    },
+    "neuro105109_huntington": {
+      "code": "HUNTINGTON",
+      "title": "Centre de référence · PNDS maladie de Huntington, 2021",
+      "url": "https://www.has-sante.fr/jcms/p_3292308/fr/maladie-de-huntington-pnds"
+    },
+    "neuro105109_dac": {
+      "code": "DAC",
+      "title": "Ministère de la Santé · Dispositifs d’appui à la coordination",
+      "url": "https://sante.gouv.fr/systeme-de-sante/structures-de-soins/les-dispositifs-d-appui-a-la-coordination-dac/article/tout-comprendre-des-dispositifs-d-appui-a-la-coordination"
+    },
+    "neuro105109_cnpu": {
+      "code": "CNPU",
+      "title": "CNPU · Convulsions, crises d’épilepsie et épilepsie de l’enfant",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/neurologie/convulsions-crises-depilepsie-epilepsie"
+    },
+    "neuro105109_hasepi": {
+      "code": "HAS",
+      "title": "HAS · Épilepsies : prise en charge des enfants et des adultes, 2020",
+      "url": "https://www.has-sante.fr/jcms/p_3214468"
+    },
+    "neuro105109_hasparcours": {
+      "code": "HAS",
+      "title": "HAS · Parcours de santé avec épilepsie, 2023",
+      "url": "https://www.has-sante.fr/jcms/p_3444925/fr/guides-du-parcours-de-sante-de-l-adulte-et-de-l-enfant-avec-epilepsie"
+    },
+    "neuro105109_srlf": {
+      "code": "SRLF",
+      "title": "SRLF–SFMU–GFRUP · État de mal épileptique, RFE 2018",
+      "url": "https://www.srlf.org/wp-content/uploads/2018/06/22062018_RFE-Etat-de-mal-%C3%A9pileptique-SRLF-SFMU.pdf"
+    },
+    "neuro105109_ansmvpa": {
+      "code": "ANSM",
+      "title": "ANSM · Valproate, guide des professionnels de santé",
+      "url": "https://ansm.sante.fr/uploads/2025/01/17/valproate-guide-pds-v7-novembre-2024.pdf"
+    },
+    "neuro105109_haspd": {
+      "code": "HAS",
+      "title": "HAS · Parkinson : prise en charge non médicamenteuse des troubles moteurs",
+      "url": "https://www.has-sante.fr/jcms/c_2038173/fr/maladie-de-parkinson-et-syndromes-apparentes-techniques-et-modalites-de-la-prise-en-charge-non-medicamenteuse-des-troubles-moteurs"
+    },
+    "neuro105109_hasconf": {
+      "code": "HAS",
+      "title": "HAS · Confusion aiguë : prise en charge initiale de l’agitation, 2009",
+      "url": "https://www.has-sante.fr/jcms/c_819557/fr/confusion-aigue-chez-la-personne-agee-prise-en-charge-initiale-de-l-agitation"
+    },
+    "neuro105109_hasad": {
+      "code": "HAS",
+      "title": "HAS · Alzheimer et maladies apparentées : diagnostic et prise en charge, 2011",
+      "url": "https://www.has-sante.fr/jcms/c_1148883/fr/maladie-d-alzheimer-et-maladies-apparentees-diagnostic-et-prise-en-charge"
+    },
+    "neuro105109_hasleq": {
+      "code": "HAS",
+      "title": "HAS · Lécanémab : avis de remboursement, 2025",
+      "url": "https://www.has-sante.fr/jcms/p_3702487/fr/leqembi-lecanemab-maladie-d-alzheimer"
+    },
+    "neuro105109_haskis": {
+      "code": "HAS",
+      "title": "HAS · Donanémab : refus d’accès précoce, mars 2026",
+      "url": "https://www.has-sante.fr/jcms/p_3894173/en/decision-n-2026-0050/dc/sem-du-12-mars-2026-du-college-de-la-haute-autorite-de-sante-portant-refus-d-acces-precoce-de-la-specialite-kisunla-donanemab"
+    },
+    "neuro105109_haschute": {
+      "code": "HAS",
+      "title": "HAS · Évaluation et prise en charge des chutes répétées, 2009",
+      "url": "https://www.has-sante.fr/jcms/c_793371/en/evaluation-et-prise-en-charge-des-personnes-agees-faisant-des-chutes-repetees"
+    },
+    "neuro105109_videos": {
+      "code": "VIDEOS",
+      "title": "CEN · Vidéothèque de sémiologie neurologique",
+      "url": "https://www.cen-neurologie.fr/videotheque"
+    },
+    "neuro105109_lisa27": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 027 — Chute de la personne âgée",
+      "url": "https://livret.uness.fr/lisa/2026/Chute_de_la_personne_%C3%A2g%C3%A9e_SDD-027"
+    },
+    "neuro105109_lisa66": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 066 — Apparition d’une difficulté à la marche",
+      "url": "https://livret.uness.fr/lisa/2026/Apparition_d%27une_difficult%C3%A9_%C3%A0_la_marche_SDD-066"
+    },
+    "neuro105109_lisa119": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 119 — Confusion mentale/désorientation",
+      "url": "https://livret.uness.fr/lisa/2026/Confusion_mentale/d%C3%A9sorientation_SDD-119"
+    },
+    "neuro105109_lisa120": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 120 — Convulsions",
+      "url": "https://livret.uness.fr/lisa/2026/Convulsions_SDD-120"
+    },
+    "neuro105109_lisa126": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 126 — Mouvements anormaux",
+      "url": "https://livret.uness.fr/lisa/2026/Mouvements_anormaux_SDD-126"
+    },
+    "neuro105109_lisa128": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 128 — Tremblements",
+      "url": "https://livret.uness.fr/lisa/2026/Tremblements_SDD-128"
+    },
+    "neuro105109_lisa131": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 131 — Troubles de mémoire/déclin cognitif",
+      "url": "https://livret.uness.fr/lisa/2026/Troubles_de_m%C3%A9moire/d%C3%A9clin_cognitif_SDD-131"
+    },
+    "neuro105109_lisa289": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 289 — Consultation et suivi d’un patient épileptique",
+      "url": "https://livret.uness.fr/lisa/2026/Consultation_et_suivi_d%27un_patient_%C3%A9pileptique_SDD-289"
+    },
+    "neuro105109_lisa298": {
+      "code": "LiSA",
+      "title": "LiSA 2026 · SDD 298 — Consultation et suivi d’un patient ayant des troubles cognitifs",
+      "url": "https://livret.uness.fr/lisa/2026/Consultation_et_suivi_d%27un_patient_ayant_des_troubles_cognitifs_SDD-298"
+    }
+  },
+  "notionMissingBlock": {
+    "id": "34b37f85-d941-80ba-acc5-c1c56de91f90",
+    "resolution": "Fetched separately: blank page, no missing clinical content."
+  },
+  "changes": [
+    "Five courses, all original cards reviewed; original objective/card identifiers preserved.",
+    "34 new cards provide coverage for every objective.",
+    "Clinical corrections include febrile seizures/PL, status epilepticus, drug safety, rehabilitation, movement classification, delirium, gait and functional neurological disorders.",
+    "Notion colours transferred only from matching source phrases; complements are identified.",
+    "Eleven original ATLAS teaching decision trees with full objective popups; not represented as verbatim official algorithms."
+  ],
+  "validation": {
+    "rows": [
+      {
+        "item": 105,
+        "objectives": 15,
+        "cards": 64,
+        "trees": 3,
+        "title": "Item 105 — Épilepsies de l'enfant et de l'adulte"
+      },
+      {
+        "item": 106,
+        "objectives": 12,
+        "cards": 27,
+        "trees": 2,
+        "title": "Item 106 — Maladie de Parkinson"
+      },
+      {
+        "item": 107,
+        "objectives": 7,
+        "cards": 29,
+        "trees": 2,
+        "title": "Item 107 — Mouvements anormaux"
+      },
+      {
+        "item": 108,
+        "objectives": 17,
+        "cards": 43,
+        "trees": 2,
+        "title": "Item 108 — Confusion, démence du sujet âgé"
+      },
+      {
+        "item": 109,
+        "objectives": 13,
+        "cards": 34,
+        "trees": 2,
+        "title": "Item 109 — Troubles de la marche et de l'équilibre"
+      }
+    ],
+    "addedCards": 34,
+    "addedTrees": 11,
+    "idempotent": true
+  }
+}
