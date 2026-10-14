@@ -1,0 +1,2506 @@
+{
+  "reviewedAt": "2026-10-14",
+  "batch": "psychiatry-7280",
+  "baselineCommit": "86f485a8196510f1ecef8286bf1d59a90e53f064",
+  "items": [
+    {
+      "item": 72,
+      "objectives": 11,
+      "cards": 27,
+      "originalCards": 20,
+      "addedCards": 7,
+      "words": 2039,
+      "notionHighlights": 26
+    },
+    {
+      "item": 73,
+      "objectives": 9,
+      "cards": 19,
+      "originalCards": 12,
+      "addedCards": 7,
+      "words": 2563,
+      "notionHighlights": 68
+    },
+    {
+      "item": 74,
+      "objectives": 26,
+      "cards": 78,
+      "originalCards": 65,
+      "addedCards": 13,
+      "words": 4180,
+      "notionHighlights": 174
+    },
+    {
+      "item": 75,
+      "objectives": 32,
+      "cards": 92,
+      "originalCards": 81,
+      "addedCards": 11,
+      "words": 4516,
+      "notionHighlights": 186
+    },
+    {
+      "item": 76,
+      "objectives": 20,
+      "cards": 77,
+      "originalCards": 70,
+      "addedCards": 7,
+      "words": 4520,
+      "notionHighlights": 173
+    },
+    {
+      "item": 77,
+      "objectives": 9,
+      "cards": 32,
+      "originalCards": 27,
+      "addedCards": 5,
+      "words": 1683,
+      "notionHighlights": 65
+    },
+    {
+      "item": 78,
+      "objectives": 18,
+      "cards": 29,
+      "originalCards": 11,
+      "addedCards": 18,
+      "words": 4155,
+      "notionHighlights": 188
+    },
+    {
+      "item": 79,
+      "objectives": 8,
+      "cards": 10,
+      "originalCards": 0,
+      "addedCards": 10,
+      "words": 1737,
+      "notionHighlights": 32
+    },
+    {
+      "item": 80,
+      "objectives": 10,
+      "cards": 11,
+      "originalCards": 0,
+      "addedCards": 11,
+      "words": 1675,
+      "notionHighlights": 23
+    },
+    {
+      "item": 121,
+      "objectives": 5,
+      "cards": 10,
+      "originalCards": 5,
+      "addedCards": 5,
+      "words": 1232,
+      "notionHighlights": 20
+    }
+  ],
+  "objectives": 148,
+  "cards": 385,
+  "addedCards": 94,
+  "sdd": {
+    "verifiedAt": "2026-10-14",
+    "status": "verified",
+    "method": "Lecture directe des pages LiSA 2026 et de leurs attendus dans Chrome, session UNESS authentifiée.",
+    "situations": [
+      {
+        "number": 21,
+        "title": "Asthénie",
+        "url": "https://livret.uness.fr/lisa/2026/Asth%C3%A9nie_SDD-021",
+        "expectations": [
+          "Préciser ce que signifie la fatigue, sa chronologie, son retentissement et les signes de gravité.",
+          "Orienter le bilan et le suivi selon les hypothèses ; ne pas conclure à une origine psychique par défaut."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 71,
+        "title": "Douleur d’un membre (supérieur ou inférieur)",
+        "url": "https://livret.uness.fr/lisa/2026/Douleur_d%27un_membre_(sup%C3%A9rieur_ou_inf%C3%A9rieur)_SDD-071",
+        "expectations": [
+          "Caractériser la douleur et examiner les composantes neurologiques, vasculaires, cutanées et locomotrices.",
+          "Identifier les drapeaux rouges et confronter les examens à la clinique avant de choisir le traitement ou l’avis spécialisé."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 77,
+        "title": "Myalgies",
+        "url": "https://livret.uness.fr/lisa/2026/Myalgies_SDD-077",
+        "expectations": [
+          "Localiser la douleur, rechercher un déficit neurologique, une rhabdomyolyse et le retentissement psychosocial.",
+          "En présence d’arguments positifs pour un TSSA, proposer des soins adaptés et limiter les explorations répétitives sans indication."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 49,
+        "title": "Ivresse aiguë",
+        "url": "https://livret.uness.fr/lisa/2026/Ivresse_aigu%C3%AB_SDD-049",
+        "expectations": [
+          "Évaluer vigilance, respiration, glycémie, co-intoxications, traumatisme et complications ; adapter la surveillance à la clinique.",
+          "Après la phase aiguë, rechercher une addiction, proposer prévention et orientation et surveiller un éventuel sevrage."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 116,
+        "title": "Anxiété",
+        "url": "https://livret.uness.fr/lisa/2026/Anxi%C3%A9t%C3%A9_SDD-116",
+        "expectations": [
+          "Retracer l’histoire, caractériser les symptômes et leur retentissement ; rechercher dépression, suicide et addictions.",
+          "Discuter traitement de fond, suivi et avis psychiatrique ; prévenir le mésusage des benzodiazépines."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 256,
+        "title": "Prescrire un hypnotique/anxiolytique",
+        "url": "https://livret.uness.fr/lisa/2026/Prescrire_un_hypnotique/anxiolytique_SDD-256",
+        "expectations": [
+          "Préciser le trouble du sommeil, rechercher une apnée et privilégier les approches non médicamenteuses.",
+          "Adapter prescription et déprescription au terrain ; expliquer dépendance et sevrage, repérer mésusage et choisir l’ordonnance adaptée."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 269,
+        "title": "Suivi et traitement de fond d’un trouble psychiatrique chronique hors dépression",
+        "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_souffrant_d%27un_trouble_psychiatrique_chronique_(hors_d%C3%A9pression)_SDD-269",
+        "expectations": [
+          "Réévaluer décompensation, risque suicidaire, comorbidités, autonomie et insertion ; surveiller les psychotropes et leur observance.",
+          "Expliquer les psychothérapies et coordonner les soins ; la valorisation du stage inclut réhabilitation, remédiation cognitive et démarches MDPH."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 288,
+        "title": "Suivi et traitement de fond d’un patient dépressif",
+        "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_d%C3%A9pressif_SDD-288",
+        "expectations": [
+          "Suivre les symptômes, le fonctionnement, le risque suicidaire, les comorbidités et l’observance.",
+          "Informer sur antidépresseur et psychothérapie ; réévaluer les sédatifs et les causes d’une réponse insuffisante."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 292,
+        "title": "Première consultation d’addictologie",
+        "url": "https://livret.uness.fr/lisa/2026/Premi%C3%A8re_consultation_d%27addictologie_SDD-292",
+        "expectations": [
+          "Caractériser usage nocif, dépendance ou addiction comportementale selon la classification utilisée ; rechercher sevrage, complications et comorbidités.",
+          "Évaluer les conséquences familiales, sociales et professionnelles, fixer des objectifs partagés et orienter ou proposer une substitution selon indication."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 293,
+        "title": "Consultation de suivi addictologie",
+        "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_addictologie_SDD-293",
+        "expectations": [
+          "Rechercher manque, nouveaux symptômes, complications et comorbidités ; apprécier efficacité, tolérance et qualité de vie.",
+          "Adapter prescription et accompagnement social ; la valorisation du stage inclut psychothérapie, entretien motivationnel et soutien des proches avec respect de la confidentialité."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 313,
+        "title": "Prévention des risques liés à l’alcool",
+        "url": "https://livret.uness.fr/lisa/2026/Pr%C3%A9vention_des_risques_li%C3%A9s_%C3%A0_l%27alcool_SDD-313",
+        "expectations": [
+          "Partager les repères de consommation, dépister mésusage et co-addictions, rechercher dommages somatiques, psychiques et sociaux.",
+          "Expliquer le danger d’un sevrage isolé et construire les soins selon les objectifs du patient, avec recours addictologique si nécessaire."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 314,
+        "title": "Prévention des risques liés au tabac",
+        "url": "https://livret.uness.fr/lisa/2026/Pr%C3%A9vention_des_risques_li%C3%A9s_au_tabac_SDD-314",
+        "expectations": [
+          "Évaluer exposition et dépendance, expliquer les risques actifs, passifs et pendant la grossesse ; chercher co-addictions et complications.",
+          "Adapter aides médicamenteuses et accompagnement, organiser le suivi et l’orientation ; prévenir l’initiation et les reprises."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 334,
+        "title": "Demande de traitement et investigation inappropriés",
+        "url": "https://livret.uness.fr/lisa/2026/Demande_de_traitement_et_investigation_inappropri%C3%A9s_SDD-334",
+        "expectations": [
+          "Explorer les motivations et le contexte du patient ou de son entourage.",
+          "Expliquer les limites de l’indication, décliner avec une communication adaptée et rechercher une décision partagée."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 335,
+        "title": "Évaluation de l’aptitude au sport et certificat de non contre-indication",
+        "url": "https://livret.uness.fr/lisa/2026/%C3%89valuation_de_l%27aptitude_au_sport_et_r%C3%A9daction_d%27un_certificat_de_non_contre-indication_SDD-335",
+        "expectations": [
+          "Explorer pratique sportive, âge et terrain ; adapter examen et explorations et repérer surentraînement ou addiction au sport.",
+          "Prévenir les conduites dopantes et identifier les situations nécessitant questionnaire ou certificat médical."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 340,
+        "title": "Prise d’un toxique ou médicament potentiellement toxique",
+        "url": "https://livret.uness.fr/lisa/2026/Prise_volontaire_ou_involontaire_d%27un_toxique_ou_d%27un_m%C3%A9dicament_potentiellement_toxique_SDD-340",
+        "expectations": [
+          "Dater et quantifier l’exposition, reconnaître les toxidromes, évaluer la gravité et considérer un antidote adapté.",
+          "Organiser surveillance et orientation, évaluer intention suicidaire ou maltraitance et solliciter le centre antipoison selon la situation."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 345,
+        "title": "Situation de handicap",
+        "url": "https://livret.uness.fr/lisa/2026/Situation_de_handicap_SDD-345",
+        "expectations": [
+          "Évaluer limitations d’activité, restrictions de participation, besoins de réadaptation et aides humaines ou matérielles.",
+          "Informer la personne et ses aidants, apprécier leur retentissement et orienter vers la MDPH ; intégrer les ressources du milieu de vie."
+        ],
+        "verifiedAt": "2026-10-14"
+      },
+      {
+        "number": 348,
+        "title": "Suspicion d’un effet indésirable des médicaments ou d’un soin",
+        "url": "https://livret.uness.fr/lisa/2026/Suspicion_d%27un_effet_ind%C3%A9sirable_des_m%C3%A9dicaments_ou_d%27un_soin_SDD-348",
+        "expectations": [
+          "Évaluer la gravité et l’imputabilité, rechercher d’autres explications et informer le patient.",
+          "Recourir au système de vigilance approprié et prévenir une réexposition ou un nouvel événement."
+        ],
+        "verifiedAt": "2026-10-14"
+      }
+    ],
+    "itemMapping": {
+      "72": [
+        21,
+        71,
+        77,
+        334
+      ],
+      "73": [
+        116,
+        269,
+        288
+      ],
+      "74": [
+        256,
+        269,
+        288,
+        348
+      ],
+      "75": [
+        314,
+        292,
+        293
+      ],
+      "76": [
+        49,
+        313,
+        292,
+        293
+      ],
+      "77": [
+        256,
+        340,
+        292,
+        293
+      ],
+      "78": [
+        340,
+        292,
+        293
+      ],
+      "79": [
+        292,
+        293,
+        335
+      ],
+      "80": [
+        335
+      ],
+      "121": [
+        269,
+        345
+      ]
+    },
+    "treeMapping": {
+      "psy72-diagnostic": [
+        77,
+        21,
+        71
+      ],
+      "psy72-soins": [
+        21,
+        77,
+        334
+      ],
+      "psy73-choix": [
+        269,
+        116,
+        288
+      ],
+      "psy74-antipsychotique": [
+        269,
+        348
+      ],
+      "psy74-antidepresseur": [
+        288,
+        348
+      ],
+      "psy74-anxiete-sommeil": [
+        256,
+        116
+      ],
+      "psy74-thymoregulation-stimulation": [
+        269,
+        348
+      ],
+      "psy75-arret": [
+        314,
+        292,
+        293
+      ],
+      "psy75-terrain": [
+        314
+      ],
+      "psy76-reperage": [
+        313,
+        292
+      ],
+      "psy76-sevrage": [
+        292,
+        313
+      ],
+      "psy76-complications": [
+        49,
+        293
+      ],
+      "psy77-intoxication": [
+        340
+      ],
+      "psy77-diminution": [
+        256,
+        293
+      ],
+      "psy78-surdose": [
+        340
+      ],
+      "psy78-syndromes": [
+        340,
+        292
+      ],
+      "psy78-mso": [
+        292,
+        293
+      ],
+      "psy79-comportement": [
+        292,
+        293,
+        335
+      ],
+      "psy80-prescription": [
+        335
+      ],
+      "psy121-autonomie": [
+        345,
+        269
+      ]
+    },
+    "scope": "17 situations retenues, 20 arbres. Correspondances pédagogiques partielles ; la SDD 334 est explicitement transversale pour l’item 72. La SDD 035 a également été consultée puis écartée au profit des liens explicites 021/071/077."
+  },
+  "algorithms": [
+    {
+      "id": "psy72-diagnostic",
+      "title": "Symptômes somatiques : poser un diagnostic positif",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 077, 021, 071. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy72-soins",
+      "title": "TSSA : construire des soins coordonnés",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 021, 077, 334. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy73-choix",
+      "title": "Psychothérapie : choisir un cadre adapté",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 269, 116, 288. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy74-antipsychotique",
+      "title": "Antipsychotique : prescrire et surveiller",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 269, 348. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy74-antidepresseur",
+      "title": "Antidépresseur : de l’indication au suivi",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 288, 348. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy74-anxiete-sommeil",
+      "title": "Anxiété et insomnie : limiter les risques de sédation",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 256, 116. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy74-thymoregulation-stimulation",
+      "title": "Thymorégulateurs et psychostimulants : sécuriser le suivi",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 269, 348. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy75-arret",
+      "title": "Tabac : repérer, proposer et accompagner l’arrêt",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 314, 292, 293. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy75-terrain",
+      "title": "Tabac : grossesse, événement aigu et terrain à risque",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 314. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy76-reperage",
+      "title": "Alcool : du repérage au projet de soins",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 313, 292. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy76-sevrage",
+      "title": "Alcool : sécuriser un sevrage",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 292, 313. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy76-complications",
+      "title": "Alcool : intoxication, complications et traitement durable",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 049, 293. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy77-intoxication",
+      "title": "Benzodiazépines : intoxication aiguë",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 340. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy77-diminution",
+      "title": "Benzodiazépines : construire un arrêt progressif",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 256, 293. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy78-surdose",
+      "title": "Opioïdes : reconnaître et traiter une surdose",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 340. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy78-syndromes",
+      "title": "Drogues : identifier le syndrome et orienter les soins",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 340, 292. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy78-mso",
+      "title": "Opioïdes : mettre en place un traitement de substitution",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 292, 293. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy79-comportement",
+      "title": "Comportement excessif : addiction ou autre difficulté ?",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 292, 293, 335. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy80-prescription",
+      "title": "Sport et conduite dopante : évaluer puis prévenir",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 335. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "psy121-autonomie",
+      "title": "Handicap psychique : construire un projet de vie",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique ATLAS · cours Notion et références du Collège/HAS/ANSM. Situations LiSA 2026 consultées le 14 octobre 2026 : 345, 269. Le parcours développe une partie de ces situations ; il ne reproduit pas un algorithme officiel."
+    }
+  ],
+  "sources": {
+    "psy7280_lithium": {
+      "code": "ANSM",
+      "title": "ANSM · RCP Téralithe LP, juillet 2026",
+      "url": "https://agence-prd.ansm.sante.fr/php/ecodex/rcp/R0449539.htm"
+    },
+    "psy7280_daridorexant": {
+      "code": "HAS",
+      "title": "HAS · Daridorexant et insomnie chronique",
+      "url": "https://www.has-sante.fr/jcms/p_3443615/fr/quviviq-daridorexant-insomnie-chronique"
+    },
+    "psy7280_modafinil": {
+      "code": "ANSM",
+      "title": "ANSM · Modafinil, grossesse et contraception",
+      "url": "https://ansm.sante.fr/actualites/le-modafinil-modiodal-et-generiques-ne-doit-pas-etre-utilise-au-cours-de-la-grossesse"
+    },
+    "psy7280_depressionhas": {
+      "code": "HAS",
+      "title": "HAS · Dépression de l’adulte, traitement et suivi",
+      "url": "https://www.has-sante.fr/jcms/c_2800513/fr/depression-adulte-prise-en-charge-therapeutique-et-suivi-fiche-de-synthese"
+    },
+    "psy7280_valproatehomme": {
+      "code": "ANSM",
+      "title": "ANSM · Valproate, attestation d’information hommes",
+      "url": "https://ansm.sante.fr/uploads/2025/12/17/20251217-marr-valproate-aip-hommes.pdf"
+    },
+    "psy7280_valproate2026": {
+      "code": "EMA",
+      "title": "EMA · Valproate paternel, évaluation de juin 2026",
+      "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-june-2026"
+    },
+    "psy7280_ofdtepi": {
+      "code": "OFDT",
+      "title": "OFDT · Drogues et addictions, chiffres clés 2025",
+      "url": "https://www.ofdt.fr/sites/ofdt/files/2025-01/dacc_2024.pdf"
+    },
+    "psy7280_ofdtcannabis": {
+      "code": "OFDT",
+      "title": "OFDT · Cannabis, synthèse des connaissances",
+      "url": "https://www.ofdt.fr/cannabis-resine-herbe-huile-cbd-synthese-des-connaissances-1724"
+    },
+    "psy7280_methrcp": {
+      "code": "ANSM",
+      "title": "ANSM · RCP Méthadone AP-HP sirop, mai 2026",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61687452/extrait"
+    },
+    "psy7280_opioideshas": {
+      "code": "HAS",
+      "title": "HAS · Opioïdes, trouble de l’usage et surdoses, 2022",
+      "url": "https://www.has-sante.fr/jcms/p_3215131/fr/bon-usage-des-medicaments-opioides-antalgie-prevention-et-prise-en-charge-du-trouble-de-l-usage-et-des-surdoses"
+    },
+    "psy7280_buvidal": {
+      "code": "HAS",
+      "title": "HAS · Buvidal, buprénorphine prolongée",
+      "url": "https://www.has-sante.fr/jcms/p_3419438/fr/buvidal-22022023-avis-ct19818"
+    },
+    "psy7280_alcoolcriteria": {
+      "code": "Guidelines for the Treatment of Alcohol Problems",
+      "title": "Guidelines for the Treatment of Alcohol Problems · Critères CIM-11 et DSM-5",
+      "url": "https://alcoholtreatmentguidelines.com.au/resources/appendix-3-diagnostic-criteria-for-alcohol-dependence"
+    },
+    "psy7280_alcoolhas": {
+      "code": "HAS",
+      "title": "HAS · Repérage interventionnel du risque alcool, 2023",
+      "url": "https://www.has-sante.fr/jcms/p_3467935/fr/fiche-2-agir-en-premier-recours-pour-diminuer-le-risque-alcool-le-reperage-interventionnel"
+    },
+    "psy7280_alcoolroute": {
+      "code": "Service public",
+      "title": "Service public · Alcool au volant",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F2881"
+    },
+    "psy7280_baclofene": {
+      "code": "ANSM",
+      "title": "ANSM · Baclofène : indications et recommandations posologiques",
+      "url": "https://ansm.sante.fr/actualites/alcoolo-dependance-nouvelles-recommandations-posologiques-pour-le-baclofene"
+    },
+    "psy7280_disulfirame": {
+      "code": "ANSM",
+      "title": "ANSM · RCP Espéral, précautions et réaction antabuse",
+      "url": "https://agence-prd.ansm.sante.fr/php/ecodex/rcp/R0271439.htm"
+    },
+    "psy7280_naloxone": {
+      "code": "ANSM",
+      "title": "ANSM · Naloxone et surdose d’opioïdes",
+      "url": "https://ansm.sante.fr/actualites/surdosage-et-overdose-dopioides-point-sur-loffre-therapeutique-de-la-naloxone-en-france"
+    },
+    "psy7280_methadone": {
+      "code": "ANSM",
+      "title": "ANSM · Méthadone, document de bon usage",
+      "url": "https://ansm.sante.fr/uploads/2021/10/27/20211027-marr-methadoneaphpsirop-gelule-brochure-patient-02-2021-10.pdf"
+    },
+    "psy7280_cancertabac": {
+      "code": "INCa",
+      "title": "INCa · Tabac et cancer",
+      "url": "https://www.cancer.fr/toute-l-information-sur-les-cancers/comprendre-les-cancers/les-facteurs-de-risque/barometre-cancer/tabac-et-cancer"
+    },
+    "psy7280_tabacloi": {
+      "code": "Gouvernement",
+      "title": "Gouvernement · Extension des espaces sans tabac en 2025",
+      "url": "https://www.info.gouv.fr/actualite/interdiction-de-fumer-de-nouveaux-lieux-concernes-cet-ete"
+    },
+    "psy7280_bzdepi": {
+      "code": "ANSM",
+      "title": "ANSM · Bon usage des benzodiazépines, données 2024",
+      "url": "https://ansm.sante.fr/page/les-medicaments-et-moi-bub"
+    },
+    "psy7280_tns": {
+      "code": "Assurance maladie",
+      "title": "Assurance maladie · Prise en charge des substituts nicotiniques",
+      "url": "https://www.ameli.fr/assure/remboursements/rembourse/medicaments-vaccins-dispositifs-medicaux/prise-charge-substituts-nicotiniques"
+    },
+    "psy7280_tabacepi": {
+      "code": "Santé publique France",
+      "title": "Santé publique France · Baromètre tabagisme 2024",
+      "url": "https://www.drogues.gouv.fr/sites/default/files/2025-10/Barom%C3%A8tre_Tabagisme_2024.pdf"
+    },
+    "psy7280_tabacmort": {
+      "code": "Santé publique France",
+      "title": "Santé publique France · Tabac : mortalité attribuable",
+      "url": "https://www.santepubliquefrance.fr/tabac"
+    },
+    "psy7280_pnlt": {
+      "code": "Ministère de la Santé",
+      "title": "Ministère de la Santé · Programme national de lutte contre le tabac 2023–2027",
+      "url": "https://sante.gouv.fr/IMG/pdf/plan_national_contre_le_tabac.pdf"
+    },
+    "psy7280_grossessetabac": {
+      "code": "Santé publique France",
+      "title": "Santé publique France · Tabac pendant la grossesse, enquête 2016",
+      "url": "https://beh.santepubliquefrance.fr/beh/2018/35-36/2018_35-36_2.html"
+    },
+    "psy7280_clozapine": {
+      "code": "ANSM",
+      "title": "ANSM · Surveillance de la clozapine, actualisation de septembre 2025",
+      "url": "https://ansm.sante.fr/informations-de-securite/impression/7184"
+    },
+    "psy7280_mph": {
+      "code": "ANSM",
+      "title": "ANSM · RCP Ritaline LP, avril 2026",
+      "url": "https://agence-prd.ansm.sante.fr/php/ecodex/rcp/R0446030.htm"
+    },
+    "psy7280_anj": {
+      "code": "ANJ",
+      "title": "ANJ · Interdiction volontaire de jeux",
+      "url": "https://www.anj.fr/foire-aux-questions/addiction-au-jeu/combien-de-temps-dure-une-interdiction-volontaire-de-jeux"
+    },
+    "psy7280_wada": {
+      "code": "AMA",
+      "title": "AMA · Liste des substances et méthodes interdites",
+      "url": "https://www.wada-ama.org/fr/liste-des-interdictions"
+    },
+    "psy7280_aut": {
+      "code": "AFLD",
+      "title": "AFLD · Demande d’autorisation d’usage à des fins thérapeutiques",
+      "url": "https://www.afld.fr/la-lutte-antidopage/education-et-prevention/aut/"
+    },
+    "psy7280_dopagerisque": {
+      "code": "Ministère des Sports",
+      "title": "Ministère des Sports · Substances et risques du dopage",
+      "url": "https://www.sports.gouv.fr/media/8943/download"
+    },
+    "psy7280_meddopage": {
+      "code": "Ministère des Sports",
+      "title": "Ministère des Sports · Le médecin face au dopage",
+      "url": "https://www.sports.gouv.fr/le-medecin-face-au-dopage-2730"
+    },
+    "psy7280_abp": {
+      "code": "AMA",
+      "title": "AMA · Module endocrinien du passeport biologique",
+      "url": "https://www.wada-ama.org/sites/default/files/2023-07/2023_laboratory_guidelines_endocrine_module_final_v1_0.pdf"
+    },
+    "psy7280_mecfs": {
+      "code": "NICE NG206",
+      "title": "NICE NG206 · Encéphalomyélite myalgique / syndrome de fatigue chronique",
+      "url": "https://www.nice.org.uk/guidance/NG206/chapter/recommendations"
+    },
+    "psy7280_icd": {
+      "code": "OMS",
+      "title": "OMS · Descriptions et critères diagnostiques CIM-11, 2024",
+      "url": "https://www.who.int/publications/i/item/9789240077263"
+    },
+    "psy7280_ofdtjeux": {
+      "code": "OFDT",
+      "title": "OFDT · Addictions comportementales, définitions et classifications",
+      "url": "https://www.ofdt.fr/glossaire/addiction-comportementale"
+    },
+    "psy7280_afld": {
+      "code": "AFLD",
+      "title": "AFLD · Espace des professionnels de santé",
+      "url": "https://www.afld.fr/espace-des-professionnels-de-sante/"
+    },
+    "psy7280_medafld": {
+      "code": "AFLD",
+      "title": "AFLD · Vérifier un médicament",
+      "url": "https://medicaments.afld.fr/"
+    },
+    "psy7280_college": {
+      "code": "CNUP–AESP–CUNEA",
+      "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e édition (2024)",
+      "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf"
+    },
+    "psy7280_monpsy": {
+      "code": "Assurance maladie",
+      "title": "Assurance maladie · Mon soutien psy",
+      "url": "https://www.ameli.fr/assure/remboursements/rembourse/remboursement-seance-psychologue-mon-soutien-psy"
+    },
+    "psy7280_titre": {
+      "code": "Légifrance",
+      "title": "Légifrance · Décret du 20 mai 2010, titre de psychothérapeute",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000022244482/"
+    },
+    "psy7280_aah": {
+      "code": "Assurance maladie",
+      "title": "Assurance maladie · Invalidité et handicap, AAH différentielle",
+      "url": "https://www.ameli.fr/assure/droits-demarches/invalidite-handicap/handicap"
+    },
+    "psy7280_protection": {
+      "code": "Service public",
+      "title": "Service public · Protection juridique d’un majeur",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/R50473"
+    },
+    "psy7280_bzd": {
+      "code": "HAS",
+      "title": "HAS · Arrêt des benzodiazépines, démarche en ambulatoire",
+      "url": "https://www.has-sante.fr/jcms/c_2038262/fr/arret-des-benzodiazepines-et-medicaments-apparentes-demarche-du-medecin-traitant-en-ambulatoire"
+    },
+    "psy7280_anxiete": {
+      "code": "HAS",
+      "title": "HAS · Benzodiazépines dans l’anxiété",
+      "url": "https://www.has-sante.fr/jcms/c_2863043/fr/quelle-place-pour-les-benzodiazepines-dans-l-anxiete"
+    },
+    "psy7280_insomnie": {
+      "code": "HAS",
+      "title": "HAS · Benzodiazépines dans l’insomnie",
+      "url": "https://www.has-sante.fr/jcms/c_2015058/fr/quelle-place-pour-les-benzodiazepines-dans-l-insomnie"
+    },
+    "psy7280_tabac": {
+      "code": "HAS",
+      "title": "HAS · Arrêt du tabac : recommandations et algorithmes",
+      "url": "https://www.has-sante.fr/jcms/c_1718021/fr/"
+    },
+    "psy7280_valproate": {
+      "code": "ANSM",
+      "title": "ANSM · Valproate et risques pour l’enfant à naître",
+      "url": "https://ansm.sante.fr/actualites/valproate-et-risques-pour-lenfant-a-naitre-les-conditions-de-prescription-et-de-delivrance-evoluent-pour-les-adolescents-et-les-hommes-susceptibles-davoir-des-enfants"
+    },
+    "psy7280_lisa21": {
+      "code": "LiSA · SDD 021",
+      "title": "Asthénie",
+      "url": "https://livret.uness.fr/lisa/2026/Asth%C3%A9nie_SDD-021"
+    },
+    "psy7280_lisa71": {
+      "code": "LiSA · SDD 071",
+      "title": "Douleur d’un membre (supérieur ou inférieur)",
+      "url": "https://livret.uness.fr/lisa/2026/Douleur_d%27un_membre_(sup%C3%A9rieur_ou_inf%C3%A9rieur)_SDD-071"
+    },
+    "psy7280_lisa77": {
+      "code": "LiSA · SDD 077",
+      "title": "Myalgies",
+      "url": "https://livret.uness.fr/lisa/2026/Myalgies_SDD-077"
+    },
+    "psy7280_lisa49": {
+      "code": "LiSA · SDD 049",
+      "title": "Ivresse aiguë",
+      "url": "https://livret.uness.fr/lisa/2026/Ivresse_aigu%C3%AB_SDD-049"
+    },
+    "psy7280_lisa116": {
+      "code": "LiSA · SDD 116",
+      "title": "Anxiété",
+      "url": "https://livret.uness.fr/lisa/2026/Anxi%C3%A9t%C3%A9_SDD-116"
+    },
+    "psy7280_lisa256": {
+      "code": "LiSA · SDD 256",
+      "title": "Prescrire un hypnotique/anxiolytique",
+      "url": "https://livret.uness.fr/lisa/2026/Prescrire_un_hypnotique/anxiolytique_SDD-256"
+    },
+    "psy7280_lisa269": {
+      "code": "LiSA · SDD 269",
+      "title": "Suivi et traitement de fond d’un trouble psychiatrique chronique hors dépression",
+      "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_souffrant_d%27un_trouble_psychiatrique_chronique_(hors_d%C3%A9pression)_SDD-269"
+    },
+    "psy7280_lisa288": {
+      "code": "LiSA · SDD 288",
+      "title": "Suivi et traitement de fond d’un patient dépressif",
+      "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_d%C3%A9pressif_SDD-288"
+    },
+    "psy7280_lisa292": {
+      "code": "LiSA · SDD 292",
+      "title": "Première consultation d’addictologie",
+      "url": "https://livret.uness.fr/lisa/2026/Premi%C3%A8re_consultation_d%27addictologie_SDD-292"
+    },
+    "psy7280_lisa293": {
+      "code": "LiSA · SDD 293",
+      "title": "Consultation de suivi addictologie",
+      "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_addictologie_SDD-293"
+    },
+    "psy7280_lisa313": {
+      "code": "LiSA · SDD 313",
+      "title": "Prévention des risques liés à l’alcool",
+      "url": "https://livret.uness.fr/lisa/2026/Pr%C3%A9vention_des_risques_li%C3%A9s_%C3%A0_l%27alcool_SDD-313"
+    },
+    "psy7280_lisa314": {
+      "code": "LiSA · SDD 314",
+      "title": "Prévention des risques liés au tabac",
+      "url": "https://livret.uness.fr/lisa/2026/Pr%C3%A9vention_des_risques_li%C3%A9s_au_tabac_SDD-314"
+    },
+    "psy7280_lisa334": {
+      "code": "LiSA · SDD 334",
+      "title": "Demande de traitement et investigation inappropriés",
+      "url": "https://livret.uness.fr/lisa/2026/Demande_de_traitement_et_investigation_inappropri%C3%A9s_SDD-334"
+    },
+    "psy7280_lisa335": {
+      "code": "LiSA · SDD 335",
+      "title": "Évaluation de l’aptitude au sport et certificat de non contre-indication",
+      "url": "https://livret.uness.fr/lisa/2026/%C3%89valuation_de_l%27aptitude_au_sport_et_r%C3%A9daction_d%27un_certificat_de_non_contre-indication_SDD-335"
+    },
+    "psy7280_lisa340": {
+      "code": "LiSA · SDD 340",
+      "title": "Prise d’un toxique ou médicament potentiellement toxique",
+      "url": "https://livret.uness.fr/lisa/2026/Prise_volontaire_ou_involontaire_d%27un_toxique_ou_d%27un_m%C3%A9dicament_potentiellement_toxique_SDD-340"
+    },
+    "psy7280_lisa345": {
+      "code": "LiSA · SDD 345",
+      "title": "Situation de handicap",
+      "url": "https://livret.uness.fr/lisa/2026/Situation_de_handicap_SDD-345"
+    },
+    "psy7280_lisa348": {
+      "code": "LiSA · SDD 348",
+      "title": "Suspicion d’un effet indésirable des médicaments ou d’un soin",
+      "url": "https://livret.uness.fr/lisa/2026/Suspicion_d%27un_effet_ind%C3%A9sirable_des_m%C3%A9dicaments_ou_d%27un_soin_SDD-348"
+    }
+  },
+  "changes": [
+    "148 objectives reviewed, all original objective identifiers/ranks retained; all original card identifiers retained.",
+    "385 cards, including 94 additions; every objective has cards and is linked to full course text from at least one tree node.",
+    "20 original pedagogical trees, 143 nodes; these are ATLAS teaching syntheses, not official algorithms reproduced verbatim.",
+    "TSSA positive diagnostic criteria, functional symptoms, psychotherapy qualifications/access and psychosocial rehabilitation reviewed.",
+    "Psychotropics: clozapine monitoring 2025, lithium RCP July 2026, valproate paternal uncertainty and maintained precautions June 2026, psychostimulant conditions and interactions.",
+    "Tobacco epidemiology and reimbursement, alcohol diagnostic systems/sevrage, benzodiazepine dependence versus addiction, opioid overdose/MSO and gambling classifications reviewed.",
+    "Doping: annual applicable list, route/context, AUT and health risks; legal and scientific references are linked within objectives.",
+    "Only matching Notion phrases supply personal colour highlights; editorial additions have separately identified references.",
+    "17 LiSA situations verified directly in authenticated Chrome on 14 October 2026; explicit item-72 links 021/071/077 retained, 334 identified as a transversal complement. The 20 ATLAS trees are partial pedagogical syntheses, not official algorithms."
+  ],
+  "remainingPsychiatryItems": [
+    144,
+    351,
+    352,
+    353
+  ],
+  "medicalReview": {
+    "72": {
+      "72-1": {
+        "sources": [
+          "college",
+          "icd"
+        ],
+        "note": "Correction des confusions entre chapitre DSM, TSS, syndromes fonctionnels et modèle de détresse corporelle.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-5": {
+        "sources": [
+          "college",
+          "mecfs"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-6": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-8": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-9": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-10": {
+        "sources": [
+          "college",
+          "mecfs"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "72-11": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "73": {
+      "73-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-6": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-8": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-3": {
+        "sources": [
+          "college",
+          "titre",
+          "monpsy"
+        ],
+        "note": "Mise à jour des dispenses, de l’inscription et du remboursement ; ne pas assimiler psychologue libéral et consultation médicale.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "73-9": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "74": {
+      "74-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "74-2": {
+        "sources": [
+          "college",
+          "bzdepi"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "74-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          1
+        ]
+      },
+      "74-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          1
+        ]
+      },
+      "74-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          1
+        ]
+      },
+      "74-6": {
+        "sources": [
+          "college",
+          "clozapine"
+        ],
+        "note": "",
+        "notionScopes": [
+          1
+        ]
+      },
+      "74-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          1
+        ]
+      },
+      "74-8": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          2
+        ]
+      },
+      "74-9": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          2
+        ]
+      },
+      "74-10": {
+        "sources": [
+          "college",
+          "depressionhas"
+        ],
+        "note": "",
+        "notionScopes": [
+          2
+        ]
+      },
+      "74-11": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          2
+        ]
+      },
+      "74-12": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-13": {
+        "sources": [
+          "college",
+          "anxiete"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-14": {
+        "sources": [
+          "college",
+          "anxiete",
+          "bzd"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-15": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-16": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-17": {
+        "sources": [
+          "college",
+          "daridorexant"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-18": {
+        "sources": [
+          "college",
+          "insomnie",
+          "daridorexant"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-19": {
+        "sources": [
+          "college",
+          "insomnie",
+          "bzd"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-20": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          5
+        ]
+      },
+      "74-21": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          3
+        ]
+      },
+      "74-22": {
+        "sources": [
+          "college",
+          "valproate",
+          "valproatehomme",
+          "valproate2026",
+          "lithium"
+        ],
+        "note": "",
+        "notionScopes": [
+          3
+        ]
+      },
+      "74-23": {
+        "sources": [
+          "college",
+          "lithium",
+          "valproate"
+        ],
+        "note": "",
+        "notionScopes": [
+          3
+        ]
+      },
+      "74-24": {
+        "sources": [
+          "college",
+          "mph"
+        ],
+        "note": "",
+        "notionScopes": [
+          4
+        ]
+      },
+      "74-25": {
+        "sources": [
+          "college",
+          "mph",
+          "modafinil"
+        ],
+        "note": "",
+        "notionScopes": [
+          4
+        ]
+      },
+      "74-26": {
+        "sources": [
+          "college",
+          "mph",
+          "modafinil"
+        ],
+        "note": "",
+        "notionScopes": [
+          4
+        ]
+      }
+    },
+    "75": {
+      "75-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-9": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-17": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-18": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-21": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-32": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-3": {
+        "sources": [
+          "college",
+          "tns"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-6": {
+        "sources": [
+          "college",
+          "tabacmort"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-7": {
+        "sources": [
+          "college",
+          "tabacepi"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-8": {
+        "sources": [
+          "college",
+          "tabacepi"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-10": {
+        "sources": [
+          "college",
+          "grossessetabac"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-11": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-12": {
+        "sources": [
+          "college",
+          "cancertabac",
+          "tabacmort"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-13": {
+        "sources": [
+          "college",
+          "tabacmort"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-14": {
+        "sources": [
+          "college",
+          "tabacmort"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-15": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-16": {
+        "sources": [
+          "college",
+          "tabacepi"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-19": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-20": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-22": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-23": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-24": {
+        "sources": [
+          "college",
+          "tabac"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-25": {
+        "sources": [
+          "college",
+          "pnlt",
+          "tabacloi"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-26": {
+        "sources": [
+          "college",
+          "tabac",
+          "tns"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-27": {
+        "sources": [
+          "college",
+          "tns"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-28": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-29": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-30": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "75-31": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "76": {
+      "76-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-3": {
+        "sources": [
+          "college",
+          "alcoolcriteria"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-5": {
+        "sources": [
+          "college",
+          "icd",
+          "alcoolcriteria"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-6": {
+        "sources": [
+          "college",
+          "alcoolhas"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-8": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-9": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-10": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-11": {
+        "sources": [
+          "college",
+          "alcoolroute"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-12": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-13": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-14": {
+        "sources": [
+          "college",
+          "alcoolhas"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-15": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-16": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-17": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-18": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-19": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "76-20": {
+        "sources": [
+          "college",
+          "baclofene",
+          "disulfirame"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "77": {
+      "77-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-4": {
+        "sources": [
+          "college",
+          "bzd"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-6": {
+        "sources": [
+          "college",
+          "bzdepi"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-7": {
+        "sources": [
+          "college",
+          "anxiete",
+          "insomnie"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-8": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "77-9": {
+        "sources": [
+          "college",
+          "bzd"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1
+        ]
+      }
+    },
+    "78": {
+      "78-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-5": {
+        "sources": [
+          "college",
+          "ofdtepi",
+          "ofdtcannabis"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-6": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-8": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-9": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-10": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-11": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-12": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-13": {
+        "sources": [
+          "college",
+          "methrcp"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-14": {
+        "sources": [
+          "college",
+          "naloxone"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-15": {
+        "sources": [
+          "college",
+          "naloxone",
+          "opioideshas"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-16": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-17": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      "78-18": {
+        "sources": [
+          "college",
+          "methadone",
+          "methrcp",
+          "opioideshas",
+          "buvidal"
+        ],
+        "note": "",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    "79": {
+      "79-1": {
+        "sources": [
+          "college",
+          "ofdtjeux"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-2": {
+        "sources": [
+          "college",
+          "ofdtjeux"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-4": {
+        "sources": [
+          "college",
+          "ofdtjeux",
+          "icd"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-6": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "79-8": {
+        "sources": [
+          "college",
+          "anj",
+          "protection"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "80": {
+      "80-1": {
+        "sources": [
+          "college",
+          "afld",
+          "wada"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-2": {
+        "sources": [
+          "college",
+          "wada",
+          "aut"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-3": {
+        "sources": [
+          "college",
+          "wada",
+          "medafld"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-4": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-5": {
+        "sources": [
+          "college",
+          "afld"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-6": {
+        "sources": [
+          "college",
+          "afld",
+          "abp"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-7": {
+        "sources": [
+          "college",
+          "afld",
+          "meddopage"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-8": {
+        "sources": [
+          "college",
+          "medafld",
+          "aut"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-9": {
+        "sources": [
+          "college",
+          "dopagerisque",
+          "afld"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "80-10": {
+        "sources": [
+          "college",
+          "meddopage"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "121": {
+      "121-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "Correction des équivalences « intellectuel = dès la naissance / stable / peu de soins ».",
+        "notionScopes": [
+          0
+        ]
+      },
+      "121-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "121-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "121-4": {
+        "sources": [
+          "college",
+          "aah"
+        ],
+        "note": "Correction du cumul AAH/invalidité, du milieu ordinaire/protégé et des seuils d’âge présentés comme automatiques.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "121-5": {
+        "sources": [
+          "college",
+          "protection"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    }
+  }
+}
