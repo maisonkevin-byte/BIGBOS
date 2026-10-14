@@ -18,10 +18,10 @@ function references(node){
 function related(node){
  return node.related?.length?'<div class="algo-related"><strong>Poursuivre dans les fiches</strong>'+node.related.map(n=>'<a href="#item/'+n+'">Item '+n+' · '+esc(itemLabel(n))+' →</a>').join('')+'</div>':'';
 }
-function information(node){
+function information(node,sourceOnly=false){
  const body='<ul class="algo-detail-points">'+node.body.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>';
  const actions=node.actions?.length?'<div class="algo-body"><h4>À faire</h4><ul class="algo-detail-actions">'+node.actions.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul></div><details class="algo-why"><summary>Précisions de cette étape</summary>'+body+'</details>':'<div class="algo-body">'+body+'</div>';
- return actions+'<details class="algo-why"><summary>Pourquoi cette étape ?</summary><p>'+esc(node.why)+'</p></details>'+related(node)+references(node);
+ return actions+'<details class="algo-why"><summary>'+(sourceOnly?'Pourquoi ce lien de cours ?':'Pourquoi cette étape ?')+'</summary><p>'+esc(node.why)+'</p></details>'+related(node)+references(node);
 }
 function courseSlot(node){
  return node.course?.length?'<section class="algo-course" aria-label="Cours associé"><h4>Ton cours associé</h4><div class="algo-course-content" aria-live="polite" data-course-node="'+esc(node.id)+'"><p>Chargement du cours…</p></div></section>':'';
@@ -55,7 +55,7 @@ function showDetail(root,algorithm,node,placement=coursePlacement){
  if(isBelow){dialog.close();window.ATLAS_ALGORITHM_TREE.closeExpanded();}
  if(below){below.hidden=!isBelow;if(!isBelow)below.innerHTML='';}
  const host=isBelow?below:dialog;if(!host)return;
- host.innerHTML='<div class="algo-detail-top">'+(kindLabel(node)||'<span class="algo-eyebrow">Marche à suivre</span>')+'<div class="algo-detail-tools">'+button(isBelow?'Ouvrir en pop-up':'Afficher sous l’arbre','placement','data-placement="'+(isBelow?'popup':'below')+'"')+button('Fermer ×','close-detail')+'</div></div><h3 id="'+(isBelow?'algo-below-title':'algo-detail-title')+'" tabindex="-1">'+esc(node.title)+'</h3>'+information(node)+courseSlot(node)+(node.choices.length?'<div class="algo-detail-branches"><strong>Poursuivre dans l’arbre</strong>'+node.choices.map(c=>button(c.label+' →','inspect','data-node="'+esc(c.to)+'"')).join('')+'</div>':'');
+ host.innerHTML='<div class="algo-detail-top">'+(kindLabel(node)||'<span class="algo-eyebrow">'+(algorithm.sourceOnly?'Cours associé à la source':'Marche à suivre')+'</span>')+'<div class="algo-detail-tools">'+button(isBelow?'Ouvrir en pop-up':'Afficher sous l’arbre','placement','data-placement="'+(isBelow?'popup':'below')+'"')+button('Fermer ×','close-detail')+'</div></div><h3 id="'+(isBelow?'algo-below-title':'algo-detail-title')+'" tabindex="-1">'+esc(node.title)+'</h3>'+information(node,algorithm.sourceOnly)+courseSlot(node)+(node.choices.length?'<div class="algo-detail-branches"><strong>Poursuivre dans l’arbre</strong>'+node.choices.map(c=>button(c.label+' →','inspect','data-node="'+esc(c.to)+'"')).join('')+'</div>':'');
  root.querySelectorAll('.algo-tree-card').forEach(c=>c.setAttribute('aria-pressed',String(c.dataset.node===node.id)));
  if(isBelow){const heading=host.querySelector('h3');heading.focus({preventScroll:true});host.scrollIntoView({block:'start',behavior:'smooth'});}
  else if(!dialog.open)dialog.showModal();else{dialog.scrollTop=0;dialog.querySelector('h3').focus({preventScroll:true});}
@@ -67,8 +67,9 @@ function collegeSourceView(algorithm){
  const image=s.image?'<a class="algo-original-link" href="'+esc(s.image)+'" target="_blank" rel="noopener noreferrer"><img class="algo-original-image" src="'+esc(s.image)+'" alt="'+esc(s.imageAlt)+'"><span>Ouvrir la figure originale en plein format ↗</span></a>':'';
  const t=s.table;
  const table=t?'<div class="algo-source-table"><table><caption>'+esc(t.caption)+'</caption><thead><tr>'+t.headers.map(h=>'<th scope="col">'+esc(h)+'</th>').join('')+'</tr></thead><tbody>'+t.rows.map(row=>'<tr>'+row.map((cell,i)=>'<'+(i===0?'th scope="row"':'td')+'>'+esc(cell)+'</'+(i===0?'th':'td')+'>').join('')+'</tr>').join('')+'</tbody></table></div>':'';
- const steps='<div class="algo-source-courses"><h3>Ouvrir une étape et son cours</h3><div>'+algorithm.nodes.filter(n=>n.course?.length).map(n=>button(n.title,'inspect','data-node="'+esc(n.id)+'"')).join('')+'</div></div>';
- return '<section class="algo-college-source" aria-label="Source du collège"><p class="algo-source-credit"><strong>'+esc(s.college)+'</strong> · '+esc(s.edition)+' · Item '+esc(s.item)+' · '+esc(s.reference)+'</p>'+image+table+steps+'</section>';
+ const document=s.documentUrl?'<p class="algo-source-credit"><a class="algo-button" href="'+esc(s.documentUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(s.documentLabel||'Ouvrir le document original ↗')+'</a></p>':'';
+ const steps='<div class="algo-source-courses"><h3>'+(algorithm.sourceOnly?'Cours en lien avec cette ressource':'Ouvrir une étape et son cours')+'</h3><div>'+algorithm.nodes.filter(n=>n.course?.length).map(n=>button(n.title,'inspect','data-node="'+esc(n.id)+'"')).join('')+'</div></div>';
+ return '<section class="algo-college-source" aria-label="Source du collège"><p class="algo-source-credit"><strong>'+esc(s.college)+'</strong> · '+esc(s.edition)+' · Item '+esc(s.item)+' · '+esc(s.reference)+'</p>'+image+table+document+steps+'</section>';
 }
 function sourceNotes(algorithm){const notes=algorithm.collegeSource?.notes;return notes?.length?'<details class="algo-source-notes" open><summary>Précisions sur la source et la transposition</summary>'+notes.map(t=>'<p>'+esc(t)+'</p>').join('')+'</details>':'';}
 
@@ -78,12 +79,13 @@ function renderStage(item){
  const path=state.paths[algorithm.id]||(state.paths[algorithm.id]=['entry']);
  const nodes=new Map(algorithm.nodes.map(n=>[n.id,n]));
  const current=nodes.get(path[path.length-1])||algorithm.nodes[0];
- const availableModes=algorithm.collegeSource?[['source',algorithm.collegeSource.kind==='table'?'Tableau du collège':'Figure du collège'],['overview','Arbre interactif'],['guided','Pas à pas']]:[['overview','Arbre décisionnel'],['guided','Pas à pas']];
+ const sourceLabel=algorithm.collegeSource?.kind==='table'?'Tableau du collège':algorithm.collegeSource?.kind==='schema'?'Schéma du collège':'Figure du collège';
+ const availableModes=algorithm.sourceOnly?[['source',sourceLabel]]:algorithm.collegeSource?[['source',sourceLabel],['overview','Arbre interactif'],['guided','Pas à pas']]:[['overview','Arbre décisionnel'],['guided','Pas à pas']];
  const modes='<div class="algo-modes" role="group" aria-label="Mode de lecture">'+availableModes.map(([mode,label])=>button(label,'mode','data-mode="'+mode+'" aria-pressed="'+(state.mode===mode)+'"',state.mode===mode?'selected':'')).join('')+'</div>';
  const heading='<header class="algo-heading"><div><span class="algo-eyebrow">'+esc(algorithm.sdd!=null?'Situation de départ '+String(algorithm.sdd).padStart(3,'0'):(algorithm.situationLabel||'Parcours clinique'))+'</span><h2>'+esc(algorithm.title)+'</h2><p>'+esc(algorithm.scope)+'</p></div>'+modes+'</header>';
- const provenance='<div class="algo-provenance"><span>'+esc(algorithm.provenance||'Parcours pédagogique ATLAS · Sources LiSA EDN 2026 consultées le 12/10/2026')+'</span><a href="'+esc(algorithm.sddUrl||algorithm.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(algorithm.sddLabel||algorithm.sourceLabel||'Consulter la source ↗')+'</a><span>'+esc(algorithm.collegeSource?'Transposition réalisée par ATLAS ; consulter les précisions et la source du collège.':'Synthèse pédagogique ATLAS ; sources et cours accessibles depuis chaque étape.')+'</span></div>';
+ const provenance='<div class="algo-provenance"><span>'+esc(algorithm.provenance||'Parcours pédagogique ATLAS · Sources LiSA EDN 2026 consultées le 12/10/2026')+'</span><a href="'+esc(algorithm.sddUrl||algorithm.sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+esc(algorithm.sddLabel||algorithm.sourceLabel||'Consulter la source ↗')+'</a><span>'+esc(algorithm.sourceOnly?'Source originale référencée ; les boutons ouvrent les objectifs de cours associés.':algorithm.collegeSource?'Transposition réalisée par ATLAS ; consulter les précisions et la source du collège.':'Synthèse pédagogique ATLAS ; sources et cours accessibles depuis chaque étape.')+'</span></div>';
  const below='<section class="algo-below" aria-labelledby="algo-below-title" hidden></section>';
- if(state.mode==='source'&&algorithm.collegeSource)return heading+sourceNotes(algorithm)+collegeSourceView(algorithm)+below+provenance;
+ if((state.mode==='source'||algorithm.sourceOnly)&&algorithm.collegeSource)return heading+sourceNotes(algorithm)+collegeSourceView(algorithm)+below+provenance;
  if(state.mode==='overview')return heading+sourceNotes(algorithm)+window.ATLAS_ALGORITHM_TREE.render(algorithm)+below+provenance;
  const trail='<nav class="algo-trail" aria-label="Étapes parcourues">'+path.map((id,i)=>button((i+1)+'. '+nodes.get(id).title,'history','data-index="'+i+'" '+(i===path.length-1?'aria-current="step"':''),i===path.length-1?'current':'')).join('')+'</nav>';
  const missing=state.missing?'<div class="algo-missing" role="status"><strong>Garder la donnée comme inconnue</strong><p>Identifie l’information nécessaire dans cette étape, puis complète l’examen ou le bilan avant de choisir une branche. Consulte le cours et les sources si le résultat reste ambigu.</p>'+button('Revenir à la décision','missing')+'</div>':'';
@@ -96,10 +98,10 @@ function render(item){
  const list=forItem(item);if(!list.length)return '';
  const state=session(item);
 
- const pick=a=>'<button type="button" class="algo-pick '+(state.selected===a.id?'active':'')+'" data-algo-action="select" data-algorithm="'+esc(a.id)+'" aria-pressed="'+(state.selected===a.id)+'"><span class="algo-eyebrow">'+esc(a.collegeSource?'CEP 2026 · '+a.collegeSource.reference:(data.collegeInventory?.[item]?'Synthèse ATLAS':(a.sdd!=null?'SDD '+String(a.sdd).padStart(3,'0'):(a.situationLabel||'Parcours clinique'))))+'</span><strong>'+esc(a.title)+'</strong><span>'+esc(a.summary)+'</span></button>';
+ const pick=a=>'<button type="button" class="algo-pick '+(state.selected===a.id?'active':'')+'" data-algo-action="select" data-algorithm="'+esc(a.id)+'" aria-pressed="'+(state.selected===a.id)+'"><span class="algo-eyebrow">'+esc(a.collegeSource?(a.collegeSource.shortName||'CEP 2026')+' · '+a.collegeSource.reference:(data.collegeInventory?.[item]?'Synthèse ATLAS':(a.sdd!=null?'SDD '+String(a.sdd).padStart(3,'0'):(a.situationLabel||'Parcours clinique'))))+'</span><strong>'+esc(a.title)+'</strong><span>'+esc(a.summary)+'</span></button>';
  const college=list.filter(a=>a.collegeSource),extra=list.filter(a=>!a.collegeSource),inv=data.collegeInventory?.[item];
  const picker=inv?(college.length?'<section class="algo-picker-group"><h2>Schémas et tableaux du collège</h2><div class="algo-picker">'+college.map(pick).join('')+'</div></section>':'')+(extra.length?'<details class="algo-extra-picker" '+(!college.length?'open':'')+'><summary>Synthèses complémentaires ATLAS · '+extra.length+' parcours</summary><div class="algo-picker">'+extra.map(pick).join('')+'</div></details>':''):(list.length>1?'<div class="algo-picker">'+list.map(pick).join('')+'</div>':'');
- const status=inv&&!college.length?'<p class="algo-inventory-note">'+esc(inv.note)+' <a href="'+esc(inv.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Consulter le chapitre CEP ↗</a></p>':'';
+ const status=inv?'<p class="algo-inventory-note">'+esc(inv.note)+' <a href="'+esc(inv.sourceUrl)+'" target="_blank" rel="noopener noreferrer">Consulter la source du contrôle ↗</a></p>':'';
  return '<section class="algo-root" data-algo-item="'+item+'">'+status+picker+'<div class="algo-stage">'+renderStage(item)+'</div><dialog class="algo-detail" aria-labelledby="algo-detail-title"></dialog></section>';
 
 }
@@ -124,7 +126,7 @@ document.addEventListener('click',e=>{
  if(action==='retry-course'){const host=b.closest('.algo-course-content');delete host.dataset.loading;hydrateCourse(host.parentElement,algorithm);return;}
  if(action!=='missing')state.missing=false;
  if(action==='select'){if(!forItem(item).some(a=>a.id===b.dataset.algorithm))return;state.selected=b.dataset.algorithm;if(state.mode==='source'&&!forItem(item).find(a=>a.id===state.selected)?.collegeSource)state.mode='overview';else if(forItem(item).find(a=>a.id===state.selected)?.collegeSource)state.mode='source';root.outerHTML=render(item);window.ATLAS_ALGORITHM_TREE.hydrate(document);return;}
- if(action==='mode'){if(!['guided','overview','source'].includes(b.dataset.mode))return;if(b.dataset.mode==='source'&&!algorithm.collegeSource)return;state.mode=b.dataset.mode;}
+ if(action==='mode'){if(!['guided','overview','source'].includes(b.dataset.mode))return;if(algorithm.sourceOnly&&b.dataset.mode!=='source')return;if(b.dataset.mode==='source'&&!algorithm.collegeSource)return;state.mode=b.dataset.mode;}
  if(action==='choose'){
   const current=algorithm.nodes.find(n=>n.id===path[path.length-1]);
   if(!current?.choices.some(c=>c.to===b.dataset.node))return;
