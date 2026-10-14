@@ -1,0 +1,498 @@
+{
+  "reviewedAt": "2026-10-14",
+  "scope": "15 items CEP de pneumologie déjà traités, plus chapitre 359bis",
+  "inventory": {
+    "110": {
+      "item": 110,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_110-SOMMEIL-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-110-fig4"
+      ],
+      "figures": [
+        "Figure 4"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "154": {
+      "item": 154,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-154-fig2",
+        "cep2026-154-tableaux8-10"
+      ],
+      "figures": [
+        "Figure 2",
+        "Tableaux 8 à 10"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "186": {
+      "item": 186,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_186-hypersensibilite-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [],
+      "figures": [],
+      "status": "no-standalone-figure-found",
+      "note": "Aucun arbre décisionnel graphique autonome repéré dans ce chapitre CEP 2026 après examen des figures et du texte. Les parcours ci-dessous restent des synthèses ATLAS. Cela ne signifie pas qu’aucun autre collège ou recommandation ne propose un algorithme."
+    },
+    "188": {
+      "item": 188,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-188-exacerbation",
+        "cep2026-188-tableau1"
+      ],
+      "figures": [
+        "Tableau 4 — algorithme",
+        "Tableau 1"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "203": {
+      "item": 203,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-203-fig2",
+        "cep2026-203-fig3"
+      ],
+      "figures": [
+        "Figure 2",
+        "Figure 3"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "204": {
+      "item": 204,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_204-TOUX-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-204-fig2"
+      ],
+      "figures": [
+        "Figure 2"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "205": {
+      "item": 205,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_205.-HEMOPTYSIE-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [],
+      "figures": [],
+      "status": "no-standalone-figure-found",
+      "note": "Aucun arbre décisionnel graphique autonome repéré dans ce chapitre CEP 2026 après examen des figures et du texte. Les parcours ci-dessous restent des synthèses ATLAS. Cela ne signifie pas qu’aucun autre collège ou recommandation ne propose un algorithme."
+    },
+    "206": {
+      "item": 206,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_206-PLEURESIE-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [],
+      "figures": [],
+      "status": "no-standalone-figure-found",
+      "note": "Aucun arbre décisionnel graphique autonome repéré dans ce chapitre CEP 2026 après examen des figures et du texte. Les parcours ci-dessous restent des synthèses ATLAS. Cela ne signifie pas qu’aucun autre collège ou recommandation ne propose un algorithme."
+    },
+    "207": {
+      "item": 207,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_207-OPACITE-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-207-fig10"
+      ],
+      "figures": [
+        "Figure 10"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "208": {
+      "item": 208,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-208-IRC-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-208-fig2"
+      ],
+      "figures": [
+        "Figure 2"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "209": {
+      "item": 209,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-209-BPCO-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-209-fig4"
+      ],
+      "figures": [
+        "Figure 4"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "210": {
+      "item": 210,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-210-PID-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-210-fig14"
+      ],
+      "figures": [
+        "Figure 14"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "309": {
+      "item": 309,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-309-TUMEURS-PULM-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-309-fig15"
+      ],
+      "figures": [
+        "Figure 15"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "359": {
+      "item": 359,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359-DRA-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [
+        "cep2026-359-fig4",
+        "cep2026-359bis-fig8"
+      ],
+      "figures": [
+        "Figure 4",
+        "Figure 8"
+      ],
+      "status": "sources-integrated",
+      "note": "Figures et tableaux décisionnels du chapitre CEP consultés et intégrés ci-dessous."
+    },
+    "360": {
+      "item": 360,
+      "edition": "CEP 2026 · 9e édition",
+      "sourceUrl": "https://docs.splf.fr/divers/docs-gen/Item_360-PNEUMOTHORAX-2026.docx",
+      "checkedAt": "2026-10-14",
+      "algorithms": [],
+      "figures": [],
+      "status": "no-standalone-figure-found",
+      "note": "Aucun arbre décisionnel graphique autonome repéré dans ce chapitre CEP 2026 après examen des figures et du texte. Les parcours ci-dessous restent des synthèses ATLAS. Cela ne signifie pas qu’aucun autre collège ou recommandation ne propose un algorithme."
+    }
+  },
+  "algorithms": [
+    {
+      "id": "cep2026-110-fig4",
+      "item": 110,
+      "reference": "Figure 4",
+      "nodes": 8,
+      "notes": []
+    },
+    {
+      "id": "cep2026-154-fig2",
+      "item": 154,
+      "reference": "Figure 2",
+      "nodes": 5,
+      "notes": [
+        "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+      ]
+    },
+    {
+      "id": "cep2026-188-exacerbation",
+      "item": 188,
+      "reference": "Tableau 4 — algorithme",
+      "nodes": 8,
+      "notes": [
+        "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+      ]
+    },
+    {
+      "id": "cep2026-203-fig2",
+      "item": 203,
+      "reference": "Figure 2",
+      "nodes": 12,
+      "notes": [
+        "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+      ]
+    },
+    {
+      "id": "cep2026-203-fig3",
+      "item": 203,
+      "reference": "Figure 3",
+      "nodes": 5,
+      "notes": []
+    },
+    {
+      "id": "cep2026-204-fig2",
+      "item": 204,
+      "reference": "Figure 2",
+      "nodes": 9,
+      "notes": [
+        "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+      ]
+    },
+    {
+      "id": "cep2026-207-fig10",
+      "item": 207,
+      "reference": "Figure 10",
+      "nodes": 14,
+      "notes": [
+        "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+        "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+      ]
+    },
+    {
+      "id": "cep2026-208-fig2",
+      "item": 208,
+      "reference": "Figure 2",
+      "nodes": 8,
+      "notes": [
+        "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+      ]
+    },
+    {
+      "id": "cep2026-209-fig4",
+      "item": 209,
+      "reference": "Figure 4",
+      "nodes": 7,
+      "notes": [
+        "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+        "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+        "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+        "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+      ]
+    },
+    {
+      "id": "cep2026-210-fig14",
+      "item": 210,
+      "reference": "Figure 14",
+      "nodes": 6,
+      "notes": [
+        "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+      ]
+    },
+    {
+      "id": "cep2026-309-fig15",
+      "item": 309,
+      "reference": "Figure 15",
+      "nodes": 5,
+      "notes": [
+        "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+      ]
+    },
+    {
+      "id": "cep2026-359-fig4",
+      "item": 359,
+      "reference": "Figure 4",
+      "nodes": 9,
+      "notes": [
+        "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+      ]
+    },
+    {
+      "id": "cep2026-359bis-fig8",
+      "item": 359,
+      "reference": "Figure 8",
+      "nodes": 4,
+      "notes": [
+        "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger."
+      ]
+    },
+    {
+      "id": "cep2026-188-tableau1",
+      "item": 188,
+      "reference": "Tableau 1",
+      "nodes": 13,
+      "notes": [
+        "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+        "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+      ]
+    },
+    {
+      "id": "cep2026-154-tableaux8-10",
+      "item": 154,
+      "reference": "Tableaux 8 à 10",
+      "nodes": 13,
+      "notes": [
+        "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+        "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+      ]
+    }
+  ],
+  "sourceChecks": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_110-SOMMEIL-2026.docx",
+        "status": 200,
+        "size": 4549377,
+        "sha256": "d0034e37b8d105bb2b0c85ce3f95aa747da3ed048407a812960567986c7ae869"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx",
+        "status": 200,
+        "size": 774125,
+        "sha256": "eca1d0c7371a7a01dce1eb4e4a07c36796e497d0caa6d6088a44f3fc9dbf8246"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_186-hypersensibilite-2026.docx",
+        "status": 200,
+        "size": 1855633,
+        "sha256": "ba4c851b90fe7c61c7084bd0a4f96087b94b7f04372a4731c0adcb36092adbb2"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx",
+        "status": 200,
+        "size": 1188078,
+        "sha256": "4866c786cb1efe4084c17668f40effb8d10623c0cf0170dc69f08dc46ba7880f"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx",
+        "status": 200,
+        "size": 1052197,
+        "sha256": "64a20d32b12d2bf2fa07495ce005ab311a6eb19853efa24a15ff9ecb1a727ac4"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_204-TOUX-2026.docx",
+        "status": 200,
+        "size": 187359,
+        "sha256": "aaade33e7ff54fb58ae7512e01c6ea569e38afbece3ca0aedd21f52fcd7f5fe2"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_205.-HEMOPTYSIE-2026.docx",
+        "status": 200,
+        "size": 2884890,
+        "sha256": "c23a889fdc1df6ff7a41b2aa9e45f422a705e0980e854bdc44e76b5c8301b5eb"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_206-PLEURESIE-2026.docx",
+        "status": 200,
+        "size": 7450509,
+        "sha256": "2c253b9ba3d12411e40d2bb52ebf29dae60bd474832fc0823e03652b204c7a0e"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_207-OPACITE-2026.docx",
+        "status": 200,
+        "size": 4593501,
+        "sha256": "f32237399027be1f25bca1c5b8c820eb383cc534b1c2226b94a262003202959c"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-208-IRC-2026.docx",
+        "status": 200,
+        "size": 2718243,
+        "sha256": "b743177c9b57a8758699f3e1eca56b29eda7efc01f4b2b8f20ac1987bedd920a"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-209-BPCO-2026.docx",
+        "status": 200,
+        "size": 2067921,
+        "sha256": "87d845916cbee1a2e28e6e4446589480a97401dbce63223bd3ffdcbd534606aa"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-210-PID-2026.docx",
+        "status": 200,
+        "size": 4334169,
+        "sha256": "18a9d5b0abe19cc48127d44c39456bbc8478ce652ee2cf4714cdaf0cdb303019"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-309-TUMEURS-PULM-2026.docx",
+        "status": 200,
+        "size": 5562373,
+        "sha256": "fd3ed6cfd68f54b6fffdc74df23394582fb9f2b88b6446288b36c4b438d21647"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359-DRA-2026.docx",
+        "status": 200,
+        "size": 2929758,
+        "sha256": "538d1aec6c2689266e2622cace6caee13b56026a85198bfc4747aae975860e0b"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359bis-CORPS-ETRANGER-2026.docx",
+        "status": 200,
+        "size": 1814682,
+        "sha256": "a5395a7d60b953d40fb591964c316e84fa750624236347bf820fb72a930dc29a"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "url": "https://docs.splf.fr/divers/docs-gen/Item_360-PNEUMOTHORAX-2026.docx",
+        "status": 200,
+        "size": 30782252,
+        "sha256": "efde76c672a158877c159938ba919f9cbe09cf1d84582e65fb8dcb524502c2a5"
+      }
+    }
+  ],
+  "limits": [
+    "Aucun audit exhaustif des autres spécialités dans ce lot.",
+    "Les adaptations ou divergences internes sont signalées dans chaque source.",
+    "Aucune prétention de validation de ces transpositions par le collège."
+  ]
+}

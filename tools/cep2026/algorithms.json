@@ -1,0 +1,3936 @@
+[
+  {
+    "id": "cep2026-110-fig4",
+    "items": [
+      110
+    ],
+    "title": "Suspicion de SAS chez l’adulte",
+    "summary": "Figure 4 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 4",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_110-SOMMEIL-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "110",
+      "reference": "Figure 4",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_110-SOMMEIL-2026.docx",
+      "kind": "figure",
+      "notes": [],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/110-fig4.png",
+      "imageAlt": "Figure originale du CEP : Suspicion de SAS chez l’adulte",
+      "imageSha256": "d826aa9f4e7fa5865551eda4cd8e35e191790ced6c5cefe7410c392864555f45"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 110, Figure 4. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Probabilité clinique élevée de SAS ?",
+        "actions": [
+          "Évaluer les symptômes et le terrain."
+        ],
+        "course": [
+          "110-13",
+          "110-15",
+          "110-17"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "autres"
+          },
+          {
+            "label": "Non",
+            "to": "differentiel"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "autres",
+        "title": "Signes d’autres pathologies du sommeil ?",
+        "actions": [
+          "Rechercher un trouble du sommeil associé."
+        ],
+        "course": [
+          "110-4",
+          "110-5",
+          "110-19"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "psg"
+          },
+          {
+            "label": "Non",
+            "to": "polygraphie"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "polygraphie",
+        "title": "Polygraphie ventilatoire",
+        "actions": [
+          "Examen respiratoire nocturne."
+        ],
+        "course": [
+          "110-19"
+        ],
+        "choices": [
+          {
+            "label": "Résultat disponible",
+            "to": "certain-pv"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "certain-pv",
+        "title": "Diagnostic de SAS certain après polygraphie ?",
+        "actions": [],
+        "course": [
+          "110-19"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "traiter"
+          },
+          {
+            "label": "Non",
+            "to": "psg"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "psg",
+        "title": "Polysomnographie",
+        "actions": [
+          "Analyser le sommeil et la respiration."
+        ],
+        "course": [
+          "110-19"
+        ],
+        "choices": [
+          {
+            "label": "Résultat disponible",
+            "to": "certain-psg"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "certain-psg",
+        "title": "Diagnostic de SAS certain après polysomnographie ?",
+        "actions": [],
+        "course": [
+          "110-19"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "traiter"
+          },
+          {
+            "label": "Non",
+            "to": "differentiel"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "differentiel",
+        "title": "Évaluer un autre trouble du sommeil",
+        "actions": [
+          "Notamment une insomnie."
+        ],
+        "course": [
+          "110-5",
+          "110-8",
+          "110-9"
+        ],
+        "choices": [],
+        "kind": "uncertain",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "traiter",
+        "title": "Traitement du SAHOS",
+        "actions": [
+          "Adapter la prise en charge au patient."
+        ],
+        "course": [
+          "110-20"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 4."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-110-fig4"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-154-fig2",
+    "items": [
+      154
+    ],
+    "title": "PAC : critères d’hospitalisation",
+    "summary": "Figure 2 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 2",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "154",
+      "reference": "Figure 2",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+      ],
+      "checkedAt": "2026-10-14",
+      "table": {
+        "caption": "Critères de la figure 2 — transcription du contenu, disposition adaptée",
+        "headers": [
+          "Gravité",
+          "Situation compromettant l’ambulatoire"
+        ],
+        "rows": [
+          [
+            "Altération de la conscience ; PAS < 90 mmHg ou PAD ≤ 60 mmHg ou marbrures. Pouls > 120/min ; FR ≥ 30/min et/ou détresse respiratoire ; hypoxémie nécessitant de l’oxygène. Température très basse ou très élevée (figure : « < 35 °C ou 40 °C », signe comparatif absent devant 40). Complication pleurale/excavation ; atteinte rénale/hépatique, CIVD ou leuconeutropénie. Échec d’antibiothérapie ambulatoire ; exposition aux AINS ; pneumonie d’inhalation ou obstructive.",
+            "Précarité, perte d’autonomie, conditions socio-économiques défavorables. Inobservance prévisible, vomissements ou intolérance digestive."
+          ]
+        ]
+      }
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 154, Figure 2. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Un critère de gravité ou un obstacle à l’ambulatoire ?",
+        "actions": [
+          "Rechercher les deux groupes de critères de la figure."
+        ],
+        "course": [
+          "154-6",
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Critère de gravité",
+            "to": "gravite"
+          },
+          {
+            "label": "Situation compromettant l’ambulatoire",
+            "to": "contexte"
+          },
+          {
+            "label": "Aucun critère retrouvé",
+            "to": "absent"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Altération de la conscience ; PAS < 90 mmHg ou PAD ≤ 60 mmHg ou marbrures.",
+          "Pouls > 120/min ; FR ≥ 30/min et/ou détresse respiratoire ; hypoxémie nécessitant de l’oxygène.",
+          "Température très basse ou très élevée (figure : « < 35 °C ou 40 °C », signe comparatif absent devant 40).",
+          "Complication pleurale/excavation ; atteinte rénale/hépatique, CIVD ou leuconeutropénie.",
+          "Échec d’antibiothérapie ambulatoire ; exposition aux AINS ; pneumonie d’inhalation ou obstructive.",
+          "Précarité, perte d’autonomie, conditions socio-économiques défavorables.",
+          "Inobservance prévisible, vomissements ou intolérance digestive.",
+          "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "gravite",
+        "title": "Critères anamnestiques, cliniques, radiologiques ou biologiques",
+        "actions": [
+          "Altération de la conscience ; PAS < 90 mmHg ou PAD ≤ 60 mmHg ou marbrures.",
+          "Pouls > 120/min ; FR ≥ 30/min et/ou détresse respiratoire ; hypoxémie nécessitant de l’oxygène.",
+          "Température très basse ou très élevée (figure : « < 35 °C ou 40 °C », signe comparatif absent devant 40).",
+          "Complication pleurale/excavation ; atteinte rénale/hépatique, CIVD ou leuconeutropénie.",
+          "Échec d’antibiothérapie ambulatoire ; exposition aux AINS ; pneumonie d’inhalation ou obstructive."
+        ],
+        "course": [
+          "154-6",
+          "154-16"
+        ],
+        "choices": [
+          {
+            "label": "Au moins un critère",
+            "to": "hospitaliser"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "contexte",
+        "title": "Traitement ambulatoire compromis",
+        "actions": [
+          "Précarité, perte d’autonomie, conditions socio-économiques défavorables.",
+          "Inobservance prévisible, vomissements ou intolérance digestive."
+        ],
+        "course": [
+          "154-13",
+          "154-15"
+        ],
+        "choices": [
+          {
+            "label": "Au moins une situation",
+            "to": "hospitaliser"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "hospitaliser",
+        "title": "Hospitalisation recommandée",
+        "actions": [
+          "Organiser la prise en charge selon la gravité."
+        ],
+        "course": [
+          "154-6",
+          "154-13"
+        ],
+        "choices": [],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Figure 2.",
+          "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "absent",
+        "title": "La figure ne donne pas de branche négative",
+        "actions": [
+          "Complément ATLAS : apprécier l’ensemble de la situation et organiser la réévaluation."
+        ],
+        "course": [
+          "154-13",
+          "154-15"
+        ],
+        "choices": [],
+        "kind": "uncertain",
+        "body": [
+          "Repère source : Figure 2.",
+          "Figure adaptée des recommandations AFSSAPS 2010 dans le chapitre CEP 2026. Le symbole devant 40 °C est absent dans le document : cette ambiguïté n’est pas corrigée silencieusement."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-fig2"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-188-exacerbation",
+    "items": [
+      188
+    ],
+    "title": "Asthme : prise en charge initiale de l’exacerbation",
+    "summary": "Tableau 4 — algorithme · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Tableau 4 — algorithme",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "188",
+      "reference": "Tableau 4 — algorithme",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/188-exacerbation.png",
+      "imageAlt": "Figure originale du CEP : Asthme : prise en charge initiale de l’exacerbation",
+      "imageSha256": "adf4a9056094b2d19704f6e78318dcac85fbc7c3f349693f1ce3c4be293c6984"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 188, Tableau 4 — algorithme. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Évaluation de l’exacerbation",
+        "actions": [
+          "Facteurs de risque ; clinique, DEP et SpO₂."
+        ],
+        "course": [
+          "188-9",
+          "188-10",
+          "188-15"
+        ],
+        "choices": [
+          {
+            "label": "Perte de contrôle",
+            "to": "controle"
+          },
+          {
+            "label": "Exacerbation sans signe de gravité",
+            "to": "moderee"
+          },
+          {
+            "label": "Exacerbation avec signes de gravité",
+            "to": "grave"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "controle",
+        "title": "β₂-mimétiques : 2 à 8 bouffées",
+        "actions": [
+          "Avec chambre d’inhalation si possible."
+        ],
+        "course": [
+          "188-18",
+          "188-20"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer à 1 h",
+            "to": "reevaluer"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "moderee",
+        "title": "β₂-mimétiques à fortes doses",
+        "actions": [
+          "Au moins 3 administrations en 1 h, avec chambre d’inhalation.",
+          "Corticothérapie orale pendant 5 à 7 jours."
+        ],
+        "course": [
+          "188-20"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer à 1 h",
+            "to": "reevaluer"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "reevaluer",
+        "title": "À 1 h : DEP normalisé et symptômes disparus ?",
+        "actions": [],
+        "course": [
+          "188-19",
+          "188-20"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "domicile"
+          },
+          {
+            "label": "Non",
+            "to": "hospitalisation"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "domicile",
+        "title": "Retour à domicile avec traitement et rendez-vous",
+        "actions": [],
+        "course": [
+          "188-19",
+          "188-21"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "hospitalisation",
+        "title": "Discuter l’hospitalisation",
+        "actions": [],
+        "course": [
+          "188-10",
+          "188-20"
+        ],
+        "choices": [],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "grave",
+        "title": "Commencer immédiatement le traitement",
+        "actions": [
+          "β₂-mimétiques à fortes doses et corticothérapie orale.",
+          "Transport médicalisé et hospitalisation."
+        ],
+        "course": [
+          "188-10",
+          "188-20"
+        ],
+        "choices": [
+          {
+            "label": "Poursuivre à l’hôpital",
+            "to": "urgence"
+          }
+        ],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      },
+      {
+        "id": "urgence",
+        "title": "Oxygène et traitement intensif",
+        "actions": [
+          "β₂-mimétiques nébulisés : 5 mg toutes les 20 minutes (au moins 3 fois) ou en continu, ± ipratropium.",
+          "Corticothérapie orale si non administrée précédemment."
+        ],
+        "course": [
+          "188-20"
+        ],
+        "choices": [],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Tableau 4 — algorithme.",
+          "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-exacerbation"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-203-fig2",
+    "items": [
+      203
+    ],
+    "title": "Dyspnée chronique : orientation par l’auscultation",
+    "summary": "Figure 2 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 2",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "203",
+      "reference": "Figure 2",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/203-fig2.png",
+      "imageAlt": "Figure originale du CEP : Dyspnée chronique : orientation par l’auscultation",
+      "imageSha256": "9b2f3a7677540b543c4d37a777b5f7519c4b7e081a0f1fc18b1c7f911f779e83"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 203, Figure 2. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Dyspnée chronique : quelle auscultation ?",
+        "actions": [],
+        "course": [
+          "203-2",
+          "203-5"
+        ],
+        "choices": [
+          {
+            "label": "Sibilants",
+            "to": "sibilants"
+          },
+          {
+            "label": "Crépitants",
+            "to": "crepitants"
+          },
+          {
+            "label": "Auscultation normale",
+            "to": "normale"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "sibilants",
+        "title": "Trois orientations avec sibilants",
+        "actions": [],
+        "course": [
+          "203-6",
+          "203-10"
+        ],
+        "choices": [
+          {
+            "label": "Jeune, atopie, variabilité, toux nocturne",
+            "to": "asthme"
+          },
+          {
+            "label": "Tabac, toux, expectoration, râles bronchiques",
+            "to": "bpco"
+          },
+          {
+            "label": "ATCD cardiaque, orthopnée, toux nocturne",
+            "to": "ic"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "crepitants",
+        "title": "Deux orientations avec crépitants",
+        "actions": [],
+        "course": [
+          "203-6",
+          "203-10"
+        ],
+        "choices": [
+          {
+            "label": "Toux sèche, maladie systémique",
+            "to": "pid"
+          },
+          {
+            "label": "ATCD cardiaque, orthopnée, toux nocturne",
+            "to": "ic"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "normale",
+        "title": "Orientations avec auscultation normale",
+        "actions": [],
+        "course": [
+          "203-6",
+          "203-10"
+        ],
+        "choices": [
+          {
+            "label": "Antécédent de phlébite",
+            "to": "vasculaire"
+          },
+          {
+            "label": "Orthopnée, respiration paradoxale, signes neurologiques",
+            "to": "neuromusculaire"
+          },
+          {
+            "label": "Obésité ou scoliose",
+            "to": "parietale"
+          },
+          {
+            "label": "Examen normal, vertiges, paresthésies, non liée à l’effort",
+            "to": "hyperventilation"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "asthme",
+        "title": "Asthme",
+        "actions": [],
+        "course": [
+          "203-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "bpco",
+        "title": "BPCO",
+        "actions": [],
+        "course": [
+          "203-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "ic",
+        "title": "Insuffisance cardiaque gauche",
+        "actions": [],
+        "course": [
+          "203-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "pid",
+        "title": "Pneumopathie interstitielle diffuse",
+        "actions": [],
+        "course": [
+          "203-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "vasculaire",
+        "title": "Embolie ou maladie vasculaire pulmonaire",
+        "actions": [],
+        "course": [
+          "203-6",
+          "203-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "neuromusculaire",
+        "title": "Maladie neuromusculaire",
+        "actions": [],
+        "course": [
+          "203-6"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "parietale",
+        "title": "Maladie pariétale",
+        "actions": [],
+        "course": [
+          "203-6"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "hyperventilation",
+        "title": "Syndrome d’hyperventilation",
+        "actions": [],
+        "course": [
+          "203-6"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig2"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-203-fig3",
+    "items": [
+      203
+    ],
+    "title": "Dyspnée chronique : examens complémentaires",
+    "summary": "Figure 3 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 3",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "203",
+      "reference": "Figure 3",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx",
+      "kind": "figure",
+      "notes": [],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/203-fig3.png",
+      "imageAlt": "Figure originale du CEP : Dyspnée chronique : examens complémentaires",
+      "imageSha256": "86702aa5af6fcaba18b912aa7912180ddbd6db6c1bb31a48773756b23aa9d491"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 203, Figure 3. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Dyspnée chronique depuis au moins 8 semaines",
+        "actions": [],
+        "course": [
+          "203-1",
+          "203-5"
+        ],
+        "choices": [
+          {
+            "label": "Quantifier",
+            "to": "quantifier"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 3."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig3"
+        ],
+        "related": []
+      },
+      {
+        "id": "quantifier",
+        "title": "Quantifier la dyspnée et son retentissement",
+        "actions": [
+          "Activités quotidiennes : mMRC, DIRECT.",
+          "Qualité de vie : CAT ; anxiété-dépression : HAD."
+        ],
+        "course": [
+          "203-2",
+          "203-5"
+        ],
+        "choices": [
+          {
+            "label": "Bilan initial",
+            "to": "bilan"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 3."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig3"
+        ],
+        "related": []
+      },
+      {
+        "id": "bilan",
+        "title": "NFS, ECG et radiographie thoracique",
+        "actions": [],
+        "course": [
+          "203-7",
+          "203-12"
+        ],
+        "choices": [
+          {
+            "label": "Orientation respiratoire",
+            "to": "respiratoire"
+          },
+          {
+            "label": "Orientation cardiaque",
+            "to": "cardiaque"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 3."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig3"
+        ],
+        "related": []
+      },
+      {
+        "id": "respiratoire",
+        "title": "Explorations respiratoires",
+        "actions": [
+          "EFR de repos ; désaturation à l’exercice (TM6, TLC3 minutes ou autre).",
+          "EFX par cycloergométrie ; scanner thoracique."
+        ],
+        "course": [
+          "203-8",
+          "203-12"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 3."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig3"
+        ],
+        "related": []
+      },
+      {
+        "id": "cardiaque",
+        "title": "Avis cardiologique et échocardiographie",
+        "actions": [
+          "± EFX."
+        ],
+        "course": [
+          "203-8"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 3."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-203-fig3"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-204-fig2",
+    "items": [
+      204
+    ],
+    "title": "Toux chronique de l’adulte : première intention",
+    "summary": "Figure 2 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 2",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_204-TOUX-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "204",
+      "reference": "Figure 2",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_204-TOUX-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/204-fig2.png",
+      "imageAlt": "Figure originale du CEP : Toux chronique de l’adulte : première intention",
+      "imageSha256": "81c45e85f3966eeff3840fe8b62f2caab678887d2d5d5dd4285dac515c811da4"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 204, Figure 2. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Toux depuis au moins 8 semaines",
+        "actions": [
+          "Examen clinique, radiographie thoracique et spirométrie."
+        ],
+        "course": [
+          "204-1",
+          "204-4",
+          "204-8"
+        ],
+        "choices": [
+          {
+            "label": "Rechercher des alertes",
+            "to": "alerte"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "alerte",
+        "title": "Signes d’alarme ?",
+        "actions": [],
+        "course": [
+          "204-3"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "specifique"
+          },
+          {
+            "label": "Non",
+            "to": "eva"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "specifique",
+        "title": "Prise en charge spécifique",
+        "actions": [],
+        "course": [
+          "204-3",
+          "204-10"
+        ],
+        "choices": [],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "eva",
+        "title": "Évaluer la toux par EVA",
+        "actions": [],
+        "course": [
+          "204-4"
+        ],
+        "choices": [
+          {
+            "label": "Rechercher les facteurs réversibles",
+            "to": "arret"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "arret",
+        "title": "Arrêt du tabagisme et des traitements tussigènes",
+        "actions": [
+          "Période de 4 semaines dans le schéma.",
+          "Adaptation d’un traitement prescrit avec le médecin."
+        ],
+        "course": [
+          "204-6",
+          "204-10"
+        ],
+        "choices": [
+          {
+            "label": "Persistance de la toux",
+            "to": "frequentes"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "frequentes",
+        "title": "Rechercher les trois causes fréquentes",
+        "actions": [
+          "STOVAS (syndrome de toux d’origine des voies aériennes supérieures), asthme, RGO."
+        ],
+        "course": [
+          "204-6",
+          "204-10"
+        ],
+        "choices": [
+          {
+            "label": "Diagnostic évoqué",
+            "to": "epreuve"
+          },
+          {
+            "label": "Absence d’argument",
+            "to": "explorer"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "epreuve",
+        "title": "Traitement d’épreuve du diagnostic évoqué",
+        "actions": [
+          "Cf. section IV.4.1 du collège."
+        ],
+        "course": [
+          "204-10"
+        ],
+        "choices": [
+          {
+            "label": "Persistance malgré traitement bien conduit",
+            "to": "explorer"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "explorer",
+        "title": "Explorations selon l’interrogatoire et le contexte",
+        "actions": [
+          "pH-métrie de 24 h et manométrie œsophagienne ; TDM thorax ou sinus.",
+          "Endoscopie bronchique ; enregistrement du sommeil ; évaluation cardiaque (ECG, échographie)."
+        ],
+        "course": [
+          "204-6",
+          "204-8",
+          "204-10"
+        ],
+        "choices": [
+          {
+            "label": "Absence de cause ou persistance malgré traitement des causes",
+            "to": "refractaire"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "refractaire",
+        "title": "Toux chronique réfractaire ou inexpliquée",
+        "actions": [],
+        "course": [
+          "204-9",
+          "204-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-204-fig2"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-207-fig10",
+    "items": [
+      207
+    ],
+    "title": "Nodule pulmonaire solide : surveillance ou exploration",
+    "summary": "Figure 10 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 10",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_207-OPACITE-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "207",
+      "reference": "Figure 10",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_207-OPACITE-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+        "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/207-fig10.png",
+      "imageAlt": "Figure originale du CEP : Nodule pulmonaire solide : surveillance ou exploration",
+      "imageSha256": "f72c2ceaa49975adedaa01fa27cd260631f10734b80bfa4dd9c2040e484a0fa7"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 207, Figure 10. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Quel diamètre pour le nodule solide ?",
+        "actions": [
+          "En cas de nodules multiples, considérer le plus volumineux."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "< 6 mm (< 100 mm³)",
+            "to": "petit"
+          },
+          {
+            "label": "6–8 mm (100–250 mm³)",
+            "to": "moyen"
+          },
+          {
+            "label": "> 8 mm (> 250 mm³)",
+            "to": "grand"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "petit",
+        "title": "Nodule < 6 mm : quel risque ?",
+        "actions": [],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Faible risque",
+            "to": "aucun"
+          },
+          {
+            "label": "Haut risque",
+            "to": "m12"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "aucun",
+        "title": "Pas de suivi selon la figure",
+        "actions": [],
+        "course": [
+          "207-1"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "m12",
+        "title": "Contrôle à M12 : option en cas de risque élevé",
+        "actions": [
+          "Notamment spiculations ou localisation lobaire supérieure.",
+          "Pas de suivi ultérieur si absence d’évolution ; si évolution, suivi rapproché et calcul du temps de doublement volumique."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "moyen",
+        "title": "Nodule de 6–8 mm : quel risque ?",
+        "actions": [],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Faible risque",
+            "to": "standard"
+          },
+          {
+            "label": "Haut risque",
+            "to": "haut"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "haut",
+        "title": "Deux options dans la figure",
+        "actions": [
+          "L’option précoce se discute selon le risque et la morphologie."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Option 1 : suivi selon multiplicité",
+            "to": "standard"
+          },
+          {
+            "label": "Option 2 : contrôle à M3",
+            "to": "m3"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "standard",
+        "title": "Un ou plusieurs nodules ?",
+        "actions": [],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Nodules multiples",
+            "to": "multiples"
+          },
+          {
+            "label": "Nodule unique",
+            "to": "unique"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "multiples",
+        "title": "Contrôle à M3–M6 puis M18–M24",
+        "actions": [
+          "Si absence d’évolution ensuite, pas de suivi ; sinon contrôle rapproché et temps de doublement volumique."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "unique",
+        "title": "Contrôle à M6–M12 puis M18–M24",
+        "actions": [
+          "Si absence d’évolution ensuite, pas de suivi ; sinon contrôle rapproché et temps de doublement volumique."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "m3",
+        "title": "Nodule de 6–8 mm contrôlé à M3 : évolution ?",
+        "actions": [],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Non évolutif : revenir au calendrier 6–8 mm",
+            "to": "standard"
+          },
+          {
+            "label": "Évolutif",
+            "to": "investiguer"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "grand",
+        "title": "Nodule > 8 mm : deux options",
+        "actions": [
+          "Option 2 de la figure : risque élevé et nodule > 10 mm."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Option 1 : contrôle à M3",
+            "to": "m3-grand"
+          },
+          {
+            "label": "Option 2 si conditions réunies",
+            "to": "investiguer"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "m3-grand",
+        "title": "Nodule > 8 mm : contrôle à M3",
+        "actions": [],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Suite indiquée par la figure",
+            "to": "suivi"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "suivi",
+        "title": "Suivi ultérieur annuel pendant 3 ans",
+        "actions": [
+          "Ou contrôles M3, M9 et M24 selon la figure."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      },
+      {
+        "id": "investiguer",
+        "title": "Investigations d’emblée ou après évolution",
+        "actions": [
+          "TEP, biopsie… à discuter selon le dossier.",
+          "Temps de doublement < 400 jours : argument pour explorer. > 600 jours : cancer non totalement exclu ; surveillance possible."
+        ],
+        "course": [
+          "207-1"
+        ],
+        "choices": [
+          {
+            "label": "Suivi représenté après investigations",
+            "to": "suivi"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 10.",
+          "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+          "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-207-fig10"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-208-fig2",
+    "items": [
+      208
+    ],
+    "title": "Insuffisance respiratoire chronique : orientation par les EFR",
+    "summary": "Figure 2 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 2",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-208-IRC-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "208",
+      "reference": "Figure 2",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-208-IRC-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/208-fig2.png",
+      "imageAlt": "Figure originale du CEP : Insuffisance respiratoire chronique : orientation par les EFR",
+      "imageSha256": "59b4b8914501607f3ddb63c3bc9f0c2bacf4cd31f320a28efccffc80e86be590"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 208, Figure 2. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Hypoxémie : PaO₂ < 70 mmHg",
+        "actions": [
+          "Orientation étiologique par les EFR."
+        ],
+        "course": [
+          "208-1",
+          "208-5"
+        ],
+        "choices": [
+          {
+            "label": "TVO : VEMS/CVF < 70 %",
+            "to": "obstructif"
+          },
+          {
+            "label": "TVR : CPT < 80 %",
+            "to": "restrictif"
+          },
+          {
+            "label": "Trouble ventilatoire mixte",
+            "to": "mixte"
+          },
+          {
+            "label": "Pas de trouble ventilatoire",
+            "to": "sans"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "obstructif",
+        "title": "BPCO, asthme vieilli, DDB…",
+        "actions": [
+          "Mécanisme : inégalités VA/Q ; atteinte de la surface d’échange."
+        ],
+        "course": [
+          "208-2",
+          "208-6",
+          "208-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "restrictif",
+        "title": "Que montre la TLCO ?",
+        "actions": [],
+        "course": [
+          "208-5",
+          "208-6"
+        ],
+        "choices": [
+          {
+            "label": "Diminuée",
+            "to": "pid"
+          },
+          {
+            "label": "Normale",
+            "to": "pompe"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "pid",
+        "title": "Pneumopathies interstitielles…",
+        "actions": [
+          "Mécanisme : atteinte de la surface d’échange."
+        ],
+        "course": [
+          "208-6",
+          "208-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "pompe",
+        "title": "Maladie neuromusculaire, paroi thoracique, SOH…",
+        "actions": [
+          "Mécanisme : hypoventilation ± inégalités VA/Q."
+        ],
+        "course": [
+          "208-2",
+          "208-6",
+          "208-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "mixte",
+        "title": "DDB, mucoviscidose…",
+        "actions": [
+          "Mécanisme : inégalités VA/Q ± hypoventilation."
+        ],
+        "course": [
+          "208-6",
+          "208-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "sans",
+        "title": "Sans trouble ventilatoire : TLCO diminuée",
+        "actions": [
+          "Branche explicitement représentée dans la figure."
+        ],
+        "course": [
+          "208-5",
+          "208-6"
+        ],
+        "choices": [
+          {
+            "label": "Orientations",
+            "to": "vasculaire"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      },
+      {
+        "id": "vasculaire",
+        "title": "Hypertension pulmonaire, SOH…",
+        "actions": [
+          "Mécanisme représenté : atteinte de la surface d’échange ± inégalités VA/Q."
+        ],
+        "course": [
+          "208-3",
+          "208-4",
+          "208-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 2.",
+          "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-208-fig2"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-209-fig4",
+    "items": [
+      209
+    ],
+    "title": "BPCO : traitements médicamenteux du schéma CEP",
+    "summary": "Figure 4 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 4",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-209-BPCO-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "209",
+      "reference": "Figure 4",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-209-BPCO-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+        "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+        "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+        "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/209-fig4.png",
+      "imageAlt": "Figure originale du CEP : BPCO : traitements médicamenteux du schéma CEP",
+      "imageSha256": "aecfd5900c58abbd63108a3bb25fd0dca95b7ab4d0370f9c6ee6647bf659c5c2"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 209, Figure 4. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Bronchodilatateur de courte durée d’action",
+        "actions": [],
+        "course": [
+          "209-11"
+        ],
+        "choices": [
+          {
+            "label": "Dyspnée et/ou exacerbations",
+            "to": "mono"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "mono",
+        "title": "Un bronchodilatateur de longue durée d’action",
+        "actions": [
+          "Anticholinergique en cas d’exacerbation."
+        ],
+        "course": [
+          "209-11"
+        ],
+        "choices": [
+          {
+            "label": "Dyspnée mMRC ≥ 2, sans exacerbation",
+            "to": "double"
+          },
+          {
+            "label": "Dyspnée mMRC ≥ 2 et exacerbations",
+            "to": "double"
+          },
+          {
+            "label": "Exacerbations sans dyspnée marquée : option conditionnelle",
+            "to": "csi"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "double",
+        "title": "Deux bronchodilatateurs de longue durée d’action",
+        "actions": [],
+        "course": [
+          "209-11"
+        ],
+        "choices": [
+          {
+            "label": "Persistance : lire la réserve figure/texte",
+            "to": "triple"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "csi",
+        "title": "CSI + β₂ de longue durée d’action",
+        "actions": [
+          "Option selon les éosinophiles et la note 2 ; voir les précisions."
+        ],
+        "course": [
+          "209-11"
+        ],
+        "choices": [
+          {
+            "label": "Persistance : lire la réserve figure/texte",
+            "to": "triple"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "triple",
+        "title": "Trithérapie : CSI + deux bronchodilatateurs",
+        "actions": [
+          "Réserve : le texte du CEP conditionne l’escalade par CSI à la présence d’exacerbations.",
+          "La figure affiche « dyspnée et/ou exacerbations » ; ne pas traiter automatiquement une dyspnée isolée par CSI."
+        ],
+        "course": [
+          "209-11"
+        ],
+        "choices": [
+          {
+            "label": "Dyspnée persistante",
+            "to": "mesures"
+          },
+          {
+            "label": "Exacerbations persistantes",
+            "to": "avis"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "mesures",
+        "title": "Mesures complémentaires médicamenteuses et non médicamenteuses",
+        "actions": [
+          "Consulter le texte du chapitre et réévaluer globalement."
+        ],
+        "course": [
+          "209-11"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "avis",
+        "title": "Discussion spécialisée",
+        "actions": [
+          "Macrolides au long cours ; dupilumab si éosinophiles > 300/mm³ dans la figure.",
+          "Les conditions complètes d’utilisation et l’optimisation préalable relèvent de l’avis spécialisé."
+        ],
+        "course": [
+          "209-11"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 4.",
+          "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+          "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+          "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+          "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-209-fig4"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-210-fig14",
+    "items": [
+      210
+    ],
+    "title": "PID subaiguë ou chronique : schéma diagnostique",
+    "summary": "Figure 14 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 14",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-210-PID-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "210",
+      "reference": "Figure 14",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-210-PID-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/210-fig14.png",
+      "imageAlt": "Figure originale du CEP : PID subaiguë ou chronique : schéma diagnostique",
+      "imageSha256": "3a1b6ce4098b33a486a273837af9aefdb2b1053f6a225cbbe582fe38f5321b82"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 210, Figure 14. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Histoire, examen clinique, TDM haute résolution et biologie",
+        "actions": [
+          "Expositions environnementales, professionnelles et médicamenteuses ; signes de connectivite."
+        ],
+        "course": [
+          "210-2",
+          "210-3",
+          "210-4",
+          "210-5",
+          "210-7",
+          "210-9"
+        ],
+        "choices": [
+          {
+            "label": "Diagnostic établi",
+            "to": "diagnostic"
+          },
+          {
+            "label": "Pas de diagnostic",
+            "to": "lba"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 14.",
+          "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-210-fig14"
+        ],
+        "related": []
+      },
+      {
+        "id": "lba",
+        "title": "Fibroscopie avec LBA",
+        "actions": [
+          "Biopsies bronchiques si suspicion de sarcoïdose ou de lymphangite carcinomateuse."
+        ],
+        "course": [
+          "210-7",
+          "210-9"
+        ],
+        "choices": [
+          {
+            "label": "Diagnostic établi",
+            "to": "diagnostic"
+          },
+          {
+            "label": "Selon TDM et hypothèses : prélèvements ciblés",
+            "to": "prelevements"
+          },
+          {
+            "label": "Pas de diagnostic",
+            "to": "dmd"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 14.",
+          "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-210-fig14"
+        ],
+        "related": []
+      },
+      {
+        "id": "prelevements",
+        "title": "Biopsies transbronchiques ou d’ADP médiastinales",
+        "actions": [
+          "Choix en fonction du scanner et des hypothèses."
+        ],
+        "course": [
+          "210-7"
+        ],
+        "choices": [
+          {
+            "label": "Diagnostic établi",
+            "to": "diagnostic"
+          },
+          {
+            "label": "Pas de diagnostic : discussion du dossier",
+            "to": "dmd"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 14.",
+          "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-210-fig14"
+        ],
+        "related": []
+      },
+      {
+        "id": "dmd",
+        "title": "Discussion multidisciplinaire",
+        "actions": [],
+        "course": [
+          "210-7"
+        ],
+        "choices": [
+          {
+            "label": "Diagnostic retenu",
+            "to": "diagnostic"
+          },
+          {
+            "label": "Pas de diagnostic",
+            "to": "biopsie"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 14.",
+          "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-210-fig14"
+        ],
+        "related": []
+      },
+      {
+        "id": "biopsie",
+        "title": "Biopsie pulmonaire vidéo-chirurgicale ou cryobiopsie transbronchique",
+        "actions": [
+          "Seulement si conséquence thérapeutique attendue et absence de contre-indication."
+        ],
+        "course": [
+          "210-7"
+        ],
+        "choices": [
+          {
+            "label": "Résultat contributif",
+            "to": "diagnostic"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 14.",
+          "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-210-fig14"
+        ],
+        "related": []
+      },
+      {
+        "id": "diagnostic",
+        "title": "Diagnostic",
+        "actions": [
+          "La très grande majorité des PID justifie une discussion multidisciplinaire, selon le texte adjacent."
+        ],
+        "course": [
+          "210-7"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 14.",
+          "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-210-fig14"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-309-fig15",
+    "items": [
+      309
+    ],
+    "title": "Tumeur pulmonaire : choisir la technique diagnostique",
+    "summary": "Figure 15 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 15",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-309-TUMEURS-PULM-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "309",
+      "reference": "Figure 15",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-309-TUMEURS-PULM-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/309-fig15.jpg",
+      "imageAlt": "Figure originale du CEP : Tumeur pulmonaire : choisir la technique diagnostique",
+      "imageSha256": "27ca4d9daaa0c9db70679a0d4d9e3f47c913630eaa2766dde0cd4acd270bb94c"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 309, Figure 15. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Quelle localisation pour la lésion ?",
+        "actions": [
+          "Schéma topographique de choix des prélèvements."
+        ],
+        "course": [
+          "309-5",
+          "309-7",
+          "309-10"
+        ],
+        "choices": [
+          {
+            "label": "Tiers central",
+            "to": "central"
+          },
+          {
+            "label": "Tiers intermédiaire",
+            "to": "intermediaire"
+          },
+          {
+            "label": "Tiers périphérique",
+            "to": "peripherique"
+          },
+          {
+            "label": "Adénomégalies paratrachéales",
+            "to": "ganglions"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 15.",
+          "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-309-fig15"
+        ],
+        "related": []
+      },
+      {
+        "id": "central",
+        "title": "Bronchoscopie",
+        "actions": [],
+        "course": [
+          "309-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 15.",
+          "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-309-fig15"
+        ],
+        "related": []
+      },
+      {
+        "id": "intermediaire",
+        "title": "Trois techniques présentées",
+        "actions": [
+          "1. Bronchoscopie ; 2. ponction transthoracique ; 3. chirurgie."
+        ],
+        "course": [
+          "309-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 15.",
+          "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-309-fig15"
+        ],
+        "related": []
+      },
+      {
+        "id": "peripherique",
+        "title": "Deux techniques présentées",
+        "actions": [
+          "1. Ponction transthoracique ; 2. chirurgie."
+        ],
+        "course": [
+          "309-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 15.",
+          "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-309-fig15"
+        ],
+        "related": []
+      },
+      {
+        "id": "ganglions",
+        "title": "Prélèvement ganglionnaire",
+        "actions": [
+          "1. Écho-endoscopie bronchique avec ponction ganglionnaire.",
+          "2. Médiastinoscopie."
+        ],
+        "course": [
+          "309-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 15.",
+          "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-309-fig15"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-359-fig4",
+    "items": [
+      359
+    ],
+    "title": "Détresse respiratoire aiguë : algorithme diagnostique",
+    "summary": "Figure 4 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 4",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359-DRA-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "359",
+      "reference": "Figure 4",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359-DRA-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/359-fig4.png",
+      "imageAlt": "Figure originale du CEP : Détresse respiratoire aiguë : algorithme diagnostique",
+      "imageSha256": "1dee82882163c9a192d691105de7d79163a42c826b54bb808321a44f1dd8340b"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 359, Figure 4. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Détresse respiratoire aiguë : gravité et soins en parallèle",
+        "actions": [
+          "Signes respiratoires de lutte/faillite ; signes neurologiques ; retentissement hémodynamique.",
+          "Rechercher une obstruction des voies aériennes ; gazométrie artérielle et ECG.",
+          "Traitement symptomatique urgent simultané : désobstruction si nécessaire, oxygène et support ventilatoire adapté."
+        ],
+        "course": [
+          "359-1",
+          "359-6",
+          "359-7",
+          "359-19",
+          "359-20"
+        ],
+        "choices": [
+          {
+            "label": "Enquête étiologique en parallèle",
+            "to": "radio"
+          }
+        ],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "radio",
+        "title": "Orientation par la radiographie thoracique",
+        "actions": [],
+        "course": [
+          "359-8",
+          "359-9"
+        ],
+        "choices": [
+          {
+            "label": "Anomalies pleurales",
+            "to": "plevre"
+          },
+          {
+            "label": "Radiographie « normale »",
+            "to": "gaz"
+          },
+          {
+            "label": "Atélectasie",
+            "to": "atelectasie"
+          },
+          {
+            "label": "Opacités parenchymateuses",
+            "to": "opacites"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "plevre",
+        "title": "Pleurésie ou pneumothorax",
+        "actions": [],
+        "course": [
+          "359-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "atelectasie",
+        "title": "Atélectasie",
+        "actions": [
+          "Poursuivre l’enquête causale sans retarder le traitement."
+        ],
+        "course": [
+          "359-9"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "opacites",
+        "title": "OAP, pneumonie ou PID",
+        "actions": [],
+        "course": [
+          "359-9",
+          "359-13",
+          "359-14"
+        ],
+        "choices": [
+          {
+            "label": "Cause établie",
+            "to": "causal"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "gaz",
+        "title": "PaCO₂ et bicarbonates",
+        "actions": [],
+        "course": [
+          "359-3",
+          "359-4",
+          "359-6"
+        ],
+        "choices": [
+          {
+            "label": "Augmentés",
+            "to": "irc"
+          },
+          {
+            "label": "Normaux ou diminués",
+            "to": "ep-asthme"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "irc",
+        "title": "Décompensation d’une insuffisance respiratoire chronique",
+        "actions": [
+          "Obstructive : BPCO, emphysème.",
+          "Restrictive : paroi thoracique ou maladie neuromusculaire."
+        ],
+        "course": [
+          "359-4",
+          "359-9"
+        ],
+        "choices": [
+          {
+            "label": "Cause établie",
+            "to": "causal"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "ep-asthme",
+        "title": "Embolie pulmonaire ou exacerbation d’asthme",
+        "actions": [],
+        "course": [
+          "359-9"
+        ],
+        "choices": [
+          {
+            "label": "Cause établie",
+            "to": "causal"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      },
+      {
+        "id": "causal",
+        "title": "Traitement étiologique",
+        "actions": [
+          "Poursuivre simultanément le traitement symptomatique."
+        ],
+        "course": [
+          "359-20",
+          "359-21"
+        ],
+        "choices": [],
+        "kind": "urgent",
+        "body": [
+          "Repère source : Figure 4.",
+          "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359-fig4"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-359bis-fig8",
+    "items": [
+      359
+    ],
+    "title": "Après un syndrome de pénétration : rechercher le corps étranger",
+    "summary": "Figure 8 · Schéma du collège",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Figure 8",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359bis-CORPS-ETRANGER-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "359bis",
+      "reference": "Figure 8",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359bis-CORPS-ETRANGER-2026.docx",
+      "kind": "figure",
+      "notes": [
+        "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger."
+      ],
+      "checkedAt": "2026-10-14",
+      "image": "/assets/cep-2026/359bis-fig8.png",
+      "imageAlt": "Figure originale du CEP : Après un syndrome de pénétration : rechercher le corps étranger",
+      "imageSha256": "833e4268ddc1cd735eaaa973b43d367c745ea2223758afd3dc1e7d5e7784ed3b"
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 359bis, Figure 8. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Inhalation d’un corps étranger avec syndrome de pénétration",
+        "actions": [
+          "La figure prévoit une résolution spontanée ou après manœuvre de désobstruction indiquée."
+        ],
+        "course": [
+          "359-7",
+          "359-17",
+          "359-18"
+        ],
+        "choices": [
+          {
+            "label": "Symptômes aigus résolus",
+            "to": "expulsion"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 8.",
+          "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359bis-fig8"
+        ],
+        "related": []
+      },
+      {
+        "id": "expulsion",
+        "title": "Expulsion du corps étranger constatée ?",
+        "actions": [],
+        "course": [
+          "359-7",
+          "359-10"
+        ],
+        "choices": [
+          {
+            "label": "Oui",
+            "to": "oui"
+          },
+          {
+            "label": "Non",
+            "to": "bilan"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Figure 8.",
+          "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359bis-fig8"
+        ],
+        "related": []
+      },
+      {
+        "id": "oui",
+        "title": "Expulsion constatée",
+        "actions": [
+          "Fin de cette branche dans la figure ; évaluer le patient après l’épisode."
+        ],
+        "course": [
+          "359-7",
+          "359-10"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 8.",
+          "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359bis-fig8"
+        ],
+        "related": []
+      },
+      {
+        "id": "bilan",
+        "title": "Cliché thoracique + endoscopie souple",
+        "actions": [
+          "Ou scanner thoracique basse dose selon la figure.",
+          "Le texte adjacent précise : diminution unilatérale du murmure vésiculaire avec piégeage homolatéral → extraction en bronchoscopie rigide ; sinon contrôle souple ou scanner basse dose."
+        ],
+        "course": [
+          "359-10",
+          "359-21"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Figure 8.",
+          "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-359bis-fig8"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-188-tableau1",
+    "items": [
+      188
+    ],
+    "title": "Asthme : les deux propositions par paliers",
+    "summary": "Tableau 1 · Tableau décisionnel",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Tableau 1",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "188",
+      "reference": "Tableau 1",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx",
+      "kind": "table",
+      "notes": [
+        "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+        "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+      ],
+      "checkedAt": "2026-10-14",
+      "table": {
+        "caption": "Tableau 1 du CEP — contenu remis en colonnes pour la lecture",
+        "headers": [
+          "Palier",
+          "Proposition 1",
+          "Proposition 2"
+        ],
+        "rows": [
+          [
+            "1",
+            "CSI faible dose/formotérol à la demande",
+            "BDCA à la demande + CSI faible dose à chaque prise de BDCA"
+          ],
+          [
+            "2",
+            "CSI faible dose/formotérol à la demande",
+            "CSI faible dose tous les jours"
+          ],
+          [
+            "3",
+            "CSI faible dose/formotérol tous les jours",
+            "CSI faible dose + BDLA tous les jours"
+          ],
+          [
+            "4",
+            "CSI dose modérée/formotérol tous les jours",
+            "CSI dose modérée + BDLA tous les jours"
+          ],
+          [
+            "5",
+            "CSI dose forte/formotérol + antimuscarinique LA ; discuter biothérapie en RCA",
+            "CSI dose forte + BDLA + antimuscarinique LA ; discuter biothérapie en RCA"
+          ],
+          [
+            "Secours",
+            "CSI faible dose/formotérol à la demande",
+            "BDCA à la demande + CSI faible dose à chaque prise (ou BDCA seul si CSI non disponible, selon le tableau)"
+          ],
+          [
+            "Au palier 5",
+            "Adresser au pneumologue ; autre option : CSO faible dose",
+            "Adresser au pneumologue ; autre option : CSO faible dose"
+          ]
+        ]
+      }
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 188, Tableau 1. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Deux propositions de traitement de fond",
+        "actions": [
+          "Le tableau représente des paliers, pas une escalade automatique.",
+          "Choisir et réévaluer selon le contrôle, l’observance et la technique d’inhalation."
+        ],
+        "course": [
+          "188-8",
+          "188-15",
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [
+          {
+            "label": "Proposition 1 : CSI/formotérol",
+            "to": "p1"
+          },
+          {
+            "label": "Proposition 2 : autre association",
+            "to": "p2"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p1",
+        "title": "Proposition 1 : quel palier ?",
+        "actions": [
+          "Secours : CSI faible dose/formotérol à la demande."
+        ],
+        "course": [
+          "188-17",
+          "188-18"
+        ],
+        "choices": [
+          {
+            "label": "Palier 1",
+            "to": "p1-1"
+          },
+          {
+            "label": "Palier 2",
+            "to": "p1-2"
+          },
+          {
+            "label": "Palier 3",
+            "to": "p1-3"
+          },
+          {
+            "label": "Palier 4",
+            "to": "p1-4"
+          },
+          {
+            "label": "Palier 5",
+            "to": "p1-5"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p1-1",
+        "title": "Proposition 1 · Palier 1",
+        "actions": [
+          "CSI faible dose/formotérol à la demande"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p1-2",
+        "title": "Proposition 1 · Palier 2",
+        "actions": [
+          "CSI faible dose/formotérol à la demande"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p1-3",
+        "title": "Proposition 1 · Palier 3",
+        "actions": [
+          "CSI faible dose/formotérol tous les jours"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p1-4",
+        "title": "Proposition 1 · Palier 4",
+        "actions": [
+          "CSI dose modérée/formotérol tous les jours"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p1-5",
+        "title": "Proposition 1 · Palier 5",
+        "actions": [
+          "CSI dose forte/formotérol + antimuscarinique LA ; discuter biothérapie en RCA",
+          "Adresser au pneumologue ; autre option indiquée dans le tableau : CSO à faible dose."
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p2",
+        "title": "Proposition 2 : quel palier ?",
+        "actions": [
+          "Secours : BDCA à la demande + CSI faible dose à chaque prise (BDCA seul si CSI indisponible, selon le tableau)."
+        ],
+        "course": [
+          "188-17",
+          "188-18"
+        ],
+        "choices": [
+          {
+            "label": "Palier 1",
+            "to": "p2-1"
+          },
+          {
+            "label": "Palier 2",
+            "to": "p2-2"
+          },
+          {
+            "label": "Palier 3",
+            "to": "p2-3"
+          },
+          {
+            "label": "Palier 4",
+            "to": "p2-4"
+          },
+          {
+            "label": "Palier 5",
+            "to": "p2-5"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p2-1",
+        "title": "Proposition 2 · Palier 1",
+        "actions": [
+          "BDCA à la demande + CSI faible dose à chaque prise de BDCA"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p2-2",
+        "title": "Proposition 2 · Palier 2",
+        "actions": [
+          "CSI faible dose tous les jours"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p2-3",
+        "title": "Proposition 2 · Palier 3",
+        "actions": [
+          "CSI faible dose + BDLA tous les jours"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p2-4",
+        "title": "Proposition 2 · Palier 4",
+        "actions": [
+          "CSI dose modérée + BDLA tous les jours"
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      },
+      {
+        "id": "p2-5",
+        "title": "Proposition 2 · Palier 5",
+        "actions": [
+          "CSI dose forte + BDLA + antimuscarinique LA ; discuter biothérapie en RCA",
+          "Adresser au pneumologue ; autre option indiquée dans le tableau : CSO à faible dose."
+        ],
+        "course": [
+          "188-17",
+          "188-18",
+          "188-19"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableau 1.",
+          "Le tableau regroupe les paliers 1 et 2 de la proposition 1 sous CSI/formotérol à la demande. Le texte adjacent évoque un traitement quotidien dès le diagnostic : cette divergence de présentation est signalée.",
+          "Les tableaux ont été remis en colonnes ; la numérotation, les doses relatives et les deux propositions du collège sont conservées. Les doses exactes et la réévaluation sont dans le cours."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-188-tableau1"
+        ],
+        "related": []
+      }
+    ]
+  },
+  {
+    "id": "cep2026-154-tableaux8-10",
+    "items": [
+      154
+    ],
+    "title": "PAC : antibiothérapie selon le lieu et le terrain",
+    "summary": "Tableaux 8 à 10 · Tableau décisionnel",
+    "scope": "Transposition interactive du CEP. Les cases ouvrent ton cours complet ; la source permet de vérifier le schéma.",
+    "situationLabel": "CEP 2026 · Tableaux 8 à 10",
+    "sourceUrl": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx",
+    "sourceLabel": "Ouvrir le chapitre du CEP ↗",
+    "sourceKind": "college",
+    "collegeSource": {
+      "college": "Collège des enseignants de pneumologie",
+      "edition": "9e édition · 2026",
+      "item": "154",
+      "reference": "Tableaux 8 à 10",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx",
+      "kind": "table",
+      "notes": [
+        "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+        "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+      ],
+      "checkedAt": "2026-10-14",
+      "table": {
+        "caption": "Tableaux 8, 9 et 10 du CEP — regroupement du contenu",
+        "headers": [
+          "Situation",
+          "Premier choix",
+          "Alternative dans le collège"
+        ],
+        "rows": [
+          [
+            "Ambulatoire sans comorbidité",
+            "Amoxicilline",
+            "Pristinamycine"
+          ],
+          [
+            "Ambulatoire avec comorbidité(s)",
+            "Amoxicilline–acide clavulanique",
+            "Ceftriaxone parentérale"
+          ],
+          [
+            "Ambulatoire, co/surinfection bactérienne virale (grippe)",
+            "Amoxicilline–acide clavulanique",
+            "Ceftriaxone parentérale ou pristinamycine"
+          ],
+          [
+            "Ambulatoire, bactérie atypique évocatrice/documentée",
+            "Macrolide",
+            "Pristinamycine ou doxycycline"
+          ],
+          [
+            "Hospitalisation conventionnelle sans comorbidité",
+            "Amoxicilline",
+            "Céfotaxime ou ceftriaxone parentérale"
+          ],
+          [
+            "Hospitalisation conventionnelle avec comorbidité(s) ou co/surinfection virale",
+            "Amoxicilline–acide clavulanique",
+            "Céfotaxime ou ceftriaxone parentérale"
+          ],
+          [
+            "Hospitalisation conventionnelle, bactérie atypique",
+            "Macrolide",
+            "Lévofloxacine uniquement si allergie contre-indiquant le macrolide"
+          ],
+          [
+            "PAC grave, soins intensifs/réanimation",
+            "C3G parentérale + macrolide",
+            "Lévofloxacine uniquement si allergie contre-indiquant les bêta-lactamines"
+          ]
+        ]
+      }
+    },
+    "provenance": "Transposition ATLAS — CEP, 9e édition 2026, item 154, Tableaux 8 à 10. Source vérifiée le 14 octobre 2026. Les compléments et limites sont explicités.",
+    "nodes": [
+      {
+        "id": "entry",
+        "title": "Quel lieu de prise en charge pour cette PAC ?",
+        "actions": [
+          "Tableaux d’antibiothérapie probabiliste du CEP ; vérifier le terrain et les allergies."
+        ],
+        "course": [
+          "154-6",
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Ambulatoire : tableau 8",
+            "to": "ambulatoire"
+          },
+          {
+            "label": "Hospitalisation non grave : tableau 9",
+            "to": "hospitalise"
+          },
+          {
+            "label": "PAC grave : tableau 10",
+            "to": "atb7"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "ambulatoire",
+        "title": "Quel profil en ambulatoire ?",
+        "actions": [],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Sans comorbidité",
+            "to": "atb0"
+          },
+          {
+            "label": "Avec comorbidité(s)",
+            "to": "atb1"
+          },
+          {
+            "label": "Co/surinfection bactérienne virale",
+            "to": "atb2"
+          },
+          {
+            "label": "Bactérie atypique évoquée/documentée",
+            "to": "atb3"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "hospitalise",
+        "title": "Quel profil en hospitalisation conventionnelle ?",
+        "actions": [],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Sans comorbidité",
+            "to": "atb4"
+          },
+          {
+            "label": "Comorbidités ou co/surinfection bactérienne virale",
+            "to": "atb5"
+          },
+          {
+            "label": "Bactérie atypique évoquée/documentée",
+            "to": "atb6"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb0",
+        "title": "Ambulatoire sans comorbidité",
+        "actions": [
+          "Premier choix : Amoxicilline.",
+          "Alternative du tableau : Pristinamycine."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb1",
+        "title": "Ambulatoire avec comorbidité(s)",
+        "actions": [
+          "Premier choix : Amoxicilline–acide clavulanique.",
+          "Alternative du tableau : Ceftriaxone parentérale."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb2",
+        "title": "Ambulatoire, co/surinfection bactérienne virale (grippe)",
+        "actions": [
+          "Premier choix : Amoxicilline–acide clavulanique.",
+          "Alternative du tableau : Ceftriaxone parentérale ou pristinamycine."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb3",
+        "title": "Ambulatoire, bactérie atypique évocatrice/documentée",
+        "actions": [
+          "Premier choix : Macrolide.",
+          "Alternative du tableau : Pristinamycine ou doxycycline."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb4",
+        "title": "Hospitalisation conventionnelle sans comorbidité",
+        "actions": [
+          "Premier choix : Amoxicilline.",
+          "Alternative du tableau : Céfotaxime ou ceftriaxone parentérale."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb5",
+        "title": "Hospitalisation conventionnelle avec comorbidité(s) ou co/surinfection virale",
+        "actions": [
+          "Premier choix : Amoxicilline–acide clavulanique.",
+          "Alternative du tableau : Céfotaxime ou ceftriaxone parentérale."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb6",
+        "title": "Hospitalisation conventionnelle, bactérie atypique",
+        "actions": [
+          "Premier choix : Macrolide.",
+          "Alternative du tableau : Lévofloxacine uniquement si allergie contre-indiquant le macrolide."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "72h"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "atb7",
+        "title": "PAC grave, soins intensifs/réanimation",
+        "actions": [
+          "Premier choix : C3G parentérale + macrolide.",
+          "Alternative du tableau : Lévofloxacine uniquement si allergie contre-indiquant les bêta-lactamines."
+        ],
+        "course": [
+          "154-13"
+        ],
+        "choices": [
+          {
+            "label": "Réévaluer",
+            "to": "reanimation"
+          }
+        ],
+        "kind": "",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "72h",
+        "title": "Réévaluation à 72 h dans les tableaux 8 et 9",
+        "actions": [
+          "Le texte du chapitre recommande une réévaluation clinique à 48–72 h et un recours avant ce délai si dégradation."
+        ],
+        "course": [
+          "154-15"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      },
+      {
+        "id": "reanimation",
+        "title": "Désescalade la plus précoce possible",
+        "actions": [
+          "Selon l’évolution clinique et la documentation microbiologique."
+        ],
+        "course": [
+          "154-8",
+          "154-13",
+          "154-15"
+        ],
+        "choices": [],
+        "kind": "finish",
+        "body": [
+          "Repère source : Tableaux 8 à 10.",
+          "Il s’agit d’une transposition de tableaux du collège, pas d’une figure intitulée « algorithme ». Les posologies, durées et situations particulières doivent être lues dans le cours associé.",
+          "Dans le tableau 9, l’alternative C3G parentérale couvre les trois premiers profils (cellule fusionnée dans l’original)."
+        ],
+        "why": "Cette étape reprend la décision ou l’orientation de la figure du CEP. Les objectifs de cours ci-dessous donnent les explications et les compléments.",
+        "refs": [
+          "cep2026-154-tableaux8-10"
+        ],
+        "related": []
+      }
+    ]
+  }
+]

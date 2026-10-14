@@ -115,3 +115,15 @@
 .dark .algo-tree-card.start,.dark .algo-tree-card.urgent,.dark .algo-tree-card.uncertain,.dark .algo-tree-card.finish{background:var(--paper)}
 .dark .algo-tree-card.start .algo-tree-meta,.dark .algo-card-course,.dark .algo-course-toggle,.dark .algo-body h4{color:#b9d5d4}
 @media(max-width:700px){.algo-detail{padding:18px}.algo-detail-top{flex-wrap:wrap}.algo-detail-tools{margin-left:auto}.algo-detail h3{font-size:1.2em}.algo-course-objective>summary{padding:14px}}
+
+/* Original college sources and clearly separated ATLAS complements. */
+.algo-picker-group>h2{font-size:1.1rem;margin:1.5rem 0 .8rem}
+.algo-extra-picker{margin:1rem 0 1.5rem}.algo-extra-picker>summary{font-weight:700;cursor:pointer;padding:.6rem 0}.algo-extra-picker .algo-picker{margin-top:.8rem}
+.algo-inventory-note{line-height:1.65;padding:.5rem 0;max-width:85ch}
+.algo-college-source{margin:1rem 0}.algo-source-credit{line-height:1.6;margin:0 0 1rem}
+.algo-original-link{display:block;color:var(--accent,#183e47);text-decoration:none}.algo-original-link>span{display:block;margin:.7rem 0;font-weight:650}
+.algo-original-image{display:block;width:100%;max-width:1250px;height:auto;object-fit:contain;background:#fff;border:1px solid #dde5e3;border-radius:8px;padding:.5rem;box-sizing:border-box}
+.algo-source-courses{margin-top:1.3rem}.algo-source-courses h3{font-size:1rem;margin-bottom:.65rem}.algo-source-courses>div{display:flex;flex-wrap:wrap;gap:.5rem}.algo-source-courses .algo-button{text-align:left;white-space:normal;max-width:100%}
+.algo-source-notes{margin:1rem 0;padding:.8rem 0;border-top:1px solid #d6e0dc;border-bottom:1px solid #d6e0dc;line-height:1.6}.algo-source-notes summary{font-weight:700;cursor:pointer}.algo-source-notes p{margin:.65rem 0 0;max-width:100ch}
+.algo-source-table{overflow-x:auto;max-width:100%;margin:1rem 0}.algo-source-table table{width:100%;min-width:540px;border-collapse:collapse;line-height:1.5;font-size:.97rem}.algo-source-table caption{text-align:left;margin-bottom:.65rem}.algo-source-table td,.algo-source-table th{padding:.8rem;border:1px solid #d6dfdc;vertical-align:top;text-align:left}.algo-source-table thead th{background:#e6eeeb;color:#173e47}.algo-source-table tbody th{font-weight:600}.algo-source-table tbody tr:nth-child(even){background:rgba(80,120,110,.05)}
+@media(max-width:700px){.algo-heading{flex-wrap:wrap}.algo-modes{flex-wrap:wrap}.algo-source-credit{font-size:.9rem}.algo-original-image{padding:.25rem}.algo-source-courses>div{display:grid;grid-template-columns:1fr}.algo-source-courses .algo-button{width:100%}}
