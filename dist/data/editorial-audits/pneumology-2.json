@@ -1,0 +1,1064 @@
+{
+  "reviewedAt": "2026-10-14",
+  "batch": "pneumology-2",
+  "baselineCommit": "b2b6fea7e92b07954607da238a3651aa76e772f8",
+  "items": [
+    {
+      "item": 209,
+      "objectives": 11,
+      "cards": 44,
+      "originalCards": 38,
+      "addedCards": 6,
+      "notionHighlights": 117
+    },
+    {
+      "item": 210,
+      "objectives": 9,
+      "cards": 20,
+      "originalCards": 4,
+      "addedCards": 16,
+      "notionHighlights": 110
+    },
+    {
+      "item": 309,
+      "objectives": 11,
+      "cards": 44,
+      "originalCards": 34,
+      "addedCards": 10,
+      "notionHighlights": 113
+    },
+    {
+      "item": 359,
+      "objectives": 21,
+      "cards": 78,
+      "originalCards": 66,
+      "addedCards": 12,
+      "notionHighlights": 106
+    },
+    {
+      "item": 360,
+      "objectives": 11,
+      "cards": 37,
+      "originalCards": 29,
+      "addedCards": 8,
+      "notionHighlights": 46
+    }
+  ],
+  "objectives": 63,
+  "cards": 223,
+  "addedCards": 52,
+  "sdd": {
+    "verifiedAt": "2026-10-14",
+    "status": "verified",
+    "method": "Attendus lus dans Chrome connecté à UNESS pendant cette session ; cinq situations du premier lot réutilisées et quatre pages supplémentaires lues pour ce lot.",
+    "situations": [
+      {
+        "number": 149,
+        "title": "Ingestion ou inhalation d’un corps étranger",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-149",
+        "expectations": [
+          "Repérer la pénétration et l’urgence, orienter vers la filière/endoscopie adaptées, expliquer les gestes et prévenir les récidives."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 160,
+        "title": "Détresse respiratoire aiguë",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-160",
+        "expectations": [
+          "Reconnaître la défaillance et initier les soins urgents en parallèle de l’enquête étiologique."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 161,
+        "title": "Douleur thoracique",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-161",
+        "expectations": [
+          "Caractériser douleur et signes associés, chercher les urgences, orienter les examens et débuter les soins avec une surveillance adaptée."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 162,
+        "title": "Dyspnée",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-162",
+        "expectations": [
+          "Évaluer la gravité, la temporalité et le terrain pour sélectionner les examens et les soins."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 163,
+        "title": "Expectoration",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-163",
+        "expectations": [
+          "Décrire l’expectoration, rechercher les signes associés et hiérarchiser les étiologies."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 167,
+        "title": "Toux",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-167",
+        "expectations": [
+          "Caractériser la toux, repérer les alertes et orienter bilan et traitement selon durée et âge."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 230,
+        "title": "Imagerie cardio-thoracique",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-230",
+        "expectations": [
+          "Vérifier qualité et indication, décrire les signes et confronter l’image à la clinique."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 286,
+        "title": "Suivi et éducation du patient BPCO",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-286",
+        "expectations": [
+          "Évaluer vécu, sévérité et comorbidités ; vérifier inhalation/observance ; adapter fond, prévention, activité et plan d’action."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 303,
+        "title": "Prévention et dépistage des cancers",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-303",
+        "expectations": [
+          "Identifier les risques, expliquer bénéfices et limites du dépistage, choisir la filière selon le profil et accompagner le sevrage."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      }
+    ],
+    "scope": "Correspondances pédagogiques partielles ; titres courts de navigation, non transcription des libellés officiels."
+  },
+  "algorithms": [
+    {
+      "id": "pn209-diagnostic",
+      "title": "BPCO : confirmer l’obstruction et caractériser le terrain",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 286. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn209-exacerbation",
+      "title": "Exacerbation de BPCO : traiter et chercher le déclencheur",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 160, 163, 286. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn209-suivi",
+      "title": "BPCO stable : symptômes, exacerbations et éducation",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 286. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn210-orientation",
+      "title": "PID : de la suspicion au diagnostic multidisciplinaire",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn210-exposition",
+      "title": "PID et exposition : pneumoconiose ou hypersensibilité ?",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn309-diagnostic",
+      "title": "Tumeur pulmonaire : suspicion, image et prélèvement",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 230, 167, 303. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn309-traitement",
+      "title": "Cancer primitif : stade, aptitude et traitement",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 230, 162. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn309-secondaire",
+      "title": "Lésions secondaires : confirmer ce qui change le traitement",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn359-adulte",
+      "title": "Détresse respiratoire adulte : les premières décisions",
+      "nodes": 8,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 160, 162. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn359-corps-etranger",
+      "title": "Corps étranger inhalé : toux, conscience et âge",
+      "nodes": 9,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 149, 160. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn359-enfant",
+      "title": "Détresse pédiatrique et néonatale : âge et mécanisme",
+      "nodes": 9,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 160, 162. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn359-sdra",
+      "title": "Hypoxémie et SDRA : définir le mécanisme",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 160, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn360-diagnostic",
+      "title": "Pneumothorax : reconnaître une tension avant l’image",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 161, 160, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn360-suivi",
+      "title": "Pneumothorax stable : évacuation, drain et prévention",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 161, 162. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    }
+  ],
+  "sources": {
+    "pn209_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181918710e607ca4f384e?pvs=204"
+    },
+    "pn209_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 209 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-209-BPCO-2026.docx"
+    },
+    "pn209_ref2": {
+      "code": "GOLD",
+      "title": "GOLD · rapport 2026",
+      "url": "https://goldcopd.org/2026-gold-report-and-pocket-guide/"
+    },
+    "pn209_ref3": {
+      "code": "INCa",
+      "title": "INCa · programme pilote IMPULSION",
+      "url": "https://jefaismondepistage.cancer.fr/cancer-du-poumon/participer-au-programme-pilote/"
+    },
+    "pn209_ref4": {
+      "code": "HAS/SPILF/SPLF",
+      "title": "HAS/SPILF/SPLF · antibiothérapie des exacerbations, actualisation 2025",
+      "url": "https://www.has-sante.fr/jcms/p_3528903"
+    },
+    "pn209_ref5": {
+      "code": "HAS",
+      "title": "HAS · oxygénothérapie à domicile",
+      "url": "https://www.has-sante.fr/jcms/c_1265304/fr/evaluation-des-dispositifs-medicaux-et-prestations-associees-pour-l-oxygenotherapie-a-domicile"
+    },
+    "pn210_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d9418186a010c3440dcb8826?pvs=204"
+    },
+    "pn210_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 210 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-210-PID-2026.docx"
+    },
+    "pn210_ref2": {
+      "code": "ATS/JRS/ALAT",
+      "title": "ATS/JRS/ALAT · diagnostic de PHS, 2020",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7397797/"
+    },
+    "pn210_ref3": {
+      "code": "ATS/ERS/JRS/ALAT",
+      "title": "ATS/ERS/JRS/ALAT · FPI et fibrose progressive, 2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9851481/"
+    },
+    "pn309_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d941819f81f3f7901f243aba?pvs=204"
+    },
+    "pn309_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 309 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-309-TUMEURS-PULM-2026.docx"
+    },
+    "pn309_ref2": {
+      "code": "INCa",
+      "title": "INCa · épidémiologie du cancer du poumon",
+      "url": "https://www.cancer.fr/professionnels-de-sante/statistiques-et-chiffres-sur-les-cancers/epidemiologie-des-cancers/cancer-du-poumon"
+    },
+    "pn309_ref3": {
+      "code": "INCa",
+      "title": "INCa · programme pilote IMPULSION",
+      "url": "https://jefaismondepistage.cancer.fr/cancer-du-poumon/participer-au-programme-pilote/"
+    },
+    "pn309_ref4": {
+      "code": "ERS/ESTS",
+      "title": "ERS/ESTS · aptitude au traitement curatif, 2025",
+      "url": "https://publications.ersnet.org/content/erj/66/5/2500156"
+    },
+    "pn359_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181078d55f4f005cbc83e?pvs=204"
+    },
+    "pn359_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 359 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359-DRA-2026.docx"
+    },
+    "pn359_ref2": {
+      "code": "CNPU",
+      "title": "CNPU · détresse respiratoire et corps étranger",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/detresse-respiratoire-aigue"
+    },
+    "pn359_ref3": {
+      "code": "Société française de pédiatrie",
+      "title": "Société française de pédiatrie · détresse respiratoire néonatale",
+      "url": "https://gfrup.sfpediatrie.com/sites/gfrup.sfpediatrie.com/files/medias/files/04-ayachi_smurped_2015.pdf"
+    },
+    "pn359_ref4": {
+      "code": "SDRA",
+      "title": "SDRA · définition globale 2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10870872/"
+    },
+    "pn359_ref5": {
+      "code": "CEP",
+      "title": "CEP · item 359bis · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-359bis-CORPS-ETRANGER-2026.docx"
+    },
+    "pn359_ref6": {
+      "code": "HAS",
+      "title": "HAS · bronchiolite du nourrisson",
+      "url": "https://www.has-sante.fr/jcms/p_3118113/fr/prise-en-charge-du-1er-episode-de-bronchiolite-aigue-chez-le-nourrisson-de-moins-de-12-mois"
+    },
+    "pn359_ref7": {
+      "code": "ERC/RCUK",
+      "title": "ERC/RCUK · réanimation pédiatrique 2025",
+      "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines"
+    },
+    "pn359_ref8": {
+      "code": "SFMU/SFA",
+      "title": "SFMU/SFA · anaphylaxie en urgence",
+      "url": "https://www.sfmu.org/upload/consensus/rfe_anaphylaxie_sfmu2016.pdf"
+    },
+    "pn359_ref9": {
+      "code": "BTS",
+      "title": "BTS · oxygénothérapie en urgence",
+      "url": "https://www.brit-thoracic.org.uk/clinical-resources/guidelines/emergency-oxygen/"
+    },
+    "pn360_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d9418129ad7ee8949ec6b87a?pvs=204"
+    },
+    "pn360_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 360 · 9e édition 2026",
+      "url": "https://docs.splf.fr/divers/docs-gen/Item_360-PNEUMOTHORAX-2026.docx"
+    },
+    "pn360_ref2": {
+      "code": "SPLF/SFMU/SRLF/SFAR/SFCTCV",
+      "title": "SPLF/SFMU/SRLF/SFAR/SFCTCV · pneumothorax spontané primaire, 2023",
+      "url": "https://cdn2.splf.fr/wp-content/uploads/2023/03/Recos-pneumothorax.pdf"
+    },
+    "pn_lisa162": {
+      "code": "LiSA · SDD 162",
+      "title": "Dyspnée",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-162"
+    },
+    "pn_lisa286": {
+      "code": "LiSA · SDD 286",
+      "title": "Suivi et éducation du patient BPCO",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-286"
+    },
+    "pn_lisa160": {
+      "code": "LiSA · SDD 160",
+      "title": "Détresse respiratoire aiguë",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-160"
+    },
+    "pn_lisa163": {
+      "code": "LiSA · SDD 163",
+      "title": "Expectoration",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-163"
+    },
+    "pn_lisa230": {
+      "code": "LiSA · SDD 230",
+      "title": "Imagerie cardio-thoracique",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-230"
+    },
+    "pn_lisa167": {
+      "code": "LiSA · SDD 167",
+      "title": "Toux",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-167"
+    },
+    "pn_lisa303": {
+      "code": "LiSA · SDD 303",
+      "title": "Prévention et dépistage des cancers",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-303"
+    },
+    "pn_lisa149": {
+      "code": "LiSA · SDD 149",
+      "title": "Ingestion ou inhalation d’un corps étranger",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-149"
+    },
+    "pn_lisa161": {
+      "code": "LiSA · SDD 161",
+      "title": "Douleur thoracique",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-161"
+    }
+  },
+  "changes": [
+    "All 63 objective identifiers and ranks, and 171 original card identifiers preserved; 52 cards added after review.",
+    "14 pedagogical decision trees with 99 nodes cover all objectives; full course accessible from each linked node.",
+    "CEP 2026, HAS, GOLD, paediatric references and complementary guidelines identified per objective.",
+    "BPCO antibiotics and chronic therapy, PID patterns/exposures, cancer cytology/staging and treatment, respiratory emergencies and pneumothorax revised.",
+    "Previously empty neonatal respiratory objectives completed; two official CEP teaching illustrations added with attribution.",
+    "Colours transferred only from matching Notion passages; 9 LiSA situations read and partially mapped to the educational paths.",
+    "Items 359 and 360 remain in their existing emergency category; user progress identifiers unchanged."
+  ],
+  "medicalReview": {
+    "209": {
+      "209-1": {
+        "sources": [
+          "cep209"
+        ],
+        "note": "Réversibilité et confirmation spirométrique clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "209-2": {
+        "sources": [
+          "cep209"
+        ],
+        "note": "La mortalité cardiovasculaire n’est plus présentée comme première cause universelle.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "209-3": {
+        "sources": [
+          "cep209",
+          "gold"
+        ],
+        "note": "Seuils diagnostiques séparés de la classification ; suppression du test corticoïde diagnostique systématique.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "209-4": {
+        "sources": [
+          "cep209"
+        ],
+        "note": "Temporalité et critères de gravité corrigés.",
+        "notionScopes": [
+          1
+        ]
+      },
+      "209-5": {
+        "sources": [
+          "cep209"
+        ],
+        "note": "Facteurs déclenchants séparés des diagnostics différentiels ; ambiguïté sur le haut débit levée.",
+        "notionScopes": [
+          1
+        ]
+      },
+      "209-6": {
+        "sources": [
+          "cep209",
+          "gold"
+        ],
+        "note": "Gravité gazométrique et indication de VNI précisées.",
+        "notionScopes": [
+          1
+        ]
+      },
+      "209-7": {
+        "sources": [
+          "cep209",
+          "impulsion"
+        ],
+        "note": "Imagerie diagnostique et dépistage ciblé distingués.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "209-8": {
+        "sources": [
+          "cep209"
+        ],
+        "note": "Iconographie conservée ; lecture de la distension précisée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "209-9": {
+        "sources": [
+          "cep209"
+        ],
+        "note": "Chiffres datés ; retrait d’une ancienne projection mondiale pour 2030.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "209-10": {
+        "sources": [
+          "cep209",
+          "gold"
+        ],
+        "note": "O₂ contrôlé et VNI ; suppression de la notion d’hypercapnie toujours différée.",
+        "notionScopes": [
+          1
+        ]
+      },
+      "209-11": {
+        "sources": [
+          "cep209",
+          "atbbpco",
+          "gold",
+          "old"
+        ],
+        "note": "Antibiotiques actualisés HAS ; place des CSI, vaccinations et limites des indications précisées.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      }
+    },
+    "210": {
+      "210-1": {
+        "sources": [
+          "cep210"
+        ],
+        "note": "Classification clarifiée ; retrait de pourcentages présentés comme universels.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-2": {
+        "sources": [
+          "cep210"
+        ],
+        "note": "Corrections : poussières inorganiques, plaques ≠ asbestose et absence d’évolution obligatoirement défavorable.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-3": {
+        "sources": [
+          "cep210",
+          "phs"
+        ],
+        "note": "Complément ATS : poids diagnostique des IgG et du LBA ; abandon du raccourci CD8/CD4 pathognomonique.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-4": {
+        "sources": [
+          "cep210"
+        ],
+        "note": "La liste de médicaments seulement pro-tussifs a été séparée des causes de PID.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-5": {
+        "sources": [
+          "cep210"
+        ],
+        "note": "Protocole d’imagerie précisé ; l’injection dépend de la question clinique.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-6": {
+        "sources": [
+          "cep210",
+          "fpi"
+        ],
+        "note": "PIC distinguée de FPI ; critères morphologiques non qualifiés de pathognomoniques.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-7": {
+        "sources": [
+          "cep210",
+          "fpi",
+          "phs"
+        ],
+        "note": "Démarche multidisciplinaire, non succession obligatoire de gestes invasifs.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-8": {
+        "sources": [
+          "cep210"
+        ],
+        "note": "Restriction définie sur la CPT et la limite de normalité ; piège fibrose-emphysème corrigé.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "210-9": {
+        "sources": [
+          "cep210"
+        ],
+        "note": "Valeur et limites des marqueurs biologiques explicitées.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "309": {
+      "309-1": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Immunomarquage et diagnostic d’AIS/MIA clarifiés ; les critères radiologiques ne remplacent pas l’anatomopathologie.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-2": {
+        "sources": [
+          "cep309",
+          "epicancer"
+        ],
+        "note": "Anciennes estimations remplacées par données INCa avec année et cohorte.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-3": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Silicose non obligatoire ; tableau alimentaire non étayé supprimé ; facteurs et biomarqueurs séparés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-4": {
+        "sources": [
+          "cep309",
+          "impulsion"
+        ],
+        "note": "Dépistage français actualisé ; suppression de la formule « non recommandé » sans contexte.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-5": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Cytologie valide admise ; prélèvement guidé par impact diagnostique et stade.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-6": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Pronostic non réduit à un délai de décès déterministe ; traitement et bilan modernisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-7": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Place du scanner et limites de la TEP explicitées ; DOTATOC distingué d’un geste biopsique.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-8": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Placeholder remplacé par une illustration comparative officielle légendée ; aucun histotype inventé pour l’image.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-9": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Raccourcis taille–malignité et verre dépoli–AIS supprimés ; illustration officielle ajoutée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-10": {
+        "sources": [
+          "cep309"
+        ],
+        "note": "Cytologie réhabilitée ; biomarqueurs et complications actualisés ; contre-indications individualisées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "309-11": {
+        "sources": [
+          "cep309",
+          "fitness"
+        ],
+        "note": "Stratégies individualisées ; PS, chirurgie, syndrome cave et oligométastases corrigés.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "359": {
+      "359-1": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Définitions clinique/gazométrique séparées ; suppression de la fausse notion d’hypoxémie profonde masquée avec PaO₂ normale.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-2": {
+        "sources": [
+          "cep359",
+          "peddra",
+          "neo"
+        ],
+        "note": "Repères pédiatriques et évaluation néonatale explicités.",
+        "notionScopes": [
+          0,
+          3,
+          4
+        ]
+      },
+      "359-3": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Shunt anatomique et fonctionnel distingués.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-4": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Pompe élargie à la commande et à la transmission ; signes d’épuisement clarifiés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-5": {
+        "sources": [
+          "cep359",
+          "sdra",
+          "neo",
+          "peddra"
+        ],
+        "note": "PAPO supprimée des critères ; Bornes Berlin corrigées ; maladie des membranes hyalines complétée.",
+        "notionScopes": [
+          0,
+          2,
+          4
+        ]
+      },
+      "359-6": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Absolus erronés sur capnie, cyanose et Glasgow corrigés.",
+        "notionScopes": [
+          0,
+          3
+        ]
+      },
+      "359-7": {
+        "sources": [
+          "cep359bis",
+          "peddra"
+        ],
+        "note": "Pénétration et obstruction complète distinguées.",
+        "notionScopes": [
+          1,
+          3
+        ]
+      },
+      "359-8": {
+        "sources": [
+          "cep359",
+          "peddra"
+        ],
+        "note": "Orientation probabiliste ; absence de signes non éliminatoire.",
+        "notionScopes": [
+          0,
+          3
+        ]
+      },
+      "359-9": {
+        "sources": [
+          "cep359",
+          "peddra",
+          "bronchiolite"
+        ],
+        "note": "Bilan et traitement menés en parallèle ; suppression des seuils isolés faisant diagnostic.",
+        "notionScopes": [
+          0,
+          3
+        ]
+      },
+      "359-10": {
+        "sources": [
+          "cep359bis",
+          "peddra"
+        ],
+        "note": "Imagerie négative non éliminatoire ; filière pédiatrique précisée.",
+        "notionScopes": [
+          1,
+          3
+        ]
+      },
+      "359-11": {
+        "sources": [
+          "neo",
+          "peddra"
+        ],
+        "note": "Objectif auparavant vide complété à partir du cours néonatal et des sources pédiatriques.",
+        "notionScopes": [
+          4
+        ]
+      },
+      "359-12": {
+        "sources": [
+          "peddra",
+          "bronchiolite"
+        ],
+        "note": "Indications raisonnées ; limites des gaz veineux explicitées.",
+        "notionScopes": [
+          3
+        ]
+      },
+      "359-13": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Iconographie conservée et limites sémiologiques précisées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-14": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Spécificité erronée du bronchogramme supprimée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-15": {
+        "sources": [
+          "peddra",
+          "neo"
+        ],
+        "note": "Classement anatomique et causes néonatales complétés.",
+        "notionScopes": [
+          3,
+          4
+        ]
+      },
+      "359-16": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Retrait des profils gazométriques obligatoires erronés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-17": {
+        "sources": [
+          "peddra",
+          "ercped",
+          "anaphylaxie"
+        ],
+        "note": "Seuil des manœuvres fixé à 1 an ; adrénaline adaptée au poids ; RCP après perte de conscience.",
+        "notionScopes": [
+          1,
+          3
+        ]
+      },
+      "359-18": {
+        "sources": [
+          "cep359bis",
+          "ercped"
+        ],
+        "note": "Conscience et efficacité de la toux structurent la conduite.",
+        "notionScopes": [
+          1
+        ]
+      },
+      "359-19": {
+        "sources": [
+          "cep359",
+          "oxygen"
+        ],
+        "note": "Divergence CEP/BTS rendue explicite ; absence de seuil de débit unique pour appeler la réanimation.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "359-20": {
+        "sources": [
+          "cep359"
+        ],
+        "note": "Indications et surveillance VNI précisées ; priorité à l’escalade si échec.",
+        "notionScopes": [
+          0,
+          2
+        ]
+      },
+      "359-21": {
+        "sources": [
+          "cep359",
+          "cep359bis",
+          "peddra",
+          "neo"
+        ],
+        "note": "Orientation spécialisée et transfert complétés.",
+        "notionScopes": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    },
+    "360": {
+      "360-1": {
+        "sources": [
+          "cep360"
+        ],
+        "note": "Définition et mécanique pleurale précisées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-2": {
+        "sources": [
+          "cep360"
+        ],
+        "note": "PSP ne signifie pas poumon microscopiquement normal.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-3": {
+        "sources": [
+          "cep360"
+        ],
+        "note": "TDM avant geste uniquement si doute chez un patient stable ; priorité clinique en cas de tension.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-4": {
+        "sources": [
+          "cep360",
+          "pno"
+        ],
+        "note": "Sémiologie échographique et distinction complet/compressif actualisées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-5": {
+        "sources": [
+          "cep360"
+        ],
+        "note": "Iconographie conservée ; abondance et gravité séparées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-6": {
+        "sources": [
+          "cep360"
+        ],
+        "note": "Un PNO complet n’est pas nécessairement un collapsus pulmonaire total ni un PNO sous tension.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-7": {
+        "sources": [
+          "cep360",
+          "pno"
+        ],
+        "note": "Étiologies et indications du bilan de cause complétées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-8": {
+        "sources": [
+          "cep360"
+        ],
+        "note": "Décompression sans attendre l’imagerie explicitée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-9": {
+        "sources": [
+          "cep360",
+          "pno"
+        ],
+        "note": "Exsufflation et drainage placés comme alternatives dans le PSP stable ; urgence compressive séparée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-10": {
+        "sources": [
+          "cep360",
+          "pno"
+        ],
+        "note": "Unité cmH₂O corrigée et évacuation passive initiale explicitée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "360-11": {
+        "sources": [
+          "cep360",
+          "pno"
+        ],
+        "note": "Délai de vol compté après résolution ; conseils de plongée corrigés.",
+        "notionScopes": [
+          0
+        ]
+      }
+    }
+  }
+}
