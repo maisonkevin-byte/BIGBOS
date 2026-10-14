@@ -1,0 +1,74 @@
+{
+  "checkedAt": "2026-10-14",
+  "baselineCommit": "19c9c70adaec87f8b20042df9855d7e796464533",
+  "lisaItems": {
+    "144": [
+      237,
+      330
+    ],
+    "351": [
+      49,
+      122,
+      124,
+      240,
+      244,
+      340
+    ],
+    "352": [
+      114,
+      116,
+      241
+    ],
+    "353": [
+      114,
+      122,
+      123,
+      124,
+      133,
+      240,
+      244,
+      288,
+      309,
+      340,
+      343
+    ]
+  },
+  "lisaDistinctSituations": 16,
+  "sourceAuditCompleted": [
+    116,
+    213
+  ],
+  "originalSourceAdded": "college-audit-213-adulte-lisa",
+  "preserved": "Objective, card and algorithm identifiers; user progress data and Notion highlighting.",
+  "scope": "LiSA correspondence review, two documentary source audits, algorithm course popup verification.",
+  "courseLinksAdded": {
+    "thorax": 8,
+    "natremie": 16
+  },
+  "validation": {
+    "structure": {
+      "items": 71,
+      "algorithms": 193,
+      "nodes": 1425,
+      "courseReferences": 3412,
+      "brokenCourseReferences": 0,
+      "idsAndProgressPreserved": true,
+      "notionHighlightsPreserved": true,
+      "modulesIdempotent": true,
+      "renderChecksPassed": true
+    },
+    "browser": {
+      "browser": "Chrome",
+      "algorithmRecords": 193,
+      "method": "Au moins un pop-up de cours ouvert pour chaque parcours ; chargement et largeur vérifiés sur DOM. Contrôle complémentaire des 24 étapes réparées. Ce contrôle ne constitue pas une relecture médicale exhaustive de chaque cours.",
+      "coursePopupErrors": 0,
+      "repairedNodesChecked": 24,
+      "screens": {
+        "desktop": "1728 × 944",
+        "tablet": "820 × 1180",
+        "mobile": "390 × 844"
+      },
+      "popupBelowSwitch": "passed"
+    }
+  }
+}

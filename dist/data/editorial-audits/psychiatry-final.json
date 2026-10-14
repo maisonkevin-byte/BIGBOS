@@ -580,7 +580,7 @@
   },
   "remainingPsychiatryItems": [],
   "limitations": [
-    "Correspondances de SDD vérifiées dans le Collège 2024 ; relecture directe LiSA 2026 non réalisée, session UNESS expirée."
+    "Les correspondances LiSA ne signifient pas que chaque fiche couvre tous les attendus de chaque SDD ; limites précisées dans les fiches."
   ],
   "sourceAudits": {
     "144": {
@@ -790,5 +790,256 @@
       351,
       352
     ]
+  },
+  "lisaReview": {
+    "checkedAt": "2026-10-14",
+    "method": "Lecture authentifiée des 4 pages items et des 16 pages de SDD distinctes dans LiSA EDN 2026.",
+    "items": {
+      "144": {
+        "url": "https://livret.uness.fr/lisa/2026/Deuil_normal_et_pathologique",
+        "situations": [
+          {
+            "number": 237,
+            "title": "Décès",
+            "url": "https://livret.uness.fr/lisa/2026/D%C3%A9c%C3%A8s_SDD-237",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Accompagner l’annonce avec empathie, écouter les proches et repérer les facteurs de risque de deuil pathologique."
+          },
+          {
+            "number": 330,
+            "title": "Accompagnement global d’un aidant",
+            "url": "https://livret.uness.fr/lisa/2026/Accompagnement_global_d%27un_aidant_SDD-330",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Évaluer le vécu, la charge et la souffrance de l’aidant ; repérer ses besoins médicaux, psychologiques et sociaux et proposer un soutien."
+          }
+        ],
+        "scope": "La fiche travaille le deuil et le soutien des proches. Le constat de décès, les démarches administratives et l’ensemble des besoins de l’aidant relèvent d’autres enseignements."
+      },
+      "351": {
+        "url": "https://livret.uness.fr/lisa/2026/Agitation_et_d%C3%A9lire_aigu",
+        "situations": [
+          {
+            "number": 49,
+            "title": "Ivresse aiguë",
+            "url": "https://livret.uness.fr/lisa/2026/Ivresse_aigu%C3%AB_SDD-049",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Repérer co-intoxication, trouble de vigilance, hypoglycémie et traumatisme ; organiser la surveillance."
+          },
+          {
+            "number": 122,
+            "title": "Hallucinations",
+            "url": "https://livret.uness.fr/lisa/2026/Hallucinations_SDD-122",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Décrire les hallucinations et leur évolution, rechercher leur cause et apprécier le risque suicidaire ou de violence."
+          },
+          {
+            "number": 124,
+            "title": "Idées délirantes",
+            "url": "https://livret.uness.fr/lisa/2026/Id%C3%A9es_d%C3%A9lirantes_SDD-124",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Analyser le délire, son évolution et ses causes ; évaluer le danger, l’indication d’hospitalisation et le consentement."
+          },
+          {
+            "number": 240,
+            "title": "Hospitalisation sans consentement",
+            "url": "https://livret.uness.fr/lisa/2026/Hospitalisation_sans_consentement_SDD-240",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Apprécier l’indication, choisir le cadre adapté et expliquer la procédure, les droits et la place des tiers."
+          },
+          {
+            "number": 244,
+            "title": "Mise en place et suivi d’une contention mécanique",
+            "url": "https://livret.uness.fr/lisa/2026/Mise_en_place_et_suivi_d%27une_contention_m%C3%A9canique_SDD-244",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Rechercher les alternatives, justifier et tracer la décision, assurer surveillance et réévaluation dans le cadre légal en vigueur."
+          },
+          {
+            "number": 340,
+            "title": "Prise volontaire ou involontaire d’un toxique ou d’un médicament potentiellement toxique",
+            "url": "https://livret.uness.fr/lisa/2026/Prise_volontaire_ou_involontaire_d%27un_toxique_ou_d%27un_m%C3%A9dicament_potentiellement_toxique_SDD-340",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Préciser produit, dose, délai et contexte ; rechercher un toxidrome et orienter les soins somatiques, avec évaluation suicidaire si indiquée."
+          }
+        ],
+        "scope": "La fiche apporte l’analyse de l’agitation et du délire ainsi que les principes d’orientation. Les protocoles toxicologiques et les procédures détaillées de contention nécessitent leurs référentiels propres."
+      },
+      "352": {
+        "url": "https://livret.uness.fr/lisa/2026/Crise_d%27angoisse_aigu%C3%AB_et_attaque_de_panique",
+        "situations": [
+          {
+            "number": 114,
+            "title": "Agitation",
+            "url": "https://livret.uness.fr/lisa/2026/Agitation_SDD-114",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Rechercher une cause somatique, toxique ou psychiatrique ; apprécier le danger et privilégier l’apaisement relationnel."
+          },
+          {
+            "number": 116,
+            "title": "Anxiété",
+            "url": "https://livret.uness.fr/lisa/2026/Anxi%C3%A9t%C3%A9_SDD-116",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Caractériser l’anxiété et son retentissement, rechercher dépression, risque suicidaire et addictions ; organiser le suivi."
+          },
+          {
+            "number": 241,
+            "title": "Gestion du sevrage alcoolique contraint",
+            "url": "https://livret.uness.fr/lisa/2026/Gestion_du_sevrage_alcoolique_contraint_SDD-241",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Identifier un sevrage et ses complications, notamment convulsions et delirium tremens ; prévoir prévention, traitement et relais addictologique."
+          }
+        ],
+        "scope": "Pour la SDD 241, le lien porte surtout sur le diagnostic différentiel : une anxiété aiguë peut révéler un sevrage. Cette fiche ne couvre pas à elle seule la prise en charge complète du sevrage alcoolique."
+      },
+      "353": {
+        "url": "https://livret.uness.fr/lisa/2026/Risque_et_conduite_suicidaires_chez_l%27enfant,_l%27adolescent_et_l%27adulte_:_identification_et_prise_en_charge",
+        "situations": [
+          {
+            "number": 114,
+            "title": "Agitation",
+            "url": "https://livret.uness.fr/lisa/2026/Agitation_SDD-114",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Rechercher une cause somatique, toxique ou psychiatrique ; apprécier le danger et privilégier l’apaisement relationnel."
+          },
+          {
+            "number": 122,
+            "title": "Hallucinations",
+            "url": "https://livret.uness.fr/lisa/2026/Hallucinations_SDD-122",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Décrire les hallucinations et leur évolution, rechercher leur cause et apprécier le risque suicidaire ou de violence."
+          },
+          {
+            "number": 123,
+            "title": "Humeur triste/douleur morale",
+            "url": "https://livret.uness.fr/lisa/2026/Humeur_triste/douleur_morale_SDD-123",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Écouter la souffrance, rechercher un épisode dépressif et des antécédents maniaques, puis évaluer le risque suicidaire et l’orientation."
+          },
+          {
+            "number": 124,
+            "title": "Idées délirantes",
+            "url": "https://livret.uness.fr/lisa/2026/Id%C3%A9es_d%C3%A9lirantes_SDD-124",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Analyser le délire, son évolution et ses causes ; évaluer le danger, l’indication d’hospitalisation et le consentement."
+          },
+          {
+            "number": 133,
+            "title": "Troubles du comportement chez enfant et adolescent",
+            "url": "https://livret.uness.fr/lisa/2026/Troubles_du_comportement_chez_enfant_et_adolescent_SDD-133",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Explorer le développement, le contexte et le retentissement ; rechercher violence, pathologie associée et risque suicidaire."
+          },
+          {
+            "number": 240,
+            "title": "Hospitalisation sans consentement",
+            "url": "https://livret.uness.fr/lisa/2026/Hospitalisation_sans_consentement_SDD-240",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Apprécier l’indication, choisir le cadre adapté et expliquer la procédure, les droits et la place des tiers."
+          },
+          {
+            "number": 244,
+            "title": "Mise en place et suivi d’une contention mécanique",
+            "url": "https://livret.uness.fr/lisa/2026/Mise_en_place_et_suivi_d%27une_contention_m%C3%A9canique_SDD-244",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Rechercher les alternatives, justifier et tracer la décision, assurer surveillance et réévaluation dans le cadre légal en vigueur."
+          },
+          {
+            "number": 288,
+            "title": "Consultation de suivi et traitement de fond d’un patient dépressif",
+            "url": "https://livret.uness.fr/lisa/2026/Consultation_de_suivi_et_traitement_de_fond_d%27un_patient_d%C3%A9pressif_SDD-288",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Réévaluer symptômes, fonctionnement, tolérance et risque suicidaire ; coordonner traitement, psychothérapie et suivi."
+          },
+          {
+            "number": 309,
+            "title": "Patient à risque suicidaire",
+            "url": "https://livret.uness.fr/lisa/2026/Patient_%C3%A0_risque_suicidaire_SDD-309",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Explorer intention, scénario, moyens disponibles, antécédents et protections ; adapter la mise en sécurité et le suivi à l’âge et au contexte."
+          },
+          {
+            "number": 340,
+            "title": "Prise volontaire ou involontaire d’un toxique ou d’un médicament potentiellement toxique",
+            "url": "https://livret.uness.fr/lisa/2026/Prise_volontaire_ou_involontaire_d%27un_toxique_ou_d%27un_m%C3%A9dicament_potentiellement_toxique_SDD-340",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Préciser produit, dose, délai et contexte ; rechercher un toxidrome et orienter les soins somatiques, avec évaluation suicidaire si indiquée."
+          },
+          {
+            "number": 343,
+            "title": "Refus de traitement et de prise en charge recommandés",
+            "url": "https://livret.uness.fr/lisa/2026/Refus_de_traitement_et_de_prise_en_charge_recommand%C3%A9s_SDD-343",
+            "source": "LiSA EDN 2026",
+            "verifiedInLisa": true,
+            "reviewedAt": "2026-10-14",
+            "expectedSkillsReviewed": true,
+            "focus": "Explorer les motifs du refus et la capacité à consentir ; expliquer les conséquences et organiser la protection et la coordination nécessaires."
+          }
+        ],
+        "scope": "La fiche apporte l’évaluation et la prise en charge du risque suicidaire. Elle ne couvre pas à elle seule les traitements complets d’une dépression, d’une intoxication ou de l’ensemble des troubles du comportement, ni toutes les procédures légales."
+      }
+    },
+    "supersedes": "Mentions de session expirée et listes Collège 2024 dans l’audit initial conservé ci-dessous."
   }
 }

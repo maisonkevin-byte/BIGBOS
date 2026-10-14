@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-10-14",
   "items": 50,
-  "resources": 26,
+  "resources": 27,
   "method": "Comparaison documentaire des figures et tableaux des sources indiquées. Aucun audit clinique exhaustif ni validation intégrale des graphes interactifs existants.",
   "inventory": {
     "91": {
@@ -692,38 +692,43 @@
     },
     "116": {
       "item": 116,
-      "sourceUrl": "https://undf.net/wp-content/uploads/2023/02/item-116_prurit.pdf",
-      "edition": "Document LiSA · copie diffusée en 2023",
+      "sourceUrl": "https://livret.uness.fr/lisa/2026/Fiche_LiSA:Prurit",
+      "edition": "LiSA EDN 2026",
       "scope": "Sources et figures indiquées ci-dessous",
-      "note": "Arbre CEDEF retrouvé dans la copie LiSA diffusée en 2023. Comparaison avec l’édition actuelle du référentiel non réalisée : accès requis.",
-      "status": "partial-source-check",
+      "note": "Arbre original CEDEF contrôlé dans LiSA EDN 2026 ; figure intégrée et objectifs de cours accessibles ci-dessous.",
+      "status": "originals-linked",
       "checkedAt": "2026-10-14",
       "algorithms": [
         "college-audit-116-diagnostic"
       ],
       "figures": [
-        "Arbre diagnostique, page 3"
+        "Figure « Prurit : algorithme »"
       ],
       "checkedSources": [
-        "https://undf.net/wp-content/uploads/2023/02/item-116_prurit.pdf"
+        "https://livret.uness.fr/lisa/2026/Fiche_LiSA:Prurit",
+        "https://cedef.org/enseignement-2eme-cycle-dermatologie/"
       ]
     },
     "213": {
       "item": 213,
-      "sourceUrl": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/hematologie-cancerologie/anemie-pathologies-du-fer",
-      "edition": "Référentiel en ligne · consulté le 14/10/2026",
-      "scope": "Sources et figures indiquées ci-dessous",
-      "note": "Arbre pédiatrique CNPU vérifié. La source Hématocell de l’adulte n’a pas pu être consultée : audit de l’adulte à compléter.",
-      "status": "partial-source-check",
+      "sourceUrl": "https://livret.uness.fr/lisa/2026/Fiche_LiSA:An%C3%A9mie_chez_l%27adulte_et_l%27enfant",
+      "edition": "LiSA EDN 2026 · CNPU en ligne · Hématocell 2011",
+      "scope": "Arbres originaux et conventions des sources consultées ; contrôle documentaire.",
+      "note": "Contrôle adulte complété : arbre CEMI / LiSA EDN 2026 et source Hématocell consultés. Support pédiatrique CNPU conservé ; différences de seuils et dates des sources explicitées.",
+      "status": "originals-linked",
       "checkedAt": "2026-10-14",
       "algorithms": [
-        "college-audit-213-enfant"
+        "college-audit-213-enfant",
+        "college-audit-213-adulte-lisa"
       ],
       "figures": [
-        "Figure 23.1"
+        "Figure 23.1",
+        "ArbreAnemie.jpg · adulte"
       ],
       "checkedSources": [
-        "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/hematologie-cancerologie/anemie-pathologies-du-fer"
+        "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/hematologie-cancerologie/anemie-pathologies-du-fer",
+        "https://livret.uness.fr/lisa/2026/Fiche_LiSA:An%C3%A9mie_chez_l%27adulte_et_l%27enfant",
+        "https://www.hematocell.fr/globules-rouges-et-leur-pathologie/anemies-definition-classification-aspects-cliniques"
       ]
     },
     "230": {
@@ -806,5 +811,14 @@
       ],
       "status": "originals-linked"
     }
+  },
+  "completedFollowups": {
+    "reviewedAt": "2026-10-14",
+    "items": [
+      116,
+      213
+    ],
+    "method": "Consultation directe CEDEF/LiSA EDN 2026 et Hématocell ; inspection visuelle des deux figures originales.",
+    "adultAnemiaThresholds": "Seuils selon la source : LiSA EDN 2026 utilise un VGM de 80–98 fL pour la normocytose et > 98 fL pour la macrocytose, avec des réticulocytes ≥ 120 G/L pour une anémie régénérative. Hématocell (2011) utilise 80–100 fL et > 150 G/L pour une régénération franche. Le cours et la synthèse ATLAS conservent la convention 100 fL et le repère LiSA de 120 G/L ; tenir compte du référentiel de la question et des normes du laboratoire."
   }
 }
