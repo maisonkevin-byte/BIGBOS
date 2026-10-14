@@ -1,0 +1,2386 @@
+{
+  "reviewedAt": "2026-10-14",
+  "batch": "pneumology-1",
+  "baselineCommit": "b12167ff0a95754128935edf0f0d39fa647b6abd",
+  "items": [
+    {
+      "item": 110,
+      "objectives": 23,
+      "cards": 63,
+      "originalCards": 50,
+      "addedCards": 13,
+      "notionHighlights": 99
+    },
+    {
+      "item": 154,
+      "objectives": 18,
+      "cards": 49,
+      "originalCards": 39,
+      "addedCards": 10,
+      "notionHighlights": 135
+    },
+    {
+      "item": 186,
+      "objectives": 19,
+      "cards": 51,
+      "originalCards": 41,
+      "addedCards": 10,
+      "notionHighlights": 193
+    },
+    {
+      "item": 188,
+      "objectives": 23,
+      "cards": 57,
+      "originalCards": 45,
+      "addedCards": 12,
+      "notionHighlights": 156
+    },
+    {
+      "item": 203,
+      "objectives": 18,
+      "cards": 88,
+      "originalCards": 86,
+      "addedCards": 2,
+      "notionHighlights": 114
+    },
+    {
+      "item": 204,
+      "objectives": 10,
+      "cards": 33,
+      "originalCards": 30,
+      "addedCards": 3,
+      "notionHighlights": 53
+    },
+    {
+      "item": 205,
+      "objectives": 8,
+      "cards": 20,
+      "originalCards": 16,
+      "addedCards": 4,
+      "notionHighlights": 92
+    },
+    {
+      "item": 206,
+      "objectives": 7,
+      "cards": 23,
+      "originalCards": 19,
+      "addedCards": 4,
+      "notionHighlights": 82
+    },
+    {
+      "item": 207,
+      "objectives": 12,
+      "cards": 24,
+      "originalCards": 16,
+      "addedCards": 8,
+      "notionHighlights": 22
+    },
+    {
+      "item": 208,
+      "objectives": 14,
+      "cards": 33,
+      "originalCards": 25,
+      "addedCards": 8,
+      "notionHighlights": 99
+    }
+  ],
+  "objectives": 152,
+  "cards": 441,
+  "addedCards": 74,
+  "sdd": {
+    "verifiedAt": "2026-10-14",
+    "status": "verified",
+    "method": "Attendus lus pendant cette session dans Chrome connecté à UNESS ; navigation publiée par recherche du numéro de SDD, sans dépendance au titre de page.",
+    "situations": [
+      {
+        "number": 14,
+        "title": "Émission de sang par la bouche",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-014",
+        "expectations": [
+          "Distinguer l’origine du sang, apprécier le retentissement et organiser les premiers soins."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 20,
+        "title": "Anomalies de l’auscultation pulmonaire",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-020",
+        "expectations": [
+          "Décrire les anomalies et les confronter aux symptômes pour orienter les explorations."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 135,
+        "title": "Troubles du sommeil",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-135",
+        "expectations": [
+          "Caractériser plainte, horaires et retentissement ; rechercher les causes et adapter la prise en charge."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 156,
+        "title": "Ronflements",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-156",
+        "expectations": [
+          "Rechercher symptômes nocturnes/diurnes et retentissement ; discuter une exploration du sommeil."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 160,
+        "title": "Détresse respiratoire aiguë",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-160",
+        "expectations": [
+          "Reconnaître la défaillance et initier les soins urgents en parallèle de l’enquête étiologique."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 162,
+        "title": "Dyspnée",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-162",
+        "expectations": [
+          "Évaluer la gravité, la temporalité et le terrain pour sélectionner les examens et les soins."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 163,
+        "title": "Expectoration",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-163",
+        "expectations": [
+          "Décrire l’expectoration, rechercher les signes associés et hiérarchiser les étiologies."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 167,
+        "title": "Toux",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-167",
+        "expectations": [
+          "Caractériser la toux, repérer les alertes et orienter bilan et traitement selon durée et âge."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 203,
+        "title": "Examens allergologiques",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-203",
+        "expectations": [
+          "Prescrire des tests dirigés, interpréter sensibilisation et histoire clinique, éviter les bilans indiscriminés."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 230,
+        "title": "Imagerie cardio-thoracique",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-230",
+        "expectations": [
+          "Vérifier qualité et indication, décrire les signes et confronter l’image à la clinique."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 283,
+        "title": "Suivi et éducation du patient asthmatique",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-283",
+        "expectations": [
+          "Évaluer contrôle, technique et observance ; adapter traitement et plan d’action."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      },
+      {
+        "number": 299,
+        "title": "Consultation après une réaction allergique",
+        "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-299",
+        "expectations": [
+          "Reconstituer l’événement, orienter le bilan et prévenir les réexpositions à risque."
+        ],
+        "verifiedAt": "2026-10-14",
+        "linkType": "number-search"
+      }
+    ],
+    "scope": "Correspondances pédagogiques partielles, 12 situations ; titres courts de navigation, non transcription des libellés officiels."
+  },
+  "algorithms": [
+    {
+      "id": "pn110-plainte",
+      "title": "Sommeil : insomnie, somnolence ou rythme décalé ?",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 135. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn110-sahos",
+      "title": "SAHOS : de la suspicion au traitement",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 156, 135. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn154-initial",
+      "title": "Infection respiratoire basse : quel syndrome et quelle gravité ?",
+      "nodes": 7,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 163, 160. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn154-evolution",
+      "title": "Pneumonie : réévaluation, complications et prévention",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 163, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn186-immediate",
+      "title": "Réaction immédiate : reconnaître l’anaphylaxie",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 299. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn186-respiratoire",
+      "title": "Allergie respiratoire ou conjonctivale : du symptôme au test",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 203, 299. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn186-aliment",
+      "title": "Allergie alimentaire : confirmer sans évictions excessives",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 203, 299. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn188-diagnostic",
+      "title": "Asthme : confirmer puis évaluer le contrôle",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 283. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn188-exacerbation",
+      "title": "Exacerbation d’asthme : traiter et réévaluer",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 160, 162, 283. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn188-rhinite",
+      "title": "Rhinite et exposition professionnelle : préciser le lien",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 203, 299. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn203-aigue",
+      "title": "Dyspnée aiguë adulte : gravité puis mécanisme",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 160, 020. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn203-chronique",
+      "title": "Dyspnée chronique : organiser le bilan",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 020. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn203-enfant",
+      "title": "Dyspnée de l’enfant et corps étranger",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 160, 162, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn204-aigue",
+      "title": "Toux : repérer l’urgence et dater l’évolution",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 167, 163. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn204-chronique",
+      "title": "Toux persistante : bilan étiologique adulte/enfant",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 167. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn205-urgence",
+      "title": "Hémoptysie : gravité et protection des voies aériennes",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 014, 160. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn205-cause",
+      "title": "Hémoptysie stabilisée : rechercher la cause",
+      "nodes": 4,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 014, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn206-diagnostic",
+      "title": "Épanchement pleural : confirmer et analyser",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 230, 020. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn206-infectee",
+      "title": "Pleurésie infectée : antibiothérapie seule ou drainage ?",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn207-image",
+      "title": "Anomalie thoracique : reconnaître le syndrome",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn207-mediastin",
+      "title": "Médiastin de l’enfant : thymus normal ou anomalie ?",
+      "nodes": 6,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn208-diagnostic",
+      "title": "Insuffisance respiratoire chronique : confirmer le mécanisme",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 160. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn208-assistance",
+      "title": "IRC : oxygène, ventilation et vie quotidienne",
+      "nodes": 5,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    },
+    {
+      "id": "pn208-htp",
+      "title": "HTP : de la suspicion à la classification",
+      "nodes": 4,
+      "provenance": "Synthèse pédagogique originale ATLAS · cours Notion et références indiquées, relus le 14 octobre 2026. Situations LiSA 2026 consultées le 14 octobre 2026 : 162, 230. Correspondance partielle aux attendus ; ce parcours ne reproduit pas un algorithme officiel."
+    }
+  ],
+  "sources": {
+    "pn110_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d9418199969fde24f5aa4586?pvs=204"
+    },
+    "pn110_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 110 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_110-SOMMEIL-2026.docx"
+    },
+    "pn110_ref2": {
+      "code": "CEN",
+      "title": "CEN · troubles du sommeil, item 110",
+      "url": "https://www.cen-neurologie.fr/second-cycle/i-connaissances/chapitre-20-item-110-troubles-du-sommeil-de-lenfant-et-de-ladulte"
+    },
+    "pn110_ref3": {
+      "code": "CNPU",
+      "title": "CNPU · troubles du sommeil de l’enfant",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/troubles-du-sommeil"
+    },
+    "pn110_ref4": {
+      "code": "AASM 2025",
+      "title": "AASM 2025 · traitement du SJSR et des mouvements périodiques",
+      "url": "https://www.irlssg.org/wp-content/uploads/2025/05/Tx-of-RLS-and-PLMD-2025.pdf"
+    },
+    "pn110_ref5": {
+      "code": "Sécurité routière",
+      "title": "Sécurité routière · aptitude médicale à la conduite",
+      "url": "https://www.securite-routiere.gouv.fr/dangers-de-la-route/sante-et-conduite/laptitude-medicale-la-conduite"
+    },
+    "pn154_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181f0aad2c535cfd82e4b?pvs=204"
+    },
+    "pn154_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 154 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_154-infectionsPulm-2026.docx"
+    },
+    "pn154_ref2": {
+      "code": "HAS",
+      "title": "HAS · premier épisode de bronchiolite",
+      "url": "https://www.has-sante.fr/jcms/p_3118113/fr/prise-en-charge-du-1er-episode-de-bronchiolite-aigue-chez-le-nourrisson-de-moins-de-12-mois"
+    },
+    "pn154_ref3": {
+      "code": "CDC",
+      "title": "CDC · transmission du pneumocoque",
+      "url": "https://www.cdc.gov/pneumococcal/causes/index.html"
+    },
+    "pn154_ref4": {
+      "code": "HAS",
+      "title": "HAS · PAC de l’adulte en ambulatoire, 2025",
+      "url": "https://www.has-sante.fr/jcms/p_3575597/fr/choix-et-durees-d-antibiotherapies-pneumonie-aigue-communautaire-de-l-adulte-en-ambulatoire"
+    },
+    "pn154_ref5": {
+      "code": "HAS",
+      "title": "HAS · PAC de l’enfant, septembre 2025",
+      "url": "https://www.has-sante.fr/jcms/p_3575612/fr/choix-et-durees-d-antibiotherapie-pneumonie-aigue-communautaire-chez-l-enfant"
+    },
+    "pn154_ref6": {
+      "code": "ATS/IDSA",
+      "title": "ATS/IDSA · critères de PAC sévère",
+      "url": "https://www.idsociety.org/globalassets/idsa/practice-guidelines/community-acquired-pneumonia-in-adults/executive_summary.pdf"
+    },
+    "pn154_ref7": {
+      "code": "Santé publique France",
+      "title": "Santé publique France · actualisation pneumocoque, août 2026",
+      "url": "https://professionnels.vaccination-info-service.fr/Toutes-les-actualites/HAS-actualisation-de-la-strategie-vaccinale-contre-les-pneumocoques"
+    },
+    "pn186_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181868282e3ed9df680ca?pvs=204"
+    },
+    "pn186_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 186 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_186-hypersensibilite-2026.docx"
+    },
+    "pn186_ref2": {
+      "code": "SFMU/SFA",
+      "title": "SFMU/SFA · anaphylaxie en urgence",
+      "url": "https://www.sfmu.org/upload/consensus/rfe_anaphylaxie_sfmu2016.pdf"
+    },
+    "pn186_ref3": {
+      "code": "EAACI",
+      "title": "EAACI · diagnostic de l’allergie alimentaire, 2023",
+      "url": "https://doi.org/10.1111/all.15902"
+    },
+    "pn186_ref4": {
+      "code": "EAACI",
+      "title": "EAACI · prise en charge de l’allergie alimentaire",
+      "url": "https://eaaci.org/guidelines-position-papers/eaaci-guidelines-on-the-management-of-ige-mediated-food-allergy/"
+    },
+    "pn186_ref5": {
+      "code": "CNPU",
+      "title": "CNPU · hypersensibilités et allergies",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/hypersensibilites-allergies"
+    },
+    "pn188_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181a6bb8cf2ac759a8058?pvs=204"
+    },
+    "pn188_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 188 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx"
+    },
+    "pn188_ref2": {
+      "code": "GINA",
+      "title": "GINA · complément international 2026",
+      "url": "https://ginasthma.org/2026-gina-summary-guide/"
+    },
+    "pn188_ref3": {
+      "code": "CNPU",
+      "title": "CNPU · asthme de l’enfant",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/asthme"
+    },
+    "pn188_ref4": {
+      "code": "SFMU/SRLF",
+      "title": "SFMU/SRLF · exacerbation sévère d’asthme",
+      "url": "https://www.sfmu.org/upload/consensus/RFE_Exacerbation_Severe_d_asthme2018.pdf"
+    },
+    "pn203_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181f68b30d6e5a14cc5d0?pvs=204"
+    },
+    "pn203_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 203 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_203-DYSPNEE-2026.docx"
+    },
+    "pn203_ref2": {
+      "code": "ESC/ERS",
+      "title": "ESC/ERS · diagnostic de l’embolie pulmonaire",
+      "url": "https://publications.ersnet.org/content/erj/54/3/1901647"
+    },
+    "pn203_ref3": {
+      "code": "SFMU/SFA",
+      "title": "SFMU/SFA · anaphylaxie en urgence",
+      "url": "https://www.sfmu.org/upload/consensus/rfe_anaphylaxie_sfmu2016.pdf"
+    },
+    "pn203_ref4": {
+      "code": "CEP",
+      "title": "CEP · item 188 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_188-Asthme-2026.docx"
+    },
+    "pn203_ref5": {
+      "code": "CNPU",
+      "title": "CNPU · détresse respiratoire et corps étranger",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/detresse-respiratoire-aigue"
+    },
+    "pn203_ref6": {
+      "code": "HAS",
+      "title": "HAS · premier épisode de bronchiolite",
+      "url": "https://www.has-sante.fr/jcms/p_3118113/fr/prise-en-charge-du-1er-episode-de-bronchiolite-aigue-chez-le-nourrisson-de-moins-de-12-mois"
+    },
+    "pn204_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d94181dfa080c0e6ec3a631d?pvs=204"
+    },
+    "pn204_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 204 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_204-TOUX-2026.docx"
+    },
+    "pn204_ref2": {
+      "code": "Collège des pédiatres",
+      "title": "Collège des pédiatres · toux",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/toux"
+    },
+    "pn204_ref3": {
+      "code": "SP2A",
+      "title": "SP2A · toux chronique de l’enfant, définitions",
+      "url": "https://www.sp2a.fr/wp-content/uploads/2021/01/P8INT3.pdf"
+    },
+    "pn204_ref4": {
+      "code": "ANSM",
+      "title": "ANSM · retrait des sirops à la pholcodine",
+      "url": "https://ansm.sante.fr/uploads/2022/09/08/20220908-dhpc-pholcodine.pdf"
+    },
+    "pn204_ref5": {
+      "code": "ANSM",
+      "title": "ANSM · codéine antitussive, contre-indications",
+      "url": "https://archive.ansm.sante.fr/content/download/83787/1058293/version/1/file/DHPC_Codeine_21-12-2015.pdf"
+    },
+    "pn205_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d9418171ab3cee57436c7634?pvs=204"
+    },
+    "pn205_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 205 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_205.-HEMOPTYSIE-2026.docx"
+    },
+    "pn206_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d9418164aad3d7203d0704ff?pvs=204"
+    },
+    "pn206_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 206 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_206-PLEURESIE-2026.docx"
+    },
+    "pn206_ref2": {
+      "code": "BTS 2023",
+      "title": "BTS 2023 · pleurésie et procédures pleurales",
+      "url": "https://www.brit-thoracic.org.uk/document-library/guidelines/pleural-disease/pleural-disease-full-supplement/"
+    },
+    "pn207_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d941818a8c70d0592b046df4?pvs=204"
+    },
+    "pn207_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 207 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item_207-OPACITE-2026.docx"
+    },
+    "pn207_ref2": {
+      "code": "CNPU",
+      "title": "CNPU · opacités et masses intrathoraciques",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/pneumologie-cardiologie/opacites-masses-intrathoraciques"
+    },
+    "pn208_ref0": {
+      "code": "Ton cours Notion ↗",
+      "title": "Ton cours Notion",
+      "url": "https://app.notion.com/p/1cb37f85d9418141a0dae020e23e9cc7?pvs=204"
+    },
+    "pn208_ref1": {
+      "code": "CEP",
+      "title": "CEP · item 208 · 9e édition 2026",
+      "url": "https://cep.splf.fr/wp-content/uploads/2026/09/Item-208-IRC-2026.docx"
+    },
+    "pn208_ref2": {
+      "code": "ESC/ERS",
+      "title": "ESC/ERS · hypertension pulmonaire, définitions 2022",
+      "url": "https://publications.ersnet.org/content/erj/61/1/2200879"
+    },
+    "pn208_ref3": {
+      "code": "HAS",
+      "title": "HAS · oxygénothérapie à domicile",
+      "url": "https://www.has-sante.fr/jcms/c_1265304/fr/evaluation-des-dispositifs-medicaux-et-prestations-associees-pour-l-oxygenotherapie-a-domicile"
+    },
+    "pn208_ref4": {
+      "code": "LPP",
+      "title": "LPP · oxygénothérapie de longue durée",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000030289825"
+    },
+    "pn_lisa135": {
+      "code": "LiSA · SDD 135",
+      "title": "Troubles du sommeil",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-135"
+    },
+    "pn_lisa156": {
+      "code": "LiSA · SDD 156",
+      "title": "Ronflements",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-156"
+    },
+    "pn_lisa162": {
+      "code": "LiSA · SDD 162",
+      "title": "Dyspnée",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-162"
+    },
+    "pn_lisa163": {
+      "code": "LiSA · SDD 163",
+      "title": "Expectoration",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-163"
+    },
+    "pn_lisa160": {
+      "code": "LiSA · SDD 160",
+      "title": "Détresse respiratoire aiguë",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-160"
+    },
+    "pn_lisa230": {
+      "code": "LiSA · SDD 230",
+      "title": "Imagerie cardio-thoracique",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-230"
+    },
+    "pn_lisa299": {
+      "code": "LiSA · SDD 299",
+      "title": "Consultation après une réaction allergique",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-299"
+    },
+    "pn_lisa203": {
+      "code": "LiSA · SDD 203",
+      "title": "Examens allergologiques",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-203"
+    },
+    "pn_lisa283": {
+      "code": "LiSA · SDD 283",
+      "title": "Suivi et éducation du patient asthmatique",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-283"
+    },
+    "pn_lisa20": {
+      "code": "LiSA · SDD 020",
+      "title": "Anomalies de l’auscultation pulmonaire",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-020"
+    },
+    "pn_lisa167": {
+      "code": "LiSA · SDD 167",
+      "title": "Toux",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-167"
+    },
+    "pn_lisa14": {
+      "code": "LiSA · SDD 014",
+      "title": "Émission de sang par la bouche",
+      "url": "https://livret.uness.fr/lisa/2026/Sp%C3%A9cial:Recherche/SDD-014"
+    }
+  },
+  "changes": [
+    "All 152 objective identifiers and ranks preserved; all 367 pre-existing card identifiers preserved, with answers reviewed and corrected.",
+    "74 cards added; every objective has at least one card and a full-course link from a decision-tree node.",
+    "24 original pedagogical decision trees, 131 nodes, replacing the initial dyspnoea pilot with 3 detailed paths.",
+    "CEP 9th edition 2026 consulted for all ten items; complementary paediatric, HAS, GINA, AASM, BTS, ESC/ERS and safety references are identified.",
+    "Acute pneumonia antibiotic durations and vaccine update; asthma controller/reliever and acute care; anaphylaxis and allergy tests reviewed.",
+    "Haemoptysis respiratory severity, pleural Light criteria/drainage, imaging syndromes, HTP versus HTAP and oxygen/hypoventilation distinctions clarified.",
+    "Sleep disorders and SAHOS: insomnia, sleepiness, SJSR update, paediatric/adult testing, driving and treatment distinctions corrected.",
+    "Colours transferred only from matching passages in the user’s Notion sources; personal progress keys preserved.",
+    "LiSA: 12 situations read; numbered search links intentionally avoid a dependency on exact page-title slugs. Partial educational mappings, not official algorithms."
+  ],
+  "medicalReview": {
+    "110": {
+      "110-1": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-2": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-3": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-4": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-5": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-6": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "sjsr",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-7": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-8": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-9": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-10": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-11": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "conduite"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-12": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "sjsr"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-13": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-14": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-15": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-16": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "conduite"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-17": {
+        "sources": [
+          "cep110",
+          "cen110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-18": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-19": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-20": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-21": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-22": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      },
+      "110-23": {
+        "sources": [
+          "cep110",
+          "cen110",
+          "ped110"
+        ],
+        "note": "",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "154": {
+      "154-1": {
+        "sources": [
+          "cep154",
+          "bronchiolite"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-2": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-3": {
+        "sources": [
+          "cep154",
+          "pneumotrans"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-4": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-5": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-6": {
+        "sources": [
+          "cep154",
+          "pacadulte",
+          "pacenfant",
+          "bronchiolite",
+          "cap"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-7": {
+        "sources": [
+          "cep154",
+          "pacadulte",
+          "pacenfant"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-8": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-9": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-10": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-11": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-12": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-13": {
+        "sources": [
+          "cep154",
+          "pacadulte",
+          "pacenfant",
+          "bronchiolite"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-14": {
+        "sources": [
+          "cep154"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-15": {
+        "sources": [
+          "cep154",
+          "pacadulte",
+          "pacenfant"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-16": {
+        "sources": [
+          "cep154",
+          "bronchiolite"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-17": {
+        "sources": [
+          "cep154",
+          "vacpneumo"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "154-18": {
+        "sources": [
+          "cep154",
+          "vacpneumo"
+        ],
+        "note": "Durées et choix actualisés, imagerie/prélèvements proportionnés ; distinction entre adultes, enfants et bronchiolite.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "186": {
+      "186-1": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-2": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-3": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-4": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-5": {
+        "sources": [
+          "cep186",
+          "anaphylaxie"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-6": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-7": {
+        "sources": [
+          "cep186",
+          "food",
+          "foodcare"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-8": {
+        "sources": [
+          "cep186",
+          "food",
+          "foodcare"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-9": {
+        "sources": [
+          "cep186",
+          "food",
+          "foodcare"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-10": {
+        "sources": [
+          "cep186",
+          "anaphylaxie"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-11": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-12": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-13": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-14": {
+        "sources": [
+          "cep186",
+          "anaphylaxie",
+          "food",
+          "foodcare"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-15": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-16": {
+        "sources": [
+          "cep186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-17": {
+        "sources": [
+          "cep186",
+          "ped186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-18": {
+        "sources": [
+          "cep186",
+          "ped186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "186-19": {
+        "sources": [
+          "cep186",
+          "ped186"
+        ],
+        "note": "Sensibilisation distinguée de l’allergie clinique ; risques et examens ciblés, sans éviction ni test de provocation automatique.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      }
+    },
+    "188": {
+      "188-1": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-2": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-3": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-4": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-5": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-6": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-7": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-8": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-9": {
+        "sources": [
+          "cep188",
+          "gina"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-10": {
+        "sources": [
+          "cep188",
+          "gina"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-11": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-12": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-13": {
+        "sources": [
+          "cep188",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-14": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-15": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-16": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-17": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-18": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-19": {
+        "sources": [
+          "cep188",
+          "gina"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-20": {
+        "sources": [
+          "cep188",
+          "gina",
+          "ped188",
+          "aag"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-21": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-22": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "188-23": {
+        "sources": [
+          "cep188"
+        ],
+        "note": "Séparer repères EDN français et compléments 2026 ; adaptation à l’âge, au dispositif et à la gravité.",
+        "notionScopes": [
+          0,
+          1,
+          2,
+          3
+        ]
+      }
+    },
+    "203": {
+      "203-1": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-2": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-3": {
+        "sources": [
+          "cep203",
+          "ep"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-4": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-5": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-6": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-7": {
+        "sources": [
+          "cep203",
+          "ep"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-8": {
+        "sources": [
+          "cep203",
+          "ep"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-9": {
+        "sources": [
+          "cep203",
+          "anaphylaxie",
+          "cep188"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-10": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-11": {
+        "sources": [
+          "cep203",
+          "anaphylaxie",
+          "cep188"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-12": {
+        "sources": [
+          "cep203",
+          "ep"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-13": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-14": {
+        "sources": [
+          "cep203"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-15": {
+        "sources": [
+          "cep203",
+          "anaphylaxie",
+          "cep188"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-16": {
+        "sources": [
+          "cep203",
+          "peddra",
+          "bronchiolite"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-17": {
+        "sources": [
+          "cep203",
+          "peddra",
+          "bronchiolite"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      },
+      "203-18": {
+        "sources": [
+          "cep203",
+          "peddra",
+          "bronchiolite"
+        ],
+        "note": "Chronologie, unités des D-dimères, indications d’imagerie et gestes urgents corrigés.",
+        "notionScopes": [
+          0,
+          1
+        ]
+      }
+    },
+    "204": {
+      "204-1": {
+        "sources": [
+          "cep204",
+          "pedtoux",
+          "sptoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-2": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-3": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-4": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-5": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-6": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-7": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-8": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-9": {
+        "sources": [
+          "cep204",
+          "pedtoux",
+          "pholcodine",
+          "codeine"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "204-10": {
+        "sources": [
+          "cep204",
+          "pedtoux"
+        ],
+        "note": "Démarche individualisée ; distinctions adulte/enfant et traitements retirés explicités.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "205": {
+      "205-1": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-2": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-3": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-4": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-5": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-6": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-7": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "205-8": {
+        "sources": [
+          "cep205"
+        ],
+        "note": "Priorité au risque asphyxique ; pas de terlipressine automatique. Suppression de l’affirmation erronée sur une artère pulmonaire dépourvue de muscle lisse.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "206": {
+      "206-1": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "206-2": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "206-3": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "206-4": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "206-5": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "206-6": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "206-7": {
+        "sources": [
+          "cep206",
+          "plevre"
+        ],
+        "note": "Critères de Light, échoguidage et distinction empyème/épanchement compliqué précisés.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "207": {
+      "207-1": {
+        "sources": [
+          "cep207",
+          "ped207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-2": {
+        "sources": [
+          "cep207",
+          "ped207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-3": {
+        "sources": [
+          "cep207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-4": {
+        "sources": [
+          "cep207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-5": {
+        "sources": [
+          "cep207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-6": {
+        "sources": [
+          "cep207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-7": {
+        "sources": [
+          "cep207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-8": {
+        "sources": [
+          "cep207",
+          "ped207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-9": {
+        "sources": [
+          "cep207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-10": {
+        "sources": [
+          "cep207",
+          "ped207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-11": {
+        "sources": [
+          "cep207",
+          "ped207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      },
+      "207-12": {
+        "sources": [
+          "cep207",
+          "ped207"
+        ],
+        "note": "Localisation, limites de l’imagerie et stratégie de prélèvement précisées ; spécificités pédiatriques distinguées.",
+        "notionScopes": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "208": {
+      "208-1": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-2": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-3": {
+        "sources": [
+          "cep208",
+          "htp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-4": {
+        "sources": [
+          "cep208",
+          "htp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-5": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-6": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-7": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-8": {
+        "sources": [
+          "cep208",
+          "htp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-9": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-10": {
+        "sources": [
+          "cep208"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-11": {
+        "sources": [
+          "cep208",
+          "old",
+          "oldlpp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-12": {
+        "sources": [
+          "cep208",
+          "old",
+          "oldlpp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-13": {
+        "sources": [
+          "cep208",
+          "old",
+          "oldlpp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "208-14": {
+        "sources": [
+          "cep208",
+          "htp"
+        ],
+        "note": "Définitions HTP/HTAP séparées ; EFR, hypoventilation et indications d’OLD clarifiées. Contrôle transversal : formulation et indications clarifiées.",
+        "notionScopes": [
+          0
+        ]
+      }
+    }
+  }
+}
