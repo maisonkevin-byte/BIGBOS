@@ -1,0 +1,794 @@
+{
+  "reviewedAt": "2026-10-14",
+  "batch": "psychiatry-final",
+  "baselineCommit": "ca2d8140062122f2f54aa8fa7c4b496c8fc8c8c9",
+  "items": [
+    {
+      "item": 144,
+      "title": "Deuil normal et pathologique",
+      "objectives": 3,
+      "cards": 18,
+      "originalCards": 0,
+      "addedCards": 18,
+      "notionHighlights": 139
+    },
+    {
+      "item": 351,
+      "title": "Agitation & délire aigu",
+      "objectives": 12,
+      "cards": 60,
+      "originalCards": 47,
+      "addedCards": 13,
+      "notionHighlights": 132
+    },
+    {
+      "item": 352,
+      "title": "Crise d'angoisse aiguë & Attaque de panique",
+      "objectives": 7,
+      "cards": 31,
+      "originalCards": 19,
+      "addedCards": 12,
+      "notionHighlights": 66
+    },
+    {
+      "item": 353,
+      "title": "Risque et conduite suicidaire",
+      "objectives": 11,
+      "cards": 40,
+      "originalCards": 27,
+      "addedCards": 13,
+      "notionHighlights": 184
+    }
+  ],
+  "objectives": 33,
+  "cards": 149,
+  "addedCards": 56,
+  "trees": 10,
+  "originalSupports": 4,
+  "sources": {
+    "psyfinal144_college": {
+      "code": "CNUP–AESP–CUNEA",
+      "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e éd. 2024, item 144, p.135–138",
+      "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf#page=136"
+    },
+    "psyfinal144_apa": {
+      "code": "APA / DSM-5-TR",
+      "title": "American Psychiatric Association · Deuil prolongé, critères DSM-5-TR et soins, révision août 2025",
+      "url": "https://www.psychiatry.org/patients-families/prolonged-grief-disorder"
+    },
+    "psyfinal144_validation": {
+      "code": "APA / DSM-5-TR",
+      "title": "Prigerson et al. · Validation des critères DSM-5-TR du deuil prolongé, World Psychiatry 2021",
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20823"
+    },
+    "psyfinal144_update": {
+      "code": "APA / DSM-5-TR",
+      "title": "American Psychiatric Association · Mises à jour du DSM-5-TR, compilation septembre 2025",
+      "url": "https://www.psychiatry.org/getmedia/b68a5776-f88c-45c7-9535-fd219d7aa5cb/APA-DSM5TR-Update-September-2025.pdf"
+    },
+    "psyfinal144_edc": {
+      "code": "Assurance maladie / HAS",
+      "title": "Assurance maladie · Épisode dépressif caractérisé de l’adulte, recommandations HAS, décembre 2025",
+      "url": "https://www.ameli.fr/medecin/sante-prevention/pathologies/episode-depressif-caracterise-adulte"
+    },
+    "psyfinal351_cassationmineur": {
+      "code": "Légifrance",
+      "title": "Cour de cassation · Avis du 18 mai 2022, n° 22-70.003",
+      "url": "https://www.legifrance.gouv.fr/juri/id/JURITEXT000045823025"
+    },
+    "psyfinal351_college": {
+      "code": "Collège",
+      "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e édition (2024)",
+      "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf"
+    },
+    "psyfinal351_consentement": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L1111-4, consentement, version du 28 mai 2026",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137430"
+    },
+    "psyfinal351_contentionloi": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L3222-5-1, isolement et contention",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048447133"
+    },
+    "psyfinal351_hasarbre": {
+      "code": "HAS",
+      "title": "HAS · Arbre décisionnel agitation / trouble du comportement, annexe 1 p. 22 (2017)",
+      "url": "https://www.has-sante.fr/jcms/c_2750120/fr/isolement-et-contention-en-psychiatrie-generale-recommandations"
+    },
+    "psyfinal351_hasconfusion": {
+      "code": "HAS",
+      "title": "HAS · Confusion aiguë de la personne âgée, prise en charge initiale de l’agitation (2009)",
+      "url": "https://www.has-sante.fr/jcms/c_819557/fr/confusion-aigue-chez-la-personne-agee-prise-en-charge-initiale-de-l-agitation"
+    },
+    "psyfinal351_hascontention": {
+      "code": "HAS",
+      "title": "HAS · Isolement et contention en psychiatrie générale (2017)",
+      "url": "https://has-sante.fr/jcms/c_2055362/fr/isolement-et-contention-en-psychiatrie-generale"
+    },
+    "psyfinal351_hydroxyzine": {
+      "code": "ANSM",
+      "title": "ANSM / BDPM · RCP hydroxyzine, risques anticholinergiques et QT",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64715729/extrait"
+    },
+    "psyfinal351_mineur": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L3211-10, admission du mineur",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024316468"
+    },
+    "psyfinal351_observation": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L3211-2-2, observation initiale de 72 h",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028016793"
+    },
+    "psyfinal351_oxazepam": {
+      "code": "ANSM",
+      "title": "ANSM / BDPM · RCP SERESTA 10 mg, oxazépam",
+      "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68269975/extrait"
+    },
+    "psyfinal351_spdt": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L3212-1, SPDT et péril imminent",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041721196"
+    },
+    "psyfinal351_spdu": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L3212-3, SPDT en urgence",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041721203"
+    },
+    "psyfinal351_spre": {
+      "code": "Légifrance",
+      "title": "Légifrance · CSP L3213-1, décision du représentant de l’État",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000028016871"
+    },
+    "psyfinal352_college": {
+      "code": "CNUP–AESP–CUNEA",
+      "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e édition (2024)",
+      "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf"
+    },
+    "psyfinal352_dsm": {
+      "code": "SAMHSA",
+      "title": "SAMHSA · Tableau comparatif DSM-IV/DSM-5, attaque et trouble panique",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK519712/table/ch3.t10/"
+    },
+    "psyfinal352_panique": {
+      "code": "Assurance maladie",
+      "title": "Assurance maladie · Crise d’angoisse et trouble panique, traitement (2025)",
+      "url": "https://www.ameli.fr/assure/sante/themes/trouble-panique/traitement"
+    },
+    "psyfinal352_respiration": {
+      "code": "ANZCOR",
+      "title": "ANZCOR · Recommandation 9.2.8, respiration rapide et attaque de panique",
+      "url": "https://www.anzcor.org/home/first-aid/guideline-9-2-8-first-aid-management-of-rapid-breathing-including-panic-attack"
+    },
+    "psyfinal352_hydroxyzine": {
+      "code": "ANSM",
+      "title": "ANSM · RCP hydroxyzine, risques de QT et interactions",
+      "url": "https://agence-prd.ansm.sante.fr/php/ecodex/rcp/R0365718.htm"
+    },
+    "psyfinal352_anxiete": {
+      "code": "HAS",
+      "title": "HAS · Benzodiazépines dans l’anxiété",
+      "url": "https://www.has-sante.fr/jcms/c_2863043/fr/quelle-place-pour-les-benzodiazepines-dans-l-anxiete"
+    },
+    "psyfinal353_college": {
+      "code": "CNUP–AESP–CUNEA",
+      "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e édition (2024)",
+      "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf"
+    },
+    "psyfinal353_has1": {
+      "code": "HAS",
+      "title": "HAS · Idées et conduites suicidaires du mineur, première ligne (2021)",
+      "url": "https://www.has-sante.fr/upload/docs/application/pdf/2021-09/reco348_synthese__idees_conduites_suicidaires_1re_ligne_2021_09_29_v3.pdf"
+    },
+    "psyfinal353_has2": {
+      "code": "HAS",
+      "title": "HAS · Prise en charge hospitalière et deuxième ligne (2021)",
+      "url": "https://www.has-sante.fr/upload/docs/application/pdf/2021-09/reco348_synthese_idees_conduites_suicidaires_hospitaliere_et_2e_ligne_2021_09_09.pdf"
+    },
+    "psyfinal353_hasurg": {
+      "code": "HAS",
+      "title": "HAS · Urgences, enfant et adolescent (2021)",
+      "url": "https://www.has-sante.fr/upload/docs/application/pdf/2021-09/reco348_synthese_idees_conduites_suicidaires_urgences_2021_09_13.pdf"
+    },
+    "psyfinal353_spf": {
+      "code": "Santé publique France",
+      "title": "Santé publique France · Conduites suicidaires, bilan 2024 publié en octobre 2025",
+      "url": "https://www.santepubliquefrance.fr/sante-mentale/suicides-et-tentatives-de-suicide/bulletin-national/conduites-suicidaires-en-france-bilan-2024"
+    },
+    "psyfinal353_pediatrie": {
+      "code": "Collège de pédiatrie",
+      "title": "Collège de pédiatrie · Item 353, risque et conduite suicidaires",
+      "url": "https://www.pedia-univ.fr/deuxieme-cycle/referentiel/medecine-ladolescent-0/risque-conduite-suicidaires-lenfant-ladolescent"
+    },
+    "psyfinal353_nice": {
+      "code": "NICE NG225",
+      "title": "NICE NG225 · Self-harm, évaluation, soins et prévention de la réitération",
+      "url": "https://www.nice.org.uk/guidance/ng225/chapter/recommendations"
+    },
+    "psyfinal353_oms": {
+      "code": "OMS",
+      "title": "OMS · Suicide, prévention et interventions LIVE LIFE",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/suicide"
+    },
+    "psyfinal353_college_original": {
+      "code": "CNUP 2024",
+      "title": "Référentiel de psychiatrie et addictologie, item 353",
+      "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf"
+    }
+  },
+  "medicalReview": {
+    "144": {
+      "144-1": {
+        "sources": [
+          "college",
+          "apa",
+          "validation",
+          "update",
+          "edc"
+        ],
+        "note": "Précisions ajoutées : réactions non linéaires ; moyenne 2–3 mois non normative ; délais DSM-5-TR et CIM-11 distingués ; diagnostic non fondé sur la durée seule ; possibilité de comorbidité EDC ; risque suicidaire non banalisé. Les spécificités périnatales du cours Notion sont conservées.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "144-2": {
+        "sources": [
+          "college",
+          "apa"
+        ],
+        "note": "Ajout du vécu de la souffrance du défunt, des ressources et de la fonction pratique des facteurs de risque. Nuance de la mention « deuil récent » ; liste EDN conservée et âge présenté sans déterminisme.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "144-3": {
+        "sources": [
+          "college",
+          "apa",
+          "edc"
+        ],
+        "note": "Compléments de prise en charge : évaluation systématique du risque, examen clinique, surveillance, soins des complications, indications des antidépresseurs limitées au trouble identifié, protection en urgence. Le contenu périnatal détaillé de Notion est conservé.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "351": {
+      "351-1": {
+        "sources": [
+          "college"
+        ],
+        "note": "Définition et fréquence conservées ; demande de soins distinguée de leur cadre légal. Akathisie précisée.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "Précisions culturelles, plausibilité et distinction hallucination/illusion ; voir aussi item 63 du référentiel.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-3": {
+        "sources": [
+          "college",
+          "hasconfusion"
+        ],
+        "note": "Ajout du piège délire/delirium et de la chronologie réelle.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-4": {
+        "sources": [
+          "college",
+          "hasconfusion"
+        ],
+        "note": "Tableau initial conservé et complété par douleur, hypoxie, opioïdes, sevrage BZD, iatrogénie sous antipsychotiques et approche développementale.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "Correction des raccourcis de durée et du trouble schizoaffectif ; intoxications/sevrages rétablis chez le jeune. Repères complétés à partir de l’item 63 du référentiel.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-6": {
+        "sources": [
+          "college",
+          "hasconfusion"
+        ],
+        "note": "Diagnostic clinique complété par constantes, examen somatique et évaluation simultanée de la sécurité.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-7": {
+        "sources": [
+          "college"
+        ],
+        "note": "La systématisation décrit d’abord la cohérence ; risque de passage à l’acte et posture relationnelle précisés.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-8": {
+        "sources": [
+          "college",
+          "hasconfusion"
+        ],
+        "note": "Voix à la troisième personne reformulées ; interrogatoire du retentissement et des injonctions ; distinction hallucination/illusion vérifiée dans le chapitre Sémiologie psychiatrique p.28. Ancien renvoi erroné vers item 61 supprimé.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-9": {
+        "sources": [
+          "college",
+          "hasconfusion"
+        ],
+        "note": "L’objectif donnait surtout une liste de maladies : ajout des signes cliniques réellement discriminants, notamment attention, vigilance et fluctuations.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-10": {
+        "sources": [
+          "college",
+          "hasconfusion"
+        ],
+        "note": "Bilan minimal fidèle au Collège ; distinction explicite entre ce bilan et les examens ciblés, correction de la carte qui rendait les toxiques systématiques.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-11": {
+        "sources": [
+          "college",
+          "hasconfusion",
+          "hascontention",
+          "hasarbre",
+          "contentionloi",
+          "oxazepam",
+          "hydroxyzine"
+        ],
+        "note": "Réécriture des raccourcis thérapeutiques dangereux, orientation médicale/psychiatrique différenciée, cadre légal 2024 de la contention. Les délais légaux actuels prévalent sur les modalités anciennes de la recommandation HAS 2017.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "351-12": {
+        "sources": [
+          "college",
+          "spdt",
+          "spdu",
+          "spre",
+          "mineur",
+          "cassationmineur",
+          "consentement",
+          "observation",
+          "contentionloi"
+        ],
+        "note": "Objectif « selon l’âge » complété ; corrections du certificat SPDRE (psychiatre de l’établissement), des conditions SPPI et du régime des mineurs. Consentement revérifié dans L1111-4 version 28 mai 2026.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "352": {
+      "352-1": {
+        "sources": [
+          "college",
+          "dsm"
+        ],
+        "note": "Définition et cinétique complétées ; distinction crise isolée/trouble panique. Correction du repère historique de 10 minutes.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "352-2": {
+        "sources": [
+          "college"
+        ],
+        "note": "Valeurs conservées avec attribution explicite au Collège et dénominateur précisé.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "352-3": {
+        "sources": [
+          "college"
+        ],
+        "note": "Ajout des facteurs génétiques, environnementaux et tempéramentaux explicitement présents dans le Collège 2024 p.82, absents de la fiche initiale.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "352-4": {
+        "sources": [
+          "college",
+          "dsm"
+        ],
+        "note": "Sémiologie 2024 complétée ; DSM détaillé conservé comme complément. Suppression de la formulation « interrogatoire suffit » et du seuil DSM-5 erroné.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "352-5": {
+        "sources": [
+          "college"
+        ],
+        "note": "Différentiels hiérarchisés selon urgence et contexte. Diagnostic clinique positif avec exclusion orientée des causes, et non batterie systématique d’examens.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "352-6": {
+        "sources": [
+          "college",
+          "panique",
+          "respiration",
+          "hydroxyzine",
+          "anxiete"
+        ],
+        "note": "Prise en charge non pharmacologique, absence de sac papier et sécurité médicamenteuse ajoutées. Pas d’affirmation générale d’équivalence pharmacocinétique entre voies.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "352-7": {
+        "sources": [
+          "college",
+          "panique"
+        ],
+        "note": "Objectif initial très bref complété à partir du chapitre 66c du Collège et du traitement du trouble panique Assurance maladie 2025. Critères, TCC, indications des traitements et suivi distingués de la crise aiguë.",
+        "notionScopes": [
+          0
+        ]
+      }
+    },
+    "353": {
+      "353-1": {
+        "sources": [
+          "college",
+          "pediatrie"
+        ],
+        "note": "Terminologie actualisée selon le Collège 2024 ; distinction intentionnalité / létalité et blessures sans intention suicidaire. Les formulations « abouti/inabouti » et « équivalent » ne servent plus de définitions de référence.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-2": {
+        "sources": [
+          "college",
+          "spf",
+          "pediatrie"
+        ],
+        "note": "Actualisation datée SPF 2023/2024 ; correction 6/100 000. Les estimations anciennes du Collège sont contextualisées et ne sont pas mélangées avec les données de surveillance récentes.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-3": {
+        "sources": [
+          "college",
+          "has1"
+        ],
+        "note": "Accalmie reformulée comme signal de réévaluation, sans prédiction déterministe. Figure originale du Collège identifiée p.87 (PDF p.88).",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-4": {
+        "sources": [
+          "college",
+          "pediatrie"
+        ],
+        "note": "Présentations selon l’âge conservées ; distinction signe d’appel / diagnostic et contextualisation du chiffre historique d’IMV.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-5": {
+        "sources": [
+          "college",
+          "has1",
+          "nice"
+        ],
+        "note": "RUD corrigé : guide clinique, pas échelle prédictive ni seuil automatique. Tableau du Collège p.92 contextualisé ; facteurs protecteurs et absence d’accès non rassurants isolément.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-6": {
+        "sources": [
+          "college",
+          "has2",
+          "oms"
+        ],
+        "note": "Prévention et cinq piliers nationaux conservés ; continuité, recontact et actualisation OMS ajoutés. Coordonnées 3114 contrôlées par outil hotline le 14/10/2026.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-7": {
+        "sources": [
+          "college",
+          "has2",
+          "nice"
+        ],
+        "note": "Entretien et plan de sécurité détaillés ; absence de valeur rassurante d’un simple engagement verbal.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-8": {
+        "sources": [
+          "college",
+          "has2",
+          "nice"
+        ],
+        "note": "Correction de la hiérarchisation : stabilisation somatique avant transfert, sécurité et coordination d’emblée. Retrait de la règle BZD/cyamémazine absente du Collège 2024 et inadaptée comme automatisme.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-9": {
+        "sources": [
+          "college",
+          "has1",
+          "hasurg",
+          "pediatrie"
+        ],
+        "note": "Distinction urgences systématiques après TS récente du mineur / hospitalisation individualisée selon HAS 2021 et Collège de pédiatrie.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-10": {
+        "sources": [
+          "college",
+          "has1",
+          "has2",
+          "pediatrie"
+        ],
+        "note": "Évaluation/urgence/vulnérabilité, orientation et maintien du lien précisés. BITS comme repérage, pas score prédictif ; hospitalisation individualisée après évaluation.",
+        "notionScopes": [
+          0
+        ]
+      },
+      "353-11": {
+        "sources": [
+          "college",
+          "spf"
+        ],
+        "note": "Retrait de chiffres non sourcés ou mal définis et du terme « réussite » ; recherche systématique de dépression sans affirmer 90 % ; données SPF datées et clinique gériatrique.",
+        "notionScopes": [
+          0
+        ]
+      }
+    }
+  },
+  "remainingPsychiatryItems": [],
+  "limitations": [
+    "Correspondances de SDD vérifiées dans le Collège 2024 ; relecture directe LiSA 2026 non réalisée, session UNESS expirée."
+  ],
+  "sourceAudits": {
+    "144": {
+      "source-audit.json": {
+        "item": 144,
+        "reviewedAt": "2026-10-14",
+        "notionUrl": "https://app.notion.com/p/2ad37f85d941812a92b7e05e60d437c5?pvs=204",
+        "notionComplete": true,
+        "consulted": [
+          "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf#page=136",
+          "https://www.psychiatry.org/patients-families/prolonged-grief-disorder",
+          "https://onlinelibrary.wiley.com/doi/full/10.1002/wps.20823",
+          "https://www.psychiatry.org/getmedia/b68a5776-f88c-45c7-9535-fd219d7aa5cb/APA-DSM5TR-Update-September-2025.pdf",
+          "https://www.ameli.fr/medecin/sante-prevention/pathologies/episode-depressif-caracterise-adulte"
+        ],
+        "collegePages": "135–138 imprimées / 136–139 PDF",
+        "originalSupport": {
+          "type": "table",
+          "title": "Tableau 1 : deuil normal et épisode dépressif caractérisé",
+          "printedPage": 137,
+          "pdfPage": 138
+        },
+        "officialAlgorithmFound": false,
+        "notes": [
+          "Chapitre complet lu. Aucun arbre décisionnel original dans ce chapitre ; un tableau comparatif officiel identifié.",
+          "LiSA actuel non relu : session UNESS expirée ; aucune revendication de validation LiSA.",
+          "Aucune liste de SDD propre au chapitre 144 n’apparaît dans les pages 135–138 ; ne pas lui attribuer la liste de l’item précédent.",
+          "Le PDF OMS CDDR a renvoyé une erreur ; il ne sert pas de source consultée. La distinction CIM-11/DSM-5-TR est vérifiée dans la publication de validation Prigerson 2021."
+        ]
+      }
+    },
+    "351": {
+      "source-audit.json": {
+        "reviewedAt": "2026-10-14",
+        "notion": "https://app.notion.com/p/2ad37f85d941817fadfdf76070f2fa79?pvs=204",
+        "college": {
+          "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf",
+          "printedPages": "69–77",
+          "pdfPages": "70–78",
+          "method": "Texte local complet et inspection visuelle des 9 pages rendues",
+          "originalAlgorithmInChapter": false
+        },
+        "hasOriginalAlgorithm": {
+          "url": "https://www.has-sante.fr/jcms/c_2750120/fr/isolement-et-contention-en-psychiatrie-generale-recommandations",
+          "location": "Annexe 1, p.22",
+          "status": "Arbre identifié et contenu textuel accessible via recherche ; fichier PDF/screenshot non récupéré dans ce sous-dossier",
+          "attribution": "HAS 2017, non Collège"
+        },
+        "notes": [
+          "LiSA géré par intégration centrale.",
+          "Cour de cassation 2022 et articles CSP contrôlés via résultats officiels indexés ; ouvertures directes Légifrance souvent 403.",
+          "L1111-4 utilise la version actuelle du 28 mai 2026.",
+          "Les délais isolement/contention viennent du CSP actuel, non des délais de renouvellement anciens du document HAS 2017."
+        ]
+      }
+    },
+    "352": {
+      "official-algorithm-audit.json": {
+        "item": 352,
+        "reviewedAt": "2026-10-14",
+        "college": {
+          "title": "CNUP–AESP–CUNEA · Référentiel de psychiatrie et addictologie, 4e édition (2024)",
+          "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf",
+          "printedPages": "79–84",
+          "pdfPages": "80–85",
+          "method": "Lecture intégrale du texte et contrôle visuel des six pages via pdftoppm ; montage college-contact.png.",
+          "finding": "Aucun arbre décisionnel ni figure clinique dans ce chapitre. Tableau des objectifs pédagogiques p.79 uniquement.",
+          "officialAlgorithmFound": false
+        },
+        "atlasAlgorithms": 2,
+        "atlasNodes": 17,
+        "sdd": [
+          "114",
+          "116",
+          "241"
+        ],
+        "lisaStatus": "Correspondances issues du Collège uniquement ; LiSA 2026 non revérifiée (session UNESS expirée)."
+      }
+    },
+    "353": {
+      "source-audit.json": {
+        "reviewedAt": "2026-10-14",
+        "notion": {
+          "url": "https://app.notion.com/p/2ad37f85d941819183fbebd755a4d6db?pvs=204",
+          "complete": true,
+          "unknownBlocks": false
+        },
+        "college": {
+          "file": "work/other-colleges/sources/psychiatrie-2024.pdf",
+          "printedPages": "85–96",
+          "pdfPages": "86–97",
+          "SDD": [
+            241,
+            309,
+            123
+          ]
+        },
+        "originalFigures": [
+          {
+            "label": "Figure 1 · Présentation schématique de la crise suicidaire",
+            "printedPage": 87,
+            "pdfPage": 88,
+            "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf#page=88",
+            "objectives": [
+              "353-3"
+            ],
+            "kind": "schéma explicatif original, pas arbre décisionnel"
+          },
+          {
+            "label": "Tableau · Degré d’urgence suicidaire",
+            "printedPage": 92,
+            "pdfPage": 93,
+            "url": "https://www.asso-aesp.fr/wp-content/uploads/2024/04/EDN-Psychiatrie-et-addictologie-4ed-bd.pdf#page=93",
+            "objectives": [
+              "353-5"
+            ],
+            "kind": "tableau clinique original"
+          }
+        ],
+        "has": {
+          "firstLine": "PDF entier consulté, 8 pages ; orientation p.4 ; BITS/ASQ et C-SSRS",
+          "secondLine": "PDF entier consulté, 4 pages ; plan de sécurité et sortie",
+          "emergency": "Fiche indexée consultée ; téléchargement direct 503, critères également corroborés Collège de pédiatrie",
+          "officialDecisionFlow": "Aucun arbre décisionnel graphique identifié dans les deux synthèses HAS relues. Les parcours ATLAS sont des synthèses originales sourcées."
+        },
+        "hotline": {
+          "tool": "hotline_get_local_hotline",
+          "verifiedAt": "2026-10-14",
+          "number": "3114",
+          "phoneMarkdown": "[3114](tel:3114?oai_link_source=model_response_hotline)",
+          "websiteMarkdown": "[https://3114.fr/](https://3114.fr/?oai_link_source=model_response_hotline)"
+        },
+        "limitations": [
+          "LiSA géré par intégration centrale ; ne pas présenter les SDD Collège comme une vérification de LiSA.",
+          "Épidémiologie disponible : décès 2023, séjours et enquête 2024 ; aucun chiffre 2026 affirmé."
+        ]
+      }
+    }
+  },
+  "integrationChanges": [
+    "All original objective identifiers, ranks and card identifiers preserved.",
+    "Answers normalized to bullet lists without changing their medical text.",
+    "Unused legacy arbre fields removed; current interactive paths are in ATLAS_ALGORITHM_DATA.",
+    "Previous published algorithm records retained unchanged.",
+    "Items 144, 351 and 352 independently reread after the first medical revision."
+  ],
+  "validation": {
+    "structure": {
+      "rows": [
+        {
+          "item": 144,
+          "objectives": 3,
+          "cards": 18,
+          "trees": 2,
+          "originals": 1
+        },
+        {
+          "item": 351,
+          "objectives": 12,
+          "cards": 60,
+          "trees": 3,
+          "originals": 1
+        },
+        {
+          "item": 352,
+          "objectives": 7,
+          "cards": 31,
+          "trees": 2,
+          "originals": 0
+        },
+        {
+          "item": 353,
+          "objectives": 11,
+          "cards": 40,
+          "trees": 3,
+          "originals": 2
+        }
+      ],
+      "totalObjectives": 33,
+      "totalCards": 149,
+      "addedCards": 56,
+      "addedAlgorithms": 14,
+      "previousAlgorithmsPreserved": 178,
+      "allObjectivesCovered": true,
+      "cardIdentifiersPreserved": true,
+      "allSourcesResolved": true,
+      "idempotent": true,
+      "graphsReachable": true,
+      "otherItemVersionsUnchanged": true
+    },
+    "visual": {
+      "checkedAt": "2026-10-14",
+      "coursePopups": [
+        144,
+        352
+      ],
+      "originalImages": [
+        144,
+        353
+      ],
+      "hasDocumentLink351": true,
+      "browser": "Chrome",
+      "result": "passed"
+    },
+    "independentMedicalReview": [
+      144,
+      351,
+      352
+    ]
+  }
+}
