@@ -1,0 +1,389 @@
+{
+  "reviewedAt": "2026-10-15",
+  "scope": "Items 132, 299, 340, 341 et 343 ; ce bilan ne certifie pas la complétude de tout le programme EDN.",
+  "items": [
+    {
+      "item": 132,
+      "objectives": 16,
+      "cards": 44,
+      "addedCards": 7,
+      "clinicalImages": 1,
+      "colourMatches": 297
+    },
+    {
+      "item": 299,
+      "objectives": 9,
+      "cards": 31,
+      "addedCards": 4,
+      "clinicalImages": 0,
+      "colourMatches": 286
+    },
+    {
+      "item": 340,
+      "objectives": 19,
+      "cards": 57,
+      "addedCards": 9,
+      "clinicalImages": 6,
+      "colourMatches": 482
+    },
+    {
+      "item": 341,
+      "objectives": 12,
+      "cards": 35,
+      "addedCards": 6,
+      "clinicalImages": 2,
+      "colourMatches": 130
+    },
+    {
+      "item": 343,
+      "objectives": 10,
+      "cards": 44,
+      "addedCards": 3,
+      "clinicalImages": 0,
+      "colourMatches": 287
+    }
+  ],
+  "objectives": 66,
+  "cards": 211,
+  "originalCardsReviewed": 182,
+  "addedCards": 29,
+  "newInteractivePathways": 10,
+  "newNodes": 83,
+  "sharedOfficialFigure": "college-audit-108-22-6",
+  "algorithms": [
+    {
+      "id": "neuro132-diagnostic",
+      "items": [
+        132
+      ],
+      "title": "Déclin cognitif : objectiver, orienter, accompagner",
+      "nodes": 9,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro132-agitation",
+      "items": [
+        132
+      ],
+      "title": "Agitation sur TNC : sécuriser et rechercher la cause",
+      "nodes": 8,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro299-diagnostic",
+      "items": [
+        299
+      ],
+      "title": "Tumeur intracrânienne : de la suspicion au diagnostic",
+      "nodes": 7,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro299-complications",
+      "items": [
+        299
+      ],
+      "title": "HTIC ou épilepsie tumorale : traiter sans retard",
+      "nodes": 8,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro340-aigu",
+      "items": [
+        340
+      ],
+      "title": "AVC suspect : alerter, imager et reperfuser",
+      "nodes": 11,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro340-etiologie",
+      "items": [
+        340
+      ],
+      "title": "Dissection, TVC et prévention secondaire",
+      "nodes": 7,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro341-diagnostic",
+      "items": [
+        341
+      ],
+      "title": "Céphalée en coup de tonnerre : rechercher une HSA",
+      "nodes": 8,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro341-traitement",
+      "items": [
+        341
+      ],
+      "title": "HSA confirmée : traitement et complications",
+      "nodes": 9,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro343-confusion",
+      "items": [
+        343
+      ],
+      "title": "Confusion aiguë : gravité, causes et soins",
+      "nodes": 10,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "neuro343-cam",
+      "items": [
+        343
+      ],
+      "title": "CAM : appliquer la combinaison de critères",
+      "nodes": 6,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle ; les actualisations sont signalées dans les cours."
+    },
+    {
+      "id": "college-audit-108-22-6",
+      "items": [
+        108,
+        132
+      ],
+      "title": "Trouble progressif de la mémoire : démarche diagnostique",
+      "nodes": 6,
+      "sourceKind": "college",
+      "provenance": "CEN · Figure 22.6 · Transcription comparée à la figure le 15/10/2026. La figure originale reste accessible."
+    }
+  ],
+  "sources": {
+    "132": [
+      {
+        "title": "Troubles cognitifs (132)",
+        "url": "https://app.notion.com/p/2ad37f85d9418128a718f7cfef8328e4?pvs=204"
+      },
+      {
+        "title": "Maladie d'Alzheimer",
+        "url": "https://app.notion.com/p/2ad37f85d94181e3a541e9472b13a8b9?pvs=204"
+      },
+      {
+        "title": "📘 Item 132 — Troubles neurocognitifs — raisonnement diagnostique",
+        "url": "https://app.notion.com/p/3d837f85d941810b8c5afea5e3cf31a2?pvs=204"
+      }
+    ],
+    "299": [
+      {
+        "title": "Tumeurs intracrâniennes (299)",
+        "url": "https://app.notion.com/p/2ad37f85d94181ce95cfefeddf04e049?pvs=204"
+      },
+      {
+        "title": "Item 299 — Tumeurs Intracrâniennes",
+        "url": "https://app.notion.com/p/3e137f85d941816580cbd428e69c9634?pvs=204"
+      }
+    ],
+    "340": [
+      {
+        "title": "Accidents vasculaires cérébraux (340)",
+        "url": "https://app.notion.com/p/2ad37f85d941818e9d53cd69351ac107?pvs=204"
+      },
+      {
+        "title": "Thrombose veineuse cérébrale",
+        "url": "https://app.notion.com/p/2ad37f85d941814b8313eac16b247fd0?pvs=204"
+      },
+      {
+        "title": "AVC ischémique",
+        "url": "https://app.notion.com/p/2ad37f85d9418162a087da6537e2260d?pvs=204"
+      },
+      {
+        "title": "HIP (hémorragie intraparenchymateuse)",
+        "url": "https://app.notion.com/p/2ad37f85d9418176be8bead7ddcbf32e?pvs=204"
+      },
+      {
+        "title": "Item 340 — Accidents vasculaires cérébraux",
+        "url": "https://app.notion.com/p/3e137f85d941816a83bad5a8124eb2c3?pvs=204"
+      }
+    ],
+    "341": [
+      {
+        "title": "Hémorragie méningée non traumatique (341)",
+        "url": "https://app.notion.com/p/2ad37f85d94181e6b627fd9636ab8164?pvs=204"
+      }
+    ],
+    "343": [
+      {
+        "title": "État confusionnel / Confusion mentale (108, 343)",
+        "url": "https://app.notion.com/p/2ad37f85d941815f8b69f13b7ccafa1b?pvs=204"
+      }
+    ]
+  },
+  "changes": [
+    "All 66 existing objective identifiers and 182 original card identifiers preserved; every objective has cards and interactive course references.",
+    "HAS October 2025 reperfusion indications incorporated, with unknown-onset/late-window selection and disability despite low NIHSS.",
+    "Cognitive staging, delirium, tumor classification, HSA investigations and emergency management corrected across course and cards.",
+    "Ten ATLAS syntheses explicitly distinguished from the visually checked CEN original figure.",
+    "Colours transferred only from corresponding Notion text; all nine clinical images retained."
+  ],
+  "diagramCoverage": [
+    {
+      "objective": "132-12",
+      "type": "static decision SVG",
+      "resolution": "replaced",
+      "interactive": "neuro132-agitation"
+    },
+    {
+      "objective": "132-13",
+      "type": "physiopathology SVG",
+      "resolution": "retained; not a decision algorithm"
+    },
+    {
+      "objective": "299-8",
+      "type": "physiopathology and anatomical SVGs",
+      "resolution": "replaced with corrected explanatory course; decisions covered by neuro299-complications"
+    },
+    {
+      "objective": "340-4",
+      "type": "physiopathology SVG",
+      "resolution": "retained; not a decision algorithm"
+    },
+    {
+      "objective": "340-11",
+      "type": "static decision HTML",
+      "resolution": "replaced",
+      "interactive": "neuro340-aigu"
+    },
+    {
+      "objective": "340-16",
+      "type": "static therapeutic timeline",
+      "resolution": "replaced with updated indications",
+      "interactive": "neuro340-aigu"
+    },
+    {
+      "objective": "341-4",
+      "type": "static decision SVG",
+      "resolution": "replaced",
+      "interactive": "neuro341-diagnostic"
+    },
+    {
+      "objective": "341-12",
+      "type": "physiopathology and complication timeline",
+      "resolution": "replaced with corrected course table",
+      "interactive": "neuro341-traitement"
+    },
+    {
+      "objective": "343-5",
+      "type": "CAM text rule",
+      "resolution": "interactive rule added",
+      "interactive": "neuro343-cam"
+    },
+    {
+      "items": [
+        108,
+        132
+      ],
+      "type": "official CEN figure 22.6",
+      "resolution": "existing verified transcription shared with item 132; original image preserved",
+      "interactive": "college-audit-108-22-6"
+    }
+  ],
+  "structuralValidation": {
+    "checkedAt": "2026-10-15",
+    "objectives": 66,
+    "originalCardsPreserved": 182,
+    "totalCards": 211,
+    "addedCards": 29,
+    "newPathways": 10,
+    "newNodes": 83,
+    "sharedOfficialFigurePreserved": true,
+    "allBranchesReachable": true,
+    "allCourseReferencesResolved": true,
+    "allSourceReferencesResolved": true,
+    "unrelatedAlgorithmsPreserved": true,
+    "overlayIdempotent": true,
+    "results": [
+      {
+        "id": "neuro132-diagnostic",
+        "nodes": 9,
+        "paths": 6,
+        "courseReferences": 30,
+        "rendered": true
+      },
+      {
+        "id": "neuro132-agitation",
+        "nodes": 8,
+        "paths": 8,
+        "courseReferences": 20,
+        "rendered": true
+      },
+      {
+        "id": "neuro299-diagnostic",
+        "nodes": 7,
+        "paths": 5,
+        "courseReferences": 18,
+        "rendered": true
+      },
+      {
+        "id": "neuro299-complications",
+        "nodes": 8,
+        "paths": 6,
+        "courseReferences": 15,
+        "rendered": true
+      },
+      {
+        "id": "neuro340-aigu",
+        "nodes": 11,
+        "paths": 12,
+        "courseReferences": 37,
+        "rendered": true
+      },
+      {
+        "id": "neuro340-etiologie",
+        "nodes": 7,
+        "paths": 4,
+        "courseReferences": 17,
+        "rendered": true
+      },
+      {
+        "id": "neuro341-diagnostic",
+        "nodes": 8,
+        "paths": 6,
+        "courseReferences": 22,
+        "rendered": true
+      },
+      {
+        "id": "neuro341-traitement",
+        "nodes": 9,
+        "paths": 8,
+        "courseReferences": 20,
+        "rendered": true
+      },
+      {
+        "id": "neuro343-confusion",
+        "nodes": 10,
+        "paths": 8,
+        "courseReferences": 29,
+        "rendered": true
+      },
+      {
+        "id": "neuro343-cam",
+        "nodes": 6,
+        "paths": 4,
+        "courseReferences": 18,
+        "rendered": true
+      },
+      {
+        "id": "college-audit-108-22-6",
+        "nodes": 6,
+        "paths": 3,
+        "courseReferences": 26,
+        "rendered": true
+      }
+    ]
+  }
+}
