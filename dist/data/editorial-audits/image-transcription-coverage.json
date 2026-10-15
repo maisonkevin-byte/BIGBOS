@@ -339,7 +339,8 @@
     {
       "id": "college-audit-108-22-6",
       "items": [
-        108
+        108,
+        132
       ],
       "title": "Trouble progressif de la mémoire : démarche diagnostique",
       "kind": "figure",
@@ -351,7 +352,8 @@
       "checkedAt": "2026-10-15",
       "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
       "notes": [
-        "La figure ne dessine que le prolongement du bilan en cas d’atypie ; elle ne précise pas un parcours distinct « sans atypie ». Les explorations spécialisées ne sont pas systématiques."
+        "La figure ne dessine que le prolongement du bilan en cas d’atypie ; elle ne précise pas un parcours distinct « sans atypie ». Les explorations spécialisées ne sont pas systématiques.",
+        "Accès ajouté depuis l’item 132, avec liens vers son cours, le 15/10/2026."
       ]
     },
     {
