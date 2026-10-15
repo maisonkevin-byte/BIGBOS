@@ -676,7 +676,18 @@
     "sourceOnlyViewsPreserved": true,
     "idempotent": true
   },
-  "browserValidation": "À compléter après mise en ligne.",
+  "browserValidation": {
+    "environment": "Netlify Deploy Preview PR 2",
+    "url": "https://deploy-preview-2--my-atlas-edn.netlify.app",
+    "checkedAt": "2026-10-15",
+    "observed": [
+      "Item 92 : arbre interactif par défaut, agrandissement et vue d’ensemble fonctionnels.",
+      "Item 92 : ouverture du nœud et contenu du cours 92-1 chargé.",
+      "Item 96 : les 17 nœuds du graphe sont présents."
+    ],
+    "correction": "Libellé de statut non reconnu supprimé dans les nouveaux nœuds ; vérification finale du correctif à réaliser sur la prévisualisation actualisée.",
+    "production": "Publication en attente de confirmation après refus de la revue automatique."
+  },
   "lastReview": {
     "date": "2026-10-15",
     "createdTranscriptions": 21,
