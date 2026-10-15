@@ -1,0 +1,412 @@
+{
+  "reviewedAt": "2026-10-15",
+  "scope": "Items 230, 231, 232, 234 et 339 ; ce bilan ne certifie pas la complétude de toute la cardiologie ni de tout le programme EDN.",
+  "items": [
+    {
+      "item": 230,
+      "objectives": 14,
+      "cards": 60,
+      "addedCards": 3,
+      "clinicalImages": 3,
+      "colourMatches": 170
+    },
+    {
+      "item": 231,
+      "objectives": 28,
+      "cards": 94,
+      "addedCards": 12,
+      "clinicalImages": 0,
+      "colourMatches": 400
+    },
+    {
+      "item": 232,
+      "objectives": 15,
+      "cards": 37,
+      "addedCards": 10,
+      "clinicalImages": 0,
+      "colourMatches": 205
+    },
+    {
+      "item": 234,
+      "objectives": 23,
+      "cards": 70,
+      "addedCards": 10,
+      "clinicalImages": 5,
+      "colourMatches": 327
+    },
+    {
+      "item": 339,
+      "objectives": 12,
+      "cards": 54,
+      "addedCards": 6,
+      "clinicalImages": 0,
+      "colourMatches": 299
+    }
+  ],
+  "objectives": 92,
+  "cards": 315,
+  "originalCardsReviewed": 274,
+  "addedCards": 41,
+  "interactivePathways": 16,
+  "nodes": 141,
+  "officialFigures": 5,
+  "algorithms": [
+    {
+      "id": "thorax",
+      "items": [
+        230
+      ],
+      "title": "Douleur thoracique : gravité et examens orientés",
+      "nodes": 11,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "college-audit-230-6-1",
+      "items": [
+        230
+      ],
+      "title": "Douleur thoracique aiguë : orientation",
+      "nodes": 6,
+      "sourceKind": "college",
+      "provenance": "CNEC · Figure 6.1 · Transcription comparée à la figure le 15/10/2026. La figure originale reste accessible."
+    },
+    {
+      "id": "cardio231-lecture",
+      "items": [
+        231
+      ],
+      "title": "ECG : lecture systématique et anomalies",
+      "nodes": 12,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "cardio231-brady",
+      "items": [
+        231
+      ],
+      "title": "Bradycardie : gravité et mécanisme",
+      "nodes": 8,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "college-cardio-231-15-51",
+      "items": [
+        231
+      ],
+      "title": "Tachycardie : régularité, QRS et réponse nodale",
+      "nodes": 11,
+      "sourceKind": "college",
+      "provenance": "CNEC · Figure 15.51 · Figure comparée visuellement le 15/10/2026. Transposition commentée ; original accessible et compléments explicités."
+    },
+    {
+      "id": "cardio232-care",
+      "items": [
+        232
+      ],
+      "title": "FA : confirmer, évaluer et organiser AF-CARE",
+      "nodes": 12,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "cardio232-anticoag",
+      "items": [
+        232
+      ],
+      "title": "FA : anticoagulation au long cours",
+      "nodes": 11,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "cardio232-cardioversion",
+      "items": [
+        232
+      ],
+      "title": "FA : sécuriser une cardioversion",
+      "nodes": 9,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "lisa-cardio-234-peptides-aigus",
+      "items": [
+        234
+      ],
+      "title": "Dyspnée aiguë : interpréter BNP / NT-proBNP",
+      "nodes": 5,
+      "sourceKind": "lisa",
+      "provenance": "LiSA 2026 · Objectif 234-12 · Image comparée visuellement le 15/10/2026 ; transposition commentée ATLAS."
+    },
+    {
+      "id": "college-cardio-234-18-5",
+      "items": [
+        234
+      ],
+      "title": "Suspicion d’IC hors urgence : peptides et échographie",
+      "nodes": 5,
+      "sourceKind": "college",
+      "provenance": "CNEC · Figure 18.5 · Figure comparée visuellement le 15/10/2026. Transposition commentée ; original accessible et compléments explicités."
+    },
+    {
+      "id": "college-cardio-234-18-7",
+      "items": [
+        234
+      ],
+      "title": "IC à FEVG diminuée : schéma du collège (ESC 2021)",
+      "nodes": 7,
+      "sourceKind": "college",
+      "provenance": "CNEC · Figure 18.7 · Figure comparée visuellement le 15/10/2026. Transposition commentée ; original accessible et compléments explicités."
+    },
+    {
+      "id": "cardio234-aigu",
+      "items": [
+        234
+      ],
+      "title": "OAP / choc : évaluer et traiter en parallèle",
+      "nodes": 11,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "cardio234-chronique",
+      "items": [
+        234
+      ],
+      "title": "IC chronique : traitement et suivi (ESC 2026)",
+      "nodes": 9,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "college-cardio-339-5-5",
+      "items": [
+        339
+      ],
+      "title": "SCA ST+ : choisir la reperfusion",
+      "nodes": 8,
+      "sourceKind": "college",
+      "provenance": "CNEC · Figure 5.5 · Figure comparée visuellement le 15/10/2026. Transposition commentée ; original accessible et compléments explicités."
+    },
+    {
+      "id": "cardio339-diagnostic",
+      "items": [
+        339
+      ],
+      "title": "SCA suspect : ECG, troponine et niveau de risque",
+      "nodes": 9,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "cardio339-suivi",
+      "items": [
+        339
+      ],
+      "title": "Après SCA / coronaropathie : prévention et symptômes",
+      "nodes": 7,
+      "sourceKind": "synthesis",
+      "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    }
+  ],
+  "sources": {
+    "230": [
+      {
+        "title": "Douleur thoracique (230)",
+        "url": "https://app.notion.com/p/2ad37f85d94181209d63f2a2159ac829?pvs=204"
+      },
+      {
+        "title": "Dissection aortique",
+        "url": "https://app.notion.com/p/2ad37f85d9418154ad5ce741c487f5e8?pvs=204"
+      }
+    ],
+    "231": [
+      {
+        "title": "Électrocardiogramme (231, 236)",
+        "url": "https://app.notion.com/p/2ad37f85d941811fa31aed08b41f152b?pvs=204"
+      },
+      {
+        "title": "ECG normal",
+        "url": "https://app.notion.com/p/2ad37f85d941810d8301ed6513155b52?pvs=204"
+      },
+      {
+        "title": "Troubles de la conduction",
+        "url": "https://app.notion.com/p/2ad37f85d94181bc9843e45068078858?pvs=204"
+      },
+      {
+        "title": "Troubles du rythme",
+        "url": "https://app.notion.com/p/2ad37f85d941813c874af3a2df3dc5ef?pvs=204"
+      },
+      {
+        "title": "Hypertrophies",
+        "url": "https://app.notion.com/p/2ad37f85d9418161979cda1990abd9e6?pvs=204"
+      }
+    ],
+    "232": [
+      {
+        "title": "Fibrillation atriale (232)",
+        "url": "https://app.notion.com/p/2ad37f85d94181bfb90ec31256b60da1?pvs=204"
+      }
+    ],
+    "234": [
+      {
+        "title": "Insuffisance cardiaque (234)",
+        "url": "https://app.notion.com/p/2ad37f85d94181199015ef78aa95f46e?pvs=204"
+      },
+      {
+        "title": "Physiopathologie - Étiologies d’IC",
+        "url": "https://app.notion.com/p/2ad37f85d941810bbfe0f1ab9c47cb14?pvs=204"
+      },
+      {
+        "title": "Sémiologie de l’insuffisance cardiaque",
+        "url": "https://app.notion.com/p/2ad37f85d94181d4ad20f152d66aa316?pvs=204"
+      },
+      {
+        "title": "OAP cardiogénique",
+        "url": "https://app.notion.com/p/2ad37f85d9418162b473dacad6a1d4f0?pvs=204"
+      },
+      {
+        "title": "Choc cardiogénique",
+        "url": "https://app.notion.com/p/2ad37f85d94181e79dc8c62b3d434362?pvs=204"
+      }
+    ],
+    "339": [
+      {
+        "title": "Syndrome coronarien aigu (339)",
+        "url": "https://app.notion.com/p/2ad37f85d9418171aeb6d11a4e9f867e?pvs=204"
+      },
+      {
+        "title": "Angor chronique stable",
+        "url": "https://app.notion.com/p/2ad37f85d9418166865ef341de0614cc?pvs=204"
+      },
+      {
+        "title": "SCA ST-",
+        "url": "https://app.notion.com/p/2ad37f85d94181e8b596dd2e32eac38c?pvs=204"
+      },
+      {
+        "title": "SCA ST+",
+        "url": "https://app.notion.com/p/2ad37f85d941818db156d798c0cd2d37?pvs=204"
+      }
+    ]
+  },
+  "changes": [
+    "92 objective IDs and 274 existing card IDs preserved; 41 cards added.",
+    "Every objective is linked from an interactive graph and covered by cards.",
+    "Five original decision figures available with interactive transpositions; additions and historical ESC 2021 figure explicitly identified.",
+    "Eight existing clinical/physiology images preserved. Colours restored only from matching Notion passages.",
+    "FA: ESC 2024 anticoagulation/cardioversion; ECG emergency and conduction corrections; ACS reperfusion/troponin and prevention updates.",
+    "ESC 2026 heart failure classification and fifth MI definition separated from historical college criteria.",
+    "LiSA images audited separately: five decision images have direct links to interactive transpositions; historic scores and classifications explicitly labelled. Acute peptide graph added; rate-control escalation included."
+  ],
+  "imageCoverage": [
+    {
+      "id": "college-audit-230-6-1",
+      "figure": "Figure 6.1",
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/08/f06-01-9782294786617.jpg",
+      "status": "transcription-verified",
+      "notes": [
+        "Liens de cours contrôlés avec la nouvelle édition de l’item 230 le 15/10/2026."
+      ]
+    },
+    {
+      "id": "college-cardio-231-15-51",
+      "figure": "Figure 15.51",
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/09/f15-51-9782294786617.jpg",
+      "status": "transcription-verified",
+      "notes": [
+        "Branches de la figure conservées. Ajouts : diagnostics différentiels des rythmes irréguliers, limites de l’adénosine, pré-excitation et prise en charge d’un arrêt.",
+        "L’absence de réponse nodale ne prouve pas à elle seule une TV."
+      ]
+    },
+    {
+      "id": "college-cardio-234-18-5",
+      "figure": "Figure 18.5",
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/09/f18-05-9782294786617.jpg",
+      "status": "transcription-verified",
+      "notes": [
+        "Schéma hors urgence. Le résultat bas rend l’IC moins probable, sans exclusion absolue en cas de discordance clinique."
+      ]
+    },
+    {
+      "id": "college-cardio-234-18-7",
+      "figure": "Figure 18.7",
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/09/f18-07-9782294786617.jpg",
+      "status": "transcription-verified",
+      "notes": [
+        "Figure explicitement fondée sur ESC 2021. Les recommandations ESC 2026 figurent dans un arbre séparé.",
+        "Notes de la source : ARNI en remplacement des IEC ; CRT-D si approprié. Conditions détaillées et branche de suivi ajoutées en commentaire."
+      ]
+    },
+    {
+      "id": "college-cardio-339-5-5",
+      "figure": "Figure 5.5",
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/08/f05-05-9782294786617-600x422.jpg",
+      "status": "transcription-verified",
+      "notes": [
+        "La figure indique angioplastie dans les 120 min, fibrinolyse + transfert, sauvetage si échec, coronarographie dans les 24 h si succès.",
+        "Ajouts identifiés : symptômes < 12 h, contre-indications, absence de thrombolyse si non éligible et fenêtre 2–24 h selon ESC 2023."
+      ]
+    }
+  ],
+  "lisaImageCoverage": {
+    "lisa-b1e0cf70bfbe02": {
+      "item": 234,
+      "pathway": "lisa-cardio-234-peptides-aigus",
+      "note": "Trois zones du schéma aigu, avec limites d’interprétation.",
+      "decision": true,
+      "objective": "234-12"
+    },
+    "lisa-60f0ca39f21de5": {
+      "item": 232,
+      "pathway": "cardio232-anticoag",
+      "note": "Transposition commentée : CHA₂DS₂-VA = 1 conduit à envisager une anticoagulation ; ≥ 2 à la recommander.",
+      "decision": true,
+      "objective": "232-14"
+    },
+    "lisa-98cc7b21c38c98": {
+      "item": 232,
+      "pathway": "cardio232-anticoag",
+      "note": "Schéma historique CHA₂DS₂-VASc. L’arbre actualisé emploie CHA₂DS₂-VA et précise les indications des AVK.",
+      "decision": true,
+      "objective": "232-12"
+    },
+    "lisa-f85aacdec5e08f": {
+      "item": 232,
+      "pathway": "cardio232-care",
+      "note": "Le parcours comprend médicaments, réévaluation puis discussion spécialisée d’ablation du NAV avec stimulation en cas d’échec.",
+      "decision": true,
+      "objective": "232-14"
+    },
+    "lisa-93f42552542a5e": {
+      "item": 339,
+      "pathway": "college-cardio-339-5-5",
+      "note": "Même arbre de reperfusion que la figure 5.5 du CNEC ; critères d’éligibilité ajoutés et identifiés.",
+      "decision": true,
+      "objective": "339-11"
+    },
+    "lisa-fb9e7f4dc0eb61": {
+      "item": 232,
+      "pathway": "cardio232-cardioversion",
+      "note": "Vue des options de contrôle du rythme, sans branche conditionnelle. Le parcours détaille la cardioversion ; le parcours AF-CARE aborde le suivi et l’ablation.",
+      "decision": false,
+      "objective": "232-14"
+    },
+    "lisa-0733b38e14b7c5": {
+      "item": 234,
+      "pathway": "cardio234-chronique",
+      "note": "Tableau du collège avec ancienne classification de FEVG. Le parcours actualisé est daté séparément ; ce tableau n’est pas un arbre décisionnel.",
+      "decision": false,
+      "objective": "234-20"
+    },
+    "lisa-83269b8b9b59a7": {
+      "item": 234,
+      "pathway": null,
+      "note": "Classification historique de FEVG : les critères actualisés sont présentés séparément dans le cours.",
+      "decision": false,
+      "objective": "234-2"
+    }
+  }
+}

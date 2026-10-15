@@ -1,6 +1,6 @@
 {
   "checkedAt": "2026-10-15",
-  "scope": "Ressources originales illustrées de la rubrique Algorithmes : modules pneumo-college, other-colleges et psychiatry-final. Cet inventaire ne couvre pas les illustrations insérées uniquement dans les cours.",
+  "scope": "Ressources originales illustrées de la rubrique Algorithmes : modules pneumo-college, other-colleges et psychiatry-final. Cet inventaire ne couvre pas les illustrations insérées uniquement dans les cours. Extension cardiologie : cinq figures de décision du CNEC pour 230, 231, 234 et 339, transcrites et reliées aux nouveaux cours.",
   "acceptanceRule": "Une image représentant un algorithme ne suffit pas : il faut une transcription interactive correspondante, fidèle aux décisions, branches, issues et étapes de la source, avec cours associés. Toute transposition partielle est explicitement signalée.",
   "validationLevels": {
     "transcription-verified": "Transposition comparée branche par branche à la source.",
@@ -9,7 +9,7 @@
     "non-decision-resource": "Tableau ou schéma explicatif déclaré ; ne pas inventer de décisions absentes."
   },
   "counts": {
-    "transcription-verified": 34,
+    "transcription-verified": 38,
     "non-decision-resource": 3
   },
   "resources": [
@@ -528,8 +528,10 @@
       "image": "https://www.sfcardio.fr/wp-content/uploads/2026/08/f06-01-9782294786617.jpg",
       "status": "transcription-verified",
       "checkedAt": "2026-10-15",
-      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
-      "notes": []
+      "review": "Comparaison visuelle de la figure et de ses branches ; précautions ajoutées identifiées.",
+      "notes": [
+        "Liens de cours contrôlés avec la nouvelle édition de l’item 230 le 15/10/2026."
+      ]
     },
     {
       "id": "college-audit-267-hypo",
@@ -663,6 +665,81 @@
       "edges": 0,
       "image": "assets/psychiatry-final/144-table-cnup.png",
       "status": "non-decision-resource"
+    },
+    {
+      "id": "college-cardio-231-15-51",
+      "items": [
+        231
+      ],
+      "title": "Tachycardie : régularité, QRS et réponse nodale",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 11,
+      "edges": 11,
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/09/f15-51-9782294786617.jpg",
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Comparaison visuelle de la figure et de ses branches ; précautions ajoutées identifiées.",
+      "notes": [
+        "Branches de la figure conservées. Ajouts : diagnostics différentiels des rythmes irréguliers, limites de l’adénosine, pré-excitation et prise en charge d’un arrêt.",
+        "L’absence de réponse nodale ne prouve pas à elle seule une TV."
+      ]
+    },
+    {
+      "id": "college-cardio-234-18-5",
+      "items": [
+        234
+      ],
+      "title": "Suspicion d’IC hors urgence : peptides et échographie",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 5,
+      "edges": 4,
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/09/f18-05-9782294786617.jpg",
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Comparaison visuelle de la figure et de ses branches ; précautions ajoutées identifiées.",
+      "notes": [
+        "Schéma hors urgence. Le résultat bas rend l’IC moins probable, sans exclusion absolue en cas de discordance clinique."
+      ]
+    },
+    {
+      "id": "college-cardio-234-18-7",
+      "items": [
+        234
+      ],
+      "title": "IC à FEVG diminuée : schéma du collège (ESC 2021)",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 7,
+      "edges": 8,
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/09/f18-07-9782294786617.jpg",
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Comparaison visuelle de la figure et de ses branches ; précautions ajoutées identifiées.",
+      "notes": [
+        "Figure explicitement fondée sur ESC 2021. Les recommandations ESC 2026 figurent dans un arbre séparé.",
+        "Notes de la source : ARNI en remplacement des IEC ; CRT-D si approprié. Conditions détaillées et branche de suivi ajoutées en commentaire."
+      ]
+    },
+    {
+      "id": "college-cardio-339-5-5",
+      "items": [
+        339
+      ],
+      "title": "SCA ST+ : choisir la reperfusion",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 8,
+      "edges": 7,
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/08/f05-05-9782294786617-600x422.jpg",
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Comparaison visuelle de la figure et de ses branches ; précautions ajoutées identifiées.",
+      "notes": [
+        "La figure indique angioplastie dans les 120 min, fibrinolyse + transfert, sauvetage si échec, coronarographie dans les 24 h si succès.",
+        "Ajouts identifiés : symptômes < 12 h, contre-indications, absence de thrombolyse si non éligible et fenêtre 2–24 h selon ESC 2023."
+      ]
     }
   ],
   "item94StructuralCheck": {
@@ -716,5 +793,76 @@
     "sourceImagesPreserved": true,
     "unrelatedAlgorithmsPreserved": true,
     "idempotent": true
+  },
+  "lastCardiologyReview": {
+    "date": "2026-10-15",
+    "items": [
+      230,
+      231,
+      232,
+      234,
+      339
+    ],
+    "officialFigures": 5,
+    "imagesWithoutTranscription": 0,
+    "clinicalImagesPreserved": 8,
+    "lisaImageCoverage": {
+      "lisa-b1e0cf70bfbe02": {
+        "item": 234,
+        "pathway": "lisa-cardio-234-peptides-aigus",
+        "note": "Trois zones du schéma aigu, avec limites d’interprétation.",
+        "decision": true,
+        "objective": "234-12"
+      },
+      "lisa-60f0ca39f21de5": {
+        "item": 232,
+        "pathway": "cardio232-anticoag",
+        "note": "Transposition commentée : CHA₂DS₂-VA = 1 conduit à envisager une anticoagulation ; ≥ 2 à la recommander.",
+        "decision": true,
+        "objective": "232-14"
+      },
+      "lisa-98cc7b21c38c98": {
+        "item": 232,
+        "pathway": "cardio232-anticoag",
+        "note": "Schéma historique CHA₂DS₂-VASc. L’arbre actualisé emploie CHA₂DS₂-VA et précise les indications des AVK.",
+        "decision": true,
+        "objective": "232-12"
+      },
+      "lisa-f85aacdec5e08f": {
+        "item": 232,
+        "pathway": "cardio232-care",
+        "note": "Le parcours comprend médicaments, réévaluation puis discussion spécialisée d’ablation du NAV avec stimulation en cas d’échec.",
+        "decision": true,
+        "objective": "232-14"
+      },
+      "lisa-93f42552542a5e": {
+        "item": 339,
+        "pathway": "college-cardio-339-5-5",
+        "note": "Même arbre de reperfusion que la figure 5.5 du CNEC ; critères d’éligibilité ajoutés et identifiés.",
+        "decision": true,
+        "objective": "339-11"
+      },
+      "lisa-fb9e7f4dc0eb61": {
+        "item": 232,
+        "pathway": "cardio232-cardioversion",
+        "note": "Vue des options de contrôle du rythme, sans branche conditionnelle. Le parcours détaille la cardioversion ; le parcours AF-CARE aborde le suivi et l’ablation.",
+        "decision": false,
+        "objective": "232-14"
+      },
+      "lisa-0733b38e14b7c5": {
+        "item": 234,
+        "pathway": "cardio234-chronique",
+        "note": "Tableau du collège avec ancienne classification de FEVG. Le parcours actualisé est daté séparément ; ce tableau n’est pas un arbre décisionnel.",
+        "decision": false,
+        "objective": "234-20"
+      },
+      "lisa-83269b8b9b59a7": {
+        "item": 234,
+        "pathway": null,
+        "note": "Classification historique de FEVG : les critères actualisés sont présentés séparément dans le cours.",
+        "decision": false,
+        "objective": "234-2"
+      }
+    }
   }
 }
