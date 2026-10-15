@@ -45,7 +45,7 @@
   }
   function move(delta){const next=readerIndex+delta;if(next<0||next>=readerEntries.length)return;readerIndex=next;zoomed=false;renderReader()}
   document.addEventListener('click',event=>{
-    if(event.target.closest('[data-illustration-pathway]')){reader?.close();return;}
+    if(event.target.closest('[data-illustration-pathway]')){reader?.close();document.querySelectorAll('dialog.algo-detail[open]').forEach(dialog=>dialog.close());return;}
     const button=event.target.closest('[data-illustration-action]');if(!button)return;event.preventDefault();
     const action=button.dataset.illustrationAction;
     if(action==='open')open(button.dataset.objective,Number(button.dataset.index),button);
