@@ -1,0 +1,188 @@
+{
+  "reviewedAt": "2026-10-15",
+  "scope": "12 remaining items in the Cardiologie catalogue; complements the five previously completed items",
+  "items": [
+    {
+      "item": 153,
+      "objectives": 6,
+      "cards": 8,
+      "colourMatches": 35,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941819e910ad8148f588d18?pvs=204"
+      ]
+    },
+    {
+      "item": 221,
+      "objectives": 10,
+      "cards": 23,
+      "colourMatches": 110,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181b49c2bcf6d255ce408?pvs=204"
+      ]
+    },
+    {
+      "item": 222,
+      "objectives": 12,
+      "cards": 27,
+      "colourMatches": 98,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181659bb7e86dfd847f85?pvs=204"
+      ]
+    },
+    {
+      "item": 224,
+      "objectives": 23,
+      "cards": 80,
+      "colourMatches": 370,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181b1bdd0dac6659fc641?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941816a9156e23c0dddd5c8?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941811398d9fcaf63bbc301?pvs=204"
+      ]
+    },
+    {
+      "item": 225,
+      "objectives": 17,
+      "cards": 70,
+      "colourMatches": 421,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d9418121a8bae0f610f004f4?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941812997bdd5a47ff348db?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941817f97e6d6db1200f40e?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941815193ddc58435a90f95?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181e3bc61dd60c03b6fa6?pvs=204"
+      ]
+    },
+    {
+      "item": 226,
+      "objectives": 18,
+      "cards": 62,
+      "colourMatches": 280,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181649937ef8cb0b5ce38?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181e3ada3f65a37fbf437?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418120bbd9dda871b9e9a6?pvs=204"
+      ]
+    },
+    {
+      "item": 227,
+      "objectives": 10,
+      "cards": 27,
+      "colourMatches": 250,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181a7a796dac0b4603e0c?pvs=204"
+      ]
+    },
+    {
+      "item": 228,
+      "objectives": 15,
+      "cards": 42,
+      "colourMatches": 297,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941819d99b0fc747c41b25f?pvs=204"
+      ]
+    },
+    {
+      "item": 233,
+      "objectives": 12,
+      "cards": 30,
+      "colourMatches": 290,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181f4bfbbf6013763e2a0?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418128bf18fa6fb1f6969b?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181108907dc584bec5884?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418193ad00c369c741af6e?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181308062dedcd73a6d81?pvs=204"
+      ]
+    },
+    {
+      "item": 235,
+      "objectives": 15,
+      "cards": 50,
+      "colourMatches": 388,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181108a00c2b4c904b6c8?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181a7a57ccade97fe45ef?pvs=204"
+      ]
+    },
+    {
+      "item": 236,
+      "objectives": 7,
+      "cards": 18,
+      "colourMatches": 89,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181bc9843e45068078858?pvs=204"
+      ]
+    },
+    {
+      "item": 237,
+      "objectives": 9,
+      "cards": 30,
+      "colourMatches": 84,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941810684e3f97226cc1460?pvs=204"
+      ]
+    }
+  ],
+  "validation": {
+    "objectives": 154,
+    "cards": 467,
+    "originalCardsPreserved": 395,
+    "addedCards": 72,
+    "interactivePathways": 24,
+    "nodes": 200,
+    "paths": 143,
+    "clinicalImagesPreserved": 42,
+    "officialFigures": 9,
+    "allBranchesReachable": true,
+    "allCourseReferencesResolved": true,
+    "allSourcesResolved": true,
+    "overlayIdempotent": true,
+    "existingAlgorithmsPreserved": true
+  },
+  "illustrationLinks": {
+    "lisa-61376011bd5d9c": {
+      "item": 226,
+      "objective": "226-4",
+      "pathway": "lisa-cardio-226-mtev",
+      "decision": true,
+      "note": "Transposition du schéma TVP/EP, avec contrôle échographique et discordance clinique explicités."
+    },
+    "lisa-d4df1552336d0e": {
+      "item": 226,
+      "objective": "226-5",
+      "pathway": "college-cardio-226-choc",
+      "decision": true,
+      "note": "Même décision scanner sûr ou ETT au lit que la figure 19.2 du CNEC ; la reperfusion exige une suspicion concordante et une évaluation des contre-indications."
+    },
+    "lisa-4318dee04644db": {
+      "item": 226,
+      "objective": "226-9",
+      "pathway": "college-cardio-226-gravite",
+      "decision": true,
+      "note": "Quatre niveaux de risque, avec conditions d’ambulatoire précisées. Hestia est un outil de sélection de sortie ; le cours distingue risque clinique, VD et troponine."
+    },
+    "lisa-730233f4a8dfc8": {
+      "item": 222,
+      "objective": "222-6",
+      "pathway": null,
+      "decision": false,
+      "note": "Courbe observationnelle historique : elle ne démontre pas de bénéfice causal et ne justifie pas de conseiller de commencer à boire."
+    }
+  },
+  "notionReadLimitations": [
+    {
+      "item": 224,
+      "note": "Main Notion response marked truncated; dedicated secondary-HTA and hypertensive-emergency subpages retrieved. Full objectives verified against the CNEC and cited guidelines; no claim of exact reproduction of every Notion block."
+    }
+  ],
+  "transversalLinks": [
+    152,
+    223,
+    238,
+    342,
+    203,
+    331,
+    330
+  ]
+}
