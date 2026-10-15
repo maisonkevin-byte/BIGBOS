@@ -9,10 +9,8 @@
     "non-decision-resource": "Tableau ou schéma explicatif déclaré ; ne pas inventer de décisions absentes."
   },
   "counts": {
-    "interactive-present-fidelity-review-pending": 12,
-    "non-decision-resource": 3,
-    "transcription-missing": 21,
-    "transcription-verified": 1
+    "transcription-verified": 34,
+    "non-decision-resource": 3
   },
   "resources": [
     {
@@ -26,7 +24,10 @@
       "nodes": 8,
       "edges": 10,
       "image": "/assets/cep-2026/110-fig4.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Probabilité clinique, autre trouble du sommeil, PV/PSG et certitude diagnostique : 10 embranchements comparés.",
+      "notes": []
     },
     {
       "id": "cep2026-188-exacerbation",
@@ -39,7 +40,12 @@
       "nodes": 8,
       "edges": 8,
       "image": "/assets/cep-2026/188-exacerbation.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Trois niveaux initiaux, réévaluation à 1 h, doses et délais de la figure, transfert/hospitalisation comparés.",
+      "notes": [
+        "Le chapitre comporte deux « tableaux 4 » : celui-ci est l’algorithme de traitement, et non la liste des facteurs de risque de décès. Schéma de l’adulte ; les doses pédiatriques sont à consulter dans le cours associé."
+      ]
     },
     {
       "id": "cep2026-203-fig2",
@@ -52,7 +58,12 @@
       "nodes": 12,
       "edges": 12,
       "image": "/assets/cep-2026/203-fig2.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Trois profils auscultatoires et toutes les orientations cliniques comparés.",
+      "notes": [
+        "Orientations du schéma : les éléments associés ne sont pas des critères diagnostiques suffisants pris isolément."
+      ]
     },
     {
       "id": "cep2026-203-fig3",
@@ -65,7 +76,10 @@
       "nodes": 5,
       "edges": 4,
       "image": "/assets/cep-2026/203-fig3.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Durée ≥ 8 semaines, questionnaires, bilan initial et explorations respiratoires/cardiaques comparés.",
+      "notes": []
     },
     {
       "id": "cep2026-204-fig2",
@@ -78,7 +92,12 @@
       "nodes": 9,
       "edges": 9,
       "image": "/assets/cep-2026/204-fig2.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Alertes, arrêt 4 semaines, trois causes fréquentes, épreuve et explorations en cas de persistance comparés.",
+      "notes": [
+        "Le schéma ne développe que les branches de persistance de la toux après les traitements. Les succès thérapeutiques ne sont pas représentés comme de nouveaux parcours."
+      ]
     },
     {
       "id": "cep2026-207-fig10",
@@ -91,7 +110,13 @@
       "nodes": 14,
       "edges": 17,
       "image": "/assets/cep-2026/207-fig10.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Trois tailles, risque, multiplicité, options M3 et calendriers comparés ; réserves et notes conservées.",
+      "notes": [
+        "Schéma réservé aux nodules solides : ne pas appliquer ce calendrier aux nodules en verre dépoli ou partiellement solides. Les options et notes #, *, ¥ et ° du CEP sont reprises dans les explications.",
+        "La figure relie également les investigations à un suivi. Complément ATLAS : ce suivi dépend du résultat ; une malignité démontrée relève de la prise en charge tumorale, pas d’une simple surveillance."
+      ]
     },
     {
       "id": "cep2026-208-fig2",
@@ -104,7 +129,12 @@
       "nodes": 8,
       "edges": 7,
       "image": "/assets/cep-2026/208-fig2.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Quatre profils EFR, TLCO, étiologies et mécanismes comparés ; seuils simplifiés attribués à la figure.",
+      "notes": [
+        "Le CEP présente une démarche simplifiée avec VEMS/CVF < 70 % et CPT < 80 %. Les compléments d’interprétation des EFR restent dans le cours. Les astérisques de la figure renvoient à d’autres pathologies hors programme."
+      ]
     },
     {
       "id": "cep2026-209-fig4",
@@ -117,7 +147,15 @@
       "nodes": 7,
       "edges": 8,
       "image": "/assets/cep-2026/209-fig4.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Escalade et options selon symptômes/exacerbations comparées ; divergence figure/texte et réserves sur CSI conservées.",
+      "notes": [
+        "Divergence interne au CEP : la figure relie « dyspnée et/ou exacerbations » à la trithérapie, alors que le texte adjacent précise « puis si exacerbations trithérapie ». Une dyspnée isolée ne doit donc pas être interprétée comme une indication automatique de CSI.",
+        "Exacerbateur dans cette figure : ≥ 2 exacerbations modérées ou ≥ 1 sévère avec hospitalisation pendant l’année précédente.",
+        "Chez l’exacerbateur sans dyspnée notable, l’option CSI + β₂ longue action tient compte des éosinophiles : pas de CSI si < 300/mm³ dans la note 2 du CEP.",
+        "Décroissance/switch des CSI mentionnés dans la légende : pneumonie, absence d’exacerbation dans l’historique, ou aucune dans l’année avec éosinophiles < 300/mm³. Réévaluation spécialisée."
+      ]
     },
     {
       "id": "cep2026-210-fig14",
@@ -130,7 +168,12 @@
       "nodes": 6,
       "edges": 10,
       "image": "/assets/cep-2026/210-fig14.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Bilan initial, LBA, prélèvements ciblés, discussion et biopsie conditionnelle comparés.",
+      "notes": [
+        "Le retour vers la discussion multidisciplinaire après un prélèvement ciblé non contributif explicite la logique du texte ; la figure ne trace pas cette flèche. La biopsie n’est pas systématique."
+      ]
     },
     {
       "id": "cep2026-309-fig15",
@@ -143,7 +186,12 @@
       "nodes": 5,
       "edges": 4,
       "image": "/assets/cep-2026/309-fig15.jpg",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Quatre localisations et techniques associées comparées ; schéma topographique, pas séquence obligatoire de gestes.",
+      "notes": [
+        "Il s’agit d’un schéma topographique du collège, transposé en choix interactifs. Les techniques numérotées ne constituent pas une obligation de réaliser successivement tous les gestes."
+      ]
     },
     {
       "id": "cep2026-359-fig4",
@@ -156,7 +204,12 @@
       "nodes": 9,
       "edges": 10,
       "image": "/assets/cep-2026/359-fig4.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Soins et enquête simultanés, quatre profils radiologiques, gazométrie et causes comparés.",
+      "notes": [
+        "La source présente les soins et le bilan comme simultanés : l’ordre de lecture ne doit pas retarder une désobstruction, une décompression urgente ou un support vital."
+      ]
     },
     {
       "id": "cep2026-359bis-fig8",
@@ -169,7 +222,13 @@
       "nodes": 4,
       "edges": 3,
       "image": "/assets/cep-2026/359bis-fig8.png",
-      "status": "interactive-present-fidelity-review-pending"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Résolution, expulsion constatée et bilan comparés. Correction du signe : radiographie ± endoscopie, ou scanner basse dose.",
+      "notes": [
+        "Complément de sécurité du cours : ne pas pratiquer une manœuvre de désobstruction sur une toux efficace ; les gestes dépendent de l’âge et de la conscience. Une radiographie normale n’exclut pas le corps étranger.",
+        "Signe ± rétabli par comparaison à la figure originale le 15/10/2026."
+      ]
     },
     {
       "id": "college-audit-100-11-3",
@@ -178,11 +237,14 @@
       ],
       "title": "Céphalées aiguës et chroniques",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 5,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 9,
+      "edges": 10,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500200_f11-03-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": []
     },
     {
       "id": "college-audit-102-13-4",
@@ -191,11 +253,16 @@
       ],
       "title": "Diplopie : orientation diagnostique",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 8,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 12,
+      "edges": 11,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500224_f13-04-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Les cinq portes d’entrée peuvent se recouper ; un signe d’urgence prime sur le caractère isolé de la diplopie."
+      ]
     },
     {
       "id": "college-audit-102-13-5",
@@ -204,11 +271,16 @@
       ],
       "title": "Paralysie oculomotrice : bilan",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 13,
+      "edges": 12,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500224_f13-05-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Les examens biologiques et la PL de la bande inférieure sont contextualisés, non systématiques. Les branches « mydriase » et « douleur importante » peuvent coexister."
+      ]
     },
     {
       "id": "college-audit-105-16-5",
@@ -217,11 +289,16 @@
       ],
       "title": "Épilepsies : classification",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 4,
+      "edges": 3,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B978229478607550025X_f16-05-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Cette figure est un schéma de classification, pas une succession de choix binaires. La transcription offre une lecture par étapes ; étiologie et comorbidités s’évaluent simultanément à ces étapes. La nomenclature est celle du schéma CEN affiché."
+      ]
     },
     {
       "id": "college-audit-105-16-6",
@@ -230,11 +307,16 @@
       ],
       "title": "Épilepsie : étapes du diagnostic",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 9,
+      "edges": 8,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B978229478607550025X_f16-06-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Les volets syndromique et étiologique sont complémentaires, non exclusifs. Une crise prolongée impose de traiter l’état de mal sans attendre ce bilan."
+      ]
     },
     {
       "id": "college-audit-105-16-7",
@@ -243,11 +325,16 @@
       ],
       "title": "État de mal : traitement médicamenteux",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 9,
+      "edges": 9,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B978229478607550025X_f16-07-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Transcription de la séquence médicamenteuse illustrée ; ce schéma ne contient pas toutes les adaptations pédiatriques ni toutes les contre-indications. Le traitement étiologique est parallèle, jamais une alternative aux mesures urgentes."
+      ]
     },
     {
       "id": "college-audit-108-22-6",
@@ -256,11 +343,16 @@
       ],
       "title": "Trouble progressif de la mémoire : démarche diagnostique",
       "kind": "figure",
-      "sourceOnly": true,
+      "sourceOnly": false,
       "nodes": 6,
-      "edges": 0,
+      "edges": 7,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500315_f22-06-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "La figure ne dessine que le prolongement du bilan en cas d’atypie ; elle ne précise pas un parcours distinct « sans atypie ». Les explorations spécialisées ne sont pas systématiques."
+      ]
     },
     {
       "id": "college-audit-92-6-8",
@@ -269,11 +361,16 @@
       ],
       "title": "Déficit moteur ou sensitif : localisation",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 7,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 15,
+      "edges": 14,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500157_f06-08-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Les groupes topographiques de la figure sont des orientations sémiologiques ; les signes peuvent être incomplets, notamment à la phase aiguë."
+      ]
     },
     {
       "id": "college-audit-92-6-9",
@@ -282,11 +379,16 @@
       ],
       "title": "Déficit moteur aigu : examens",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 5,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 9,
+      "edges": 9,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500157_f06-09-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "La figure oriente les examens ; elle ne remplace pas la prise en charge immédiate d’un AVC, d’une compression ou d’une défaillance respiratoire."
+      ]
     },
     {
       "id": "college-audit-96-8-9",
@@ -295,11 +397,18 @@
       ],
       "title": "Neuropathies périphériques : diagnostic",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 10,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 17,
+      "edges": 16,
       "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500170_f08-09-9782294786075.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "La terminologie et les délais figurant dans l’image sont ceux de cette version du CEN. Les compléments des recommandations sont identifiés dans les synthèses ATLAS.",
+        "Les grands types, leurs profils cliniques, mécanismes ENMG et causes sont conservés. Les listes ne sont pas exhaustives ; l’ENMG et le contexte peuvent révéler d’autres mécanismes que ceux schématisés.",
+        "Écart de repère temporel signalé dans le nœud PIDC : image > 12 semaines ; description Orphanet de la forme typique ≥ 8 semaines."
+      ]
     },
     {
       "id": "college-audit-94-3-1",
@@ -321,11 +430,17 @@
       ],
       "title": "Névralgie du trijumeau : options thérapeutiques",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 4,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 10,
+      "edges": 10,
       "image": "https://campus.neurochirurgie.fr/IMG/jpg/f07-07-9782294773143.jpg?3108/aec818e0afc0cfa10e971fb005623601d92174d702e08e575016af889846a33d",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Le schéma expose la stratégie du chapitre de neurochirurgie. L’imagerie diagnostique et les situations urgentes sont détaillées dans le cours associé.",
+        "Les signes +/− sous la carbamazépine sont retranscrits comme efficacité/absence d’efficacité. Le choix chirurgical est celui du schéma source ; l’âge seul ne fixe pas une indication individuelle."
+      ]
     },
     {
       "id": "college-audit-240-adulte",
@@ -334,11 +449,16 @@
       ],
       "title": "Hypoglycémie de l’adulte : démarche diagnostique",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 5,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 8,
+      "edges": 7,
       "image": "https://www.sfendocrino.org/wp-content/uploads/2022/08/fig-11-1-arbre-hypoglyc.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "La figure distingue diagnostic positif, étiologique puis topographique. Le prélèvement ne doit jamais retarder le traitement urgent."
+      ]
     },
     {
       "id": "college-audit-240-enfant",
@@ -347,11 +467,16 @@
       ],
       "title": "Hypoglycémie de l’enfant : diagnostic et orientation",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 5,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 14,
+      "edges": 15,
       "image": "https://www.pedia-univ.fr/sites/www.pedia-univ.fr/files/styles/l800/public/medias/images/f8-01-9782294779831.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Le champ de cette figure exclut le nouveau-né et l’enfant diabétique."
+      ]
     },
     {
       "id": "college-audit-247-type1",
@@ -360,11 +485,14 @@
       ],
       "title": "Diabète évocateur de type 1 : diagnostic étiologique",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 10,
+      "edges": 9,
       "image": "https://www.sfendocrino.org/wp-content/uploads/2022/09/diab-1-2048x1301.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": []
     },
     {
       "id": "college-audit-247-type2-2019",
@@ -373,11 +501,17 @@
       ],
       "title": "Diabète de type 2 : schéma historique SFD 2019",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 4,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 7,
+      "edges": 6,
       "image": "https://www.sfendocrino.org/wp-content/uploads/2022/09/fig-6-dt2-2048x1290.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Document historique : cette figure est issue de la stratégie SFD 2019 et ne représente pas une recommandation actualisée en 2026. Consulter les actualisations et le contexte cardiovasculaire et rénal dans le cours associé.",
+        "Archive SFD 2019 : transcription fidèle pour lire l’image, pas recommandation thérapeutique 2026. Actualisation à consulter : HAS, stratégie thérapeutique du diabète de type 2, 2024."
+      ]
     },
     {
       "id": "college-audit-230-6-1",
@@ -386,11 +520,14 @@
       ],
       "title": "Douleur thoracique aiguë : orientation",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 8,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 6,
+      "edges": 5,
       "image": "https://www.sfcardio.fr/wp-content/uploads/2026/08/f06-01-9782294786617.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": []
     },
     {
       "id": "college-audit-267-hypo",
@@ -399,11 +536,16 @@
       ],
       "title": "Hyponatrémie : diagnostic",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 11,
+      "edges": 10,
       "image": "https://manuel.cuen.fr/wp-content/uploads/2024/12/chap_2-fig_1-5_mod_ps_3.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Contrôle limité aux troubles du sodium, correspondant au parcours déjà travaillé. Les autres parties de l’item 267 ne sont pas couvertes par cet audit."
+      ]
     },
     {
       "id": "college-audit-267-hyper",
@@ -412,11 +554,17 @@
       ],
       "title": "Hypernatrémie : diagnostic",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 5,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 10,
+      "edges": 9,
       "image": "https://manuel.cuen.fr/wp-content/uploads/2024/12/chap_2-fig_1-5_mod_ps_5.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Contrôle limité aux troubles du sodium, correspondant au parcours déjà travaillé. Les autres parties de l’item 267 ne sont pas couvertes par cet audit.",
+        "Le schéma est diagnostique. L’évaluation de la gravité et la réhydratation adaptée figurent dans les objectifs 267-9 et 267-11."
+      ]
     },
     {
       "id": "college-audit-213-enfant",
@@ -425,11 +573,16 @@
       ],
       "title": "Anémie de l’enfant : conduite diagnostique",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 6,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 11,
+      "edges": 10,
       "image": "https://www.pedia-univ.fr/sites/www.pedia-univ.fr/files/styles/l1200/public/medias/images/f23-01-9782294779831.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Figure pédiatrique : les seuils et le raisonnement sont à interpréter selon l’âge. Le support adulte LiSA est présenté séparément ci-dessous."
+      ]
     },
     {
       "id": "college-audit-116-diagnostic",
@@ -438,11 +591,17 @@
       ],
       "title": "Prurit : arbre du CEDEF",
       "kind": "figure",
-      "sourceOnly": true,
-      "nodes": 7,
-      "edges": 0,
+      "sourceOnly": false,
+      "nodes": 3,
+      "edges": 2,
       "image": "atlas-medical/originaux/lisa-951f1b3fa47052.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Figure et texte de l’objectif 07 vérifiés directement dans LiSA EDN 2026. Ce contrôle porte sur cette édition LiSA, pas sur un autre ouvrage imprimé.",
+        "Les lésions spécifiques orientent vers une dermatose ; les lésions de grattage seules ne sont pas spécifiques. L’absence de lésion visible n’exclut pas une dermatose débutante."
+      ]
     },
     {
       "id": "college-audit-213-adulte-lisa",
@@ -451,11 +610,18 @@
       ],
       "title": "Anémie de l’adulte : orientation selon le VGM",
       "kind": "figure",
-      "sourceOnly": true,
+      "sourceOnly": false,
       "nodes": 4,
-      "edges": 0,
+      "edges": 3,
       "image": "atlas-medical/originaux/lisa-bef56bad9925fb.jpg",
-      "status": "transcription-missing"
+      "status": "transcription-verified",
+      "checkedAt": "2026-10-15",
+      "review": "Décisions, branches, issues et étapes comparées visuellement à la figure ; explications et objectifs de cours associés.",
+      "notes": [
+        "Cet arbre présente les principales orientations selon le VGM ; il ne représente pas à lui seul toute la démarche diagnostique. Le texte de LiSA ajoute notamment les réticulocytes et l’évaluation de la tolérance.",
+        "Image originale de 454 × 211 pixels : précision limitée au zoom ; les objectifs associés apportent le complément textuel.",
+        "Seuils selon la source : LiSA EDN 2026 utilise un VGM de 80–98 fL pour la normocytose et > 98 fL pour la macrocytose, avec des réticulocytes ≥ 120 G/L pour une anémie régénérative. Hématocell (2011) utilise 80–100 fL et > 150 G/L pour une régénération franche. Le cours et la synthèse ATLAS conservent la convention 100 fL et le repère LiSA de 120 G/L ; tenir compte du référentiel de la question et des normes du laboratoire."
+      ]
     },
     {
       "id": "psyfinal353-source-crise",
@@ -510,5 +676,43 @@
     "sourceOnlyViewsPreserved": true,
     "idempotent": true
   },
-  "browserValidation": "Contrôle navigateur effectué séparément de cet inventaire structurel."
+  "browserValidation": {
+    "environment": "Netlify Deploy Preview PR 2",
+    "url": "https://deploy-preview-2--my-atlas-edn.netlify.app",
+    "checkedAt": "2026-10-15",
+    "codeCommit": "b1faf686c7169edb7136ee6b6c9141e47127a19d",
+    "result": "passed",
+    "observed": [
+      "Item 92 : arbre interactif par défaut, agrandissement et vue d’ensemble fonctionnels.",
+      "Item 92 : cours 92-1 ouvert et contenu chargé ; nœud suivant avec cours 92-1 et 92-5 chargés.",
+      "Item 92 : parcours pas à pas vers la deuxième étape et ses quatre choix fonctionnel.",
+      "Item 92 : libellés de la fenêtre et du mode pas à pas corrigés, aucun undefined.",
+      "Item 96 : les 17 nœuds du graphe sont présents.",
+      "Item 247 : mention DOCUMENT HISTORIQUE — SFD 2019 et notes d’actualisation visibles.",
+      "Item 359bis : signe ± visible dans la dernière étape de la figure source."
+    ],
+    "production": "Publication en attente de confirmation après refus de la revue automatique."
+  },
+  "lastReview": {
+    "date": "2026-10-15",
+    "createdTranscriptions": 21,
+    "reviewedExistingPneumology": 12,
+    "previouslyVerified": 1,
+    "nonDecisionResources": 3,
+    "method": "Comparaison visuelle des figures originales, branche par branche, puis contrôle structurel et des liens de cours. Ce statut ne constitue pas une validation clinique institutionnelle ni une actualisation générale de tous les cours."
+  },
+  "structuralValidation": {
+    "checkedAt": "2026-10-15",
+    "illustratedResources": 37,
+    "interactiveVerified": 34,
+    "nonDecisionResources": 3,
+    "newTranscriptions": 21,
+    "newNodes": 197,
+    "allBranchesReachable": true,
+    "allCourseReferencesResolved": true,
+    "allSourceReferencesResolved": true,
+    "sourceImagesPreserved": true,
+    "unrelatedAlgorithmsPreserved": true,
+    "idempotent": true
+  }
 }
