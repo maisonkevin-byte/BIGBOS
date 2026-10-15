@@ -1,8 +1,8 @@
-/* A compact, dependency-free tree view of the existing clinical decisions. */
+/* An airy, dependency-free tree view of the existing clinical decisions. */
 (() => {
 'use strict';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const W=320,GAP=28,PAD=28;
+const W=320,GAP=112,LEVEL_GAP=160,LABEL_CLEARANCE=32,PAD=48;
 const captions={urgent:'Urgence',uncertain:'À préciser',finish:'Orientation'};
 function layout(algorithm){
  const lookup=new Map(algorithm.nodes.map((n,i)=>[n.id,{...n,number:i+1}]));
@@ -35,7 +35,7 @@ function layout(algorithm){
  flat.forEach(b=>(rows[b.depth]||(rows[b.depth]=[])).push(b));
  const width=Math.max(...rows.map(row=>row.length*W+(row.length-1)*GAP))+2*PAD;
  flat.forEach(b=>{b.height=b.node.actions?.length?200:130;heights[b.depth]=Math.max(heights[b.depth]||0,b.height);});
- heights.forEach((h,d)=>levels[d+1]=levels[d]+h+112);
+ heights.forEach((h,d)=>levels[d+1]=levels[d]+h+LEVEL_GAP);
  // Keep sibling order, but avoid reserving all descendant columns at the top.
  // Curved, separate edges retain an unambiguous parent-child connection.
  rows.forEach(row=>{row.sort((a,b)=>a.x-b.x);row.forEach((b,i)=>{b.x=width/2+(i-(row.length-1)/2)*(W+GAP);b.y=levels[b.depth];});});
@@ -45,7 +45,7 @@ function wirePath(from,to){const start=from.y+from.h,end=to.y-8,mid=(start+end)/
 function render(algorithm){
  const graph=layout(algorithm),marker='arrow-'+algorithm.id;
  const paths=graph.edges.map(e=>{const color=e.to.node.kind||'decision';return '<path class="algo-wire '+color+'" data-from="'+e.from.key+'" data-to="'+e.to.key+'" d="M '+e.from.x+' '+(e.from.y+e.from.height)+' V '+(e.from.y+e.from.height+28)+' H '+e.to.x+' V '+(e.to.y-8)+'" marker-end="url(#'+marker+')"/>';}).join('');
- const labels=graph.edges.map(e=>'<span class="algo-branch-label '+esc(e.to.node.kind||'')+'" data-from="'+e.from.key+'" data-to="'+e.to.key+'" style="left:'+(e.to.x-W/2)+'px;top:'+(e.from.y+e.from.height+42)+'px;width:'+W+'px"><span>'+esc(e.label)+'</span></span>').join('');
+ const labels=graph.edges.map(e=>'<span class="algo-branch-label '+esc(e.to.node.kind||'')+'" data-from="'+e.from.key+'" data-to="'+e.to.key+'" style="left:'+(e.to.x-W/2)+'px;top:'+(e.to.y-LEVEL_GAP/2-22)+'px;width:'+W+'px"><span>'+esc(e.label)+'</span></span>').join('');
  const cards=graph.flat.map(b=>{
   const n=b.node,copy=n.tree||n;
   const label=b.depth===0?'Point de départ':captions[n.kind];
@@ -74,9 +74,12 @@ function fit(shell,readable=false){
 }
 // Use the rendered text height: no fixed blocks, clipping or tiny fitted type.
 function arrange(shell){
- const positions=[...shell.querySelectorAll('.algo-tree-position')],heights=[],levels=[PAD],lookup=new Map();
+ const positions=[...shell.querySelectorAll('.algo-tree-position')],labels=[...shell.querySelectorAll('.algo-branch-label')],heights=[],gaps=[],levels=[PAD],lookup=new Map();
+ const depths=new Map(positions.map(p=>[p.dataset.key,Number(p.dataset.depth)]));
  for(const p of positions){const depth=Number(p.dataset.depth);heights[depth]=Math.max(heights[depth]||0,p.offsetHeight);}
- heights.forEach((height,depth)=>{levels[depth+1]=levels[depth]+height+112;});
+ // Leave clear space above and below even the longest branch labels.
+ for(const label of labels){const depth=depths.get(label.dataset.to);gaps[depth]=Math.max(gaps[depth]||LEVEL_GAP,label.offsetHeight+2*LABEL_CLEARANCE);}
+ heights.forEach((height,depth)=>{levels[depth+1]=levels[depth]+height+(gaps[depth+1]||LEVEL_GAP);});
  let bottom=0;
  for(const p of positions){
   const y=levels[Number(p.dataset.depth)],h=p.querySelector('.algo-tree-card').offsetHeight;
@@ -86,7 +89,7 @@ function arrange(shell){
   const from=lookup.get(wire.dataset.from),to=lookup.get(wire.dataset.to);
   wire.setAttribute('d',wirePath(from,to));
  }
- for(const label of shell.querySelectorAll('.algo-branch-label')){const to=lookup.get(label.dataset.to);label.style.top=(to.y-79)+'px';}
+ for(const label of labels){const to=lookup.get(label.dataset.to);label.style.top=(to.y-LABEL_CLEARANCE-label.offsetHeight)+'px';}
  const canvas=shell.querySelector('.algo-tree-canvas'),height=bottom+PAD;
  canvas.dataset.height=height;canvas.style.height=height+'px';shell.querySelector('.algo-tree-wires').setAttribute('height',height);
 }
