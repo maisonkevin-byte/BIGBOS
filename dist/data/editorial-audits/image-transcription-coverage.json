@@ -680,12 +680,17 @@
     "environment": "Netlify Deploy Preview PR 2",
     "url": "https://deploy-preview-2--my-atlas-edn.netlify.app",
     "checkedAt": "2026-10-15",
+    "codeCommit": "b1faf686c7169edb7136ee6b6c9141e47127a19d",
+    "result": "passed",
     "observed": [
       "Item 92 : arbre interactif par défaut, agrandissement et vue d’ensemble fonctionnels.",
-      "Item 92 : ouverture du nœud et contenu du cours 92-1 chargé.",
-      "Item 96 : les 17 nœuds du graphe sont présents."
+      "Item 92 : cours 92-1 ouvert et contenu chargé ; nœud suivant avec cours 92-1 et 92-5 chargés.",
+      "Item 92 : parcours pas à pas vers la deuxième étape et ses quatre choix fonctionnel.",
+      "Item 92 : libellés de la fenêtre et du mode pas à pas corrigés, aucun undefined.",
+      "Item 96 : les 17 nœuds du graphe sont présents.",
+      "Item 247 : mention DOCUMENT HISTORIQUE — SFD 2019 et notes d’actualisation visibles.",
+      "Item 359bis : signe ± visible dans la dernière étape de la figure source."
     ],
-    "correction": "Libellé de statut non reconnu supprimé dans les nouveaux nœuds ; vérification finale du correctif à réaliser sur la prévisualisation actualisée.",
     "production": "Publication en attente de confirmation après refus de la revue automatique."
   },
   "lastReview": {
