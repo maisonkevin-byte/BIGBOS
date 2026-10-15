@@ -80,7 +80,7 @@ function renderStage(item){
  const path=state.paths[algorithm.id]||(state.paths[algorithm.id]=['entry']);
  const nodes=new Map(algorithm.nodes.map(n=>[n.id,n]));
  const current=nodes.get(path[path.length-1])||algorithm.nodes[0];
- const sourceLabel=algorithm.collegeSource?.kind==='table'?'Tableau du collège':algorithm.collegeSource?.kind==='schema'?'Schéma du collège':'Figure du collège';
+ const sourceLabel=algorithm.collegeSource?.shortName==='LiSA'?'Figure LiSA':algorithm.collegeSource?.kind==='table'?'Tableau du collège':algorithm.collegeSource?.kind==='schema'?'Schéma du collège':'Figure du collège';
  const availableModes=algorithm.sourceOnly?[['source',sourceLabel]]:algorithm.collegeSource?[['source',sourceLabel],['overview','Arbre interactif'],['guided','Pas à pas']]:[['overview','Arbre décisionnel'],['guided','Pas à pas']];
  const modes='<div class="algo-modes" role="group" aria-label="Mode de lecture">'+availableModes.map(([mode,label])=>button(label,'mode','data-mode="'+mode+'" aria-pressed="'+(state.mode===mode)+'"',state.mode===mode?'selected':'')).join('')+'</div>';
  const heading='<header class="algo-heading"><div><span class="algo-eyebrow">'+esc(algorithm.sdd!=null?'Situation de départ '+String(algorithm.sdd).padStart(3,'0'):(algorithm.situationLabel||'Parcours clinique'))+'</span><h2>'+esc(algorithm.title)+'</h2><p>'+esc(algorithm.scope)+'</p></div>'+modes+'</header>';
@@ -143,7 +143,9 @@ document.addEventListener('click',e=>{
  window.ATLAS_ALGORITHM_TREE.hydrate(root);
  const focus=root.querySelector('#algo-stage-title');if(focus){focus.focus({preventScroll:true});focus.scrollIntoView({block:'nearest'});}
 });
-window.ATLAS_ALGORITHMS={forItem,render,teaser};
+function select(item,id){const a=forItem(item).find(a=>a.id===id);if(!a)return false;const state=session(Number(item));state.selected=id;state.mode=initialMode(a);return true;}
+window.ATLAS_ALGORITHMS={forItem,render,teaser,select};
 })();
+
 
 

@@ -805,6 +805,64 @@
     ],
     "officialFigures": 5,
     "imagesWithoutTranscription": 0,
-    "clinicalImagesPreserved": 8
+    "clinicalImagesPreserved": 8,
+    "lisaImageCoverage": {
+      "lisa-b1e0cf70bfbe02": {
+        "item": 234,
+        "pathway": "lisa-cardio-234-peptides-aigus",
+        "note": "Trois zones du schéma aigu, avec limites d’interprétation.",
+        "decision": true,
+        "objective": "234-12"
+      },
+      "lisa-60f0ca39f21de5": {
+        "item": 232,
+        "pathway": "cardio232-anticoag",
+        "note": "Transposition commentée : CHA₂DS₂-VA = 1 conduit à envisager une anticoagulation ; ≥ 2 à la recommander.",
+        "decision": true,
+        "objective": "232-14"
+      },
+      "lisa-98cc7b21c38c98": {
+        "item": 232,
+        "pathway": "cardio232-anticoag",
+        "note": "Schéma historique CHA₂DS₂-VASc. L’arbre actualisé emploie CHA₂DS₂-VA et précise les indications des AVK.",
+        "decision": true,
+        "objective": "232-12"
+      },
+      "lisa-f85aacdec5e08f": {
+        "item": 232,
+        "pathway": "cardio232-care",
+        "note": "Le parcours comprend médicaments, réévaluation puis discussion spécialisée d’ablation du NAV avec stimulation en cas d’échec.",
+        "decision": true,
+        "objective": "232-14"
+      },
+      "lisa-93f42552542a5e": {
+        "item": 339,
+        "pathway": "college-cardio-339-5-5",
+        "note": "Même arbre de reperfusion que la figure 5.5 du CNEC ; critères d’éligibilité ajoutés et identifiés.",
+        "decision": true,
+        "objective": "339-11"
+      },
+      "lisa-fb9e7f4dc0eb61": {
+        "item": 232,
+        "pathway": "cardio232-cardioversion",
+        "note": "Vue des options de contrôle du rythme, sans branche conditionnelle. Le parcours détaille la cardioversion ; le parcours AF-CARE aborde le suivi et l’ablation.",
+        "decision": false,
+        "objective": "232-14"
+      },
+      "lisa-0733b38e14b7c5": {
+        "item": 234,
+        "pathway": "cardio234-chronique",
+        "note": "Tableau du collège avec ancienne classification de FEVG. Le parcours actualisé est daté séparément ; ce tableau n’est pas un arbre décisionnel.",
+        "decision": false,
+        "objective": "234-20"
+      },
+      "lisa-83269b8b9b59a7": {
+        "item": 234,
+        "pathway": null,
+        "note": "Classification historique de FEVG : les critères actualisés sont présentés séparément dans le cours.",
+        "decision": false,
+        "objective": "234-2"
+      }
+    }
   }
 }

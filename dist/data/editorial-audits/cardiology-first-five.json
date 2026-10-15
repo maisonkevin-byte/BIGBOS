@@ -47,8 +47,8 @@
   "cards": 315,
   "originalCardsReviewed": 274,
   "addedCards": 41,
-  "interactivePathways": 15,
-  "nodes": 133,
+  "interactivePathways": 16,
+  "nodes": 141,
   "officialFigures": 5,
   "algorithms": [
     {
@@ -107,7 +107,7 @@
         232
       ],
       "title": "FA : confirmer, évaluer et organiser AF-CARE",
-      "nodes": 10,
+      "nodes": 12,
       "sourceKind": "synthesis",
       "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
     },
@@ -117,7 +117,7 @@
         232
       ],
       "title": "FA : anticoagulation au long cours",
-      "nodes": 10,
+      "nodes": 11,
       "sourceKind": "synthesis",
       "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
     },
@@ -130,6 +130,16 @@
       "nodes": 9,
       "sourceKind": "synthesis",
       "provenance": "Synthèse pédagogique ATLAS du cours Notion et des sources indiquées, relue le 15 octobre 2026. Ce parcours ne reproduit pas une figure officielle."
+    },
+    {
+      "id": "lisa-cardio-234-peptides-aigus",
+      "items": [
+        234
+      ],
+      "title": "Dyspnée aiguë : interpréter BNP / NT-proBNP",
+      "nodes": 5,
+      "sourceKind": "lisa",
+      "provenance": "LiSA 2026 · Objectif 234-12 · Image comparée visuellement le 15/10/2026 ; transposition commentée ATLAS."
     },
     {
       "id": "college-cardio-234-18-5",
@@ -288,7 +298,8 @@
     "Five original decision figures available with interactive transpositions; additions and historical ESC 2021 figure explicitly identified.",
     "Eight existing clinical/physiology images preserved. Colours restored only from matching Notion passages.",
     "FA: ESC 2024 anticoagulation/cardioversion; ECG emergency and conduction corrections; ACS reperfusion/troponin and prevention updates.",
-    "ESC 2026 heart failure classification and fifth MI definition separated from historical college criteria."
+    "ESC 2026 heart failure classification and fifth MI definition separated from historical college criteria.",
+    "LiSA images audited separately: five decision images have direct links to interactive transpositions; historic scores and classifications explicitly labelled. Acute peptide graph added; rate-control escalation included."
   ],
   "imageCoverage": [
     {
@@ -339,5 +350,63 @@
         "Ajouts identifiés : symptômes < 12 h, contre-indications, absence de thrombolyse si non éligible et fenêtre 2–24 h selon ESC 2023."
       ]
     }
-  ]
+  ],
+  "lisaImageCoverage": {
+    "lisa-b1e0cf70bfbe02": {
+      "item": 234,
+      "pathway": "lisa-cardio-234-peptides-aigus",
+      "note": "Trois zones du schéma aigu, avec limites d’interprétation.",
+      "decision": true,
+      "objective": "234-12"
+    },
+    "lisa-60f0ca39f21de5": {
+      "item": 232,
+      "pathway": "cardio232-anticoag",
+      "note": "Transposition commentée : CHA₂DS₂-VA = 1 conduit à envisager une anticoagulation ; ≥ 2 à la recommander.",
+      "decision": true,
+      "objective": "232-14"
+    },
+    "lisa-98cc7b21c38c98": {
+      "item": 232,
+      "pathway": "cardio232-anticoag",
+      "note": "Schéma historique CHA₂DS₂-VASc. L’arbre actualisé emploie CHA₂DS₂-VA et précise les indications des AVK.",
+      "decision": true,
+      "objective": "232-12"
+    },
+    "lisa-f85aacdec5e08f": {
+      "item": 232,
+      "pathway": "cardio232-care",
+      "note": "Le parcours comprend médicaments, réévaluation puis discussion spécialisée d’ablation du NAV avec stimulation en cas d’échec.",
+      "decision": true,
+      "objective": "232-14"
+    },
+    "lisa-93f42552542a5e": {
+      "item": 339,
+      "pathway": "college-cardio-339-5-5",
+      "note": "Même arbre de reperfusion que la figure 5.5 du CNEC ; critères d’éligibilité ajoutés et identifiés.",
+      "decision": true,
+      "objective": "339-11"
+    },
+    "lisa-fb9e7f4dc0eb61": {
+      "item": 232,
+      "pathway": "cardio232-cardioversion",
+      "note": "Vue des options de contrôle du rythme, sans branche conditionnelle. Le parcours détaille la cardioversion ; le parcours AF-CARE aborde le suivi et l’ablation.",
+      "decision": false,
+      "objective": "232-14"
+    },
+    "lisa-0733b38e14b7c5": {
+      "item": 234,
+      "pathway": "cardio234-chronique",
+      "note": "Tableau du collège avec ancienne classification de FEVG. Le parcours actualisé est daté séparément ; ce tableau n’est pas un arbre décisionnel.",
+      "decision": false,
+      "objective": "234-20"
+    },
+    "lisa-83269b8b9b59a7": {
+      "item": 234,
+      "pathway": null,
+      "note": "Classification historique de FEVG : les critères actualisés sont présentés séparément dans le cours.",
+      "decision": false,
+      "objective": "234-2"
+    }
+  }
 }
