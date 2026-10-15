@@ -8,8 +8,9 @@ let coursePlacement='popup';
 const forItem=n=>data.algorithms.filter(a=>a.items.includes(Number(n)));
 const itemLabel=n=>(window.ATLAS_CATALOG||[]).find(x=>x.numero===n)?.titre||'Item '+n;
 const button=(label,action,attrs='',cls='')=>'<button type="button" class="algo-button '+cls+'" data-algo-action="'+action+'" '+attrs+'>'+esc(label)+'</button>';
+const initialMode=algorithm=>algorithm?.sourceOnly?'source':algorithm?.defaultMode||(algorithm?.collegeSource?'source':'overview');
 function session(item){
- if(!sessions.has(item))sessions.set(item,{selected:forItem(item)[0]?.id,mode:forItem(item)[0]?.collegeSource?'source':'overview',paths:{},missing:false});
+ if(!sessions.has(item))sessions.set(item,{selected:forItem(item)[0]?.id,mode:initialMode(forItem(item)[0]),paths:{},missing:false});
  return sessions.get(item);
 }
 function references(node){
@@ -125,7 +126,7 @@ document.addEventListener('click',e=>{
  }
  if(action==='retry-course'){const host=b.closest('.algo-course-content');delete host.dataset.loading;hydrateCourse(host.parentElement,algorithm);return;}
  if(action!=='missing')state.missing=false;
- if(action==='select'){if(!forItem(item).some(a=>a.id===b.dataset.algorithm))return;state.selected=b.dataset.algorithm;if(state.mode==='source'&&!forItem(item).find(a=>a.id===state.selected)?.collegeSource)state.mode='overview';else if(forItem(item).find(a=>a.id===state.selected)?.collegeSource)state.mode='source';root.outerHTML=render(item);window.ATLAS_ALGORITHM_TREE.hydrate(document);return;}
+ if(action==='select'){if(!forItem(item).some(a=>a.id===b.dataset.algorithm))return;state.selected=b.dataset.algorithm;if(state.mode==='source'&&!forItem(item).find(a=>a.id===state.selected)?.collegeSource)state.mode='overview';else if(forItem(item).find(a=>a.id===state.selected)?.collegeSource)state.mode=initialMode(forItem(item).find(a=>a.id===state.selected));root.outerHTML=render(item);window.ATLAS_ALGORITHM_TREE.hydrate(document);return;}
  if(action==='mode'){if(!['guided','overview','source'].includes(b.dataset.mode))return;if(algorithm.sourceOnly&&b.dataset.mode!=='source')return;if(b.dataset.mode==='source'&&!algorithm.collegeSource)return;state.mode=b.dataset.mode;}
  if(action==='choose'){
   const current=algorithm.nodes.find(n=>n.id===path[path.length-1]);

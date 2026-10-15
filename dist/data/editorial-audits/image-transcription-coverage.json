@@ -1,0 +1,514 @@
+{
+  "checkedAt": "2026-10-15",
+  "scope": "Ressources originales illustrées de la rubrique Algorithmes : modules pneumo-college, other-colleges et psychiatry-final. Cet inventaire ne couvre pas les illustrations insérées uniquement dans les cours.",
+  "acceptanceRule": "Une image représentant un algorithme ne suffit pas : il faut une transcription interactive correspondante, fidèle aux décisions, branches, issues et étapes de la source, avec cours associés. Toute transposition partielle est explicitement signalée.",
+  "validationLevels": {
+    "transcription-verified": "Transposition comparée branche par branche à la source.",
+    "interactive-present-fidelity-review-pending": "Des branches interactives existent ; fidélité non revalidée dans ce contrôle.",
+    "transcription-missing": "Ressource image présente sans graphe interactif dans cette entrée.",
+    "non-decision-resource": "Tableau ou schéma explicatif déclaré ; ne pas inventer de décisions absentes."
+  },
+  "counts": {
+    "interactive-present-fidelity-review-pending": 12,
+    "non-decision-resource": 3,
+    "transcription-missing": 21,
+    "transcription-verified": 1
+  },
+  "resources": [
+    {
+      "id": "cep2026-110-fig4",
+      "items": [
+        110
+      ],
+      "title": "Suspicion de SAS chez l’adulte",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 8,
+      "edges": 10,
+      "image": "/assets/cep-2026/110-fig4.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-188-exacerbation",
+      "items": [
+        188
+      ],
+      "title": "Asthme : prise en charge initiale de l’exacerbation",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 8,
+      "edges": 8,
+      "image": "/assets/cep-2026/188-exacerbation.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-203-fig2",
+      "items": [
+        203
+      ],
+      "title": "Dyspnée chronique : orientation par l’auscultation",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 12,
+      "edges": 12,
+      "image": "/assets/cep-2026/203-fig2.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-203-fig3",
+      "items": [
+        203
+      ],
+      "title": "Dyspnée chronique : examens complémentaires",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 5,
+      "edges": 4,
+      "image": "/assets/cep-2026/203-fig3.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-204-fig2",
+      "items": [
+        204
+      ],
+      "title": "Toux chronique de l’adulte : première intention",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 9,
+      "edges": 9,
+      "image": "/assets/cep-2026/204-fig2.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-207-fig10",
+      "items": [
+        207
+      ],
+      "title": "Nodule pulmonaire solide : surveillance ou exploration",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 14,
+      "edges": 17,
+      "image": "/assets/cep-2026/207-fig10.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-208-fig2",
+      "items": [
+        208
+      ],
+      "title": "Insuffisance respiratoire chronique : orientation par les EFR",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 8,
+      "edges": 7,
+      "image": "/assets/cep-2026/208-fig2.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-209-fig4",
+      "items": [
+        209
+      ],
+      "title": "BPCO : traitements médicamenteux du schéma CEP",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 7,
+      "edges": 8,
+      "image": "/assets/cep-2026/209-fig4.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-210-fig14",
+      "items": [
+        210
+      ],
+      "title": "PID subaiguë ou chronique : schéma diagnostique",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 6,
+      "edges": 10,
+      "image": "/assets/cep-2026/210-fig14.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-309-fig15",
+      "items": [
+        309
+      ],
+      "title": "Tumeur pulmonaire : choisir la technique diagnostique",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 5,
+      "edges": 4,
+      "image": "/assets/cep-2026/309-fig15.jpg",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-359-fig4",
+      "items": [
+        359
+      ],
+      "title": "Détresse respiratoire aiguë : algorithme diagnostique",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 9,
+      "edges": 10,
+      "image": "/assets/cep-2026/359-fig4.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "cep2026-359bis-fig8",
+      "items": [
+        359
+      ],
+      "title": "Après un syndrome de pénétration : rechercher le corps étranger",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 4,
+      "edges": 3,
+      "image": "/assets/cep-2026/359bis-fig8.png",
+      "status": "interactive-present-fidelity-review-pending"
+    },
+    {
+      "id": "college-audit-100-11-3",
+      "items": [
+        100
+      ],
+      "title": "Céphalées aiguës et chroniques",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 5,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500200_f11-03-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-102-13-4",
+      "items": [
+        102
+      ],
+      "title": "Diplopie : orientation diagnostique",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 8,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500224_f13-04-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-102-13-5",
+      "items": [
+        102
+      ],
+      "title": "Paralysie oculomotrice : bilan",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500224_f13-05-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-105-16-5",
+      "items": [
+        105
+      ],
+      "title": "Épilepsies : classification",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B978229478607550025X_f16-05-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-105-16-6",
+      "items": [
+        105
+      ],
+      "title": "Épilepsie : étapes du diagnostic",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B978229478607550025X_f16-06-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-105-16-7",
+      "items": [
+        105
+      ],
+      "title": "État de mal : traitement médicamenteux",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B978229478607550025X_f16-07-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-108-22-6",
+      "items": [
+        108
+      ],
+      "title": "Trouble progressif de la mémoire : démarche diagnostique",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500315_f22-06-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-92-6-8",
+      "items": [
+        92
+      ],
+      "title": "Déficit moteur ou sensitif : localisation",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 7,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500157_f06-08-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-92-6-9",
+      "items": [
+        92
+      ],
+      "title": "Déficit moteur aigu : examens",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 5,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500157_f06-09-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-96-8-9",
+      "items": [
+        96
+      ],
+      "title": "Neuropathies périphériques : diagnostic",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 10,
+      "edges": 0,
+      "image": "https://www.cen-neurologie.fr/sites/www.cen-neurologie.fr/files/medias/images/xhtml/B9782294786075500170_f08-09-9782294786075.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-94-3-1",
+      "items": [
+        94
+      ],
+      "title": "Rachialgie aiguë : orientation diagnostique",
+      "kind": "figure",
+      "sourceOnly": false,
+      "nodes": 12,
+      "edges": 12,
+      "image": "https://www.lecofer.org/photos/cours/f03-01.jpg",
+      "status": "transcription-verified"
+    },
+    {
+      "id": "college-audit-99-7-7",
+      "items": [
+        99
+      ],
+      "title": "Névralgie du trijumeau : options thérapeutiques",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 4,
+      "edges": 0,
+      "image": "https://campus.neurochirurgie.fr/IMG/jpg/f07-07-9782294773143.jpg?3108/aec818e0afc0cfa10e971fb005623601d92174d702e08e575016af889846a33d",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-240-adulte",
+      "items": [
+        240
+      ],
+      "title": "Hypoglycémie de l’adulte : démarche diagnostique",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 5,
+      "edges": 0,
+      "image": "https://www.sfendocrino.org/wp-content/uploads/2022/08/fig-11-1-arbre-hypoglyc.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-240-enfant",
+      "items": [
+        240
+      ],
+      "title": "Hypoglycémie de l’enfant : diagnostic et orientation",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 5,
+      "edges": 0,
+      "image": "https://www.pedia-univ.fr/sites/www.pedia-univ.fr/files/styles/l800/public/medias/images/f8-01-9782294779831.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-247-type1",
+      "items": [
+        247
+      ],
+      "title": "Diabète évocateur de type 1 : diagnostic étiologique",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.sfendocrino.org/wp-content/uploads/2022/09/diab-1-2048x1301.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-247-type2-2019",
+      "items": [
+        247
+      ],
+      "title": "Diabète de type 2 : schéma historique SFD 2019",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 4,
+      "edges": 0,
+      "image": "https://www.sfendocrino.org/wp-content/uploads/2022/09/fig-6-dt2-2048x1290.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-230-6-1",
+      "items": [
+        230
+      ],
+      "title": "Douleur thoracique aiguë : orientation",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 8,
+      "edges": 0,
+      "image": "https://www.sfcardio.fr/wp-content/uploads/2026/08/f06-01-9782294786617.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-267-hypo",
+      "items": [
+        267
+      ],
+      "title": "Hyponatrémie : diagnostic",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://manuel.cuen.fr/wp-content/uploads/2024/12/chap_2-fig_1-5_mod_ps_3.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-267-hyper",
+      "items": [
+        267
+      ],
+      "title": "Hypernatrémie : diagnostic",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 5,
+      "edges": 0,
+      "image": "https://manuel.cuen.fr/wp-content/uploads/2024/12/chap_2-fig_1-5_mod_ps_5.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-213-enfant",
+      "items": [
+        213
+      ],
+      "title": "Anémie de l’enfant : conduite diagnostique",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 6,
+      "edges": 0,
+      "image": "https://www.pedia-univ.fr/sites/www.pedia-univ.fr/files/styles/l1200/public/medias/images/f23-01-9782294779831.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-116-diagnostic",
+      "items": [
+        116
+      ],
+      "title": "Prurit : arbre du CEDEF",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 7,
+      "edges": 0,
+      "image": "atlas-medical/originaux/lisa-951f1b3fa47052.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "college-audit-213-adulte-lisa",
+      "items": [
+        213
+      ],
+      "title": "Anémie de l’adulte : orientation selon le VGM",
+      "kind": "figure",
+      "sourceOnly": true,
+      "nodes": 4,
+      "edges": 0,
+      "image": "atlas-medical/originaux/lisa-bef56bad9925fb.jpg",
+      "status": "transcription-missing"
+    },
+    {
+      "id": "psyfinal353-source-crise",
+      "items": [
+        353
+      ],
+      "title": "Crise suicidaire : restriction progressive des alternatives",
+      "kind": "schema",
+      "sourceOnly": true,
+      "nodes": 1,
+      "edges": 0,
+      "image": "assets/psychiatry-final/353-crise-cnup.png",
+      "status": "non-decision-resource"
+    },
+    {
+      "id": "psyfinal353-source-urgence",
+      "items": [
+        353
+      ],
+      "title": "Repères cliniques d’urgence suicidaire",
+      "kind": "table",
+      "sourceOnly": true,
+      "nodes": 1,
+      "edges": 0,
+      "image": "assets/psychiatry-final/353-urgence-cnup.png",
+      "status": "non-decision-resource"
+    },
+    {
+      "id": "psy144-college-original",
+      "items": [
+        144
+      ],
+      "title": "Deuil normal ou épisode dépressif : tableau original du Collège",
+      "kind": "table",
+      "sourceOnly": true,
+      "nodes": 1,
+      "edges": 0,
+      "image": "assets/psychiatry-final/144-table-cnup.png",
+      "status": "non-decision-resource"
+    }
+  ],
+  "item94StructuralCheck": {
+    "item": 94,
+    "nodes": 12,
+    "edges": 12,
+    "paths": 6,
+    "allBranchesMatchFigure": true,
+    "allCoursesResolved": true,
+    "otherAlgorithmsPreserved": true,
+    "otherInventoriesPreserved": true,
+    "defaultInteractiveView": true,
+    "sourceOnlyViewsPreserved": true,
+    "idempotent": true
+  },
+  "browserValidation": "Contrôle navigateur effectué séparément de cet inventaire structurel."
+}
