@@ -6,23 +6,39 @@ const sentences=typeof Intl.Segmenter==='function'?new Intl.Segmenter('fr',{gran
 // Ranges split the existing HTML without rewriting clinical content.
 function readableCourse(html){
  const template=document.createElement('template');template.innerHTML=html;
- const blockTags='p,ul,ol,table,h2,h3,h4,h5,figure,details,blockquote,div,pre';
+ const blockTags='p,ul,ol,table,h2,h3,h4,h5,figure,details,blockquote,div,pre,.course-notion';
+ if(!template.content.querySelector(blockTags)&&template.content.textContent.trim()){
+  const paragraph=document.createElement('p');paragraph.append(...template.content.childNodes);template.content.append(paragraph);
+ }
  function slice(node,start,end){
   const walker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT),texts=[];let text;
   while((text=walker.nextNode()))texts.push(text);
-  const locate=(offset,isEnd=false)=>{let total=0;for(const text of texts){if(offset<total+text.length||(isEnd&&offset===total+text.length))return [text,offset-total];total+=text.length;}return [texts.at(-1),texts.at(-1).length];};
-  const range=document.createRange();range.setStart(...locate(start));range.setEnd(...locate(end,true));return range.cloneContents();
+  const locate=offset=>{
+   let total=0;
+   for(const text of texts){
+    if(offset<total+text.length){
+     let container=text,position=offset-total;
+     // Use the outer boundary at the start of an inline element, avoiding
+     // empty duplicate links/labels in the preceding fragment.
+     while(position===0&&container!==node){const parent=container.parentNode;position=[...parent.childNodes].indexOf(container);container=parent;}
+     return [container,position];
+    }
+    total+=text.length;
+   }
+   return [texts.at(-1),texts.at(-1).length];
+  };
+  const range=document.createRange();
+  if(start===0)range.setStart(node,0);else range.setStart(...locate(start));
+  if(end===node.textContent.length)range.setEnd(node,node.childNodes.length);else range.setEnd(...locate(end));
+  let fragment=range.cloneContents(),ancestor=range.commonAncestorContainer;
+  if(ancestor.nodeType===Node.TEXT_NODE)ancestor=ancestor.parentNode;
+  // A Range wholly inside a colored span does not clone that span itself.
+  // Restore its inline ancestry so the source highlighting stays attached.
+  for(;ancestor!==node;ancestor=ancestor.parentNode){const wrapper=ancestor.cloneNode(false);wrapper.append(fragment);fragment=wrapper;}
+  return fragment;
  }
  function block(node,tag,start,end,cls=''){
   const el=document.createElement(tag);if(cls)el.className=cls;el.append(slice(node,start,end));return el;
- }
- function cuts(text,start=0){
-  const result=[start];let previous=start;
-  const parts=sentences?[...sentences.segment(text.slice(start))].map(part=>start+part.index+part.segment.length):[...text.slice(start).matchAll(/[.!?]\s+(?=[A-ZÀÂÇÉÈÊËÎÏÔÙÛÜ])/g)].map(match=>start+match.index+match[0].length);
-  for(const end of parts){
-   if(end-previous>=100&&text.length-end>=55){result.push(end);previous=end;}
-  }
-  result.push(text.length);return [...new Set(result)];
  }
  // This source has a long inline enumeration. Give its existing clauses
  // explicit paragraphs and bullets, retaining qualifiers and urgency notes.
@@ -59,17 +75,10 @@ function readableCourse(html){
   if(note.closest('table')||note.querySelector(blockTags))continue;
   const text=note.textContent;if(!text.trim())continue;
   const title=note.firstElementChild,hasTitle=title?.matches('strong,b')&&[...note.childNodes].find(n=>n.nodeType===1||n.textContent.trim())===title&&title.textContent.length<110;
-  const start=hasTitle?text.indexOf(title.textContent)+title.textContent.length:0,points=cuts(text,start),result=document.createDocumentFragment();
+  const start=hasTitle?text.indexOf(title.textContent)+title.textContent.length:0,result=document.createDocumentFragment();
   if(hasTitle)result.append(block(note,'h5',0,start,'algo-course-subheading'));
-  for(let i=0;i<points.length-1;i++)if(points[i]<points[i+1])result.append(block(note,'p',points[i],points[i+1]));
+  if(start<text.length)result.append(block(note,'p',start,text.length));
   note.replaceChildren(result);
- }
- for(const paragraph of template.content.querySelectorAll('p,li')){
-  if(paragraph.closest('table')||paragraph.matches('.source-note,.algo-course-subheading')||paragraph.querySelector(blockTags)||paragraph.textContent.length<320)continue;
-  const points=cuts(paragraph.textContent);if(points.length<3)continue;
-  const result=document.createDocumentFragment();
-  for(let i=0;i<points.length-1;i++)result.append(block(paragraph,'p',points[i],points[i+1],paragraph.tagName==='P'?paragraph.className:''));
-  if(paragraph.tagName==='P')paragraph.replaceWith(result);else paragraph.replaceChildren(result);
  }
  for(const paragraph of template.content.querySelectorAll('p')){
   if(paragraph.closest('table'))continue;
@@ -80,6 +89,57 @@ function readableCourse(html){
   const tail=paragraph.textContent.trim().slice(title.textContent.length).trim();
   if(tail&&!/^[:—–-][^.!?]{0,45}$/.test(tail))continue;
   const heading=document.createElement('h4');heading.className='course-subheading';heading.append(...paragraph.childNodes);paragraph.replaceWith(heading);
+ }
+ // Keep one clearly delimited notion per line, also inside table cells.
+ // Commas, conjunctions, slashes and arrows are not semantic boundaries:
+ // they may belong to a dose, a negation, a condition or a clinical relation.
+ for(const node of template.content.querySelectorAll('p,li,td,th,blockquote,div')){
+  if(node.closest('.course-notions,.source-note,pre,code')||node.querySelector(blockTags)||node.matches('.algo-course-subheading,.course-subheading'))continue;
+  const text=node.textContent;if(!text.trim())continue;
+  const protectedAt=new Set(),stack=[];
+  const pairs={'(':')','[':']','{':'}','«':'»','“':'”'};
+  for(let i=0;i<text.length;i++){
+   if(pairs[text[i]])stack.push(pairs[text[i]]);
+   else if(text[i]===stack.at(-1))stack.pop();
+   if(stack.length)protectedAt.add(i+1);
+  }
+  const offsets=new Map();let offset=0;
+  const walker=document.createTreeWalker(node,NodeFilter.SHOW_TEXT);let child;
+  while((child=walker.nextNode())){offsets.set(child,offset);offset+=child.length;}
+  const elementOffset=el=>{const w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT),first=w.nextNode();return first?offsets.get(first):null;};
+  // Never break a link or code fragment into several interactive elements.
+  for(const el of node.querySelectorAll('a,code')){
+   const start=elementOffset(el);if(start===null)continue;
+   for(let i=start+1;i<start+el.textContent.length;i++)protectedAt.add(i);
+  }
+  const points=new Map([[0,'start'],[text.length,'end']]);
+  const dependent=/^(?:mais|sauf|excepté(?:e)?s?|sinon|car|parce que|dont|y compris|si|en cas|à défaut|à condition|uniquement si|seulement si)(?=\s|$|[,:;])/i;
+  function add(end,kind){
+   if(end<=0||end>=text.length||protectedAt.has(end)||!text.slice(0,end).trim()||!text.slice(end).trim())return;
+   if(kind!=='bullet'&&dependent.test(text.slice(end).trimStart()))return;
+   points.set(end,kind);
+  }
+  for(const match of text.matchAll(/;\s*/g))add(match.index+match[0].length,'clause');
+  for(const match of text.matchAll(/\s+(?=[•●▪]\s)/g))add(match.index+match[0].length,'bullet');
+  const parts=sentences?[...sentences.segment(text)].map(s=>s.index+s.segment.length):[...text.matchAll(/[.!?]\s+(?=[A-ZÀÂÇÉÈÊËÎÏÔÙÛÜ])/g)].map(m=>m.index+m[0].length);
+  for(const end of parts){
+   const before=text.slice(0,end).trimEnd();
+   if(!/[.!?][»”')\]]*$/.test(before)||/(?:\b(?:M|Mme|Dr|Pr|etc|cf|fig|ex|env|vol|chap|art|réf)|\bp\.\s*ex|\b(?:[a-z]\.)+[a-z])\.\s*$/i.test(before))continue;
+   add(end,'sentence');
+  }
+  // Existing bold labels ("Diagnostic :", "Traitement :") are explicit
+  // structure even when the author did not add a paragraph or a semicolon.
+  for(const label of node.querySelectorAll('strong,b')){
+   if(label.textContent.length>80||!/:\s*$/.test(label.textContent))continue;
+   const start=elementOffset(label);if(start===null||protectedAt.has(start))continue;
+   const previous=text.slice(0,start).trimEnd();
+   if(start===0||!previous){label.classList.add('course-inline-heading');continue;}
+   if(/[;.!?•●▪]\s*$/.test(previous)||previous.length>=30){add(start,'label');label.classList.add('course-inline-heading');}
+  }
+  if(points.size<3)continue;
+  const entries=[...points].sort((a,b)=>a[0]-b[0]),result=document.createDocumentFragment();
+  for(let i=0;i<entries.length-1;i++)result.append(block(node,'span',entries[i][0],entries[i+1][0],'course-notion course-notion-'+entries[i][1]));
+  node.classList.add('course-notions');node.replaceChildren(result);
  }
  // Let table columns use the course width while retaining horizontal scrolling
  // inside the table alone when its columns cannot fit a narrow screen.

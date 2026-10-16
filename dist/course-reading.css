@@ -15,6 +15,11 @@
 .medical .algo-course-subheading,.medical .course-subheading{font-family:inherit;font-size:1.05em;font-weight:700;line-height:1.5;color:var(--ink);margin:1.4em 0 .65em}
 .medical h5.algo-course-subheading{margin:0 0 .8em}
 .medical .course-inline-heading{display:block;margin:0 0 .35em;font-weight:700}
+.medical .course-notion{display:block}
+.medical .course-notion+.course-notion{margin-top:.4em}
+.medical .course-notion+.course-notion-sentence{margin-top:.75em}
+.medical td .course-notion+.course-notion,.medical th .course-notion+.course-notion{margin-top:.45em}
+.medical .course-notion>br:first-child,.medical .course-notion>br:last-child{display:none}
 .medical .algo-course-warning{padding:12px 14px;margin:18px 0;border-left:3px solid var(--course-alert,#b35445);background:var(--course-alert-bg,#fff3ef);color:var(--course-alert,#71362c);font-weight:600}
 .medical table,.ic-course .medical table{font-size:.94em;line-height:1.65;margin:22px 0}
 .medical th,.medical td{padding:13px 14px}

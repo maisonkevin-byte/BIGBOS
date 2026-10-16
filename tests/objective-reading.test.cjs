@@ -87,8 +87,14 @@ test('A detached previous answer cannot reveal the next card after re-rendering'
  const item=items.find(i=>i.numero===356);render(item);
  const objective=d.querySelector('[data-objective-id="356-1"]');
  objective.querySelector('[data-reading="test"]').click();
+ // Earlier tests intentionally retain session state, including the last card.
+ // Start at the first card so this test actually navigates to a different one.
+ while(!objective.querySelector('[data-reading="previous-card"]').disabled)objective.querySelector('[data-reading="previous-card"]').click();
+ const previousId=objective.querySelector('.reader-card').dataset.cardId;
  const previous=objective.querySelector('.reader-answer');previous.open=true;
+ assert.equal(objective.querySelector('[data-reading="next-card"]').disabled,false);
  objective.querySelector('[data-reading="next-card"]').click();
+ assert.notEqual(objective.querySelector('.reader-card').dataset.cardId,previousId);
  previous.dispatchEvent(new w.Event('toggle'));
  render(item);
  assert.equal(d.querySelector('[data-objective-id="356-1"] .reader-answer').open,false);

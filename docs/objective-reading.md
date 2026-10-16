@@ -32,3 +32,27 @@ un essai sur Safari/iPad physique.
 
 Les fichiers de publication sont `dist/index.html`, `dist/app.js`,
 `dist/objective-reading.js` et `dist/objective-reading.css`.
+
+## Notions sur des lignes distinctes
+
+Le formateur commun `course-reading.js` structure aussi les cellules de tableaux,
+les paragraphes, les listes, les encadrés et les corrections des cartes. Les
+points-virgules, fins de phrases, puces explicites et libellés en gras terminés
+par deux-points indiquent les coupures possibles. Un simple retour à la ligne
+sépare les notions ; un espace plus large sépare deux phrases. Les paragraphes
+et listes déjà structurés gardent leur hiérarchie.
+
+Le texte et la ponctuation restent inchangés. Les plages DOM préservent les
+couleurs Notion, le gras, les liens et les images, même à une coupure interne
+dans un fragment coloré. Les virgules, conjonctions, barres obliques et flèches
+ne déclenchent pas de coupure. Les parenthèses, crochets, abréviations courantes
+et certains débuts de restriction sont protégés. Ces règles de présentation
+ne constituent pas une compréhension sémantique exhaustive : les énumérations
+ambiguës doivent être structurées explicitement dans le contenu, après lecture.
+
+`tests/course-reading.test.cjs` compare le texte, les portions colorées, liens,
+images, cellules et listes avant/après sur l'ensemble des objectifs et corrections,
+ainsi que les astuces et stratégies renseignées. Il couvre aussi les doses,
+conditions, limites de fragments colorés et la stabilité d'un second formatage.
+Les ressources `course-reading.js` et `course-reading.css` sont versionnées dans
+`index.html` pour que les navigateurs chargent la nouvelle présentation.
