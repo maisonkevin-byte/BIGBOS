@@ -67,7 +67,7 @@
 .reader-study-bar .reader-test-button{background:var(--ink);color:var(--paper);padding:9px 16px}
 .reader-study-bar .reader-test-button:hover{background:var(--reader-accent)}
 .reader-test-button>span{margin-left:8px}
-.reader-item .medical{font-size:calc(17px * var(--reading-scale,1));line-height:1.8;max-width:78ch;margin-left:auto;margin-right:auto;overflow-wrap:anywhere}
+.reader-item .medical{font-size:calc(17px * var(--reading-scale,1));line-height:1.8;max-width:78ch;margin-left:0;margin-right:auto;overflow-wrap:anywhere}
 .reader-item .medical p{margin:0 0 1.2em}
 .reader-item .medical ul{padding-left:1.2em}
 .reader-item .medical li{margin:0 0 .8em}
