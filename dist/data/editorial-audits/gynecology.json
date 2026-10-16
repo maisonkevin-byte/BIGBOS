@@ -1,0 +1,681 @@
+{
+  "scope": "28 items gynécologie-obstétrique",
+  "checkedAt": "2026-10-16T09:55:07.047855+00:00",
+  "baseCommit": "d6ddcc25886505cb3fbf41999055352c4871b897",
+  "courseStats": [
+    {
+      "item": 23,
+      "objectives": 19,
+      "cards": 19,
+      "addedCards": 19,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941810aa257ea761f7dfbc0?pvs=204"
+      ]
+    },
+    {
+      "item": 24,
+      "objectives": 25,
+      "cards": 25,
+      "addedCards": 25,
+      "rewrittenObjectives": 5,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941811db6c7cb28b758360c?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941813dbd9ecd16b5b1dc2f?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181179afbde8a3e786358?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181ca8754f6e7ea121c31?pvs=204"
+      ]
+    },
+    {
+      "item": 25,
+      "objectives": 12,
+      "cards": 12,
+      "addedCards": 12,
+      "rewrittenObjectives": 6,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181e2af36daa55a0d89ea?pvs=204"
+      ]
+    },
+    {
+      "item": 26,
+      "objectives": 5,
+      "cards": 5,
+      "addedCards": 5,
+      "rewrittenObjectives": 0,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181fe8df6e6052c19f7e8?pvs=204"
+      ]
+    },
+    {
+      "item": 27,
+      "objectives": 46,
+      "cards": 46,
+      "addedCards": 46,
+      "rewrittenObjectives": 5,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181b690edf58d3ccb8168?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418162806efe80e8c2e914?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418143a8ebfd292e62f4f9?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418174a0cdd669dcec95a5?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181beb4c8f9e618eebf8d?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181a6be78d3ddc7e07da1?pvs=204"
+      ]
+    },
+    {
+      "item": 28,
+      "objectives": 12,
+      "cards": 12,
+      "addedCards": 12,
+      "rewrittenObjectives": 7,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d9418127bfcee51f90d20ca9?pvs=204"
+      ]
+    },
+    {
+      "item": 29,
+      "objectives": 3,
+      "cards": 3,
+      "addedCards": 3,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941814cb320ebed950b90a2?pvs=204"
+      ]
+    },
+    {
+      "item": 30,
+      "objectives": 4,
+      "cards": 4,
+      "addedCards": 4,
+      "rewrittenObjectives": 2,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d9418103b2abf46f4fbaeb28?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941811a9c64d5298bd096c6?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941813ca9b7c7eeb0be01b7?pvs=204"
+      ]
+    },
+    {
+      "item": 31,
+      "objectives": 16,
+      "cards": 16,
+      "addedCards": 16,
+      "rewrittenObjectives": 0,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181ba9f87c0bf125017a5?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418177a5b1d045c1a17541?pvs=204"
+      ]
+    },
+    {
+      "item": 33,
+      "objectives": 6,
+      "cards": 6,
+      "addedCards": 6,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d9418192a2bac3ce6c64a558?pvs=204"
+      ]
+    },
+    {
+      "item": 34,
+      "objectives": 7,
+      "cards": 19,
+      "addedCards": 5,
+      "rewrittenObjectives": 0,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181799a94ece23f012e0b?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181169eb8dccbdb4fbb19?pvs=204"
+      ]
+    },
+    {
+      "item": 35,
+      "objectives": 13,
+      "cards": 27,
+      "addedCards": 9,
+      "rewrittenObjectives": 0,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941816088a4f88f09a63e87?pvs=204"
+      ]
+    },
+    {
+      "item": 36,
+      "objectives": 20,
+      "cards": 56,
+      "addedCards": 11,
+      "rewrittenObjectives": 7,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181029d92e8c63838b61c?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418178b2e5d6a92fd6a0ae?pvs=204"
+      ]
+    },
+    {
+      "item": 37,
+      "objectives": 12,
+      "cards": 33,
+      "addedCards": 6,
+      "rewrittenObjectives": 3,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181f4a621f10ad8b2bce7?pvs=204"
+      ]
+    },
+    {
+      "item": 38,
+      "objectives": 10,
+      "cards": 14,
+      "addedCards": 8,
+      "rewrittenObjectives": 3,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181128485f0aefb8e42a4?pvs=204"
+      ]
+    },
+    {
+      "item": 39,
+      "objectives": 13,
+      "cards": 38,
+      "addedCards": 4,
+      "rewrittenObjectives": 4,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d9418191ab52ee4656e94e98?pvs=204"
+      ]
+    },
+    {
+      "item": 40,
+      "objectives": 9,
+      "cards": 35,
+      "addedCards": 2,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181b08bb7ddee38922384?pvs=204"
+      ]
+    },
+    {
+      "item": 41,
+      "objectives": 7,
+      "cards": 23,
+      "addedCards": 3,
+      "rewrittenObjectives": 2,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d9418191aabac9c00dde5baf?pvs=204"
+      ]
+    },
+    {
+      "item": 42,
+      "objectives": 10,
+      "cards": 21,
+      "addedCards": 8,
+      "rewrittenObjectives": 2,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181fabda0e7ef3f52b55d?pvs=204"
+      ]
+    },
+    {
+      "item": 43,
+      "objectives": 9,
+      "cards": 28,
+      "addedCards": 4,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941813a81bed355560093b4?pvs=204"
+      ]
+    },
+    {
+      "item": 44,
+      "objectives": 16,
+      "cards": 44,
+      "addedCards": 8,
+      "rewrittenObjectives": 2,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941811480afc5512de0060f?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941813fa20ec230355ec175?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418110b7a0e577fa76fe10?pvs=204"
+      ]
+    },
+    {
+      "item": 124,
+      "objectives": 19,
+      "cards": 38,
+      "addedCards": 12,
+      "rewrittenObjectives": 3,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181c4829ee800c9d57a87?pvs=204"
+      ]
+    },
+    {
+      "item": 254,
+      "objectives": 7,
+      "cards": 7,
+      "addedCards": 7,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181a59852d07fa270e427?pvs=204"
+      ]
+    },
+    {
+      "item": 255,
+      "objectives": 7,
+      "cards": 7,
+      "addedCards": 7,
+      "rewrittenObjectives": 4,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181cc82c6cba8dbd5d3ea?pvs=204"
+      ]
+    },
+    {
+      "item": 300,
+      "objectives": 14,
+      "cards": 37,
+      "addedCards": 8,
+      "rewrittenObjectives": 3,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941816399facaf545a5cdb8?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941814bac18c59ee2562194?pvs=204"
+      ]
+    },
+    {
+      "item": 306,
+      "objectives": 9,
+      "cards": 14,
+      "addedCards": 7,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d941818597b1c7181c564dfa?pvs=204",
+        "https://app.notion.com/p/2ad37f85d9418176a2f1f71ddd5ac17c?pvs=204",
+        "https://app.notion.com/p/2ad37f85d941813eaabff91658403b7d?pvs=204"
+      ]
+    },
+    {
+      "item": 312,
+      "objectives": 12,
+      "cards": 35,
+      "addedCards": 7,
+      "rewrittenObjectives": 1,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181fb956fd58603b553de?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181bc999cddbba43003fc?pvs=204",
+        "https://app.notion.com/p/2ad37f85d94181d38e71c5d50ca1c451?pvs=204"
+      ]
+    },
+    {
+      "item": 344,
+      "objectives": 11,
+      "cards": 20,
+      "addedCards": 7,
+      "rewrittenObjectives": 3,
+      "notionSources": [
+        "https://app.notion.com/p/2ad37f85d94181daa425de6e5245c01b?pvs=204"
+      ]
+    }
+  ],
+  "validation": {
+    "items": 28,
+    "objectives": 353,
+    "cards": 644,
+    "originalCardsPreserved": 373,
+    "addedCards": 271,
+    "interactivePathways": 51,
+    "nodes": 375,
+    "paths": 261,
+    "clinicalImagesPreserved": 16,
+    "officialDecisionFigures": 11,
+    "allBranchesReachable": true,
+    "allObjectivesLinked": true,
+    "allCourseReferencesResolved": true,
+    "allSourcesResolved": true,
+    "overlayIdempotent": true,
+    "existingAlgorithmsPreserved": true
+  },
+  "htmlValidation": {
+    "fragments": 997,
+    "errors": []
+  },
+  "imageTranscription": {
+    "lisa-4fda33add96dcd": {
+      "item": 27,
+      "objective": "27-14",
+      "pathway": "gyn-27-hsv-initial",
+      "decision": true,
+      "note": "Figure CNGOF 2017 reprise dans LiSA. Les branches initiale primaire/non primaire et récurrence sont conservées. La rupture avant terme nécessite une décision multidisciplinaire intégrant la prématurité ; l’arbre principal de la figure concerne la rupture à terme. Les traitements détaillés relèvent du protocole spécialisé."
+    },
+    "lisa-c7201d62403c3f": {
+      "item": 27,
+      "objective": "27-14",
+      "pathway": "gyn-27-hsv-recurrence",
+      "decision": true,
+      "note": "Les deux branches pendant grossesse et pendant travail sont conservées. La figure simplifie la voie d’accouchement : la RPC parle de situations favorisant une option, sans imposer une césarienne pour toute récurrence. La rupture prématurée avant 37 SA relève d’une discussion spécifique."
+    },
+    "lisa-9ec50ca2be44d8": {
+      "item": 36,
+      "objective": "36-14",
+      "pathway": "gyn-36-oubli",
+      "decision": true,
+      "note": "Le schéma source utilise les seuils de 12 h (COP/désogestrel) et 3 h (lévonorgestrel). Il ne couvre pas toutes les pilules, notamment la drospirénone 24 h. La branche ulipristal et son délai de reprise de 5 jours sont des compléments actualisés. Consulter la notice du produit pour les règles exactes ; la reprise immédiate du schéma historique n’est pas universelle."
+    },
+    "lisa-020b30ce6608fe": {
+      "item": 40,
+      "objective": "40-8",
+      "pathway": "gyn-40-chronique",
+      "decision": true,
+      "note": "Les branches cyclique/non cyclique, génitale/extra-génitale et organique/fonctionnelle sont conservées. La formulation « psychogène » de l’image est contextualisée : une douleur persistante nécessite une évaluation globale, sans diagnostic d’exclusion psychologique automatique."
+    },
+    "lisa-6d7ef154190f93": {
+      "item": 42,
+      "objective": "42-3",
+      "pathway": "gyn-42-hormones",
+      "decision": true,
+      "note": "Trois profils hormonaux et branche prolactine de la figure conservés. La grossesse est exclue en préalable ; dosages et échographie restent interprétés avec le contexte. La cause ovarienne n’est dite prématurée que selon l’âge."
+    },
+    "lisa-a42f5addb5d8a9": {
+      "item": 42,
+      "objective": "42-3",
+      "pathway": "gyn-42-progestatif",
+      "decision": true,
+      "note": "Branches positif/négatif, anatomique/hypoestrogénie et centrale/ovarienne conservées. Le schéma source mentionne dydrogestérone 10–20 mg/j pendant 7–10 jours : protocole médical, pas prescription automatique. Un test ne prouve ni n’exclut à lui seul chaque étiologie."
+    },
+    "lisa-0bb9d620ea6d89": {
+      "item": 124,
+      "objective": "124-9",
+      "pathway": "gyn-124-thm",
+      "decision": true,
+      "note": "L’image illustre quatre calendriers : combiné ou séquentiel, avec estrogènes continus ou discontinus. Ces options sont distinguées dans le parcours. La vérification de l’indication, des contre-indications et de l’utérus constitue un complément préalable. Le nombre de jours dépend du produit prescrit."
+    },
+    "lisa-0bd05ad435e2d1": {
+      "item": 300,
+      "objective": "300-5",
+      "pathway": "gyn-300-hpv",
+      "decision": true,
+      "note": "Toutes les branches HPV initial, cytologie réflexe et contrôle à un an sont transcrites. Le parcours s’arrête à la colposcopie ; les suites dépendent de l’histologie. Les situations particulières relèvent des recommandations dédiées/actualisées."
+    },
+    "lisa-9613967ee2f200": {
+      "item": 300,
+      "objective": "300-14",
+      "pathway": "gyn-300-endometre",
+      "decision": true,
+      "note": "Branches endomètre fin, épaissi, biopsie positive/négative et reprise des saignements conservées. Le seuil frontière de 4 mm est explicité. Le terme « élimination » du schéma est remplacé par surveillance avec consignes ; une récidive exige réévaluation. L’IRM et le bilan distant sont guidés par le risque, puis discussion en RCP."
+    },
+    "lisa-77191d1e24f61b": {
+      "item": 312,
+      "objective": "312-9",
+      "pathway": "gyn-312-birads",
+      "decision": true,
+      "note": "Le tableau décisionnel est transposé par catégories 0 à 6. La ligne 6 de l’image indique chirurgie : le parcours précise RCP et traitements adaptés, car une stratégie néoadjuvante est parfois indiquée."
+    },
+    "lisa-ec0057320fac79": {
+      "item": 344,
+      "objective": "344-8",
+      "pathway": "gyn-344-preeclampsie",
+      "decision": true,
+      "note": "Diagnostic, bilan, évaluation de gravité, stabilisation, naissance et post-partum du schéma sont retranscrits. La protéinurie > 3 g/24 h de la figure historique ne suffit plus à définir la sévérité. Les seuils tensionnels utilisent « et/ou ». La naissance dépend du terme et de la gravité ; prééclampsie non sévère dès 37 SA : naissance recommandée. Magnésium et antihypertenseurs selon indication/protocole."
+    },
+    "lisa-083f59a2af4dc7": {
+      "item": 124,
+      "objective": "124-11",
+      "pathway": "gyn-124-thm",
+      "decision": false,
+      "note": "Tableau de contre-indications du THM ; consulter aussi le parcours THM et ses précautions."
+    },
+    "lisa-3c3e9570bc1fb4": {
+      "item": 43,
+      "objective": "43-7",
+      "pathway": null,
+      "decision": false,
+      "note": "Classification anatomique FIGO des myomes, sans branche décisionnelle."
+    },
+    "lisa-62601385aaaea1": {
+      "item": 312,
+      "objective": "312-7",
+      "pathway": null,
+      "decision": false,
+      "note": "Photographie clinique de rétraction mammaire."
+    },
+    "lisa-66e90d28689df8": {
+      "item": 124,
+      "objective": "124-8",
+      "pathway": null,
+      "decision": false,
+      "note": "Chronologie descriptive des conséquences de la ménopause."
+    },
+    "lisa-68908da02983f9": {
+      "item": 124,
+      "objective": "124-17",
+      "pathway": null,
+      "decision": false,
+      "note": "Classification descriptive des symptômes du déficit androgénique ; ne pose pas le diagnostic."
+    },
+    "lisa-6cc02a6f687a44": {
+      "item": 26,
+      "objective": "26-4",
+      "pathway": "gyn-26-douleur",
+      "decision": false,
+      "note": "Tableau étiologique avec conduites générales, relié au parcours douleur abdominale ; une césarienne n’est pas systématique pour toutes les causes."
+    },
+    "lisa-7ef8707b17dd4e": {
+      "item": 124,
+      "objective": "124-17",
+      "pathway": null,
+      "decision": false,
+      "note": "Classification descriptive des signes physiques du déficit androgénique."
+    },
+    "lisa-8f49f5307941be": {
+      "item": 43,
+      "objective": "43-1",
+      "pathway": null,
+      "decision": false,
+      "note": "Grille de quantification du score de Higham, pas un algorithme."
+    },
+    "lisa-91bbd31b2007f1": {
+      "item": 312,
+      "objective": "312-7",
+      "pathway": null,
+      "decision": false,
+      "note": "Photographie clinique d’anomalie inflammatoire mammaire."
+    },
+    "lisa-974b9bc168795b": {
+      "item": 124,
+      "objective": "124-15",
+      "pathway": null,
+      "decision": false,
+      "note": "Classification descriptive des symptômes du déficit androgénique."
+    },
+    "lisa-e8a59587ef1fa8": {
+      "item": 42,
+      "objective": "42-6",
+      "pathway": "gyn-42-hormones",
+      "decision": false,
+      "note": "Tableau des étiologies de l’IOP ; le bilan actualisé est précisé dans le cours."
+    }
+  },
+  "references": {
+    "college": [
+      "Collège CNGOF–CEGO · Référentiel, 6e édition 2024",
+      "https://cego-obgyn.fr/deuxieme-cycle/"
+    ],
+    "rpc": [
+      "CNGOF · Recommandations pour la pratique clinique",
+      "https://cngof.fr/rpc/"
+    ],
+    "iu": [
+      "CNGOF · Infections urinaires et grossesse, 2024",
+      "https://assets.ctfassets.net/zlnfaxb2lcqx/2J3aOUKroFEc3mLj4g6aLo/c36abe06db194eb4fb630dc25ab871e5/Infections_urinaires_et_grossesse_compressed.pdf"
+    ],
+    "hasiu": [
+      "HAS · Colonisation urinaire et cystite pendant la grossesse",
+      "https://www.has-sante.fr/jcms/c_2722927/fr/choix-et-durees-d-antibiotherapies-femme-enceinte-colonisation-urinaire-et-cystite"
+    ],
+    "cmv": [
+      "HAS · Dépistage du CMV et prise en charge, 2026",
+      "https://www.has-sante.fr/jcms/p_3748990/fr/depistage-du-cytomegalovirus-au-1er-trimestre-de-la-grossesse-prise-en-charge-et-suivi"
+    ],
+    "antid": [
+      "CNGOF · Prévention de l’allo-immunisation RhD au premier trimestre, 2024",
+      "https://cngof.fr/app/uploads/2025/11/Allo-immunisation20-20RhC3A9sus20D202024-Prevention20de20l27allo-immunisation20anti20RH1.pdf"
+    ],
+    "hiv": [
+      "HAS · Grossesse et VIH, 2024",
+      "https://www.has-sante.fr/jcms/p_3518878/fr/grossesse-et-vih-desir-d-enfant-soins-de-la-femme-enceinte-et-prevention-de-la-transmission-mere-enfant"
+    ],
+    "pe": [
+      "CNGOF–SFAR · Prééclampsie sévère, 2020/2022",
+      "https://cngof.fr/app/uploads/2025/11/PrC3A920C3A9clampsie202022-severe20RFE.pdf"
+    ],
+    "map": [
+      "CNGOF · Prématurité spontanée, 2016",
+      "https://cngof.fr/app/uploads/2025/11/MAP202016_Prmaturit_spontane.pdf"
+    ],
+    "hpp": [
+      "CNGOF · Hémorragies du post-partum, 2014",
+      "https://cngof.fr/app/uploads/2025/11/Hemorragie202014_PP.pdf"
+    ],
+    "txa": [
+      "OMS · Acide tranexamique et HPP, 2017",
+      "https://iris.who.int/bitstreams/cd3655a4-b990-49ed-b293-618b37c5444a/download"
+    ],
+    "birth": [
+      "HAS–CNGOF · Accouchement normal, 2017",
+      "https://cngof.fr/app/uploads/2025/11/Accouchement202017-RPC_HAS-CNGOF_Recommandations.pdf"
+    ],
+    "hsv": [
+      "CNGOF · Herpès et grossesse, 2017",
+      "https://cngof.fr/app/uploads/2025/11/herpes-grossesse-201720RPC.pdf"
+    ],
+    "contraception": [
+      "CNGOF · Contraception, 2018",
+      "https://cngof.fr/app/uploads/2025/11/Contraception202018_RPC.pdf"
+    ],
+    "urgence": [
+      "CDC · Contraception d’urgence et reprise hormonale, 2024",
+      "https://www.cdc.gov/contraception/hcp/usspr/emergency-contraception.html"
+    ],
+    "mirena": [
+      "Base publique des médicaments · MIRENA, RCP",
+      "https://base-donnees-publique.medicaments.gouv.fr/medicament/66349230/extrait"
+    ],
+    "ivg": [
+      "Service public · Interruption volontaire de grossesse",
+      "https://www.service-public.gouv.fr/particuliers/vosdroits/F1551"
+    ],
+    "amp": [
+      "Agence de la biomédecine · Assistance médicale à la procréation",
+      "https://www.procreation-medicale.fr/"
+    ],
+    "endo": [
+      "HAS–CNGOF · Imagerie de l’endométriose, 2025",
+      "https://cngof.fr/app/uploads/2025/11/Endometriose202025_imagerie_recommandations_ca.pdf"
+    ],
+    "menopause": [
+      "CNGOF–GEMVi · Ménopause, 2021",
+      "https://cngof.fr/app/uploads/2025/11/Menopause202021-RPC.pdf"
+    ],
+    "meno": [
+      "CNGOF · Ménorragies, 2022",
+      "https://cngof.fr/app/uploads/2025/11/Menorragies202022-RPC.pdf"
+    ],
+    "ovaire": [
+      "CNGOF · Cancer épithélial de l’ovaire, 2018",
+      "https://cngof.fr/app/uploads/2025/11/Ovaires202018-RPC-Cancer20pithlial.pdf"
+    ],
+    "dg": [
+      "CEEDMM · Item 255, Diabète gestationnel",
+      "https://www.sfendocrino.org/item-255-diabete-gestationnel/"
+    ],
+    "col": [
+      "INCa · Dépistage du col de l’utérus",
+      "https://jefaismondepistage.cancer.fr/cancer-du-col-de-l-uterus/"
+    ],
+    "hpv": [
+      "Assurance maladie · Vaccination HPV jusqu’à 26 ans, 2025",
+      "https://www.ameli.fr/assure/actualites/le-vaccin-contre-les-infections-papillomavirus-humains-est-desormais-rembourse-jusqu-26-ans"
+    ],
+    "geu": [
+      "NICE NG126 · Grossesse extra-utérine",
+      "https://www.nice.org.uk/guidance/ng126/chapter/Management-of-tubal-ectopic-pregnancy"
+    ],
+    "travail": [
+      "INRS · Grossesse et travail",
+      "https://www.inrs.fr/demarche/femmes-enceintes/ce-qu-il-faut-retenir.html"
+    ],
+    "t21": [
+      "HAS · Dépistage de la trisomie 21",
+      "https://www.has-sante.fr/jcms/c_2899354/fr/le-depistage-de-la-trisomie-21"
+    ],
+    "pe2023": [
+      "CNGOF · Prééclampsie, RPC 2023",
+      "https://cngof.fr/app/uploads/2025/11/PrC3A920C3A9clampsie2020202320RPC.pdf"
+    ],
+    "poi": [
+      "ESHRE–ASRM · Insuffisance ovarienne prématurée, 2024",
+      "https://www.asrm.org/practice-guidance/practice-committee-documents/evidence-based-guideline-premature-ovarian-insufficiency--2024/"
+    ],
+    "dala": [
+      "EAU · Hypogonadisme masculin, 2026",
+      "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/male-hypogonadism"
+    ],
+    "infert": [
+      "CNGOF · Infertilité, RPC 2022",
+      "https://cngof.fr/app/uploads/2026/02/RPC-INFERTILITE-2022.pdf"
+    ],
+    "col2025": [
+      "CNGOF · Cytologie cervicale anormale, actualisation 2025",
+      "https://cngof.fr/app/uploads/2025/11/Reco20depistage20col20GOFS202025.pdf"
+    ],
+    "placenta": [
+      "RCOG · Placenta prævia, accreta et vasa prævia",
+      "https://www.rcog.org.uk/for-the-public/browse-our-patient-information/placenta-praevia-placenta-accreta-and-vasa-praevia/"
+    ],
+    "placentafr": [
+      "Réseau de périnatalité Occitanie · Métrorragies et transferts, 2022",
+      "https://www.perinatalite-occitanie.fr/sites/rpo/files/upload/AmeliorationDesPratiques/2022_ref_MTR_transferts.pdf"
+    ],
+    "ampbilan": [
+      "Agence de la biomédecine · Étapes du parcours AMP, 2025",
+      "https://www.agence-biomedecine.fr/fr/don-de-gametes-et-assistance-medicale-a-la-procreation/quelles-sont-les-differentes-etapes-des-parcours-d-assistance-medicale-a-la-procreation"
+    ],
+    "ampnotaire": [
+      "Agence de la biomédecine · Consentement à l’AMP avec tiers donneur",
+      "https://www.procreation-medicale.fr/vos-questions/le-consentement-a-lassistance-medicale-a-la-procreation-avec-tiers-donneur-est-il-valable-pour-plusieurs-naissances/"
+    ],
+    "oncofertilite": [
+      "INCa · Préservation de la fertilité et cancer, recommandations",
+      "https://www.cancer.fr/catalogue-des-publications/preservation-de-la-fertilite-et-cancer-thesaurus"
+    ],
+    "oncoenfant": [
+      "INCa · Préserver la fertilité de l’enfant",
+      "https://pediatrie.cancer.fr/parent/parcours/vivre-au-quotidien-avec-un-cancer/maintenir-la-qualite-de-vie-de-votre-enfant/preserver-la-fertilite"
+    ]
+  },
+  "reviewNotes": [
+    "Définitions diagnostiques de protéinurie préservées ; correction du remplacement qui confondait 0,3 et 3 g/24 h.",
+    "Compléments des objectifs infertilité et préservation de fertilité ; notes de rédaction provisoires remplacées.",
+    "Relecture visuelle des 11 figures décisionnelles LiSA ; parcours interactifs liés, limites des figures historiques explicites.",
+    "Quatre calendriers THM distincts ; HTA gravidique et toxoplasmose intégrées.",
+    "Identifiants des 373 cartes préexistantes préservés ; 271 cartes supplémentaires.",
+    "SourceKind synthesis distingue les synthèses ATLAS des transcriptions de figures."
+  ],
+  "files": {
+    "23": "b6191a48cfbfddac0382df5d6ca10d957b7b7b6c202c8bb97e4f02851ccba488",
+    "24": "abdbe7fd3f3dd270bfb64de43a23a92954f1f4a71419034e6f205375602eee66",
+    "25": "72265a8a85109ee44530225040678badfab5dbf672a97dc26ca2b62a27a83735",
+    "26": "5d7c692b0d821e5502da5bdf88dfc647ca0db2b72c4f5bc24372626de55f5825",
+    "27": "733d2a937b46e9a08de9875f3ac66728305dcf9c67c61b2210c8f78668aa6c95",
+    "28": "d0dd35b09916b4fa16cfbd61397edc02a3bdc14ff25ec299337eec2ff72e9525",
+    "29": "4e099c1d85ecc56965b9891d4cd8ffdfe54f481b9709a6604f0aa3cbfc00a936",
+    "30": "cc27c0c7f90545a889c55c882cb0e90ab26043c20cd3a831c32d6b57b70e6e05",
+    "31": "b816bf56501465a86974e4409abf032510341eb03a0243c9db8179ad5c15c647",
+    "33": "d596a5f7da87fd1d0c0b32b3c1ea188713ef0590562d8328251468aa765fe331",
+    "34": "b582edc1b930309ba34f62e2d7fe16f31a2944f4ddbea9832d635f3ce082a694",
+    "35": "0f5773c86d84acb6f14243b56cbba777c8c5ff31d9ad7cca1df1ae5a0c1b4f63",
+    "36": "1c13e0fe514d19925a1d4dbe102aca48a9383fe676850f9cddfb709482e7cd24",
+    "37": "82800a68fcff04db85d544ca42795fcd16a9f2d52042cdcdf909d386be170391",
+    "38": "2774aa2aa93f8add7a702776a1f7302a155ba07d3deafa024b289de3766d6a6e",
+    "39": "28174d4e3fecfefb37a48e1a8b981a568e0552079c3dff8fcd1a18899a20d770",
+    "40": "2b460e9df1653ee27136a89fc7253c5c0c644864cdda6d730e28e324395f0df3",
+    "41": "2f955ae1e6d516ef891f08234c0ed666a50f85631d2f7432545f4cb2861d695e",
+    "42": "e55f462e2c5ec9dd5028184aebed3090b57daf6b5d2610b25378a71c6e8c68ba",
+    "43": "05e66bf708197a045f112bd58e6fabccc8237914cf51b1f37a71f92ffd4b5177",
+    "44": "18aef352059f438b36a0db67223244771ff1a4fb3ff89d64abc37f32a55f2034",
+    "124": "81a8b75fcf0cb8d440dac4ee4b3f10f5bc04deb4e5a50b1fd2ace85714999869",
+    "254": "5b9cd641a2c54b065ad7eed590e4d8fd61179a0c627ce8c3bc950264639cda44",
+    "255": "1daad80065099a5a03ca91e513df97d37341ec9f74f5467efccc980dd51dbe63",
+    "300": "55c54b1e447b369fec4ef760dd0839af5713ccd733ed0c754393a5146354a8f0",
+    "306": "5bcc6da813acfdfd866815ebec6b6d9e5ba088c57f633d9573725f2c77221396",
+    "312": "fd2c676253d4a43db8ef14897f1e8956c3e94648be96913603744d42fb142975",
+    "344": "ff370be4ddf8866ceeaa1b4c4196aa144ee4021094847153d719cb3bab93ab4d"
+  }
+}
