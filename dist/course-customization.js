@@ -18,7 +18,7 @@
   const idOK = id => /^\d{1,3}-\d+$/.test(id) || /^personal-[a-z0-9-]{8,80}$/.test(id);
   const object = x => x && typeof x === 'object' && !Array.isArray(x) ? x : {};
   const MAX_HTML = 160000;
-  const classOK = c => /^(?:nc-(?:gray|brown|orange|yellow|green|blue|purple|pink|red)(?:_bg)?|nc-bold|kw-[a-z]+|notion-course|callout(?:-[a-z]+)?|obj-callout|source-note|course-[a-z-]+|atlas-source-details)$/.test(c);
+  const classOK = c => c!=='course-semantic' && /^(?:nc-(?:gray|brown|orange|yellow|green|blue|purple|pink|red)(?:_bg)?|nc-bold|kw-[a-z]+|notion-course|callout(?:-[a-z]+)?|obj-callout|source-note|course-[a-z-]+|atlas-source-details)$/.test(c);
   const allowed = new Set('P BR STRONG B EM I U S STRIKE UL OL LI TABLE THEAD TBODY TFOOT TR TH TD CAPTION DIV SPAN H1 H2 H3 H4 H5 H6 FIGURE FIGCAPTION IMG A BLOCKQUOTE SUP SUB HR DETAILS SUMMARY MARK CODE PRE LABEL INPUT'.split(' '));
   const styleColors = {
     '#e03e3e':'red', '#c93232':'red', '#0b6e99':'blue', '#ad1a72':'pink', '#4d6461':'green',
@@ -70,7 +70,7 @@
     return { html:cleanHTML(e.html), title:String(e.title || '').slice(0,180),
       group:String(e.group || '').slice(0,160), learned:e.learned === true,
       deleted:e.deleted === true, item:Number.isInteger(e.item)?e.item:null,
-      updatedAt:String(e.updatedAt || '').slice(0,40) };
+      semanticVersion:e.semanticVersion===1?1:0, updatedAt:String(e.updatedAt || '').slice(0,40) };
   }
   function clean(value) {
     const d = object(value), out = fresh();
@@ -96,7 +96,7 @@
     return `<details class="ce-legend"><summary>Code couleurs des fiches <span>Texte et surlignage</span></summary>
       <div class="ce-legend-body notion-course"><div><h3>Surlignage</h3>${PALETTE.filter(p=>p[0].endsWith('_bg')).map(([c,l])=>`<p><span class="nc-${c}">${l}</span></p>`).join('')}</div>
       <div><h3>Couleur du texte</h3>${PALETTE.filter(p=>!p[0].endsWith('_bg')).map(([c,l])=>`<p><span class="nc-${c}">${l}</span></p>`).join('')}</div>
-      <p class="ce-legend-note">Repères indicatifs d’après la <a href="https://app.docecos.fr/info" target="_blank" rel="noopener noreferrer">FAQ DocECOS</a>. Les annotations du cours source restent modifiables.${item?.courseEdition?.notionUrl ? ` <a href="${esc(item.courseEdition.notionUrl)}" target="_blank" rel="noopener noreferrer">Ouvrir mon cours Notion ↗</a>` : ''}</p></div></details>`;
+      <p class="ce-legend-note">Repères indicatifs d’après la <a href="https://app.docecos.fr/info" target="_blank" rel="noopener noreferrer">FAQ DocECOS</a>. Les couleurs suivent la nature des notions dans le texte. Les termes ambigus restent neutres ; tes annotations restent modifiables.${item?.courseEdition?.notionUrl ? ` <a href="${esc(item.courseEdition.notionUrl)}" target="_blank" rel="noopener noreferrer">Ouvrir mon cours Notion ↗</a>` : ''}</p></div></details>`;
   }
   let context, editor, dialog, editorPromise, active, timer, loadEpoch=0, previousFocus;
   const getStore = () => context.state.courseEdits ||= fresh();
@@ -111,7 +111,7 @@
   function content(state, objective) {
     return state.courseEdits?.objectives?.[objective.id]?.html ?? objective.contenu;
   }
-  function renderHTML(html) { return window.ATLAS_COURSE_READING.format(cleanHTML(html)); }
+  function renderHTML(html,version=0) { return window.ATLAS_COURSE_READING.format(window.ATLAS_COURSE_SEMANTICS.annotate(cleanHTML(html),{personal:version===1})); }
   const control = (label, action, extra='') => `<button type="button" class="btn small secondary" data-ce="${action}" ${extra}>${label}</button>`;
   function mount(ctx) {
     context = ctx;
@@ -132,7 +132,7 @@
       const wrap=document.createElement('div');wrap.className='ce-personal-sections';
       const rows=(getStore().sections[ctx.item.numero]||[]).filter(s=>s.group===group);
       const pending=Object.entries(getStore().drafts).filter(([id,s])=>id.startsWith('personal-')&&s.item===ctx.item.numero&&s.group===group&&!current(id));
-      wrap.innerHTML=rows.filter(s=>!s.deleted).map(s=>`<details class="ce-personal-section" id="${esc(s.id)}"><summary><span>${esc(s.title || 'Ma section')}</span><small>Personnel${s.learned?' · Acquis':''}</small></summary><div class="ce-personal-body"><div class="ce-section-tools">${control('Modifier','edit',`data-id="${esc(s.id)}"`)}${control(s.learned?'Acquis ✓':'Marquer acquis','learn',`data-id="${esc(s.id)}"`)}${control('Retirer','remove',`data-id="${esc(s.id)}"`)}</div><div class="medical notion-course">${renderHTML(s.html)}</div></div></details>`).join('')
+      wrap.innerHTML=rows.filter(s=>!s.deleted).map(s=>`<details class="ce-personal-section" id="${esc(s.id)}"><summary><span>${esc(s.title || 'Ma section')}</span><small>Personnel${s.learned?' · Acquis':''}</small></summary><div class="ce-personal-body"><div class="ce-section-tools">${control('Modifier','edit',`data-id="${esc(s.id)}"`)}${control(s.learned?'Acquis ✓':'Marquer acquis','learn',`data-id="${esc(s.id)}"`)}${control('Retirer','remove',`data-id="${esc(s.id)}"`)}</div><div class="medical notion-course">${renderHTML(s.html,s.semanticVersion)}</div></div></details>`).join('')
         +pending.map(([id,s])=>`<p class="ce-pending">Brouillon · ${esc(s.title||'Nouvelle section')} ${control('Reprendre le brouillon','edit',`data-id="${esc(id)}"`)}</p>`).join('')
         +control('＋ Ajouter une section personnelle','add',`data-group="${esc(group)}"`)
         +(rows.some(s=>s.deleted)?`<details class="ce-removed"><summary>Sections retirées (${rows.filter(s=>s.deleted).length})</summary>${rows.filter(s=>s.deleted).map(s=>`<p>${esc(s.title)} ${control('Restaurer','restore-section',`data-id="${esc(s.id)}"`)}</p>`).join('')}</details>`:'');
@@ -197,7 +197,7 @@
     active.changed=!!draft;active.initial=initial;active.group=row.group||newRow?.group||'';
     const titleField=/^personal-/.test(id)?`<label class="ce-title-field">Titre de ma section<input id="ce-section-title" maxlength="180" value="${esc(initial.title)}" placeholder="Un titre court et précis"></label>`:'';
     dialog.querySelector('.ce-dialog-body').innerHTML=titleField+toolbar()+`<div class="ce-editor-mount"></div><div class="ce-link-panel" hidden></div><p class="ce-error" role="alert" hidden></p><footer class="ce-editor-footer"><div><span id="ce-draft-status" role="status">${draft?'Brouillon retrouvé':'Modifie le texte ou sélectionne un passage à mettre en forme.'}</span><small>Modifications personnelles · Les cartes conservent leur correction d’origine.</small></div><div>${control('Annuler','unused').replace('data-ce="unused"','data-editor="cancel"')}<button type="button" class="btn" data-editor="save">Enregistrer</button></div></footer>`;
-    editor=window.ATLAS_RICH_EDITOR.create(dialog.querySelector('.ce-editor-mount'),cleanHTML(initial.html),()=>{
+    editor=window.ATLAS_RICH_EDITOR.create(dialog.querySelector('.ce-editor-mount'),cleanHTML(window.ATLAS_COURSE_SEMANTICS.annotate(cleanHTML(initial.html),{personal:initial.semanticVersion===1})),()=>{
       active.changed=true;clearTimeout(timer);timer=setTimeout(saveDraft,500);status('Brouillon en cours…');refreshTools();
     },refreshTools);
     active.startHTML=editor.getHTML();
@@ -286,7 +286,7 @@
     const html=cleanHTML(editor.getHTML());
     if(html.length>MAX_HTML)throw Error('Cette section est trop longue. Répartis-la dans plusieurs sections.');
     return {html,title:dialog.querySelector('#ce-section-title')?.value.trim()||active.initial.title,
-      group:active.group,item:context.item.numero,updatedAt:new Date().toISOString()};
+      group:active.group,item:context.item.numero,semanticVersion:1,updatedAt:new Date().toISOString()};
   }
   function saveDraft() {
     if(!editor||!active?.changed)return true;

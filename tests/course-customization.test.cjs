@@ -11,6 +11,7 @@ function setup(){
  w.Range.prototype.getClientRects=()=>[];
  w.Range.prototype.getBoundingClientRect=()=>({top:0,left:0,bottom:0,right:0,width:0,height:0});
  w.eval(fs.readFileSync(path.join(dist,'course-reading.js'),'utf8'));
+ w.eval(fs.readFileSync(path.join(dist,'course-semantics.js'),'utf8'));
  w.eval(fs.readFileSync(path.join(dist,'course-customization.js'),'utf8'));
  w.eval(fs.readFileSync(path.join(dist,'vendor/course-editor.js'),'utf8'));
  return {dom,w,d:w.document,api:w.ATLAS_CUSTOM_COURSE};

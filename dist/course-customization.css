@@ -10,6 +10,7 @@
  --nc-yellow-bg:#493f27;--nc-brown-bg:#423a36;--nc-orange-bg:#4c3929;
  --nc-blue-bg:#273e49;--nc-red-bg:#4b3034;--nc-green-bg:#293f39;--nc-purple-bg:#3d334c;
 }
+.medical mark{background:transparent;color:inherit}
 .medical .nc-red,.medical .kw-clinique,.dark .medical .kw-clinique{color:var(--nc-red)}
 .medical .nc-blue,.medical .kw-bio,.dark .medical .kw-bio{color:var(--nc-blue)}
 .medical .nc-pink,.medical .kw-chiffre,.dark .medical .kw-chiffre{color:var(--nc-pink)}
@@ -97,3 +98,6 @@
  .ce-editor-mount{padding:16px 12px}.ce-prose{font-size:16px}.ce-editor-footer{flex-wrap:wrap;padding-bottom:max(14px,env(safe-area-inset-bottom))}
  .ce-editor-footer>div:last-child{width:100%;justify-content:flex-end}.ce-personal-sections{padding:12px 18px 24px}
 }
+
+.reader-essential .medical{font:inherit;margin:0;line-height:inherit}
+.medical .course-semantic[class*="_bg"]{padding:.02em 0;border-radius:2px}

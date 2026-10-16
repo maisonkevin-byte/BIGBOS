@@ -11,7 +11,7 @@ const dom=new JSDOM('<div id="app"></div>',{url:'http://localhost/',runScripts:'
 const w=dom.window,d=w.document;
 w.ResizeObserver=class{observe(){}disconnect(){}};w.IntersectionObserver=class{observe(){}disconnect(){}};
 w.requestAnimationFrame=()=>0;w.matchMedia=()=>({matches:true});w.scrollTo=()=>{};w.HTMLElement.prototype.scrollIntoView=()=>{};
-for(const file of ['course-reading.js','data/illustrations.js','illustrations.js','objective-reading.js'])w.eval(fs.readFileSync(path.join(dist,file),'utf8'));
+for(const file of ['course-reading.js','course-semantics.js','data/illustrations.js','illustrations.js','objective-reading.js'])w.eval(fs.readFileSync(path.join(dist,file),'utf8'));
 w.eval(sanitizeSource+'\nwindow.ATLAS_COURSE={sanitize};');
 const sanitizer=w.ATLAS_COURSE.sanitize;
 for(const file of fs.readdirSync(path.join(dist,'data/items')))w.eval(fs.readFileSync(path.join(dist,'data/items',file),'utf8'));
@@ -50,7 +50,8 @@ test('All 367 items retain their source content, illustration controls, official
     sourceCards.forEach((card,i)=>{
      if(i)el.querySelector('[data-reading="next-card"]').click();
      assert.equal(el.querySelector('.reader-card').dataset.cardId,card.i);
-     assert.equal(el.querySelector('.reader-question').textContent,card.q);
+     const expectedQuestion=d.createElement('div');expectedQuestion.innerHTML=sanitizer(card.q);
+     assert.deepEqual(snapshot(el.querySelector('.reader-question')),snapshot(expectedQuestion),card.i+' question');
      const expected=d.createElement('div');expected.innerHTML=sanitizer(card.a);
      assert.deepEqual(snapshot(el.querySelector('.reader-answer .medical')),snapshot(expected),card.i+' correction');
      assert.equal(el.querySelector('.reader-answer').open,false);

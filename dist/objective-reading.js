@@ -97,7 +97,7 @@
       if(!cards?.length||!state)return;
       state.index=Math.min(state.index,cards.length-1);
       const c=cards[state.index],recall=d.querySelector('.reader-recall');
-      recall.innerHTML=`<div class="reader-recall-top"><span>Rappel actif · carte ${state.index+1} / ${cards.length}</span>${button('Revenir au cours','return')}</div><div class="reader-card" data-card-id="${esc(c.i)}"><p class="reader-question">${esc(c.q)}</p><details class="reader-answer" ${state.revealed?'open':''}><summary>Afficher la réponse</summary><div class="medical">${window.ATLAS_COURSE.sanitize(c.a)}</div></details></div>${cards.length>1?`<div class="reader-card-nav"><button type="button" data-reading="previous-card" ${state.index===0?'disabled':''}>← Carte précédente</button><button type="button" data-reading="next-card" ${state.index===cards.length-1?'disabled':''}>Carte suivante →</button></div>`:''}`;
+      recall.innerHTML=`<div class="reader-recall-top"><span>Rappel actif · carte ${state.index+1} / ${cards.length}</span>${button('Revenir au cours','return')}</div><div class="reader-card" data-card-id="${esc(c.i)}"><div class="reader-question medical">${window.ATLAS_COURSE.sanitize(c.q)}</div><details class="reader-answer" ${state.revealed?'open':''}><summary>Afficher la réponse</summary><div class="medical">${window.ATLAS_COURSE.sanitize(c.a)}</div></details></div>${cards.length>1?`<div class="reader-card-nav"><button type="button" data-reading="previous-card" ${state.index===0?'disabled':''}>← Carte précédente</button><button type="button" data-reading="next-card" ${state.index===cards.length-1?'disabled':''}>Carte suivante →</button></div>`:''}`;
       recall.querySelector('.reader-answer').addEventListener('toggle',e=>{if(e.target.isConnected)state.revealed=e.target.open;});
       window.ATLAS_ILLUSTRATIONS?.hydrate(recall);
     }
@@ -128,7 +128,7 @@
       if(favorite)summary.insertBefore(favorite,summary.lastElementChild);
       const body=d.querySelector('.objective-body'),medical=body.querySelector('.medical');
       medical.classList.add('reader-original-course');
-      const intro=make('div','reader-introduction',`<div class="reader-objective-meta"><span>Objectif ${esc(id)}</span><details class="reader-official"><summary>Intitulé officiel</summary><p>${esc(o.titre)}</p></details></div>${labels[id]?`<div class="reader-essential"><span>Repère de synthèse</span><p>${esc(labels[id][1])}</p></div>`:''}`);
+      const intro=make('div','reader-introduction',`<div class="reader-objective-meta"><span>Objectif ${esc(id)}</span><details class="reader-official"><summary>Intitulé officiel</summary><p>${esc(o.titre)}</p></details></div>${labels[id]?`<div class="reader-essential"><span>Repère de synthèse</span><div class="medical">${window.ATLAS_COURSE.sanitize(esc(labels[id][1]))}</div></div>`:''}`);
       if(badge)intro.querySelector('.reader-objective-meta').append(badge);
       const content=make('div','reader-course-content');content.id='reading-course-'+id;
       // Move the original DOM, including illustrations, without replacing source nodes.

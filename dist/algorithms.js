@@ -20,9 +20,9 @@ function related(node){
  const paths=node.pathways?.length?'<div class="algo-related"><strong>Poursuivre dans les parcours</strong>'+node.pathways.map(p=>button(p.label+' →','select','data-algorithm="'+esc(p.algorithm)+'"')).join('')+'</div>':'';return paths+(node.related?.length?'<div class="algo-related"><strong>Poursuivre dans les fiches</strong>'+node.related.map(n=>'<a href="#item/'+n+'">Item '+n+' · '+esc(itemLabel(n))+' →</a>').join('')+'</div>':'');
 }
 function information(node,sourceOnly=false){
- const body='<ul class="algo-detail-points">'+node.body.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>';
- const actions=node.actions?.length?'<div class="algo-body"><h4>À faire</h4><ul class="algo-detail-actions">'+node.actions.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul></div><details class="algo-why"><summary>Précisions de cette étape</summary>'+body+'</details>':'<div class="algo-body">'+body+'</div>';
- return actions+'<details class="algo-why"><summary>'+(sourceOnly?'Pourquoi ce lien de cours ?':'Pourquoi cette étape ?')+'</summary><p>'+esc(node.why)+'</p></details>'+related(node)+references(node);
+ const body='<div class="medical">'+window.ATLAS_COURSE.sanitize('<ul class="algo-detail-points">'+node.body.map(p=>'<li>'+esc(p)+'</li>').join('')+'</ul>')+'</div>';
+ const actions=node.actions?.length?'<div class="algo-body"><h4>À faire</h4><div class="medical">'+window.ATLAS_COURSE.sanitize('<ul class="algo-detail-actions">'+node.actions.map(t=>'<li>'+esc(t)+'</li>').join('')+'</ul>')+'</div></div><details class="algo-why"><summary>Précisions de cette étape</summary>'+body+'</details>':'<div class="algo-body">'+body+'</div>';
+ return actions+'<details class="algo-why"><summary>'+(sourceOnly?'Pourquoi ce lien de cours ?':'Pourquoi cette étape ?')+'</summary><div class="medical">'+window.ATLAS_COURSE.sanitize('<p>'+esc(node.why)+'</p>')+'</div></details>'+related(node)+references(node);
 }
 function courseSlot(node){
  return node.course?.length?'<section class="algo-course" aria-label="Cours associé"><h4>Ton cours associé</h4><div class="algo-course-content" aria-live="polite" data-course-node="'+esc(node.id)+'"><p>Chargement du cours…</p></div></section>':'';
