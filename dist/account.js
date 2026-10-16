@@ -34,6 +34,7 @@
       }
       async function activate(nextUser) {
         if (ready && user?.id === nextUser?.id) { user = nextUser; return; }
+        hooks.beforeSwitch?.();
         const turn = ++epoch;
         clearTimeout(timer); inFlight = null; conflict = null; ready = false; dirty = false; generation = 0;
         user = nextUser; revision = 0; draft = null; lastSync = null;
@@ -166,6 +167,7 @@
         },
         async signOut() {
           const id = user?.id;
+          hooks.beforeSwitch?.();
           hooks.lock();
           try {
             if (!await api.flush()) throw Error('Sauvegarde en attente. Rétablis la connexion ou résous le conflit avant de te déconnecter.');

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@tiptap/core": "3.32.0",
+    "@tiptap/extension-image": "3.32.0",
+    "@tiptap/extension-list": "3.32.0",
+    "@tiptap/extension-subscript": "3.32.0",
+    "@tiptap/extension-superscript": "3.32.0",
+    "@tiptap/extension-table": "3.32.0",
+    "@tiptap/pm": "3.32.0",
+    "@tiptap/starter-kit": "3.32.0",
+    "esbuild": "0.28.2"
+  },
+  "name": "atlas-course-editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild editor.js --bundle --format=iife --target=safari16,chrome110 --minify --supported:template-literal=false --legal-comments=eof --outfile=../dist/vendor/course-editor.js"
+  }
+}
